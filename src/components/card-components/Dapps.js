@@ -132,7 +132,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardHeader pad="large" background="url('storj.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Storj</Heading>
-            <Text margin="small" size="medium">Infra</Text>
+            <Text margin="small" size="medium">Dapp</Text>
             <Paragraph margin="small" size="small">Storj Hosts (Storage Node Operators) can elect to receive their payments via zkSync.</Paragraph>
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
@@ -154,7 +154,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardHeader pad="large" background="url('golem.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Golem</Heading>
-            <Text margin="small" size="medium">Infra</Text>
+            <Text margin="small" size="medium">dapp</Text>
             <Paragraph margin="small" size="small">Golem Node Operators can choose to receive their payments via zkSync.</Paragraph>
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
