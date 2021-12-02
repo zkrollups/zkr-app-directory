@@ -151,3 +151,4 @@ Wallets.propTypes = {
   };
 
 export default Wallets;
+
