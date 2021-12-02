@@ -62,7 +62,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
             </div>
         </CardFooter>
     </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"medium",max:"medium"}} background="light-1" margin="medium">
+    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
         <CardHeader pad="large" background="url('loopring.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Loopring</Heading>
@@ -106,7 +106,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
             </div>
         </CardFooter>
     </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"medium",max:"medium"}} background="light-1" margin="medium">
+    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
         <CardHeader pad="large" background="url('zkswap.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">ZKSwap</Heading>
