@@ -32,8 +32,8 @@ const NFT = ({ align, center, justify, name, pad, path, children }) => (
                 </ReactTooltip>
             </div>
             <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://zknft.xyz/" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/0xmons" target="_blank"/>
+                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/0xmons" target="_blank"/>
+                <Button icon={<Language color="black" />} hoverIndicator href="https://zknft.xyz/" target="_blank"/>
             </div>
         </CardFooter>
     </Card>
