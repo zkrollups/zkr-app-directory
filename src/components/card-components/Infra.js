@@ -15,7 +15,27 @@ import ReactTooltip from 'react-tooltip';
 
 const Infra = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
-    
+    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
+        <CardHeader pad="large" background="url('thegraph.jpg')"></CardHeader>
+        <CardBody pad="medium" align="center">
+            <Heading margin="none" size="small">The Graph</Heading>
+            <Text margin="small" size="medium">Infra</Text>
+            <Paragraph margin="small" size="small">The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.</Paragraph>
+        </CardBody>
+        <CardFooter pad={{horizontal: "small"}} background="light-2">
+            <div style={{zoom:"0.85"}}>
+                <Button primary label="SOON" color="#F4E532" data-tip data-for="graph"/>
+                    <ReactTooltip id="graph" place="right" type="dark" effect="solid">
+                    <Text>
+                        zkSync <br/> 
+                    </Text>
+                </ReactTooltip>
+            </div>            <div>
+                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/graphprotocol" target="_blank"/>
+                <Button icon={<Language color="black" />} hoverIndicator href="https://thegraph.com/" target="_blank"/>
+            </div>
+        </CardFooter>
+    </Card>
     </React.Fragment>
 
 );
