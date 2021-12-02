@@ -5,7 +5,7 @@ import {
     Text,
     Footer,
 } from 'grommet';
-import { Reddit } from 'grommet-icons';
+import { Reddit, Github } from 'grommet-icons';
 
 const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
   <Footer background="white" pad="xsmall" border={{ color: '#d3d3d3', size: 'xsmall' }}>
@@ -14,7 +14,7 @@ const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
     </Text>
     {/* <Anchor label="About" /> */}
     <div >
-      <Button icon={<Reddit color="#ff4500" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank"/>
+      <Button icon={<Github color="black" />} hoverIndicator href="https://github.com/jaazinn/zkr-app-directory" target="_blank"/>
     </div>
     <div style={{marginRight:"10px"}}>
       <a href="https://github.com/ethereum/ethereum-org-website/issues/new/choose" target="_blank" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
