@@ -1,0 +1,38 @@
+{
+  "name": "zkrollup-app-directory",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "grommet": "^2.19.1",
+    "grommet-icons": "^4.0.0",
+    "grommet-styles": "^0.2.0",
+    "grommet-theme-aruba": "^0.1.2",
+    "grommet-theme-dxc": "^0.1.2",
+    "grommet-theme-hp": "^0.1.2",
+    "grommet-theme-hpe": "^2.1.0",
+    "history": "^5.1.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "2.1.1",
+    "react-tooltip": "^4.2.21",
+    "styled-components": "^5.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
