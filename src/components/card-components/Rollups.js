@@ -134,7 +134,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="aztec"/>
+                <Button primary label="LIVE" color="#30DE88" data-tip data-for="aztec"/>
                 <ReactTooltip id="aztec" place="right" type="dark" effect="solid">
                     <Text>
                         Aztec <br/> 
