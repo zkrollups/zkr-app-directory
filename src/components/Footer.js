@@ -17,7 +17,7 @@ const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
       <Button icon={<Github color="black" />} hoverIndicator href="https://github.com/zkrollups" target="_blank"/>
     </div>
     <div style={{marginRight:"10px"}}>
-      <a href="https://github.com/ethereum/ethereum-org-website/issues/new/choose" target="_blank" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
+      <a href="https://github.com/zkrollups/zkr-app-directory" target="_blank" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
       <a href="https://twitter.com/joelkite" target="_blank" style={{color:"black", fontSize:"medium"}}>Get in Touch</a>
     </div>
   </Footer>
