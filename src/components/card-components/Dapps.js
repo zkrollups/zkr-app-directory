@@ -194,3 +194,4 @@ Dapps.propTypes = {
   };
 
 export default Dapps;
+
