@@ -14,10 +14,10 @@ const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
     </Text>
     {/* <Anchor label="About" /> */}
     <div >
-      <Button icon={<Github color="black" />} hoverIndicator href="https://github.com/zkrollups" target="_blank"/>
+      <Button icon={<Github color="black" />} hoverIndicator href="https://github.com/jaazinn/zkr-app-directory" target="_blank"/>
     </div>
     <div style={{marginRight:"10px"}}>
-      <a href="https://github.com/zkrollups/zkr-app-directory" target="_blank" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
+      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
       <a href="https://twitter.com/joelkite" target="_blank" style={{color:"black", fontSize:"medium"}}>Get in Touch</a>
     </div>
   </Footer>
