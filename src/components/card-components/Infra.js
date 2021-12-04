@@ -16,7 +16,7 @@ import ReactTooltip from 'react-tooltip';
 const Infra = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('thegraph.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/thegraph.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">The Graph</Heading>
             <Text margin="small" size="medium">Infra</Text>
