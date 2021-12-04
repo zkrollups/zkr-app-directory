@@ -10,7 +10,7 @@ import {
     Text,
     Paragraph,
 } from 'grommet';
-import { Favorite, ShareOption, Twitter, Language, GooglePlay, Apple } from 'grommet-icons';
+import { Twitter, Language, GooglePlay, Apple } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 
 const Wallets = ({ align, center, justify, name, pad, path, children }) => (

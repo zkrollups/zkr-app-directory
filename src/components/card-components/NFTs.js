@@ -10,7 +10,7 @@ import {
     Text,
     Paragraph,
 } from 'grommet';
-import { Favorite, ShareOption, Twitter, Language } from 'grommet-icons';
+import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 
 const NFT = ({ align, center, justify, name, pad, path, children }) => (

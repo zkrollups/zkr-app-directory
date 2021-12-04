@@ -4,6 +4,7 @@ import Rollups from '../components/card-components/Rollups';
 import Wallets from '../components/card-components/Wallets';
 import Infra from '../components/card-components/Infra';
 import Dapps from '../components/card-components/Dapps';
+import NFTs from '../components/card-components/NFTs';
 
 const All = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
@@ -11,6 +12,7 @@ const All = ({ align, center, justify, name, pad, path, children }) => (
         <Wallets/>
         <Infra/>
         <Dapps/>
+        <NFTs/>
     </React.Fragment>
 );
 

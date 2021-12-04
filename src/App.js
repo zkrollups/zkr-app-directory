@@ -2,13 +2,9 @@ import React, { Component } from 'react';
 import {
   Box,
   Button,
-  Collapsible,
   Heading,
   Grommet,
-  Layer,
   ResponsiveContext,
-  Text,
-  Paragraph,
 } from 'grommet';
 import PageFooter from './components/Footer';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
@@ -61,23 +57,10 @@ class App extends Component {
             <Box fill>
               <AppBar background="linear-gradient(102.77deg, #865ED6 -9.18%, #18BAB9 209.09%)">
                 <Heading level='3' margin='small' color='white' margin={{left:"medium", top:"none", bottom:"none"}}>zkRollup Directory</Heading>
-                {/* <Button
-                  icon={<Notification />}
-                  onClick={() => this.setState({ showSidebar: !this.state.showSidebar })}
-                /> */}
                 <div >
                   <Button icon={<Reddit color="#ffffff" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank" margin={{right:"medium"}}/>
                 </div>
               </AppBar>
-
-              {/* <Box
-                justify="center"
-                align="center"
-                pad="small"
-                background="linear-gradient(102.77deg, #865ED6 -9.18%, #18BAB9 209.09%)"
-                >
-                <Heading level="2" margin="medium" alignSelf="center">Apps on zkRollups</Heading>
-              </Box> */}
 
               <Heading level="2" margin="medium" alignSelf="center">zkRollup Ecosystem</Heading>
 
@@ -98,11 +81,7 @@ class App extends Component {
                 </div>
 
                 <Box direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
-                  {/* <Box flex align='center' justify='center'>
-                    app body
-                  </Box> */}
-                  
-                  {/* <BrowserRouter> */}
+
                     <Routes>
                       <Route path='/' element={<All/>} />
                       <Route path='/all' element={<All/>} />
@@ -112,45 +91,7 @@ class App extends Component {
                       <Route path='/dapps' element={<DappsView/>} />
                       <Route path='/nfts' element={<NFTsView/>} />
                     </Routes>
-                  {/* </BrowserRouter> */}
-                  
-                  {/* {(!showSidebar || size !== 'small') ? (
-                    <Collapsible direction="horizontal" open={showSidebar}>
-                      <Box
-                        flex
-                        width='medium'
-                        background='light-2'
-                        elevation='small'
-                        align='center'
-                        justify='center'
-                      >
-                        sidebar
-                      </Box>
-                    </Collapsible>
-                  ): (
-                    <Layer>
-                      <Box
-                        background='light-2'
-                        tag='header'
-                        justify='end'
-                        align='center'
-                        direction='row'
-                      >
-                        <Button
-                          icon={<FormClose />}
-                          onClick={() => this.setState({ showSidebar: false })}
-                        />
-                      </Box>
-                      <Box
-                        fill
-                        background='light-2'
-                        align='center'
-                        justify='center'
-                      >
-                        sidebar
-                      </Box>
-                    </Layer>
-                  )} */}
+
                 </Box>
                 <PageFooter/>
               </BrowserRouter>
