@@ -14,208 +14,150 @@ import {
 import { Twitter, Language } from 'grommet-icons';  
 import ReactTooltip from 'react-tooltip';
   
+var arr = [
+    {
+    "name":"Curve",
+    "category":"Dapp",
+    "description":"Creating deep on-chain liquidity using advanced bonding curves.",
+    "imageLink":"url('project-logos/curvefi.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/CurveFinance",
+    "websiteLink":"https://zksync.curve.fi/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+    
+    {
+    "name":"ZigZag",
+    "category":"Dapp",
+    "description":"ZigZag is a native, easy-to-use, reliable, fully secure and low fee Decentralized Exchange built on ZK Rollups.",
+    "imageLink":"url('project-logos/zigzag.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://mobile.twitter.com/zigzagexchange",
+    "websiteLink":"https://info.zigzag.exchange/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+        
+    {
+    "name":"Paraswap",
+    "category":"Dapp",
+    "description":"ParaSwap aggregates decentralized exchanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with Ethereum's decentralized finance.",
+    "imageLink":"url('project-logos/paraswap.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/paraswap",
+    "websiteLink":"https://paraswap.io",
+    "status":"SOON",
+    "statusColor":"#F4E532",
+    }, 
 
-const Dapps = ({ align, center, justify, name, pad, path, children }) => (
+    {
+    "name":"Gitcoin",
+    "category":"Dapp",
+    "description":"Gitcoin grant contibutors can save on gas fees by paying using the zkSync or Loopring networks.",
+    "imageLink":"url('project-logos/gitcoin.jpg')",
+    "tooltip":"zkSync, Loopring",
+    "twitterLink":"https://twitter.com/gitcoin",
+    "websiteLink":"https://gitcoin.co/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"Mute",
+    "category":"Dapp",
+    "description":"Mute is an easy-to-use L2 swap platform that runs on Ethereum.",
+    "imageLink":"url('project-logos/mute.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/mute_io",
+    "websiteLink":"https://mute.io/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"Storj",
+    "category":"Dapp",
+    "description":"Storj Hosts (Storage Node Operators) can elect to receive their payments via zkSync.",
+    "imageLink":"url('project-logos/storj.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/storj",
+    "websiteLink":"https://www.storj.io/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"Golem",
+    "category":"Dapp",
+    "description":"Golem Node Operators can choose to receive their payments via zkSync.",
+    "imageLink":"url('project-logos/golem.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/golemproject",
+    "websiteLink":"https://www.golem.network/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"Rails",
+    "category":"Dapp",
+    "description":"Rails is a Layer 2 payment dApp powered by Loopring.",
+    "imageLink":"url('project-logos/rails.jpg')",
+    "tooltip":"Loopring",
+    "twitterLink":"https://twitter.com/Rails_eth",
+    "websiteLink":"https://rails.eth.link/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"pNetwork",
+    "category":"Dapp",
+    "description":"pTokens aims to be a decentralized open-source system facilitating cross-chain movement of assets.",
+    "imageLink":"url('project-logos/pnetwork.jpg')",
+    "tooltip":"Loopring",
+    "twitterLink":"https://twitter.com/pNetworkDeFi",
+    "websiteLink":"https://p.network/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+];
+
+var renderedOutput = arr.map(item => 
     <React.Fragment>
     <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/curvefi.jpg')"></CardHeader>
+        <CardHeader pad="large" background={item.imageLink}></CardHeader>
         <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Curve</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">Creating deep on-chain liquidity using advanced bonding curves.</Paragraph>
+            <Heading margin="none" size="small">{item.name}</Heading>
+            <Text margin="small" size="medium">{item.category}</Text>
+            <Paragraph margin="small" size="small">{item.description}</Paragraph>
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Box direction="row-responsive" align="center" alignContent="center" justify="center">
-                    <Button primary label="LIVE" color="#30DE88" data-tip data-for="curve"/>
-                    <ReactTooltip id="curve" place="right" type="dark" effect="solid">
+                    <Button primary label={item.status} color={item.statusColor} data-tip data-for={item.name}/>
+                    <ReactTooltip id={item.name} place="right" type="dark" effect="solid">
                         <Text>
-                            zkSync <br/> 
+                            {item.tooltip} 
                         </Text>
                     </ReactTooltip>
                 </Box>
             </div>
             <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/getnumio" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://numio.one" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/zigzag.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">ZigZag</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">ZigZag is a native, easy-to-use, reliable, fully secure and low fee Decentralized Exchange built on ZK Rollups.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="zigzag"/>
-                <ReactTooltip id="zigzag" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://mobile.twitter.com/zigzagexchange" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://info.zigzag.exchange/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/paraswap.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Paraswap</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">ParaSwap aggregates decentralized exchanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with Ethereum's decentralized finance..</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="paraswap"/>
-                <ReactTooltip id="paraswap" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/paraswap" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://paraswap.io" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/gitcoin.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Gitcoin</Heading>
-            <Text margin="small" size="medium">Infra</Text>
-            <Paragraph margin="small" size="small">Gitcoin grant contibutors can save on gas fees by paying using the zkSync or Loopring networks.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="gitcoin"/>
-                <ReactTooltip id="gitcoin" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/>
-                        Loopring
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/gitcoin" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://gitcoin.co/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/mute.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Mute</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">Mute is an easy-to-use L2 swap platform that runs on Ethereum..</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="mute"/>
-                <ReactTooltip id="mute" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/mute_io" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://mute.io/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/storj.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Storj</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">Storj Hosts (Storage Node Operators) can elect to receive their payments via zkSync.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="storj"/>
-                <ReactTooltip id="storj" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/storj" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://www.storj.io/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/golem.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Golem</Heading>
-            <Text margin="small" size="medium">dapp</Text>
-            <Paragraph margin="small" size="small">Golem Node Operators can choose to receive their payments via zkSync.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="storj"/>
-                <ReactTooltip id="storj" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/golemproject" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://www.golem.network/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/rails.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Rails</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">Rails is a Layer 2 payment dApp powered by Loopring. </Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="rails"/>
-                <ReactTooltip id="rails" place="right" type="dark" effect="solid">
-                    <Text>
-                        Loopring <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/Rails_eth" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://rails.eth.link/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/pnetwork.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">pNetwork</Heading>
-            <Text margin="small" size="medium">Dapp</Text>
-            <Paragraph margin="small" size="small">pTokens aims to be a decentralized
-open-source system facilitating cross-chain movement of assets.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="pnetwork"/>
-                <ReactTooltip id="pnetwork" place="right" type="dark" effect="solid">
-                    <Text>
-                        Loopring <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/pNetworkDeFi" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://p.network/" target="_blank"/>
+                <Button icon={<Twitter color="black" />} hoverIndicator href={item.twitterLink} target="_blank"/>
+                <Button icon={<Language color="black" />} hoverIndicator href={item.websiteLink} target="_blank"/>
             </div>
         </CardFooter>
     </Card>
     </React.Fragment>
-
 );
 
+const Dapps = ({ align, center, justify, name, pad, path, children }) => (
+    <React.Fragment>
+    {renderedOutput}
+    </React.Fragment>
+);
 
 Dapps.propTypes = {
     align: PropTypes.string,
@@ -235,4 +177,3 @@ Dapps.propTypes = {
   };
 
 export default Dapps;
-
