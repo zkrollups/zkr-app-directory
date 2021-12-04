@@ -6,6 +6,7 @@ import {
   Grommet,
   ResponsiveContext,
 } from 'grommet';
+import Menu from './components/Menu'
 import PageFooter from './components/Footer';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { Reddit } from 'grommet-icons';
@@ -45,9 +46,7 @@ const AppBar = (props) => (
 );
 
 class App extends Component {
-  state = {
-    showSidebar: false,
-  }
+  state = { showSidebar: false, }
   render() {
     return (
       <Grommet theme={theme} full>
@@ -60,27 +59,10 @@ class App extends Component {
                   <Button icon={<Reddit color="#ffffff" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank" margin={{right:"medium"}}/>
                 </div>
               </AppBar>
-
               <Heading level="2" margin="medium" alignSelf="center">zkRollup Ecosystem</Heading>
-
               <BrowserRouter>
-                <div align="center">
-                  <Link to="/all" style={{ textDecoration: 'none' }}>
-                    <Button primary label="All" color="#30DE88" margin={{left:"xsmall", right:"xsmall", bottom:"small"}} style={{fontSize:"110%"}}/> </Link>
-                  <Link to="/rollups" style={{ textDecoration: 'none' }}>
-                    <Button primary label="Rollups" color="#30DE88" margin={{left:"xsmall", right:"xsmall", bottom:"small"}} style={{fontSize:"110%"}}/> </Link>
-                  <Link to="/wallets" style={{ textDecoration: 'none' }}>
-                    <Button primary label="Wallets" color="#30DE88" margin={{left:"xsmall", right:"xsmall", bottom:"small"}} style={{fontSize:"110%"}}/> </Link>
-                  <Link to="/infra" style={{ textDecoration: 'none' }}>
-                    <Button primary label="Infra" color="#30DE88" margin={{left:"xsmall", right:"xsmall", bottom:"small"}} style={{fontSize:"110%"}}/> </Link>
-                  <Link to="/dapps" style={{ textDecoration: 'none' }}>
-                    <Button primary label="dApps" color="#30DE88" margin={{left:"xsmall", right:"xsmall", bottom:"small"}} style={{fontSize:"110%"}}/> </Link>
-                  <Link to="/nfts" style={{ textDecoration: 'none' }}>
-                    <Button primary label="NFTs" color="#30DE88" margin={{left:"xsmall", right:"xsmall", bottom:"small"}} style={{fontSize:"110%"}}/> </Link>
-                </div>
-
+                <Menu/>
                 <Box direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
-
                     <Routes>
                       <Route path='/' element={<All/>} />
                       <Route path='/all' element={<All/>} />
@@ -90,7 +72,6 @@ class App extends Component {
                       <Route path='/dapps' element={<DappsView/>} />
                       <Route path='/nfts' element={<NFTsView/>} />
                     </Routes>
-
                 </Box>
                 <PageFooter/>
               </BrowserRouter>
