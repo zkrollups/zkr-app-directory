@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { 
     Heading,
+    Box,
     Button,
     Card, 
     CardHeader, 
@@ -13,125 +14,110 @@ import {
 import { Twitter, Language, GooglePlay, Apple } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 
-const Wallets = ({ align, center, justify, name, pad, path, children }) => (
+var arr = [
+    {
+    "name":"Numio",
+    "category":"Wallet",
+    "description":"Numio is a non-custodial Ethereum L2 wallet that lets you send, store, buy & swap tokens, interact with dApps and more.",
+    "imageLink":"url('project-logos/numio.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/getnumio",
+    "websiteLink":"https://numio.one",
+    "googlePlay":"https://twitter.com/getnumio",
+    "appleStore":"https://numio.one",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"Argent",
+    "category":"Wallet",
+    "description":"Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.",
+    "imageLink":"url('project-logos/argent.jpg')",
+    "tooltip":"zkSync, StarkWare",
+    "twitterLink":"https://twitter.com/argentHQ",
+    "websiteLink":"https://www.argent.xyz/",
+    "status":"SOON",
+    "statusColor":"#F4E532",
+    }, 
+
+    {
+    "name":"Loopring",
+    "category":"Wallet",
+    "description":"Loopring is a zkRollup layer2. It allows for high-throughput, low-cost trading and payment on Ethereum.",
+    "imageLink":"url('project-logos/loopring.jpg')",
+    "tooltip":"Loopring",
+    "twitterLink":"https://twitter.com/loopringorg",
+    "websiteLink":"http://loopring.io/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"imToken",
+    "category":"Wallet",
+    "description":"imToken is an easy and secure digital wallet trusted by millions.",
+    "imageLink":"url('project-logos/imtoken.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/imTokenOfficial",
+    "websiteLink":"https://token.im/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"ZKSwap",
+    "category":"Wallet",
+    "description":"ZK-Rollups based Layer-2 DEX with the AMM model.",
+    "imageLink":"url('project-logos/zkswap.jpg')",
+    "tooltip":"ZKSwap",
+    "twitterLink":"https://twitter.com/ZKSwapOfficial",
+    "websiteLink":"https://zks.org",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+];
+
+var renderedOutput = arr.map(item => 
     <React.Fragment>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/numio.jpg')"></CardHeader>
+    <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
+        <CardHeader pad="large" background={item.imageLink}></CardHeader>
         <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Numio</Heading>
-            <Text margin="small" size="medium">Wallet</Text>
-            <Paragraph margin="small" size="small">Numio is a non-custodial Ethereum L2 wallet that lets you send, store, buy & swap tokens, interact with dApps and more.</Paragraph>
+            <Heading margin="none" size="small">{item.name}</Heading>
+            <Text margin="small" size="medium">{item.category}</Text>
+            <Paragraph margin="small" size="small">{item.description}</Paragraph>
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="numio"/>
-                <ReactTooltip id="numio" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
+                <Box direction="row-responsive" align="center" alignContent="center" justify="center">
+                    <Button primary label={item.status} color={item.statusColor} data-tip data-for={item.name}/>
+                    <ReactTooltip id={item.name} place="right" type="dark" effect="solid">
+                        <Text>
+                            {item.tooltip} 
+                        </Text>
+                    </ReactTooltip>
+                </Box>
             </div>
             <div>
-            <Button icon={<GooglePlay color="black" />} hoverIndicator href="https://twitter.com/getnumio" target="_blank"/>
-                <Button icon={<Apple color />} hoverIndicator href="https://numio.one" target="_blank"/>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/getnumio" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://numio.one" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/argent.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Argent</Heading>
-            <Text margin="small" size="medium">Wallet</Text>
-            <Paragraph margin="small" size="small">Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="argent"/>
-                <ReactTooltip id="argent" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                        StarkWare
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/getnumio" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://www.argent.xyz/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/loopring.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Loopring</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Loopring is a zkRollup layer2. It allows for high-throughput, low-cost trading and payment on Ethereum.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="loopringapp"/>
-                <ReactTooltip id="loopringapp" place="right" type="dark" effect="solid">
-                    <Text>
-                        Loopring <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/loopringorg" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="http://loopring.io/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/imtoken.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">imToken</Heading>
-            <Text margin="small" size="medium">Wallet</Text>
-            <Paragraph margin="small" size="small">imToken is an easy and secure digital wallet trusted by millions.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="imtoken"/>
-                <ReactTooltip id="imtoken" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/imTokenOfficial" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://token.im/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/zkswap.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">ZKSwap</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">ZK-Rollups based Layer-2 DEX with the AMM model.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="zkswap"/>
-                <ReactTooltip id="zkswap" place="right" type="dark" effect="solid">
-                    <Text>
-                        ZKSwap <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/ZKSwapOfficial" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://zks.org" target="_blank"/>
+                {item.googlePlay ? 
+                    <Button icon={<GooglePlay color="black" />} hoverIndicator href={item.googlePlay} target="_blank"/>
+                    : null}
+                {item.appleStore ? 
+                    <Button icon={<Apple color />} hoverIndicator href={item.appleStore} target="_blank"/>
+                    : null}
+                <Button icon={<Twitter color="black" />} hoverIndicator href={item.twitterLink} target="_blank"/>
+                <Button icon={<Language color="black" />} hoverIndicator href={item.websiteLink} target="_blank"/>
             </div>
         </CardFooter>
     </Card>
     </React.Fragment>
-
 );
 
+const Wallets = ({ align, center, justify, name, pad, path, children }) => (
+    <React.Fragment>
+    {renderedOutput}
+    </React.Fragment>
+);
 
 Wallets.propTypes = {
     align: PropTypes.string,
@@ -151,4 +137,3 @@ Wallets.propTypes = {
   };
 
 export default Wallets;
-

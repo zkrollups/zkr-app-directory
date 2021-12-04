@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { 
     Heading,
+    Box,
     Button,
     Card, 
     CardHeader, 
@@ -13,34 +14,54 @@ import {
 import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 
-const NFT = ({ align, center, justify, name, pad, path, children }) => (
+var arr = [
+    {
+    "name":"zkNFT",
+    "category":"NFT",
+    "description":"Mint, explore, and swap NFTs for a fraction of Ethereum mainnet costs. zkSync makes transactions fast, cheap, and secure.",
+    "imageLink":"url('project-logos/zkNFT.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/0xmons",
+    "websiteLink":"https://zknft.xyz/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+];
+
+var renderedOutput = arr.map(item => 
     <React.Fragment>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/zkNFT.jpg')"></CardHeader>
+    <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
+        <CardHeader pad="large" background={item.imageLink}></CardHeader>
         <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">zkNFT</Heading>
-            <Text margin="small" size="medium">NFT</Text>
-            <Paragraph margin="small" size="small">Mint, explore, and swap NFTs for a fraction of Ethereum mainnet costs. zkSync makes transactions fast, cheap, and secure.</Paragraph>
+            <Heading margin="none" size="small">{item.name}</Heading>
+            <Text margin="small" size="medium">{item.category}</Text>
+            <Paragraph margin="small" size="small">{item.description}</Paragraph>
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="zknft"/>
-                <ReactTooltip id="zknft" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
+                <Box direction="row-responsive" align="center" alignContent="center" justify="center">
+                    <Button primary label={item.status} color={item.statusColor} data-tip data-for={item.name}/>
+                    <ReactTooltip id={item.name} place="right" type="dark" effect="solid">
+                        <Text>
+                            {item.tooltip} 
+                        </Text>
+                    </ReactTooltip>
+                </Box>
             </div>
             <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/0xmons" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://zknft.xyz/" target="_blank"/>
+                <Button icon={<Twitter color="black" />} hoverIndicator href={item.twitterLink} target="_blank"/>
+                <Button icon={<Language color="black" />} hoverIndicator href={item.websiteLink} target="_blank"/>
             </div>
         </CardFooter>
     </Card>
     </React.Fragment>
-
 );
 
+const NFT = ({ align, center, justify, name, pad, path, children }) => (
+    <React.Fragment>
+    {renderedOutput}
+    </React.Fragment>
+);
 
 NFT.propTypes = {
     align: PropTypes.string,

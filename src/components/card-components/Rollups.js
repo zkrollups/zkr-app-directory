@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { 
     Heading,
+    Box,
     Button,
     Card, 
     CardHeader, 
@@ -13,209 +14,150 @@ import {
 import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 
-const Rollups = ({ align, center, justify, name, pad, path, children }) => (
+var arr = [
+    {
+    "name":"zkSync",
+    "category":"zkRollup",
+    "description":"zkSync is a user-centric zkRollup platform from Matter Labs. It is a scaling solution for Ethereum, already live on Ethereum mainnet.",
+    "imageLink":"url('project-logos/zksync.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/zksync",
+    "websiteLink":"https://zksync.io/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"StarkWare",
+    "category":"zkRollup",
+    "description":"The StarkWare StarkNet network is a permissionless decentralized ZK-Rollup.",
+    "imageLink":"url('project-logos/starkware.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/StarkWareLtd",
+    "websiteLink":"https://starkware.co/",
+    "status":"SOON",
+    "statusColor":"#F4E532",
+    }, 
+
+    {
+    "name":"Loopring",
+    "category":"zkRollup",
+    "description":"Loopring is a zkRollup layer2. It allows for high-throughput, low-cost trading and payment on Ethereum.",
+    "imageLink":"url('project-logos/loopring.jpg')",
+    "tooltip":"Loopring",
+    "twitterLink":"https://twitter.com/loopringorg",
+    "websiteLink":"http://loopring.io/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"ZKSwap",
+    "category":"zkRollup",
+    "description":"ZK-Rollups based Layer-2 DEX with the AMM model.",
+    "imageLink":"url('project-logos/zkswap.jpg')",
+    "tooltip":"ZKSwap",
+    "twitterLink":"https://twitter.com/ZKSwapOfficial",
+    "websiteLink":"https://zks.org",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"Polygon Hermez",
+    "category":"zkRollup",
+    "description":"Polygon Hermez is an open-source ZK-Rollup optimised for secure, low-cost and usable token transfers on the wings of Ethereum.",
+    "imageLink":"url('project-logos/hermez.jpg')",
+    "tooltip":"Polygon Hermez",
+    "twitterLink":"https://twitter.com/0xPolygonHermez",
+    "websiteLink":"https://hermez.io/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"Aztec",
+    "category":"zkRollup",
+    "description":"Aztec is an open source Layer 2 network bringing scalability and privacy too Ethereum. Aztec uses zkSNARK proofs to provide privacy and scaling.",
+    "imageLink":"url('project-logos/aztec.jpg')",
+    "tooltip":"Aztec",
+    "twitterLink":"https://twitter.com/aztecnetwork",
+    "websiteLink":"https://aztec.network/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+
+    {
+    "name":"Polygon Miden",
+    "category":"zkRollup",
+    "description":"Polygon Miden, is an upcoming STARK-based, EVM-compatible rollup.",
+    "imageLink":"url('project-logos/miden.jpg')",
+    "tooltip":"Polygon Miden",
+    "twitterLink":"https://twitter.com/0xPolygon",
+    "websiteLink":"https://github.com/maticnetwork/miden",
+    "status":"SOON",
+    "statusColor":"#F4E532",
+    }, 
+
+    {
+    "name":"zkTube",
+    "category":"zkRollup",
+    "description":"zktube is a protocol with ZK Rollup solutions of zero knowledge proof building for users and developers.",
+    "imageLink":"url('project-logos/zktube.jpg')",
+    "tooltip":"zkTube",
+    "twitterLink":"https://twitter.com/zktubeofficial/",
+    "websiteLink":"https://zktube.io/",
+    "status":"SOON",
+    "statusColor":"#F4E532",
+    }, 
+
+    {
+    "name":"Scroll",
+    "category":"zkRollup",
+    "description":"Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.",
+    "imageLink":"url('project-logos/scroll.png')",
+    "tooltip":"Scroll",
+    "twitterLink":"https://twitter.com/Scroll_ZKP",
+    "websiteLink":"https://scroll.tech/",
+    "status":"SOON",
+    "statusColor":"#F4E532",
+    }, 
+];
+
+var renderedOutput = arr.map(item => 
     <React.Fragment>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/zksync.jpg')"></CardHeader>
+    <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
+        <CardHeader pad="large" background={item.imageLink}></CardHeader>
         <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">zkSync</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">zkSync is a user-centric zkRollup platform from Matter Labs. It is a scaling solution for Ethereum, already live on Ethereum mainnet.</Paragraph>
+            <Heading margin="none" size="small">{item.name}</Heading>
+            <Text margin="small" size="medium">{item.category}</Text>
+            <Paragraph margin="small" size="small">{item.description}</Paragraph>
         </CardBody>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="zksync"/>
-                <ReactTooltip id="zksync" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/zksync" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://zksync.io/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/starkware.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">StarkWare</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">The StarkWare StarkNet network is a permissionless decentralized ZK-Rollup.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="starknet"/>
-                <ReactTooltip id="starknet" place="right" type="dark" effect="solid">
-                    <Text>
-                        StarkNet <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/StarkWareLtd" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://starkware.co/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/loopring.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Loopring</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Loopring is a zkRollup layer2. It allows for high-throughput, low-cost trading and payment on Ethereum.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="loopring"/>
-                <ReactTooltip id="loopring" place="right" type="dark" effect="solid">
-                    <Text>
-                        Loopring <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/loopringorg" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="http://loopring.io/" target="_blank"/>
-            </div>
-        </CardFooter>
-        </Card>
-        <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-            <CardHeader pad="large" background="url('project-logos/zkswap.jpg')"></CardHeader>
-            <CardBody pad="medium" align="center">
-                <Heading margin="none" size="small">ZKSwap</Heading>
-                <Text margin="small" size="medium">zkRollup</Text>
-                <Paragraph margin="small" size="small">ZK-Rollups based Layer-2 DEX with the AMM model.</Paragraph>
-            </CardBody>
-            <CardFooter pad={{horizontal: "small"}} background="light-2">
-                <div style={{zoom:"0.85"}}>
-                    <Button primary label="LIVE" color="#30DE88" data-tip data-for="zkswap"/>
-                    <ReactTooltip id="zkswap" place="right" type="dark" effect="solid">
+                <Box direction="row-responsive" align="center" alignContent="center" justify="center">
+                    <Button primary label={item.status} color={item.statusColor} data-tip data-for={item.name}/>
+                    <ReactTooltip id={item.name} place="right" type="dark" effect="solid">
                         <Text>
-                            ZKSwap <br/> 
+                            {item.tooltip} 
                         </Text>
                     </ReactTooltip>
-                </div>
-                <div>
-                    <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/ZKSwapOfficial" target="_blank"/>
-                    <Button icon={<Language color="black" />} hoverIndicator href="https://zks.org" target="_blank"/>
-                </div>
-            </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/hermez.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Polygon Hermez</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Polygon Hermez is an open-source ZK-Rollup optimised for secure, low-cost and usable token transfers on the wings of Ethereum.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="hermez"/>
-                <ReactTooltip id="hermez" place="right" type="dark" effect="solid">
-                    <Text>
-                        Polygon Hermez <br/> 
-                    </Text>
-                </ReactTooltip>
+                </Box>
             </div>
             <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/0xPolygonHermez" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://hermez.io/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/aztec.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Aztec</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Aztec is an open source Layer 2 network bringing scalability and privacy too Ethereum. Aztec uses zkSNARK proofs to provide privacy and scaling.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="LIVE" color="#30DE88" data-tip data-for="aztec"/>
-                <ReactTooltip id="aztec" place="right" type="dark" effect="solid">
-                    <Text>
-                        Aztec <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/aztecnetwork" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://aztec.network/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/miden.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Polygon Miden</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Polygon Miden, is an upcoming STARK-based, EVM-compatible rollup.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="miden"/>
-                <ReactTooltip id="miden" place="right" type="dark" effect="solid">
-                    <Text>
-                        Polygon Miden <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://twitter.com/0xPolygon" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://github.com/maticnetwork/miden" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/zktube.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">zkTube</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">zktube is a protocol with ZK Rollup solutions of zero knowledge proof building for users and developers.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="zktube"/>
-                <ReactTooltip id="zktube" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkTube<br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://zktube.io/" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/zktubeofficial/" target="_blank"/>
-            </div>
-        </CardFooter>
-    </Card>
-    <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/scroll.png')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Scroll</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="scroll"/>
-                <ReactTooltip id="scroll" place="right" type="dark" effect="solid">
-                    <Text>
-                        Scroll<br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://scroll.tech/" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/Scroll_ZKP" target="_blank"/>
+                <Button icon={<Twitter color="black" />} hoverIndicator href={item.twitterLink} target="_blank"/>
+                <Button icon={<Language color="black" />} hoverIndicator href={item.websiteLink} target="_blank"/>
             </div>
         </CardFooter>
     </Card>
     </React.Fragment>
 );
 
+const Rollups = ({ align, center, justify, name, pad, path, children }) => (
+    <React.Fragment>
+    {renderedOutput}
+    </React.Fragment>
+);
 
 Rollups.propTypes = {
     align: PropTypes.string,
