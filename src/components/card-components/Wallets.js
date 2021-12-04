@@ -83,7 +83,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
                 <Button icon={<Language color="black" />} hoverIndicator href="http://loopring.io/" target="_blank"/>
             </div>
         </CardFooter>
-        </Card>
+    </Card>
      <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
         <CardHeader pad="large" background="url('project-logos/imtoken.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
@@ -127,7 +127,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
                 <Button icon={<Language color="black" />} hoverIndicator href="https://zks.org" target="_blank"/>
             </div>
         </CardFooter>
-        </Card>
+    </Card>
     </React.Fragment>
 
 );
