@@ -9,18 +9,20 @@ https://github.com/grommet/grommet-starter-new-app
 
 **Done**
 
--All major projects listed.
--Projects in development area.
--Live or Beta.
--Twitter and web links.
+- All major projects listed.
+- Projects in development area.
+- Live or Beta.
+- Twitter and web links.
 
 **Started**
 
--Tooltips for what network they are on.
--Links to downloads.
+- Links to downloads.
 
 **To Do**
 
--Make it look better.
--More info.
--Rotating cards?
+- UI/UX improvements
+- More info-Rotating cards?
+- ALPHA/BETA tags
+- zkPorter
+- Filters
+- Distinct Mobile/Web Wallet tags or sections - the current list is mobile wallets. 
