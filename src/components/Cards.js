@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Infra from './card-components/Infra';
 import Wallets from './card-components/Wallets';
 import Rollups from './card-components/Rollups';
+import Dapps from './card-components/Dapps'
 import NFTs from './card-components/NFTs';
 
 const Cards = ({ align, center, justify, name, pad, path, children }) => (
@@ -10,6 +11,8 @@ const Cards = ({ align, center, justify, name, pad, path, children }) => (
         <Rollups/>
         <Infra/>
         <Wallets/>
+        <Dapps/>
+        <NFTs/>
     </React.Fragment>
 );
 

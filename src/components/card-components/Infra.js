@@ -10,7 +10,7 @@ import {
     Text,
     Paragraph,
 } from 'grommet';
-import { Favorite, ShareOption, Twitter, Language } from 'grommet-icons';
+import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 
 const Infra = ({ align, center, justify, name, pad, path, children }) => (
@@ -25,7 +25,7 @@ const Infra = ({ align, center, justify, name, pad, path, children }) => (
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="SOON" color="#F4E532" data-tip data-for="graph"/>
-                    <ReactTooltip id="graph" place="right" type="dark" effect="solid">
+                <ReactTooltip id="graph" place="right" type="dark" effect="solid">
                     <Text>
                         zkSync <br/> 
                     </Text>

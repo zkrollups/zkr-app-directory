@@ -7,12 +7,11 @@ import {
     CardHeader, 
     CardBody, 
     CardFooter, 
-    Tip,
     Text,
     Paragraph,
     Box,
 } from 'grommet';
-import { Favorite, ShareOption, Twitter, Language, RadialSelected } from 'grommet-icons';  
+import { Twitter, Language } from 'grommet-icons';  
 import ReactTooltip from 'react-tooltip';
   
 
@@ -30,11 +29,10 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
                 <Box direction="row-responsive" align="center" alignContent="center" justify="center">
                     <Button primary label="LIVE" color="#30DE88" data-tip data-for="curve"/>
                     <ReactTooltip id="curve" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkSync <br/> 
-                    </Text>
-                </ReactTooltip>
-                    {/* <Text style={{marginTop:"5px", marginLeft:"10px"}}><RadialSelected size="medium"/></Text> */}
+                        <Text>
+                            zkSync <br/> 
+                        </Text>
+                    </ReactTooltip>
                 </Box>
             </div>
             <div>
@@ -95,7 +93,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="LIVE" color="#30DE88" data-tip data-for="gitcoin"/>
-                    <ReactTooltip id="gitcoin" place="right" type="dark" effect="solid">
+                <ReactTooltip id="gitcoin" place="right" type="dark" effect="solid">
                     <Text>
                         zkSync <br/>
                         Loopring
@@ -117,7 +115,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="LIVE" color="#30DE88" data-tip data-for="mute"/>
-                    <ReactTooltip id="mute" place="right" type="dark" effect="solid">
+                <ReactTooltip id="mute" place="right" type="dark" effect="solid">
                     <Text>
                         zkSync <br/> 
                     </Text>
@@ -138,7 +136,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="LIVE" color="#30DE88" data-tip data-for="storj"/>
-                    <ReactTooltip id="storj" place="right" type="dark" effect="solid">
+                <ReactTooltip id="storj" place="right" type="dark" effect="solid">
                     <Text>
                         zkSync <br/> 
                     </Text>
@@ -160,7 +158,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="LIVE" color="#30DE88" data-tip data-for="storj"/>
-                    <ReactTooltip id="storj" place="right" type="dark" effect="solid">
+                <ReactTooltip id="storj" place="right" type="dark" effect="solid">
                     <Text>
                         zkSync <br/> 
                     </Text>
@@ -181,7 +179,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="LIVE" color="#30DE88" data-tip data-for="rails"/>
-                    <ReactTooltip id="rails" place="right" type="dark" effect="solid">
+                <ReactTooltip id="rails" place="right" type="dark" effect="solid">
                     <Text>
                         Loopring <br/> 
                     </Text>
@@ -203,7 +201,7 @@ open-source system facilitating cross-chain movement of assets.</Paragraph>
         <CardFooter pad={{horizontal: "small"}} background="light-2">
             <div style={{zoom:"0.85"}}>
                 <Button primary label="LIVE" color="#30DE88" data-tip data-for="pnetwork"/>
-                    <ReactTooltip id="pnetwork" place="right" type="dark" effect="solid">
+                <ReactTooltip id="pnetwork" place="right" type="dark" effect="solid">
                     <Text>
                         Loopring <br/> 
                     </Text>
