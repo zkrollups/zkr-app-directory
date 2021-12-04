@@ -170,48 +170,48 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
         <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/zktube.jpg')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">zkTube</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">zktube is a protocol with ZK Rollup solutions of zero knowledge proof building for users and developers.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="zktube"/>
-                <ReactTooltip id="zktube" place="right" type="dark" effect="solid">
-                    <Text>
-                        zkTube <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://zktube.io/" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/zktubeofficial/" target="_blank"/>
-            </div>
-        </CardFooter>
+            <CardHeader pad="large" background="url('project-logos/zktube.jpg')"></CardHeader>
+            <CardBody pad="medium" align="center">
+                <Heading margin="none" size="small">zkTube</Heading>
+                <Text margin="small" size="medium">zkRollup</Text>
+                <Paragraph margin="small" size="small">zktube is a protocol with ZK Rollup solutions of zero knowledge proof building for users and developers.</Paragraph>
+            </CardBody>
+            <CardFooter pad={{horizontal: "small"}} background="light-2">
+                <div style={{zoom:"0.85"}}>
+                    <Button primary label="SOON" color="#F4E532" data-tip data-for="zktube"/>
+                    <ReactTooltip id="zktube" place="right" type="dark" effect="solid">
+                        <Text>
+                            zkTube<br/> 
+                        </Text>
+                    </ReactTooltip>
+                </div>
+                <div>
+                    <Button icon={<Twitter color="black" />} hoverIndicator href="https://zktube.io/" target="_blank"/>
+                    <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/zktubeofficial/" target="_blank"/>
+                </div>
+            </CardFooter>
         </Card>
         <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('project-logos/scroll.png')"></CardHeader>
-        <CardBody pad="medium" align="center">
-            <Heading margin="none" size="small">Scroll</Heading>
-            <Text margin="small" size="medium">zkRollup</Text>
-            <Paragraph margin="small" size="small">Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.</Paragraph>
-        </CardBody>
-        <CardFooter pad={{horizontal: "small"}} background="light-2">
-            <div style={{zoom:"0.85"}}>
-                <Button primary label="SOON" color="#F4E532" data-tip data-for="zktube"/>
-                <ReactTooltip id="zktube" place="right" type="dark" effect="solid">
-                    <Text>
-                        Scroll <br/> 
-                    </Text>
-                </ReactTooltip>
-            </div>
-            <div>
-                <Button icon={<Twitter color="black" />} hoverIndicator href="https://scroll.tech/" target="_blank"/>
-                <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/Scroll_ZKP" target="_blank"/>
-            </div>
-        </CardFooter>
+            <CardHeader pad="large" background="url('project-logos/scroll.png')"></CardHeader>
+            <CardBody pad="medium" align="center">
+                <Heading margin="none" size="small">Scroll</Heading>
+                <Text margin="small" size="medium">zkRollup</Text>
+                <Paragraph margin="small" size="small">Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.</Paragraph>
+            </CardBody>
+            <CardFooter pad={{horizontal: "small"}} background="light-2">
+                <div style={{zoom:"0.85"}}>
+                    <Button primary label="SOON" color="#F4E532" data-tip data-for="scroll"/>
+                    <ReactTooltip id="scroll" place="right" type="dark" effect="solid">
+                        <Text>
+                            Scroll<br/> 
+                        </Text>
+                    </ReactTooltip>
+                </div>
+                <div>
+                    <Button icon={<Twitter color="black" />} hoverIndicator href="https://scroll.tech/" target="_blank"/>
+                    <Button icon={<Language color="black" />} hoverIndicator href="https://twitter.com/Scroll_ZKP" target="_blank"/>
+                </div>
+            </CardFooter>
         </Card>
     </React.Fragment>
 
