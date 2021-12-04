@@ -49,14 +49,13 @@ class App extends Component {
     showSidebar: false,
   }
   render() {
-    const { showSidebar } = this.state;
     return (
       <Grommet theme={theme} full>
         <ResponsiveContext.Consumer>
           {size => (
             <Box fill>
               <AppBar background="linear-gradient(102.77deg, #865ED6 -9.18%, #18BAB9 209.09%)">
-                <Heading level='3' margin='small' color='white' margin={{left:"medium", top:"none", bottom:"none"}}>zkRollup Directory</Heading>
+                <Heading level='3' color='white' margin={{left:"medium", top:"none", bottom:"none"}}>zkRollup Directory</Heading>
                 <div >
                   <Button icon={<Reddit color="#ffffff" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank" margin={{right:"medium"}}/>
                 </div>

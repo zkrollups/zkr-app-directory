@@ -10,14 +10,17 @@ import { Github } from 'grommet-icons';
 const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
   <Footer background="white" pad="xsmall" border={{ color: '#d3d3d3', size: 'xsmall' }}>
     <Text pad={{left:"medium"}} size="medium" style={{zoom:"90%", marginLeft:"15px"}}>
-      Made w/&hearts; by <a href='https://twitter.com/joelkite' target="_blank" style={{ color: 'black' }}>Joel</a> &#38; <a href='https://twitter.com/jaazinn' target="_blank" style={{ color: 'black' }}>Jason</a>
+      Made w/&hearts; by&nbsp; 
+        <a href='https://twitter.com/joelkite' target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Joel</a>
+        &nbsp;&#38;&nbsp; 
+        <a href='https://twitter.com/jaazinn' target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Jason</a>
     </Text>
     <div >
       <Button icon={<Github color="black" />} hoverIndicator href="https://github.com/jaazinn/zkr-app-directory" target="_blank"/>
     </div>
     <div style={{marginRight:"10px"}}>
-      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
-      <a href="https://twitter.com/joelkite" target="_blank" style={{color:"black", fontSize:"medium"}}>Get in Touch</a>
+      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank" rel="noopener noreferrer" style={{color:"black", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
+      <a href="https://twitter.com/joelkite" target="_blank" rel="noopener noreferrer" style={{color:"black", fontSize:"medium"}}>Get in Touch</a>
     </div>
   </Footer>
 );
