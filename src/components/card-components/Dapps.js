@@ -32,7 +32,7 @@ var arr = [
     "category":"Dapp",
     "description":"ZigZag is a native, easy-to-use, reliable, fully secure and low fee Decentralized Exchange built on ZK Rollups.",
     "imageLink":"url('project-logos/zigzag.jpg')",
-    "tooltip":"zkSync",
+    "tooltip":"zkSync, StarkWare",
     "twitterLink":"https://mobile.twitter.com/zigzagexchange",
     "websiteLink":"https://info.zigzag.exchange/",
     "status":"LIVE",
