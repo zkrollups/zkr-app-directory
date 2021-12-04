@@ -18,7 +18,7 @@ import ReactTooltip from 'react-tooltip';
 const Dapps = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
     <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('curvefi.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/curvefi.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Curve</Heading>
             <Text margin="small" size="medium">Dapp</Text>
@@ -42,7 +42,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('zigzag.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/zigzag.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">ZigZag</Heading>
             <Text margin="small" size="medium">Dapp</Text>
@@ -63,7 +63,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('paraswap.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/paraswap.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Paraswap</Heading>
             <Text margin="small" size="medium">Dapp</Text>
@@ -84,7 +84,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('gitcoin.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/gitcoin.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Gitcoin</Heading>
             <Text margin="small" size="medium">Infra</Text>
@@ -106,7 +106,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('mute.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/mute.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Mute</Heading>
             <Text margin="small" size="medium">Dapp</Text>
@@ -127,7 +127,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('storj.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/storj.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Storj</Heading>
             <Text margin="small" size="medium">Dapp</Text>
@@ -149,7 +149,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('golem.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/golem.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Golem</Heading>
             <Text margin="small" size="medium">dapp</Text>
@@ -170,7 +170,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('rails.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/rails.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Rails</Heading>
             <Text margin="small" size="medium">Dapp</Text>
@@ -191,7 +191,7 @@ const Dapps = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
      <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('pnetwork.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/pnetwork.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">pNetwork</Heading>
             <Text margin="small" size="medium">Dapp</Text>

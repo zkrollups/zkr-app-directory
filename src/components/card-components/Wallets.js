@@ -16,7 +16,7 @@ import ReactTooltip from 'react-tooltip';
 const Wallets = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('numio.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/numio.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Numio</Heading>
             <Text margin="small" size="medium">Wallet</Text>
@@ -40,7 +40,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('argent.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/argent.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Argent</Heading>
             <Text margin="small" size="medium">Wallet</Text>
@@ -63,7 +63,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('loopring.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/loopring.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Loopring</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -85,7 +85,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
      <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('imtoken.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/imtoken.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">imToken</Heading>
             <Text margin="small" size="medium">Wallet</Text>
@@ -107,7 +107,7 @@ const Wallets = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('zkswap.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/zkswap.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">ZKSwap</Heading>
             <Text margin="small" size="medium">zkRollup</Text>

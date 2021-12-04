@@ -16,7 +16,7 @@ import ReactTooltip from 'react-tooltip';
 const Rollups = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('zksync.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/zksync.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">zkSync</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -38,7 +38,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('starkware.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/starkware.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">StarkWare</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -60,7 +60,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
     </Card>
     <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('loopring.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/loopring.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Loopring</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -82,7 +82,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
         <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('zkswap.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/zkswap.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">ZKSwap</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -104,7 +104,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
               <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('hermez.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/hermez.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Polygon Hermez</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -126,7 +126,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
         <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('aztec.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/aztec.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Aztec</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -148,7 +148,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
 <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('miden.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/miden.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">Polygon Miden</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
@@ -170,7 +170,7 @@ const Rollups = ({ align, center, justify, name, pad, path, children }) => (
         </CardFooter>
         </Card>
              <Card  height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
-        <CardHeader pad="large" background="url('zktube.jpg')"></CardHeader>
+        <CardHeader pad="large" background="url('project-logos/zktube.jpg')"></CardHeader>
         <CardBody pad="medium" align="center">
             <Heading margin="none" size="small">zkTube</Heading>
             <Text margin="small" size="medium">zkRollup</Text>
