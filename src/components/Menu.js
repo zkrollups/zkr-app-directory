@@ -9,37 +9,43 @@ import { useLocation } from 'react-router-dom';
 
 const Menu = ({ align, center, justify, name, pad, path, children }) => {
   const location = useLocation();
+  const customButtonProps = (url) => {
+    const color = () => {
+      if (location.pathname === url) {
+        return "#30DE88"
+      } else {
+        return null
+      }
+    }
+    const buttonProps =
+      {
+      margin:{left:"xsmall", right:"xsmall", bottom:"small"},
+      primary: true,
+      color: {color},
+      style: {fontSize: "110%", borderWidth: "thin"},
+      }
+    return buttonProps
+  }
+
   return (
   <div align="center">
     <Link to="/all" style={{ textDecoration: 'none' }}>
-      <Button primary label="All" color={location.pathname === "/all" ? "#30DE88" : "null"} 
-        margin={{left:"xsmall", right:"xsmall", bottom:"small"}} 
-        style={{fontSize:"110%", fontWeight: location.pathname === "/all" ? "bold" : "normal" }} /> 
+      <Button label="All" {...customButtonProps("/all")} /> 
     </Link>
     <Link to="/rollups" style={{ textDecoration: 'none' }}>
-      <Button primary label="Rollups" color={location.pathname === "/rollups" ? "#30DE88" : "null"} 
-        margin={{left:"xsmall", right:"xsmall", bottom:"small"}} 
-        style={{fontSize:"110%", fontWeight: location.pathname === "/rollups" ? "bold" : "normal" }} /> 
+      <Button label="Rollups" {...customButtonProps("/rollups")} /> 
     </Link>
     <Link to="/wallets" style={{ textDecoration: 'none' }}>
-      <Button primary label="Wallets" color={location.pathname === "/wallets" ? "#30DE88" : "null"} 
-        margin={{left:"xsmall", right:"xsmall", bottom:"small"}} 
-        style={{fontSize:"110%", fontWeight: location.pathname === "/wallets" ? "bold" : "normal" }} /> 
+      <Button label="Wallets" {...customButtonProps("/wallets")} /> 
     </Link>
     <Link to="/infra" style={{ textDecoration: 'none' }}>
-      <Button primary label="Infra" color={location.pathname === "/infra" ? "#30DE88" : "null"} 
-        margin={{left:"xsmall", right:"xsmall", bottom:"small"}} 
-        style={{fontSize:"110%", fontWeight: location.pathname === "/infra" ? "bold" : "normal" }} /> 
+      <Button label="Infra" {...customButtonProps("/infra")} /> 
     </Link>
     <Link to="/dapps" style={{ textDecoration: 'none' }}>
-      <Button primary label="dApps" color={location.pathname === "/dapps" ? "#30DE88" : "null"} 
-        margin={{left:"xsmall", right:"xsmall", bottom:"small"}} 
-        style={{fontSize:"110%", fontWeight: location.pathname === "/dapps" ? "bold" : "normal" }} /> 
+      <Button label="dApps" {...customButtonProps("/dapps")} /> 
     </Link>
     <Link to="/nfts" style={{ textDecoration: 'none' }}>
-      <Button primary label="NFTs" color={location.pathname === "/nfts" ? "#30DE88" : "null"} 
-        margin={{left:"xsmall", right:"xsmall", bottom:"small"}} 
-        style={{fontSize:"110%", fontWeight: location.pathname === "/nfts" ? "bold" : "normal" }} /> 
+      <Button label="NFTs" {...customButtonProps("/nfts")} /> 
     </Link>
   </div>
 )};
