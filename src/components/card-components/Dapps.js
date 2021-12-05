@@ -23,8 +23,8 @@ var arr = [
     "tooltip":"zkSync",
     "twitterLink":"https://twitter.com/CurveFinance",
     "websiteLink":"https://zksync.curve.fi/",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
+    "status":"SOON",
+    "statusColor":"#F4E532",
     }, 
     
     {
