@@ -8,7 +8,7 @@ import {
 } from 'grommet';
 import Menu from './components/Menu'
 import PageFooter from './components/Footer';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Reddit } from 'grommet-icons';
 import All from './screens/All';
 import Rollups from './screens/RollupsView';
