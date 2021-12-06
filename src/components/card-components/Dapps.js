@@ -15,6 +15,43 @@ import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
   
 var arr = [
+    // use #30DE88 for LIVE, #F4E532 for SOON, #F4B832 for TESTNET
+    {
+    "name":"dydx",
+    "category":"Dapp & Rollup",
+    "description":"Trade Perpetual Contracts with low fees, deep liquidity, and up to 25× leverage.",
+    "imageLink":"url('project-logos/dydx.png')",
+    "tooltip":"Starkware (Custom)",
+    "twitterLink":"https://twitter.com/dydxprotocol",
+    "websiteLink":"https://dydx.exchange/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"Sorare",
+    "category":"Dapp & Rollup",
+    "description":"Experience true football connection in The Global Fantasy Football Game! Trade & collect digital cards.",
+    "imageLink":"url('project-logos/sorare.png')",
+    "tooltip":"Starkware (Custom)",
+    "twitterLink":"https://twitter.com/Sorare",
+    "websiteLink":"https://sorare.com/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
+    {
+    "name":"Immutable",
+    "category":"Dapp & Rollup",
+    "description":"Ethereum NFT scaling platform. Zero gas fees, 9K TPS & 100% carbon neutral.",
+    "imageLink":"url('project-logos/immutable.png')",
+    "tooltip":"Starkware (Custom)",
+    "twitterLink":"https://twitter.com/Immutable",
+    "websiteLink":"https://www.immutable.com/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+
     {
     "name":"Curve",
     "category":"Dapp",
@@ -23,8 +60,8 @@ var arr = [
     "tooltip":"zkSync",
     "twitterLink":"https://twitter.com/CurveFinance",
     "websiteLink":"https://zksync.curve.fi/",
-    "status":"SOON",
-    "statusColor":"#F4E532",
+    "status":"TESTNET",
+    "statusColor":"#F4B832",
     }, 
     
     {
