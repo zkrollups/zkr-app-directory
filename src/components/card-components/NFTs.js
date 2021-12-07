@@ -44,7 +44,7 @@ var arr = [
     "category":"NFT",
     "description":"The pursuit of money, power & respect in these NFT streets. Join the community, we're producing a game on Ethereum+StarkNet, inspired by the TI-83 classic",
     "imageLink":"url('project-logos/dopewars.jpg')",
-    "tooltip":"Starkware",
+    "tooltip":"StarkNet",
     "twitterLink":"https://twitter.com/TheDopeWars",
     "websiteLink":"https://dopewars.gg/",
     "status":"LIVE",
