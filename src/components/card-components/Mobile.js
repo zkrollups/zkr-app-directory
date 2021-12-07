@@ -34,7 +34,7 @@ var arr = [
     "category":"MOBILE",
     "description":"Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.",
     "imageLink":"url('project-logos/argent.jpg')",
-    "tooltip":"zkSync, StarkWare",
+    "tooltip":"zkSync, StarkNet",
     "twitterLink":"https://twitter.com/argentHQ",
     "websiteLink":"https://www.argent.xyz/",
     "status":"BETA",
