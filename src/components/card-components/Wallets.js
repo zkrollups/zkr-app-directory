@@ -18,7 +18,7 @@ var arr = [
     {
     "name":"zkSync",
     "category":"Wallet",
-    "description":"The native web wallet for the zkSync network.",
+    "description":"The native web wallet for the zkRollup network from zkSync.",
     "imageLink":"url('project-logos/zksync.jpg')",
     "tooltip":"zkSync",
     "twitterLink":"https://twitter.com/zksync",
@@ -30,7 +30,7 @@ var arr = [
     {
     "name":"Loopring",
     "category":"Wallet",
-    "description":"The native web wallet for the Loopring network.",
+    "description":"The native web wallet for the zkRollup network from Loopring.",
     "imageLink":"url('project-logos/loopring.jpg')",
     "tooltip":"Loopring",
     "twitterLink":"https://twitter.com/loopringorg",
@@ -42,7 +42,7 @@ var arr = [
     {
     "name":"ZKSwap",
     "category":"Wallet",
-    "description":"The native web wallet for the ZKSwap network.",
+    "description":"The native web wallet for the zkRollup network from ZKSwap.",
     "imageLink":"url('project-logos/zkswap.jpg')",
     "tooltip":"ZKSwap",
     "twitterLink":"https://twitter.com/ZKSwapOfficial",
