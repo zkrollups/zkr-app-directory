@@ -35,8 +35,8 @@ var arr = [
     "tooltip":"StarkNet",
     "twitterLink":"https://twitter.com/StarkWareLtd",
     "websiteLink":"https://starkware.co/",
-    "status":"SOON",
-    "statusColor":"#F4E532",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
     }, 
 
     {
@@ -95,8 +95,8 @@ var arr = [
     "tooltip":"Polygon Miden",
     "twitterLink":"https://twitter.com/0xPolygon",
     "websiteLink":"https://github.com/maticnetwork/miden",
-    "status":"SOON",
-    "statusColor":"#F4E532",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
     }, 
 
     {
@@ -107,8 +107,8 @@ var arr = [
     "tooltip":"zkTube",
     "twitterLink":"https://twitter.com/zktubeofficial/",
     "websiteLink":"https://zktube.io/",
-    "status":"SOON",
-    "statusColor":"#F4E532",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
     }, 
 
     {
@@ -119,8 +119,8 @@ var arr = [
     "tooltip":"Scroll",
     "twitterLink":"https://twitter.com/Scroll_ZKP",
     "websiteLink":"https://scroll.tech/",
-    "status":"SOON",
-    "statusColor":"#F4E532",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
     }, 
 ];
 
