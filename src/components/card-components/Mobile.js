@@ -17,7 +17,7 @@ import ReactTooltip from 'react-tooltip';
 var arr = [
     {
     "name":"Numio",
-    "category":"MOBILE",
+    "category":"Mobile",
     "description":"Numio is a non-custodial Ethereum L2 wallet that lets you send, store, buy & swap tokens, interact with dApps and more.",
     "imageLink":"url('project-logos/numio.jpg')",
     "tooltip":"zkSync",
@@ -31,7 +31,7 @@ var arr = [
 
     {
     "name":"Argent",
-    "category":"MOBILE",
+    "category":"Mobile",
     "description":"Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.",
     "imageLink":"url('project-logos/argent.jpg')",
     "tooltip":"zkSync, StarkNet",
@@ -43,7 +43,7 @@ var arr = [
 
     {
     "name":"Loopring",
-    "category":"MOBILE",
+    "category":"Mobile",
     "description":"Loopring Wallet integrates Loopring's zkRollup, a layer-2 scaling protocol to increase speeds and lower fees.",
     "imageLink":"url('project-logos/loopring.jpg')",
     "tooltip":"Loopring",
@@ -55,7 +55,7 @@ var arr = [
 
     {
     "name":"imToken",
-    "category":"MOBILE",
+    "category":"Mobile",
     "description":"imToken is an easy and secure digital wallet trusted by millions.",
     "imageLink":"url('project-logos/imtoken.jpg')",
     "tooltip":"zkSync",
@@ -67,7 +67,7 @@ var arr = [
 
     {
     "name":"ZKSwap",
-    "category":"MOBILE",
+    "category":"Mobile",
     "description":"ZK-Rollups based Layer-2 DEX with the AMM model.",
     "imageLink":"url('project-logos/zkswap.jpg')",
     "tooltip":"ZKSwap",
