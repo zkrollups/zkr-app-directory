@@ -16,6 +16,18 @@ import ReactTooltip from 'react-tooltip';
   
 var arr = [
     // use #30DE88 for LIVE, #F4E532 for SOON, #F4B832 for TESTNET
+   {
+    "name":"DeversiFi",
+    "category":"Dapp",
+    "description":"A decentralised exchange for accessing DeFi opportunities on Ethereum: invest, trade, and send tokens without paying gas fees.",
+    "imageLink":"url('project-logos/diversifi.jpg')",
+    "tooltip":"Starkware",
+    "twitterLink":"https://twitter.com/deversifi",
+    "websiteLink":"https://deversifi.com/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+    
     {
     "name":"dydx",
     "category":"Dapp & Rollup",
@@ -84,7 +96,7 @@ var arr = [
     "tooltip":"zkSync",
     "twitterLink":"https://twitter.com/paraswap",
     "websiteLink":"https://paraswap.io",
-    "status":"SOON",
+    "status":"BETA",
     "statusColor":"#F4E532",
     }, 
 
@@ -159,6 +171,31 @@ var arr = [
     "status":"LIVE",
     "statusColor":"#30DE88",
     },
+    
+    {
+    "name":"IBetYou",
+    "category":"Dapp",
+    "description":"A smarter way to place and track your bets. Keep ‘em all in one place, make sure no one bails out, and win money in your favorite cryptocurrency.",
+    "imageLink":"url('project-logos/ibetyou.jpg')",
+    "tooltip":"Starkware",
+    "twitterLink":"https://twitter.com/ibetyouxyz",
+    "websiteLink":"https://ibetyou.xyz/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
+    
+        {
+    "name":"Maker Wormhole",
+    "category":"Dapp",
+    "description":"DAI Wormholing - the ability for almost instant teleportation of DAI between supported Layer 2s + Ethereum.",
+    "imageLink":"url('project-logos/wormhole.jpg')",
+    "tooltip":"Starkware",
+    "twitterLink":"https://twitter.com/makerdao",
+    "websiteLink":"https://forum.makerdao.com/t/introducing-maker-wormhole/11550",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    },
+    
 ];
 
 var renderedOutput = arr.map(item => 
