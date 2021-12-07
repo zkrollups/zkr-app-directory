@@ -34,9 +34,12 @@ const Menu = ({ align, center, justify, name, pad, path, children }) => {
     </Link>
     <Link to="/rollups" style={{ textDecoration: 'none' }}>
       <Button label="Rollups" {...customButtonProps("/rollups")} /> 
+      </Link>
+    <Link to="/mobile" style={{ textDecoration: 'none' }}>
+      <Button label="Mobile" {...customButtonProps("/mobile")} /> 
     </Link>
     <Link to="/wallets" style={{ textDecoration: 'none' }}>
-      <Button label="Wallets" {...customButtonProps("/wallets")} /> 
+      <Button label="Web Wallets" {...customButtonProps("/wallets")} /> 
     </Link>
     <Link to="/infra" style={{ textDecoration: 'none' }}>
       <Button label="Infra" {...customButtonProps("/infra")} /> 
