@@ -18,7 +18,7 @@ var arr = [
     {
     "name":"Numio",
     "category":"Mobile",
-    "description":"Numio is a non-custodial Ethereum L2 wallet that lets you send, store, buy & swap tokens, interact with dApps and more.",
+    "description":"Numio is a non-custodial Ethereum L2 (zkSync) wallet that lets you send, store, buy & swap tokens, interact with dApps and more. Available on Android & iOS.",
     "imageLink":"url('project-logos/numio.jpg')",
     "tooltip":"zkSync",
     "twitterLink":"https://twitter.com/getnumio",
