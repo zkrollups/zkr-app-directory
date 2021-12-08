@@ -33,9 +33,9 @@ const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
         </Link>
         <div >
           <span alignContent="center">
-            <Link to="/resources" style={{ textDecoration: 'none' , color: "white"}}>
+            {/* <Link to="/resources" style={{ textDecoration: 'none' , color: "white"}}>
               <Button label="Resources" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
-            </Link>
+            </Link> */}
           </span>
           <Button icon={<Reddit color="#ffffff" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank" margin={{right:"small"}}/>
         </div>
