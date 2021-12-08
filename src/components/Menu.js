@@ -50,6 +50,9 @@ const Menu = ({ align, center, justify, name, pad, path, children }) => {
     <Link to="/nfts" style={{ textDecoration: 'none' }}>
       <Button label="NFTs" {...customButtonProps("/nfts")} /> 
     </Link>
+     <Link to="/misc" style={{ textDecoration: 'none' }}>
+      <Button label="Misc" {...customButtonProps("/Misc")} /> 
+    </Link>
   </div>
 )};
 
