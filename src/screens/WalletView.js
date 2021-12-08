@@ -1,10 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+  Box,
+} from 'grommet';
+import Menu from '../components/Menu';
 import Wallets from '../components/card-components/Wallets';
 
 const WalletView = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
+      <Menu/>
+      <Box direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
         <Wallets/>
+      </Box>
     </React.Fragment>
 );
 
