@@ -30,18 +30,6 @@ var arr = [
     }, 
 
     {
-    "name":"Argent",
-    "category":"Mobile",
-    "description":"Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.",
-    "imageLink":"url('project-logos/argent.jpg')",
-    "tooltip":"zkSync, StarkNet",
-    "twitterLink":"https://twitter.com/argentHQ",
-    "websiteLink":"https://www.argent.xyz/",
-    "status":"BETA",
-    "statusColor":"#F4E532",
-    }, 
-
-    {
     "name":"Loopring",
     "category":"Mobile",
     "description":"Loopring Wallet integrates Loopring's zkRollup, a layer-2 scaling protocol to increase speeds and lower fees.",
@@ -76,6 +64,19 @@ var arr = [
     "status":"LIVE",
     "statusColor":"#30DE88",
     }, 
+    
+    {
+    "name":"Argent",
+    "category":"Mobile",
+    "description":"Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.",
+    "imageLink":"url('project-logos/argent.jpg')",
+    "tooltip":"zkSync, StarkNet",
+    "twitterLink":"https://twitter.com/argentHQ",
+    "websiteLink":"https://www.argent.xyz/",
+    "status":"BETA",
+    "statusColor":"#F4E532",
+    }, 
+
 ];
 
 var renderedOutput = arr.map(item => 
