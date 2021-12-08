@@ -26,6 +26,30 @@ var arr = [
     "status":"LIVE",
     "statusColor":"#30DE88",
     }, 
+
+    {
+    "name":"zkPunks",
+    "category":"NFT",
+    "description":"zkPunks are 10,000 OG punk NFTs on zkSync. 10% donated to Ethereum scaling solutions through Gitcoin. Not affiliated with Larva Labs.",
+    "imageLink":"url('project-logos/zkpunks.jpg')",
+    "tooltip":"zkSync",
+    "twitterLink":"https://twitter.com/PunksZk",
+    "websiteLink":"#",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    }, 
+    
+    {
+    "name":"Dope Wars",
+    "category":"NFT",
+    "description":"The pursuit of money, power & respect in these NFT streets. Join the community, we're producing a game on Ethereum+StarkNet, inspired by the TI-83 classic",
+    "imageLink":"url('project-logos/dopewars.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/TheDopeWars",
+    "websiteLink":"https://dopewars.gg/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
 ];
 
 var renderedOutput = arr.map(item => 
