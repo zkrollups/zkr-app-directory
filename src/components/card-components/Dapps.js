@@ -196,6 +196,30 @@ var arr = [
     "statusColor":"##",
     },
     
+    {
+    "name":"Akropolis",
+    "category":"Dapp",
+    "description":"DeFi yield on autopilot. An easy to use interface for financial operations and decision-making.",
+    "imageLink":"url('project-logos/akropolis.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/akropolisio",
+    "websiteLink":"https://www.akropolis.io/",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    },
+    
+    {
+    "name":"StarkVote",
+    "category":"Dapp",
+    "description":"Decentralized Trusted voting on Starknet by Snapshot Labs.",
+    "imageLink":"url('project-logos/snapshot.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/SnapshotLabs",
+    "websiteLink":"https://snapshot.org/#/",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    },
+        
 ];
 
 var renderedOutput = arr.map(item => 
