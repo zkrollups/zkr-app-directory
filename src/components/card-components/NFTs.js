@@ -50,6 +50,43 @@ var arr = [
     "status":"LIVE",
     "statusColor":"#30DE88",
     },
+    
+   {
+    "name":"Briq",
+    "category":"NFT",
+    "description":"A system where NFTs made out of building blocks, Briqs, that combine to create other NFTs.",
+    "imageLink":"url('project-logos/briq.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/briqs_",
+    "websiteLink":"https://briq.construction/",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    },
+    
+    {
+    "name":"Influence",
+    "category":"NFT",
+    "description":"A grand strategy space MMO, backed by NFTs, set in a distant asteroid belt, and built on Ethereum.",
+    "imageLink":"url('project-logos/influence.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/influenceth",
+    "websiteLink":"https://www.influenceth.io/",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    },
+    
+     {
+    "name":"Loot",
+    "category":"NFT",
+    "description":"Stark Loot - A proposal to build next generation of Loot on a ZK Roll-up.",
+    "imageLink":"url('project-logos/loot.jpg')",
+    "tooltip":"StarkNet",
+    "twitterLink":"https://twitter.com/lootproject",
+    "websiteLink":"https://loot-talk.com/t/stark-loot-a-proposal-to-build-next-generation-of-loot-on-a-zk-roll-up/2077",
+    "status":"DEVELOPMENT",
+    "statusColor":"##",
+    },
+    
 ];
 
 var renderedOutput = arr.map(item => 
