@@ -53,7 +53,7 @@ ProjectCard.propTypes = {
         tooltip: PropTypes.string,
         twitterLink: PropTypes.string,
         websiteLink: PropTypes.string,
-    }).isRequired
+    }).isRequired,
   };
-  
+
 export default ProjectCard;
