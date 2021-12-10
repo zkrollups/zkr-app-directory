@@ -7,7 +7,7 @@ import {
     Heading,
 } from 'grommet';
 import { useLocation } from 'react-router-dom';
-import { Reddit } from 'grommet-icons';
+import { Github } from 'grommet-icons';
 
 
 const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
@@ -33,11 +33,23 @@ const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
         </Link>
         <div >
           <span alignContent="center">
-            {/* <Link to="/resources" style={{ textDecoration: 'none' , color: "white"}}>
+            {
+            <Link to="/" style={{ textDecoration: 'none' , color: "white"}}>
+              <Button label="Directory" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+            </Link>
+            }
+            {
+            <Link to="/resources" style={{ textDecoration: 'none' , color: "white"}}>
               <Button label="Resources" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
-            </Link> */}
+            </Link>
+            }
+            {
+            <Link to="/about" style={{ textDecoration: 'none' , color: "white"}}>
+              <Button label="About" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+            </Link>
+            }
           </span>
-          <Button icon={<Reddit color="#ffffff" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank" margin={{right:"small"}}/>
+          <Button icon={<Github color="#ffffff" />} hoverIndicator href="https://github.com/jaazinn/zkr-app-directory/" target="_blank" margin={{right:"small"}}/>
         </div>
       </AppBar>
     </React.Fragment>
