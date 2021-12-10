@@ -36,13 +36,10 @@ const Menu = ({ align, center, justify, name, pad, path, children }) => {
           <Button label="All" {...customButtonProps("/all")} /> 
         </Link>
         <Link to="/rollups" style={{ textDecoration: 'none' }}>
-          <Button label="Rollups" {...customButtonProps("/rollups")} /> 
-          </Link>
-        <Link to="/mobile" style={{ textDecoration: 'none' }}>
-          <Button label="Mobile" {...customButtonProps("/mobile")} /> 
+          <Button label="Rollups" {...customButtonProps("/rollups")} />       
         </Link>
         <Link to="/wallets" style={{ textDecoration: 'none' }}>
-          <Button label="Web Wallets" {...customButtonProps("/wallets")} /> 
+          <Button label="Wallets" {...customButtonProps("/wallets")} /> 
         </Link>
         <Link to="/infra" style={{ textDecoration: 'none' }}>
           <Button label="Infra" {...customButtonProps("/infra")} /> 
