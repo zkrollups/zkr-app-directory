@@ -42,6 +42,18 @@ var arr = [
     }, 
     
     {
+    "name":"Polygon Hermez",
+    "category":"Web Wallet",
+    "description":"Simple and self-custodial wallet for Hermez Network.",
+    "imageLink":"url('project-logos/hermez.jpg')",
+    "tooltip":"Polygon Hermez",
+    "twitterLink":"https://twitter.com/0xPolygonHermez",
+    "websiteLink":"https://hermez.io/wallet",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    }, 
+    
+    {
     "name":"Loopring",
     "category":"Mobile & Web Wallet",
     "description":"Loopring Wallet integrates Loopring's zkRollup, a layer-2 scaling protocol to increase speeds and lower fees.",
