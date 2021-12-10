@@ -13,6 +13,7 @@ import WalletView from './screens/WalletView';
 import DappsView from './screens/DappsView';
 import NFTsView from './screens/NFTsView';
 import Resources from './components/Resources';
+import About from './components/About';
 import MenuBar from './components/MenuBar';
 import MiscView from './screens/MiscView';
 
@@ -49,6 +50,7 @@ class App extends Component {
                       <Route path='/dapps' element={<DappsView/>} />
                       <Route path='/nfts' element={<NFTsView/>} />
                       <Route path='/resources' element={<Resources/>} />
+                      <Route path='/about' element={<About/>} />
                       <Route path='/misc' element={<MiscView/>} />
                     </Routes>
                 <PageFooter/>
