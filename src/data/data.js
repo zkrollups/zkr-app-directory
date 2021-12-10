@@ -13,7 +13,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "dydx",
       category: "Dapp & Rollup",
@@ -26,7 +25,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Sorare",
       category: "Dapp & Rollup",
@@ -39,7 +37,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Immutable",
       category: "Dapp & Rollup",
@@ -52,7 +49,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Curve",
       category: "Dapp",
@@ -65,7 +61,6 @@ export const projects = {
       status: "TESTNET",
       statusColor: "#F4B832",
     },
-
     {
       name: "ZigZag",
       category: "Dapp",
@@ -78,7 +73,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Paraswap",
       category: "Dapp",
@@ -91,7 +85,6 @@ export const projects = {
       status: "BETA",
       statusColor: "#F4E532",
     },
-
     {
       name: "Gitcoin",
       category: "Dapp",
@@ -104,7 +97,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Mute",
       category: "Dapp",
@@ -117,7 +109,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Storj",
       category: "Dapp",
@@ -130,7 +121,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Golem",
       category: "Dapp",
@@ -143,7 +133,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Rails",
       category: "Dapp",
@@ -155,7 +144,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "pNetwork",
       category: "Dapp",
@@ -168,7 +156,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "IBetYou",
       category: "Dapp",
@@ -181,7 +168,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Maker Wormhole",
       category: "Dapp",
@@ -195,7 +181,6 @@ export const projects = {
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-
     {
       name: "Akropolis",
       category: "Dapp",
@@ -208,7 +193,6 @@ export const projects = {
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-
     {
       name: "StarkVote",
       category: "Dapp",
@@ -246,7 +230,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "Qasr",
       category: "Misc",
@@ -257,7 +240,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "Starknet DAI Bridge",
       category: "Misc",
@@ -268,7 +250,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "rk4-starknet",
       category: "Misc",
@@ -280,7 +261,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "StarDrop - anonymous rewards on StarkNet",
       category: "Misc",
@@ -292,7 +272,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "tictactoe-on-starknet",
       category: "Misc",
@@ -304,7 +283,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "Basic Sample Hardhat Project",
       category: "Misc",
@@ -316,7 +294,6 @@ export const projects = {
       status: "Development",
       statusColor: "##",
     },
-
     {
       name: "Starkops",
       category: "Misc",
@@ -344,7 +321,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Loopring",
       category: "Mobile",
@@ -357,7 +333,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "imToken",
       category: "Mobile",
@@ -370,7 +345,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "ZKSwap",
       category: "Mobile",
@@ -382,7 +356,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Argent",
       category: "Mobile",
@@ -409,7 +382,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "zkPunks",
       category: "NFT",
@@ -422,7 +394,6 @@ export const projects = {
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-
     {
       name: "Dope Wars",
       category: "NFT",
@@ -435,7 +406,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Briq",
       category: "NFT",
@@ -448,7 +418,6 @@ export const projects = {
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-
     {
       name: "Influence",
       category: "NFT",
@@ -461,7 +430,6 @@ export const projects = {
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-
     {
       name: "Loot",
       category: "NFT",
@@ -489,7 +457,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "StarkWare",
       category: "zkRollup",
@@ -502,7 +469,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Loopring",
       category: "zkRollup",
@@ -515,7 +481,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "ZKSwap",
       category: "zkRollup",
@@ -527,7 +492,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Polygon Hermez",
       category: "zkRollup",
@@ -540,7 +504,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Aztec",
       category: "zkRollup",
@@ -553,7 +516,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Polygon Miden",
       category: "zkRollup",
@@ -566,7 +528,6 @@ export const projects = {
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-
     {
       name: "zkTube",
       category: "zkRollup",
@@ -579,7 +540,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Scroll",
       category: "zkRollup",
@@ -608,7 +568,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "zkSync",
       category: "Web Wallet",
@@ -621,7 +580,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Loopring",
       category: "Mobile & Web Wallet",
@@ -634,7 +592,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "imToken",
       category: "Mobile Wallet",
@@ -647,7 +604,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "ZKSwap",
       category: "Mobile & Web Wallet",
@@ -659,7 +615,6 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-
     {
       name: "Argent",
       category: "Mobile Wallet",
