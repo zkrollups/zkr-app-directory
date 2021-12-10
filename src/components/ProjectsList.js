@@ -1,23 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Box } from 'grommet';
 import { projects } from '../data/data';
 import ProjectCard from './ProjectCard';
 
-const ProjectsList = ({ filter }) => (
-    <React.Fragment>
-        <Box className="custom-scrollbar" direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{ left: "xlarge", right: "xlarge" }} style={{ zoom: "0.92" }}>
-            {filter ?
-                projects[filter].map((project, idx) => <ProjectCard item={project} key={idx} />) :
-                Object.keys(projects).map(key => projects[key]).flat().map((project, idx) =>
-                    <ProjectCard item={project} key={idx} />
-                )}
-        </Box>
-    </React.Fragment>
-);
+const ProjectsList = ({ filter, search }) => {
+    const defaultState = Object.keys(projects).map(key => projects[key]).flat();
+    const [results, setResults] = useState(defaultState);
+
+    useEffect(() => {
+        if (filter.length) {
+            setResults(projects[filter]);
+        } else {
+            setResults(defaultState);
+        }
+    }, [filter]);
+
+    return (
+        <React.Fragment>
+            <Box className="custom-scrollbar" direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{ left: "xlarge", right: "xlarge" }} style={{ zoom: "0.92" }}>
+                {results
+                    .filter(project => project.name.toLowerCase().includes(search.toLowerCase()))
+                    .map((project, idx) => (
+                        <ProjectCard item={project} key={idx} />
+                    ))
+                }
+            </Box>
+        </React.Fragment>
+    )
+}
+    ;
 
 ProjectsList.propTypes = {
-    filter: PropTypes.string.isRequired
+    filter: PropTypes.string.isRequired,
+    search: PropTypes.string.isRequired,
 };
 
 export default ProjectsList;
