@@ -49,7 +49,6 @@ const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
             </Link>
             }
           </span>
-          <Button icon={<Github color="#ffffff" />} hoverIndicator href="https://github.com/jaazinn/zkr-app-directory/" target="_blank" margin={{right:"small"}}/>
         </div>
       </AppBar>
     </React.Fragment>
