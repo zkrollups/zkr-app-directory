@@ -5,7 +5,6 @@ import {
 } from 'grommet';
 import Menu from '../components/Menu';
 import Rollups from '../components/card-components/Rollups';
-import Mobile from '../components/card-components/Mobile';
 import Wallets from '../components/card-components/Wallets';
 import Infra from '../components/card-components/Infra';
 import Dapps from '../components/card-components/Dapps';
@@ -18,7 +17,6 @@ const All = ({ align, center, justify, name, pad, path, children }) => (
         <Menu/>
         <Box direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
           <Rollups/>
-          <Mobile/>
           <Wallets/>
           <Infra/>
           <Dapps/>
