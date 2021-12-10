@@ -13,73 +13,9 @@ import {
 } from 'grommet';
 import { Twitter, Language, GooglePlay, Apple } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
+import { projects } from '../../data/data';
 
-var arr = [
-    {
-    "name":"Numio",
-    "category":"Mobile",
-    "description":"Numio is a non-custodial Ethereum L2 (zkSync) wallet that lets you send, store, buy & swap tokens, interact with dApps and more. Available on Android & iOS.",
-    "imageLink":"url('project-logos/numio.jpg')",
-    "tooltip":"zkSync",
-    "twitterLink":"https://twitter.com/getnumio",
-    "websiteLink":"https://numio.one",
-    "googlePlay":"https://play.google.com/store/apps/details?id=com.numio.pay",
-    "appleStore":"https://apps.apple.com/us/app/numio/id1538072952",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
-    }, 
-
-    {
-    "name":"Loopring",
-    "category":"Mobile",
-    "description":"Loopring Wallet integrates Loopring's zkRollup, a layer-2 scaling protocol to increase speeds and lower fees.",
-    "imageLink":"url('project-logos/loopring.jpg')",
-    "tooltip":"Loopring",
-    "twitterLink":"https://twitter.com/loopringorg",
-    "websiteLink":"http://loopring.io/",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
-    }, 
-
-    {
-    "name":"imToken",
-    "category":"Mobile",
-    "description":"imToken is an easy and secure digital wallet trusted by millions.",
-    "imageLink":"url('project-logos/imtoken.jpg')",
-    "tooltip":"zkSync",
-    "twitterLink":"https://twitter.com/imTokenOfficial",
-    "websiteLink":"https://token.im/",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
-    }, 
-
-    {
-    "name":"ZKSwap",
-    "category":"Mobile",
-    "description":"ZK-Rollups based Layer-2 DEX with the AMM model.",
-    "imageLink":"url('project-logos/zkswap.jpg')",
-    "tooltip":"ZKSwap",
-    "twitterLink":"https://twitter.com/ZKSwapOfficial",
-    "websiteLink":"https://zks.org",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
-    }, 
-    
-    {
-    "name":"Argent",
-    "category":"Mobile",
-    "description":"Argent is the most simple and secure smart wallet for crypto. Store and send; earn interest and invest.",
-    "imageLink":"url('project-logos/argent.jpg')",
-    "tooltip":"zkSync, StarkNet",
-    "twitterLink":"https://twitter.com/argentHQ",
-    "websiteLink":"https://www.argent.xyz/",
-    "status":"BETA",
-    "statusColor":"#F4E532",
-    }, 
-
-];
-
-var renderedOutput = arr.map(item => 
+var renderedOutput = projects.mobile.map(item => 
     <React.Fragment>
     <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
         <CardHeader pad="large" background={item.imageLink}></CardHeader>

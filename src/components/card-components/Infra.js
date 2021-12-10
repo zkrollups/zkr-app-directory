@@ -13,22 +13,9 @@ import {
 } from 'grommet';
 import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
+import { projects } from '../../data/data';
 
-var arr = [
-    {
-    "name":"The Graph",
-    "category":"Infra",
-    "description":"The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.",
-    "imageLink":"url('project-logos/thegraph.jpg')",
-    "tooltip":"zkSync",
-    "twitterLink":"https://twitter.com/graphprotocol",
-    "websiteLink":"https://thegraph.com/",
-    "status":"SOON",
-    "statusColor":"#F4E532",
-    }, 
-];
-
-var renderedOutput = arr.map(item => 
+var renderedOutput = projects.infra.map(item => 
     <React.Fragment>
     <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
         <CardHeader pad="large" background={item.imageLink}></CardHeader>

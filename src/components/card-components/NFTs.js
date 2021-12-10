@@ -13,83 +13,9 @@ import {
 } from 'grommet';
 import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
+import { projects } from '../../data/data';
 
-var arr = [
-    {
-    "name":"zkNFT",
-    "category":"NFT",
-    "description":"Mint, explore, and swap NFTs for a fraction of Ethereum mainnet costs. zkSync makes transactions fast, cheap, and secure.",
-    "imageLink":"url('project-logos/zkNFT.jpg')",
-    "tooltip":"zkSync",
-    "twitterLink":"https://twitter.com/0xmons",
-    "websiteLink":"https://zknft.xyz/",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
-    }, 
-
-    {
-    "name":"zkPunks",
-    "category":"NFT",
-    "description":"zkPunks are 10,000 OG punk NFTs on zkSync. 10% donated to Ethereum scaling solutions through Gitcoin. Not affiliated with Larva Labs.",
-    "imageLink":"url('project-logos/zkpunks.jpg')",
-    "tooltip":"zkSync",
-    "twitterLink":"https://twitter.com/PunksZk",
-    "websiteLink":"#",
-    "status":"DEVELOPMENT",
-    "statusColor":"##",
-    }, 
-    
-    {
-    "name":"Dope Wars",
-    "category":"NFT",
-    "description":"The pursuit of money, power & respect in these NFT streets. Join the community, we're producing a game on Ethereum+StarkNet, inspired by the TI-83 classic",
-    "imageLink":"url('project-logos/dopewars.jpg')",
-    "tooltip":"StarkNet",
-    "twitterLink":"https://twitter.com/TheDopeWars",
-    "websiteLink":"https://dopewars.gg/",
-    "status":"LIVE",
-    "statusColor":"#30DE88",
-    },
-    
-   {
-    "name":"Briq",
-    "category":"NFT",
-    "description":"A system where NFTs made out of building blocks, Briqs, that combine to create other NFTs.",
-    "imageLink":"url('project-logos/briq.jpg')",
-    "tooltip":"StarkNet",
-    "twitterLink":"https://twitter.com/briqs_",
-    "websiteLink":"https://briq.construction/",
-    "status":"DEVELOPMENT",
-    "statusColor":"##",
-    },
-    
-    {
-    "name":"Influence",
-    "category":"NFT",
-    "description":"A grand strategy space MMO, backed by NFTs, set in a distant asteroid belt, and built on Ethereum.",
-    "imageLink":"url('project-logos/influence.jpg')",
-    "tooltip":"StarkNet",
-    "twitterLink":"https://twitter.com/influenceth",
-    "websiteLink":"https://www.influenceth.io/",
-    "status":"DEVELOPMENT",
-    "statusColor":"##",
-    },
-    
-     {
-    "name":"Loot",
-    "category":"NFT",
-    "description":"Stark Loot - A proposal to build next generation of Loot on a ZK Roll-up.",
-    "imageLink":"url('project-logos/loot.jpg')",
-    "tooltip":"StarkNet",
-    "twitterLink":"https://twitter.com/lootproject",
-    "websiteLink":"https://loot-talk.com/t/stark-loot-a-proposal-to-build-next-generation-of-loot-on-a-zk-roll-up/2077",
-    "status":"DEVELOPMENT",
-    "statusColor":"##",
-    },
-    
-];
-
-var renderedOutput = arr.map(item => 
+var renderedOutput = projects.nfts.map(item => 
     <React.Fragment>
     <Card height={{min:"small",max:"medium"}} width={{min:"small",max:"medium"}} background="light-1" margin="medium">
         <CardHeader pad="large" background={item.imageLink}></CardHeader>
