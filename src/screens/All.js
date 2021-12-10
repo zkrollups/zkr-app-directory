@@ -1,5 +1,5 @@
 import '../style.css';
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
   Box,
@@ -12,36 +12,16 @@ import Dapps from '../components/card-components/Dapps';
 import NFTs from '../components/card-components/NFTs';
 import Misc from '../components/card-components/Misc';
 import { grommet } from 'grommet';
+import ProjectsList from '../components/ProjectsList';
 
-const All = ({ align, center, justify, name, pad, path, children }) => (
+const All = () => {
+  const [filter, setFilter] = useState('');
+  return (
     <React.Fragment>
-        <Menu/>
-        <Box className="custom-scrollbar" direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
-          <Rollups/>
-          <Wallets/>
-          <Infra/>
-          <Dapps/>
-          <NFTs/>
-          <Misc/>
-        </Box>
+      <Menu setFilter={setFilter} filter={filter} />
+      <ProjectsList filter={filter} />
     </React.Fragment>
-);
-
-All.propTypes = {
-    align: PropTypes.string,
-    details: PropTypes.string,
-    label: PropTypes.string.isRequired,
-    level: PropTypes.number,
-    size: PropTypes.oneOf(['xlarge', 'large']),
-    summary: PropTypes.node,
-  };
-  
-  All.defaultProps = {
-    align: undefined,
-    details: undefined,
-    level: 1,
-    size: 'large',
-    summary: undefined,
-  };
+  )
+};
 
 export default All;
