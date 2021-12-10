@@ -8,7 +8,6 @@ import PageFooter from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import All from './screens/All';
 import Rollups from './screens/RollupsView';
-import MobileView from './screens/MobileView';
 import InfraView from './screens/InfraView';
 import WalletView from './screens/WalletView';
 import DappsView from './screens/DappsView';
@@ -45,7 +44,6 @@ class App extends Component {
                       <Route path='/' element={<All/>} />
                       <Route path='/all' element={<All/>} />
                       <Route path='/rollups' element={<Rollups/>} />
-                      <Route path='/mobile' element={<MobileView/>} />
                       <Route path='/wallets' element={<WalletView/>} />
                       <Route path='/infra' element={<InfraView/>} />
                       <Route path='/dapps' element={<DappsView/>} />
