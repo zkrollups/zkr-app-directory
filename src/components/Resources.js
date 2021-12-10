@@ -15,21 +15,21 @@ class Resources extends Component {
           Guides
         </Heading>
         <Paragraph style={{minWidth:"100%"}}>
-         An Incomplete Guide to Rollups - <Link to="https://vitalik.ca/general/2021/01/05/rollup.html">https://vitalik.ca/general/2021/01/05/rollup.html</Link> <br/><br/>
-        ZK-Rollups on EthHub - <Link to="https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/">https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/</Link> <br/><br/>
- What are zkRollups? - <Link to="https://www.numio.one/what-are-zkrollups/">https://www.numio.one/what-are-zkrollups/</Link> <br/><br/>
- The best comparison on zkRollups today - <Link to="https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups">https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups</Link> <br/><br/>
+         An Incomplete Guide to Rollups - <a href="https://vitalik.ca/general/2021/01/05/rollup.html" target='_blank'>https://vitalik.ca/general/2021/01/05/rollup.html</a> <br/><br/>
+        ZK-Rollups on EthHub - <a href="https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/" target='_blank'>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/</a> <br/><br/>
+ What are zkRollups? - <a href="https://www.numio.one/what-are-zkrollups/" target='_blank'>https://www.numio.one/what-are-zkrollups/</a> <br/><br/>
+ The best comparison on zkRollups today - <a href="https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" target='_blank'>https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups</a> <br/><br/>
  
  <Heading level="2" style={{paddingTop:"15px"}}>
          zkRollup Docs
         </Heading>
-        StarkNet and Cairo Documentation - <Link to="https://www.cairo-lang.org/docs/">https://www.cairo-lang.org/docs/</Link> <br/><br/>
-         Hermez network docs - <Link to="https://docs.hermez.io/#/">https://docs.hermez.io/#/</Link> <br/><br/>
-         Introduction to zkSync for Developers - <Link to="https://zksync.io/dev/">https://zksync.io/dev/</Link> <br/><br/>
-          Aztec Developer Docs - <Link to="https://developers.aztec.network/">https://developers.aztec.network/</Link> <br/><br/>
-          Loopring Developer Docs - <Link to="https://docs.loopring.io/en/">https://docs.loopring.io/en/</Link> <br/><br/>
-          zkTube Docs - <Link to="https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs">https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs</Link> <br/><br/>
-          ZKSwap Docs - <Link to="https://en.wiki.zks.org/">https://en.wiki.zks.org/</Link> <br/><br/>
+        StarkNet and Cairo Documentation - <a href="https://www.cairo-lang.org/docs/" target='_blank'>https://www.cairo-lang.org/docs/</a> <br/><br/>
+         Hermez network docs - <a href="https://docs.hermez.io/#/" target='_blank'>https://docs.hermez.io/#/</a> <br/><br/>
+         Introduction to zkSync for Developers - <a href="https://zksync.io/dev/" target='_blank'>https://zksync.io/dev/</a> <br/><br/>
+          Aztec Developer Docs - <a href="https://developers.aztec.network/" target='_blank'>https://developers.aztec.network/</a> <br/><br/>
+          Loopring Developer Docs - <a href="https://docs.loopring.io/en/" target='_blank'>https://docs.loopring.io/en/</a> <br/><br/>
+          zkTube Docs - <a href="https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs" target='_blank'>https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs</a> <br/><br/>
+          ZKSwap Docs - <a href="https://en.wiki.zks.org/" target='_blank'>https://en.wiki.zks.org/</a> <br/><br/>
         
  
 <Heading level="2" style={{paddingTop:"15px"}}>
