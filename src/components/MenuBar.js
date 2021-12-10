@@ -35,7 +35,7 @@ const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
           <span alignContent="center">
             {
             <Link to="/" style={{ textDecoration: 'none' , color: "white"}}>
-              <Button label="Directory" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+              <Button label="Home" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
             }
             {
