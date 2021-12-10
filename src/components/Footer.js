@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { 
     Button,
     Text,
@@ -7,7 +6,7 @@ import {
 } from 'grommet';
 import { Github, Twitter, Reddit } from 'grommet-icons';
 
-const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
+const PageFooter = () => (
   <Footer background="white" pad="xsmall" border={{ color: '#d3d3d3', size: 'xsmall' }}>
     <Text pad={{left:"medium"}} size="medium" style={{zoom:"90%", marginLeft:"15px"}}>
       Made w/&hearts; by&nbsp; 
@@ -25,22 +24,5 @@ const PageFooter = ({ align, center, justify, name, pad, path, children }) => (
     </div>
   </Footer>
 );
-
-PageFooter.propTypes = {
-    align: PropTypes.string,
-    details: PropTypes.string,
-    label: PropTypes.string.isRequired,
-    level: PropTypes.number,
-    size: PropTypes.oneOf(['xlarge', 'large']),
-    summary: PropTypes.node,
-  };
-  
- PageFooter.defaultProps = {
-    align: undefined,
-    details: undefined,
-    level: 1,
-    size: 'large',
-    summary: undefined,
-  };
 
 export default PageFooter;
