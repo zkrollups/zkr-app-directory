@@ -1,3 +1,4 @@
+import '../style.css';
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -15,7 +16,7 @@ import { grommet } from 'grommet';
 const All = ({ align, center, justify, name, pad, path, children }) => (
     <React.Fragment>
         <Menu/>
-        <Box direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
+        <Box className="custom-scrollbar" direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{left:"xlarge", right:"xlarge"}}  style={{zoom:"0.92"}}>
           <Rollups/>
           <Wallets/>
           <Infra/>
