@@ -26,6 +26,17 @@ var arr = [
     "status":"SOON",
     "statusColor":"#F4E532",
     }, 
+    {
+    "name":"Syscoin NEVM",
+    "category":"Infra",
+    "description":"Coordinated dual-chain EVM platform specifically designed to give zkRollups a Bitcoin auxpow settlement L1 enhanced with multi-quorum finality that resists MEV attacks & selfish mining.",
+    "imageLink":"url('project-logos/syscoin.jpg')",
+    "tooltip":"Syscoin NEVM",
+    "twitterLink":"https://twitter.com/syscoin",
+    "websiteLink":"https://syscoin.org/",
+    "status":"LIVE",
+    "statusColor":"#30DE88",
+    },
 ];
 
 var renderedOutput = arr.map(item => 
