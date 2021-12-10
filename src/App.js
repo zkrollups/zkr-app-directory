@@ -16,6 +16,7 @@ import Resources from './components/Resources';
 import About from './components/About';
 import MenuBar from './components/MenuBar';
 import MiscView from './screens/MiscView';
+import About from './components/About';
 
 const theme = {
   global: {
@@ -52,6 +53,7 @@ class App extends Component {
                       <Route path='/resources' element={<Resources/>} />
                       <Route path='/about' element={<About/>} />
                       <Route path='/misc' element={<MiscView/>} />
+                      <Route path='/about' element={<About/>} />
                     </Routes>
                 <PageFooter/>
               </BrowserRouter>
