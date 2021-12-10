@@ -1,13 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import {
   Box,
   Button,
   Heading,
 } from 'grommet';
-import { useLocation } from 'react-router-dom';
-
 
 const Menu = ({ setFilter, filter }) => {
   return (

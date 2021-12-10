@@ -1,16 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { 
     Button,
     Box,
     Heading,
 } from 'grommet';
-import { useLocation } from 'react-router-dom';
 import { Reddit } from 'grommet-icons';
 
 
-const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
+const MenuBar = () => {
   const AppBar = (props) => (
     <Box
       tag='header'
@@ -42,22 +40,5 @@ const MenuBar = ({ align, center, justify, name, pad, path, children }) => {
       </AppBar>
     </React.Fragment>
 )};
-
-MenuBar.propTypes = {
-    align: PropTypes.string,
-    details: PropTypes.string,
-    label: PropTypes.string.isRequired,
-    level: PropTypes.number,
-    size: PropTypes.oneOf(['xlarge', 'large']),
-    summary: PropTypes.node,
-  };
-  
- MenuBar.defaultProps = {
-    align: undefined,
-    details: undefined,
-    level: 1,
-    size: 'large',
-    summary: undefined,
-  };
 
 export default MenuBar;

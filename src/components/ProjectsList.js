@@ -1,18 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-    Heading,
-    Box,
-    Button,
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Text,
-    Paragraph,
-} from 'grommet';
-import { Twitter, Language } from 'grommet-icons';
-import ReactTooltip from 'react-tooltip';
+import { Box } from 'grommet';
 import { projects } from '../data/data';
 import ProjectCard from './ProjectCard';
 

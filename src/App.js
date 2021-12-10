@@ -7,14 +7,7 @@ import {
 import PageFooter from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import All from './screens/All';
-import Rollups from './screens/RollupsView';
-import InfraView from './screens/InfraView';
-import WalletView from './screens/WalletView';
-import DappsView from './screens/DappsView';
-import NFTsView from './screens/NFTsView';
-import Resources from './components/Resources';
 import MenuBar from './components/MenuBar';
-import MiscView from './screens/MiscView';
 
 const theme = {
   global: {
@@ -42,14 +35,6 @@ class App extends Component {
                 <MenuBar/>
                     <Routes>
                       <Route path='/' element={<All/>} />
-                      <Route path='/all' element={<All/>} />
-                      <Route path='/rollups' element={<Rollups/>} />
-                      <Route path='/wallets' element={<WalletView/>} />
-                      <Route path='/infra' element={<InfraView/>} />
-                      <Route path='/dapps' element={<DappsView/>} />
-                      <Route path='/nfts' element={<NFTsView/>} />
-                      <Route path='/resources' element={<Resources/>} />
-                      <Route path='/misc' element={<MiscView/>} />
                     </Routes>
                 <PageFooter/>
               </BrowserRouter>
