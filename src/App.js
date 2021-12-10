@@ -16,7 +16,6 @@ import Resources from './components/Resources';
 import About from './components/About';
 import MenuBar from './components/MenuBar';
 import MiscView from './screens/MiscView';
-import About from './components/About';
 
 const theme = {
   global: {
