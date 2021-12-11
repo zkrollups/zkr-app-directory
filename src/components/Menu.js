@@ -10,7 +10,7 @@ const Menu = ({ setFilter, filter }) => {
   return (
     <React.Fragment>
       <Heading level="2" margin="medium" alignSelf="center">zkRollup Ecosystem</Heading>
-      <Box margin={'auto'} direction="row" justify="between" gap="small">
+      <Box margin={'auto'} direction="row" justify="between" gap="small" style={{    overflowX: "auto", whiteSpace: "nowrap"}}>
         <Button label="All" onClick={() => setFilter('')} active={filter === ''} />
         <Button label="Rollups" onClick={() => setFilter('rollups')} active={filter === 'rollups'} />
         <Button label="Wallets" onClick={() => setFilter('wallets')} active={filter === 'wallets'} />
