@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import {
   Box,
   Heading,
@@ -31,9 +30,9 @@ class Resources extends Component {
           zkTube Docs - <a href="https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs" target='_blank'>https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs</a> <br/><br/>
           ZKSwap Docs - <a href="https://en.wiki.zks.org/" target='_blank'>https://en.wiki.zks.org/</a> <br/><br/>
 
-        <Heading level="2" style={{paddingTop:"15px"}}>
+        {/* <Heading level="2" style={{paddingTop:"15px"}}>
          GitHub Resources
-        </Heading>
+        </Heading> */}
        
         </Paragraph>
       </div>
