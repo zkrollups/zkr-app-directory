@@ -8,6 +8,8 @@ import PageFooter from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import All from './screens/All';
 import MenuBar from './components/MenuBar';
+import About from './components/About';
+import Resources from './components/Resources';
 
 const theme = {
   global: {
@@ -35,6 +37,8 @@ class App extends Component {
                 <MenuBar/>
                     <Routes>
                       <Route path='/' element={<All/>} />
+                      <Route path='/resources' element={<About/>} />
+                      <Route path='/about' element={<Resources/>} />
                     </Routes>
                 <PageFooter/>
               </BrowserRouter>
