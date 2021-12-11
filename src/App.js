@@ -37,8 +37,8 @@ class App extends Component {
                 <MenuBar/>
                     <Routes>
                       <Route path='/' element={<All/>} />
-                      <Route path='/resources' element={<About/>} />
-                      <Route path='/about' element={<Resources/>} />
+                      <Route path='/resources' element={<Resources/>} />
+                      <Route path='/about' element={<About/>} />
                     </Routes>
                 <PageFooter/>
               </BrowserRouter>

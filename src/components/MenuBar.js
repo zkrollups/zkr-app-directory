@@ -33,17 +33,17 @@ const MenuBar = () => {
           <span alignContent="center">
             {
             <Link to="/" style={{ textDecoration: 'none' , color: "white"}}>
-              <Button label="Home" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+              <Button label="Home" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
             }
             {
             <Link to="/resources" style={{ textDecoration: 'none' , color: "white"}}>
-              <Button label="Resources" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+              <Button label="Resources" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
             }
             {
             <Link to="/about" style={{ textDecoration: 'none' , color: "white"}}>
-              <Button label="About" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"-4px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+              <Button label="About" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
             }
           </span>
