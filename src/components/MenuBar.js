@@ -5,8 +5,6 @@ import {
     Box,
     Heading,
 } from 'grommet';
-import { Reddit } from 'grommet-icons';
-
 
 const MenuBar = () => {
   const AppBar = (props) => (

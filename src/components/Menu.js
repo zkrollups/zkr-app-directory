@@ -3,21 +3,19 @@ import PropTypes from 'prop-types';
 import {
   Box,
   Button,
-  Heading,
 } from 'grommet';
 
 const Menu = ({ setFilter, filter }) => {
   return (
     <React.Fragment>
-      <Heading level="2" margin="medium" alignSelf="center">zkRollup Ecosystem</Heading>
       <Box margin={'auto'} direction="row" justify="between" gap="small" style={{    overflowX: "auto", whiteSpace: "nowrap"}}>
-        <Button label="All" onClick={() => setFilter('')} active={filter === ''} />
-        <Button label="Rollups" onClick={() => setFilter('rollups')} active={filter === 'rollups'} />
-        <Button label="Wallets" onClick={() => setFilter('wallets')} active={filter === 'wallets'} />
-        <Button label="Infra" onClick={() => setFilter('infra')} active={filter === 'infra'} />
-        <Button label="dApps" onClick={() => setFilter('dApps')} active={filter === 'dApps'} />
-        <Button label="NFTs" onClick={() => setFilter('nfts')} active={filter === 'nfts'} />
-        <Button label="Misc" onClick={() => setFilter('misc')} active={filter === 'misc'} />
+        <Button label="All" onClick={() => setFilter('')} active={filter === ''} size='small' style={{borderRadius:"0.8em"}}/>
+        <Button label="Rollups" onClick={() => setFilter('rollups')} active={filter === 'rollups'} size='small'  style={{borderRadius:"0.8em"}}/>
+        <Button label="Wallets" onClick={() => setFilter('wallets')} active={filter === 'wallets'} size='small'  style={{borderRadius:"0.8em"}}/>
+        <Button label="Infra" onClick={() => setFilter('infra')} active={filter === 'infra'} size='small'  style={{borderRadius:"0.8em"}}/>
+        <Button label="dApps" onClick={() => setFilter('dApps')} active={filter === 'dApps'} size='small'  style={{borderRadius:"0.8em"}}/>
+        <Button label="NFTs" onClick={() => setFilter('nfts')} active={filter === 'nfts'} size='small'  style={{borderRadius:"0.8em"}}/>
+        <Button label="Misc" onClick={() => setFilter('misc')} active={filter === 'misc'} size='small'  style={{borderRadius:"0.8em"}}/>
       </Box>
     </React.Fragment>
   )

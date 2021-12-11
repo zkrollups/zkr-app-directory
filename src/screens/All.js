@@ -11,8 +11,8 @@ const All = () => {
   const [networkFilter, setNetworkFilter] = useState('');
   return (
     <React.Fragment>
-      <Menu setFilter={setFilter} filter={filter} />
       <SearchBar setSearch={setSearch} search={search} />
+      <Menu setFilter={setFilter} filter={filter} />
       <NetworkFilter setNetworkFilter={setNetworkFilter} networkFilter={networkFilter} />
       <ProjectsList filter={filter} search={search} networkFilter={networkFilter} />
     </React.Fragment>
