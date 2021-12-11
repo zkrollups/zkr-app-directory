@@ -13,6 +13,7 @@ import {
 } from 'grommet';
 import { Twitter, Language } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
+import {ReactComponent as Discord} from '../../img/discord.svg'
 
 var arr = [
     {
@@ -47,6 +48,7 @@ var arr = [
     "tooltip":"StarkNet",
     "twitterLink":"https://twitter.com/TheDopeWars",
     "websiteLink":"https://dopewars.gg/",
+    "discordLink":"https://discord.gg/CeQjYk6FtU",
     "status":"LIVE",
     "statusColor":"#30DE88",
     },
@@ -76,13 +78,14 @@ var arr = [
     },
     
      {
-    "name":"Loot",
+    "name":"Loot Realms",
     "category":"NFT",
-    "description":"Stark Loot - A proposal to build next generation of Loot on a ZK Roll-up.",
+    "description":"A MMOCCG (Massively Multiplayer on-chain composable game) of economics and Chivalry built on-top of ZK-STARKS. Earn resources, trade and conquer your enemies all on-chain.",
     "imageLink":"url('project-logos/loot.jpg')",
     "tooltip":"StarkNet",
-    "twitterLink":"https://twitter.com/lootproject",
-    "websiteLink":"https://loot-talk.com/t/stark-loot-a-proposal-to-build-next-generation-of-loot-on-a-zk-roll-up/2077",
+    "twitterLink":"https://twitter.com/LootRealms",
+    "websiteLink":"https://bibliothecaforloot.com/",
+    "discordLink":"https://discord.gg/YusUjchJeN",
     "status":"DEVELOPMENT",
     "statusColor":"##",
     },
@@ -110,6 +113,8 @@ var renderedOutput = arr.map(item =>
                 </Box>
             </div>
             <div>
+                {item.discordLink ? <Button icon={<Discord />} hoverIndicator href={item.discordLink} target="_blank"/> : ''}
+                
                 <Button icon={<Twitter color="black" />} hoverIndicator href={item.twitterLink} target="_blank"/>
                 <Button icon={<Language color="black" />} hoverIndicator href={item.websiteLink} target="_blank"/>
             </div>
