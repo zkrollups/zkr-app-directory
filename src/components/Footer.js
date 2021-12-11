@@ -1,7 +1,6 @@
 import React from 'react';
 import { 
     Button,
-    Text,
     Footer,
 } from 'grommet';
 import { Github, Twitter, Reddit } from 'grommet-icons';

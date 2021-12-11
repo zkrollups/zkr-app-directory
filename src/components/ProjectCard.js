@@ -27,7 +27,7 @@ const ProjectCard = ({ item }) => (
             </CardBody>
             <CardFooter pad={{ horizontal: "small" }} background="light-2">
                 <div style={{ zoom: "0.85" }}>
-                    <Box direction="row-responsive" align="center" alignContent="center" justify="center">
+                    <Box direction="row" align="center" alignContent="center" justify="center">
                         <Button primary label={item.status} color={item.statusColor} data-tip data-for={item.name} />
                         <ReactTooltip id={item.name} place="right" type="dark" effect="solid">
                             <Text>
