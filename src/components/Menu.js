@@ -9,7 +9,7 @@ import {
 const Menu = ({ setFilter, filter }) => {
   return (
     <React.Fragment>
-      <Heading level="2" margin="medium" alignSelf="center">zkRollup Ecosystem</Heading>
+      <Heading level="2" margin="medium" boolean="true" alignSelf="center">zkRollup Ecosystem</Heading>
       <Box margin={'auto'} direction="row" justify="between" gap="small">
         <Button label="All" onClick={() => setFilter('')} active={filter === ''} />
         <Button label="Rollups" onClick={() => setFilter('rollups')} active={filter === 'rollups'} />
