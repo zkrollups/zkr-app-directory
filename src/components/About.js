@@ -20,8 +20,10 @@ class Resources extends Component {
           About Us
         </Heading>
 
-          <a href="https://twitter.com/jaazinn" target='_blank'>Jason Garland</a> and <a href="https://twitter.com/joelkite" target='_blank'>Joel Kite</a> are Co-Founders of <a href="https://numio.one/" target='_blank'>Numio</a> and have been building on zkRollup technology since 2020. 
-                  
+          <a href="https://twitter.com/jaazinn" target='_blank'>Jason Garland</a> and <a href="https://twitter.com/joelkite" target='_blank'>Joel Kite</a> are Co-Founders of <a href="https://numio.one/" target='_blank'>Numio</a> and have been building on zkRollup technology since 2020. <br/><br/>
+
+          Huge credit to <a href="" target='_blank'>@0xEtherCake</a> for taking things to the next level with filters, enhanced design, and code improvements!
+
         </Paragraph>
       </div>
       </Box>
