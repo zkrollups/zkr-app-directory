@@ -509,6 +509,19 @@ dApps: [
       status: "SOON",
       statusColor: "#F4E532",
     },
+    {
+      name: "Syscoin NEVM",
+      category: "Infra",
+      description:
+        "Coordinated dual-chain EVM platform specifically designed to give zkRollups a Bitcoin auxpow settlement L1 enhanced with multi-quorum finality that resists MEV attacks & selfish mining.",
+      imageLink: "url('project-logos/syscoin.jpg')",
+      tooltip: "Syscoin NEVM",
+      networks: ["Syscoin NEVM"],
+      twitterLink: "hhttps://twitter.com/syscoin",
+      websiteLink: "https://syscoin.org/",
+      status: "DEVELOPMENT",
+      statusColor: "##",
+    },
   ],
   nfts: [
     {
