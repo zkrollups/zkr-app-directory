@@ -122,8 +122,7 @@ export const projects = {
     {
       name: "Polygon Zero",
       category: "zkRollup",
-      description:
-        "Polygon Zero is a highly-scalable, Ethereum-compatible ZK Rollup,",
+      description: "Polygon Zero is a highly-scalable, Ethereum-compatible ZK Rollup,",
       imageLink: "url('project-logos/polygonzero.jpg')",
       tooltip: "Polygon Zero",
       networks: ["polygon"],
@@ -131,6 +130,18 @@ export const projects = {
       websiteLink: "https://mirprotocol.org/",
       status: "DEVELOPMENT",
       statusColor: "##",
+    },
+    {
+      name: "Edgeswap",
+      category: "zkRollup",
+      description: "Edgeswap is an Ethereum-based (Layer 2) zkRollup Protocol.",
+      imageLink: "url('project-logos/edgeswap.jpg')",
+      tooltip: "Edgeswap",
+      networks: ["Edgeswap"],
+      twitterLink: "https://twitter.com/EdgeSwap",
+      websiteLink: "https://edgeswap.io/",
+      status: "TESTNET",
+      statusColor: "#F4B832",
     },
   ],
 wallets: [
