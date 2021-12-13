@@ -469,16 +469,15 @@ export const projects = {
       statusColor: "##",
     },
     {
-      name: "Loot",
+      name: "Loot Realms",
       category: "NFT",
       description:
-        "Stark Loot - A proposal to build next generation of Loot on a ZK Roll-up.",
+        "A MMOCCG (Massively Multiplayer on-chain composable game) of economics and Chivalry built on-top of ZK-STARKS. Earn resources, trade and conquer your enemies all on-chain.",
       imageLink: "url('project-logos/loot.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
-      twitterLink: "https://twitter.com/lootproject",
-      websiteLink:
-        "https://loot-talk.com/t/stark-loot-a-proposal-to-build-next-generation-of-loot-on-a-zk-roll-up/2077",
+      twitterLink: "https://twitter.com/LootRealms",
+      websiteLink: "https://bibliothecaforloot.com/",
       status: "DEVELOPMENT",
       statusColor: "##",
     },
