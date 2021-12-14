@@ -12,14 +12,27 @@ import {
     Paragraph,
     Avatar,
 } from 'grommet';
-import { Twitter, Language } from 'grommet-icons';
+import { Twitter, Language, Money } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 import { NETWORKS } from '../helpers';
 
 const ProjectCard = ({ item }) => (
     <React.Fragment>
-        <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium">
-            <CardHeader pad="large" background={item.imageLink}></CardHeader>
+        <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium" >
+            <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}}>
+                {item.tokenLink ? (
+                    <React.Fragment>
+                    <ReactTooltip id={item.name && "token"} place="right" type="dark" effect="solid">
+                        <Text>
+                            Has a Token: {item.tokenTicker}
+                        </Text>
+                    </ReactTooltip>
+                    <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name && "token"}>
+                        <Button icon={<Money color="gold" />} hoverIndicator href={item.tokenLink} target="_blank" />
+                    </Box>
+                    </React.Fragment>
+                ) : null}
+            </CardHeader>
             <CardBody pad="medium" align="center">
                 <Heading margin="none" size="small">{item.name}</Heading>
                 <Text margin="small" size="medium">{item.category}</Text>
