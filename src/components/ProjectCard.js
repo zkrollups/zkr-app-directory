@@ -24,7 +24,7 @@ const ProjectCard = ({ item }) => (
                     <React.Fragment>
                     <ReactTooltip id={item.name && "token"} place="right" type="dark" effect="solid">
                         <Text>
-                            Has a Token: {item.tokenTicker}
+                            Has a Token: ${item.tokenTicker}
                         </Text>
                     </ReactTooltip>
                     <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name && "token"}>
