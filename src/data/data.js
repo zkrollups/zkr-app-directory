@@ -360,8 +360,6 @@ export const projects = {
       networks: ["loopring"],
       twitterLink: "https://twitter.com/loopringorg",
       websiteLink: "http://loopring.io/",
-      tokenTicker: "LRC",
-      tokenLink: "https://coinmarketcap.com/currencies/loopring/",
       status: "LIVE",
       statusColor: "#30DE88",
     },
