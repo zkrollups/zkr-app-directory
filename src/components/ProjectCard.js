@@ -20,15 +20,15 @@ const ProjectCard = ({ item }) => (
     <React.Fragment>
         <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium" >
             <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}}>
-                {item.tokenLink ? (
+                {item.tokenStatus ? (
                     <React.Fragment>
-                    <ReactTooltip id={item.name && "token"} place="right" type="dark" effect="solid">
+                    <ReactTooltip id={item.name && item.tokenStatus} place="right" type="dark" effect="solid">
                         <Text>
-                            Has a Token: ${item.tokenTicker}
+                            { item.tokenStatus === "Has" ? ("Has a Token: $" + item.tokenTicker) : "Token Expected"}
                         </Text>
                     </ReactTooltip>
-                    <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name && "token"}>
-                        <Button icon={<Money color="gold" />} hoverIndicator href={item.tokenLink} target="_blank" />
+                    <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name && item.tokenStatus}>
+                        <Button icon={<Money color={item.tokenStatus === "Has" ? ("gold") : "grey"} />} hoverIndicator href={item.tokenLink ? (item.tokenLink) : null} target="_blank" />
                     </Box>
                     </React.Fragment>
                 ) : null}
