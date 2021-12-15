@@ -534,7 +534,7 @@ dApps: [
     {
       name: "Ramp",
       category: "Infra",
-      description: "Ramp lets everyone exchange currencies like USD, GBP, EUR with various crypto assets.",
+      description: "Ramp lets everyone exchange currencies like USD, GBP, EUR with various crypto assets on the zkSync network.",
       imageLink: "url('project-logos/ramp.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
