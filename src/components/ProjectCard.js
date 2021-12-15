@@ -8,6 +8,7 @@ import {
     CardHeader,
     CardBody,
     CardFooter,
+    Image,
     Text,
     Paragraph,
     Avatar,
@@ -20,7 +21,7 @@ const ProjectCard = ({ item }) => (
     <React.Fragment>
         <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium" >
             <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}}>
-                {/* {item.tokenStatus ? (
+                {item.tokenStatus ? (
                     <React.Fragment>
                     <ReactTooltip id={item.name + item.tokenStatus} place="right" type="dark" effect="solid">
                         <Text>
@@ -30,8 +31,14 @@ const ProjectCard = ({ item }) => (
                     <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name + item.tokenStatus}>
                         <Button icon={<Money color={item.tokenStatus === "Has" ? ("gold") : "grey"} />} hoverIndicator href={item.tokenLink ? (item.tokenLink) : null} target="_blank" />
                     </Box>
+
                     </React.Fragment>
-                ) : null} */}
+                ) : null}
+                {item.featured === 'featured' ? (
+                    <Box height='xsmall' style={{position:'absolute', top: '0px', left: '5px'}} >
+                        <Image src="/featured.svg" fit="contain" alt="React Logo" />
+                    </Box>
+                ) : null}
             </CardHeader>
             <CardBody pad="medium" align="center">
                 <Heading margin="none" size="small">{item.name}</Heading>

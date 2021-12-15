@@ -15,6 +15,7 @@ export const projects = {
       websiteLink: "https://zksync.io/",
       tokenStatus: "Expected",
       tokenLink: "https://zksync.io/faq/tokenomics.html",
+      // featured: "featured",
       status: "LIVE",
       statusColor: "#30DE88",
     },
