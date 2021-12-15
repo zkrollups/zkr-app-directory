@@ -557,6 +557,18 @@ dApps: [
       statusColor: "#F4E532",
     },
     {
+      name: "zkScan",
+      category: "Infra",
+      description: "zkScan is a Block Explorer and Analytics Platform for zkSync",
+      imageLink: "url('project-logos/zksync.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/zksync",
+      websiteLink: "https://zkscan.io/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+    {
       name: "Syscoin NEVM",
       category: "Infra",
       description:
