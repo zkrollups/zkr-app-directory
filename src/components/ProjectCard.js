@@ -22,12 +22,12 @@ const ProjectCard = ({ item }) => (
             <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}}>
                 {item.tokenStatus ? (
                     <React.Fragment>
-                    <ReactTooltip id={item.name && item.tokenStatus} place="right" type="dark" effect="solid">
+                    <ReactTooltip id={item.name + item.tokenStatus} place="right" type="dark" effect="solid">
                         <Text>
                             { item.tokenStatus === "Has" ? ("Has a Token: $" + item.tokenTicker) : "Token Expected"}
                         </Text>
                     </ReactTooltip>
-                    <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name && item.tokenStatus}>
+                    <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name + item.tokenStatus}>
                         <Button icon={<Money color={item.tokenStatus === "Has" ? ("gold") : "grey"} />} hoverIndicator href={item.tokenLink ? (item.tokenLink) : null} target="_blank" />
                     </Box>
                     </React.Fragment>
