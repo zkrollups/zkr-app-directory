@@ -578,7 +578,7 @@ dApps: [
       description: "zk.money is your app for managing your private assets. Today, you can shield and send DAI and ETH for confidential balances.",
       imageLink: "url('project-logos/aztec.jpg')",
       tooltip: "Aztec",
-      networks: ["Aztec"],
+      networks: ["aztec"],
       twitterLink: "https://twitter.com/aztecprotocol",
       websiteLink: "https://zk.money/",
        status: "LIVE",
