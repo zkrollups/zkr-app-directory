@@ -21,7 +21,7 @@ const ProjectCard = ({ item }) => (
     <React.Fragment>
         <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium" >
             <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}}>
-                {item.tokenStatus ? (
+                {/* {item.tokenStatus ? (
                     <React.Fragment>
                     <ReactTooltip id={item.name + item.tokenStatus} place="right" type="dark" effect="solid">
                         <Text>
@@ -33,7 +33,7 @@ const ProjectCard = ({ item }) => (
                     </Box>
 
                     </React.Fragment>
-                ) : null}
+                ) : null} */}
                 {item.featured === 'featured' ? (
                     <Box height='xsmall' style={{position:'absolute', top: '0px', left: '5px'}} >
                         <Image src="/featured.svg" fit="contain" alt="React Logo" />

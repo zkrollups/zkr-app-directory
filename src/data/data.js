@@ -2,6 +2,37 @@
 // use #30DE88 for LIVE, #F4E532 for SOON, #F4B832 for TESTNET
 // when adding projects take care with networks formatting, supported network values for now: zksync, starknet, starkware, polygon, loopring
 export const projects = {
+  featured: [
+    {
+      name: "zk.Money",
+      category: "Dapp",
+      description: "zk.money is your app for managing your private assets. Today, you can shield and send DAI and ETH for confidential balances.",
+      imageLink: "url('project-logos/aztec.jpg')",
+      tooltip: "Aztec",
+      networks: ["aztec"],
+      twitterLink: "https://twitter.com/aztecprotocol",
+      websiteLink: "https://zk.money/",
+      featured: "featured",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+    {
+      name: "Numio",
+      category: "Mobile Wallet",
+      description:
+        "Numio is a non-custodial Ethereum L2 (zkSync) wallet that lets you send, store, buy & swap tokens, interact with dApps and more. Available on Android & iOS.",
+      imageLink: "url('project-logos/numio.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/getnumio",
+      websiteLink: "https://numio.one",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.numio.pay",
+      appleStore: "https://apps.apple.com/us/app/numio/id1538072952",
+      featured: "featured",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+  ],
   rollups: [
     {
       name: "zkSync",
