@@ -43,7 +43,9 @@ const ProjectCard = ({ item }) => (
             </CardHeader>
             </a>
             <CardBody pad="medium" align="center">
-                <Heading margin="none" size="small">{item.name}</Heading>
+                <a href={item.websiteLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <Heading margin="none" size="small" color="black">{item.name}</Heading>
+                </a>
                 <Text margin="small" size="medium">{item.category}</Text>
                 <Paragraph margin="small" size="small">{item.description}</Paragraph>
             </CardBody>
