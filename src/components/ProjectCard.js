@@ -20,7 +20,8 @@ import { NETWORKS } from '../helpers';
 const ProjectCard = ({ item }) => (
     <React.Fragment>
         <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium" >
-            <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}}>
+            <a href={item.websiteLink} target="_blank" rel="noopener noreferrer">
+            <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}} >
                 {item.tokenStatus ? (
                     <React.Fragment>
                     <ReactTooltip id={item.name + item.tokenStatus} place="right" type="dark" effect="solid">
@@ -40,6 +41,7 @@ const ProjectCard = ({ item }) => (
                     </Box>
                 ) : null}
             </CardHeader>
+            </a>
             <CardBody pad="medium" align="center">
                 <Heading margin="none" size="small">{item.name}</Heading>
                 <Text margin="small" size="medium">{item.category}</Text>
