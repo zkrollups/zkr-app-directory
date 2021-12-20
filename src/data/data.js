@@ -781,6 +781,19 @@ dApps: [
       status: "DEVELOPMENT",
       statusColor: "##",
     },
+     {
+      name: "Boonji Project",
+      category: "NFT",
+      description:
+        "Boonji Project “The Discovery of Galaxy Joa” NFT airdrop on zkSync",
+      imageLink: "url('project-logos/boonji.jpg')",
+      tooltip: "zkSync",
+      networks: ["zkSync"],
+      twitterLink: "https://twitter.com/boonjiproject",
+      websiteLink: "https://www.boonjiproject.com/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
   ],
     misc: [
     {
