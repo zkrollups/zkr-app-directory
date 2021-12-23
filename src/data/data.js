@@ -706,7 +706,7 @@ dApps: [
       category: "Infra",
       description:
         "OKEx cryptocurrency exchange offers easy direct onboarding to StarkNet.",
-      imageLink: "url('project-logos/okex.png')",
+      imageLink: "url('project-logos/okex.jpeg')",
       tooltip: "Starkware",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/OKEx",
