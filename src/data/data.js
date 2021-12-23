@@ -701,6 +701,22 @@ dApps: [
       status: "DEVELOPMENT",
       statusColor: "##",
     },
+     {
+      name: "OKEx",
+      category: "Infra",
+      description:
+        "OKEx cryptocurrency exchange offers easy direct onboarding to StarkNet.",
+      imageLink: "url('project-logos/okex.png')",
+      tooltip: "Starkware",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/OKEx",
+      websiteLink: "https://www.okex.com",
+      tokenStatus: "Has",
+      tokenTicker: "OKB",
+      tokenLink: "https://www.coingecko.com/en/coins/okb",
+      status: "Development",
+      statusColor: "##",
+    },
   ],
   nfts: [
     {
