@@ -18,6 +18,7 @@ class Resources extends Component {
           ZK-Rollups on EthHub - <a href="https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/" rel="noopener noreferrer" target='_blank'>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/</a> <br/><br/>
           What are zkRollups? - <a href="https://www.numio.one/what-are-zkrollups/" rel="noopener noreferrer" target='_blank'>https://www.numio.one/what-are-zkrollups/</a> <br/><br/>
           The best comparison on zkRollups today - <a href="https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" rel="noopener noreferrer" target='_blank'>https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups</a> <br/><br/>
+          The Ultimate Guide to Rollups - <a href="https://jsidhu.medium.com/the-ultimate-guide-to-rollups-f8c075571770" rel="noopener noreferrer" target='_blank'>https://jsidhu.medium.com/the-ultimate-guide-to-rollups-f8c075571770</a> <br/><br/>
     
         <Heading level="2" style={{paddingTop:"15px"}}>
           zkRollup Docs
