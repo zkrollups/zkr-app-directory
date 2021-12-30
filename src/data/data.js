@@ -162,7 +162,7 @@ export const projects = {
         "Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.",
       imageLink: "url('project-logos/scroll.png')",
       tooltip: "Scroll",
-      networks: ["zksync"],
+      networks: [],
       twitterLink: "https://twitter.com/Scroll_ZKP",
       websiteLink: "https://scroll.tech/",
       status: "DEVELOPMENT",
