@@ -30,11 +30,6 @@ const MenuBar = () => {
         <div >
           <span alignContent="center">
             {
-            <Link to="/" style={{ textDecoration: 'none' , color: "white"}}>
-              <Button label="Home" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
-            </Link>
-            }
-            {
             <Link to="/feed" style={{ textDecoration: 'none' , color: "white"}}>
               <Button label="Feed" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
