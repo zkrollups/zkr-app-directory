@@ -210,9 +210,23 @@ export const projects = {
       tokenLink: "https://docs.zk.link/docs/FAQ",
       status: "TESTNET",
       statusColor: "#F4B832",
-    },
-    
-    
+      },
+     {
+      name: "ZKyber",
+      category: "zkRollup",
+      description:
+        "ZKyber is Kyber Networks experimental Zk-rollup Layer 2 product. ZKyber aims to build a DeFi-dedicated Zk-rollup that provides our users with a complete and professional system of financial tools.",
+      imageLink: "url('project-logos/zkyber.jpg')",
+      tooltip: "ZKyber",
+      networks: ["zkyber"],
+      twitterLink: "https://twitter.com/KyberNetwork",
+      websiteLink: "https://kyberswap.com/zkyber/",
+      tokenStatus: "Has",
+      tokenTicker: "KNC",
+      tokenLink: "https://www.coingecko.com/en/coins/kyber-network-crystal",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },        
   ],
 wallets: [
     {
@@ -642,6 +656,22 @@ dApps: [
       tokenLink: "https://docs.zk.link/docs/FAQ",
       status: "TESTNET",
       statusColor: "#F4B832",
+    },
+    {
+      name: "ZKyber",
+      category: "dapp",
+      description:
+        "The ZKyber DEX is a version of KyberNetworks KyberSwap DEX built on their zkRollup sulution.",
+      imageLink: "url('project-logos/zkyber.jpg')",
+      tooltip: "ZKyber",
+      networks: ["zkyber"],
+      twitterLink: "https://twitter.com/KyberNetwork",
+      websiteLink: "https://kyberswap.com/zkyber/",
+      tokenStatus: "Has",
+      tokenTicker: "KNC",
+      tokenLink: "https://www.coingecko.com/en/coins/kyber-network-crystal",
+      status: "LIVE",
+      statusColor: "#30DE88",
     },
     
   ],
