@@ -35,6 +35,11 @@ const MenuBar = () => {
             </Link>
             }
             {
+            <Link to="/feed" style={{ textDecoration: 'none' , color: "white"}}>
+              <Button label="Feed" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+            </Link>
+            }
+            {
             <Link to="/resources" style={{ textDecoration: 'none' , color: "white"}}>
               <Button label="Resources" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
