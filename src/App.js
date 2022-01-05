@@ -10,6 +10,7 @@ import All from './screens/All';
 import MenuBar from './components/MenuBar';
 import About from './components/About';
 import Resources from './components/Resources';
+import Twitter from './components/Twitter';
 
 const theme = {
   global: {
@@ -39,6 +40,7 @@ class App extends Component {
                       <Route path='/' element={<All/>} />
                       <Route path='/resources' element={<Resources/>} />
                       <Route path='/about' element={<About/>} />
+                      <Route path='/feed' element={<Twitter/>} />
                     </Routes>
                 <PageFooter/>
               </BrowserRouter>
