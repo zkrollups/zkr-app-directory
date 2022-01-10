@@ -80,13 +80,13 @@ export const projects = {
       statusColor: "#30DE88",
     },
     {
-      name: "ZKSwap",
+      name: "ZKSpace",
       category: "zkRollup",
       description: "ZK-Rollups based Layer-2 DEX with the AMM model.",
-      imageLink: "url('project-logos/zkswap.jpg')",
+      imageLink: "url('project-logos/zkspace.jpg')",
       tooltip: "ZKSwap",
       networks: ["zksync"],
-      twitterLink: "https://twitter.com/ZKSwapOfficial",
+      twitterLink: "https://twitter.com/ZKSpaceOfficial",
       websiteLink: "https://zks.org",
       tokenStatus: "Has",
       tokenTicker: "ZKS",
@@ -288,14 +288,14 @@ wallets: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
-    {
-      name: "ZKSwap",
+  {
+      name: "ZKSpace",
       category: "Mobile & Web Wallet",
       description: "ZK-Rollups based Layer-2 DEX with the AMM model.",
-      imageLink: "url('project-logos/zkswap.jpg')",
+      imageLink: "url('project-logos/zkspace.jpg')",
       tooltip: "ZKSwap",
       networks: ["zksync"],
-      twitterLink: "https://twitter.com/ZKSwapOfficial",
+      twitterLink: "https://twitter.com/ZKSpaceOfficial",
       websiteLink: "https://zks.org",
       tokenStatus: "Has",
       tokenTicker: "ZKS",
@@ -315,8 +315,7 @@ wallets: [
       websiteLink: "https://www.argent.xyz/",
       status: "BETA",
       statusColor: "#F4E532",
-    },
-  
+    },  
   ],
 dApps: [
     {
