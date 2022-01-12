@@ -16,7 +16,7 @@ export const projects = {
       status: "LIVE",
       statusColor: "#30DE88",
     },
-    {
+     {
       name: "StarkWare",
       category: "zkRollup",
       description:
@@ -160,7 +160,7 @@ export const projects = {
         "Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.",
       imageLink: "url('project-logos/scroll.png')",
       tooltip: "Scroll",
-      networks: [],
+      networks: ["zksync"],
       twitterLink: "https://twitter.com/Scroll_ZKP",
       websiteLink: "https://scroll.tech/",
       status: "DEVELOPMENT",
@@ -208,8 +208,8 @@ export const projects = {
       tokenLink: "https://docs.zk.link/docs/FAQ",
       status: "TESTNET",
       statusColor: "#F4B832",
-      },
-     {
+    },
+    {
       name: "ZKyber",
       category: "zkRollup",
       description:
@@ -224,7 +224,7 @@ export const projects = {
       tokenLink: "https://www.coingecko.com/en/coins/kyber-network-crystal",
       status: "LIVE",
       statusColor: "#30DE88",
-    },        
+    },
   ],
 wallets: [
     {
@@ -286,14 +286,14 @@ wallets: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
-  {
-      name: "ZKSpace",
+    {
+      name: "ZKSwap",
       category: "Mobile & Web Wallet",
       description: "ZK-Rollups based Layer-2 DEX with the AMM model.",
-      imageLink: "url('project-logos/zkspace.jpg')",
+      imageLink: "url('project-logos/zkswap.jpg')",
       tooltip: "ZKSwap",
       networks: ["zksync"],
-      twitterLink: "https://twitter.com/ZKSpaceOfficial",
+      twitterLink: "https://twitter.com/ZKSwapOfficial",
       websiteLink: "https://zks.org",
       tokenStatus: "Has",
       tokenTicker: "ZKS",
@@ -313,7 +313,20 @@ wallets: [
       websiteLink: "https://www.argent.xyz/",
       status: "BETA",
       statusColor: "#F4E532",
-    },  
+    },
+    {
+      name: "Argent X StarkNet Wallet",
+      category: "Web Wallet",
+      description:
+        "A StarkNet wallet for your Browser. Supports StarkNet Alpha on the Ethereum mainnet.",
+      imageLink: "url('project-logos/argentstarknet.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/argentHQ",
+      websiteLink: "https://www.argent.xyz/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
   ],
 dApps: [
     {
@@ -590,7 +603,7 @@ dApps: [
      {
       name: "zkSync Link",
       category: "Dapp",
-      description: "Create zkSync payment links,get paid in tokens",
+      description: "Tool to create zkSync payment links and get paid in tokens",
       imageLink: "url('project-logos/zksync.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
@@ -604,7 +617,7 @@ dApps: [
        {
       name: "zkMint",
       category: "Dapp",
-      description: "Minting tool to mint zkSync-supported tokens.",
+      description: "zkSync minting tool to mint zkSync-supported tokens.",
       imageLink: "url('project-logos/zksync.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
@@ -675,8 +688,8 @@ dApps: [
       category: "dapp",
       description: "With LayerSwap, you can send crypto from your crypto exchange account directly to Layer 2 networks without paying high Gas fees.",
       imageLink: "url('project-logos/layerswap.jpg')",
-      tooltip: "zkSync, Loopring",
-      networks: ["zksync", "loopring"],
+      tooltip: "zkSync",
+      networks: ["zksync"],
       twitterLink: "https://twitter.com/layerswap/",
       websiteLink: "https://www.layerswap.io/",
       status: "LIVE",
@@ -694,6 +707,45 @@ dApps: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
+    {
+      name: "mySwap",
+      category: "Dapp",
+      description:
+        "mySwap is an AMM built on top of Starknet (Ethereum L2).",
+      imageLink: "url('project-logos/myswap.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/mySwapxyz",
+      websiteLink: "https://www.myswap.xyz/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+     },
+     {
+      name: "suez.dev",
+      category: "Dapp",
+      description:
+        "Test the first bridge from ethereum GOERLI TESTNET to starknet - WARNING: any real Eth sent will be lost!",
+      imageLink: "url('project-logos/suez.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "N/A",
+      websiteLink: "https://suez.dev/",
+      status: "TESTNET",
+      statusColor: "#F4B832",
+    },
+    {
+      name: "Bibliotheca",
+      category: "Dapp",
+      description:
+        "Bibliotheca graphs Loot projects so you can see your progress in the LootVerse.",
+      imageLink: "url('project-logos/bibliotheca.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/lootgraph",
+      websiteLink: "https://bibliothecaforloot.com/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+     },
   ],
   infra: [
    {
@@ -707,19 +759,6 @@ dApps: [
       websiteLink: "https://ramp.network/",
       status: "LIVE",
       statusColor: "#30DE88",
-    },
-    {
-      name: "The Graph",
-      category: "Infra",
-      description:
-        "The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.",
-      imageLink: "url('project-logos/thegraph.jpg')",
-      tooltip: "zkSync",
-      networks: ["zksync"],
-      twitterLink: "https://twitter.com/graphprotocol",
-      websiteLink: "https://thegraph.com/",
-      status: "SOON",
-      statusColor: "#F4E532",
     },
     {
       name: "zkScan",
@@ -736,6 +775,32 @@ dApps: [
       statusColor: "#30DE88",
     },
      {
+      name: "The Graph",
+      category: "Infra",
+      description:
+        "The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.",
+      imageLink: "url('project-logos/thegraph.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/graphprotocol",
+      websiteLink: "https://thegraph.com/",
+      status: "SOON",
+      statusColor: "#F4E532",
+    },
+    {
+      name: "StarkTx Transaction Decoder",
+      category: "Infra",
+      description:
+        "The StarkTx Transaction Decoder is a StarkNet transaction analysis tool.",
+      imageLink: "url('project-logos/starkTx.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "N/A",
+      websiteLink: "https://starktx.info/",
+      status: "BETA",
+      statusColor: "#F4E532",
+     },
+     {
       name: "Syscoin NEVM",
       category: "Infra",
       description:
@@ -743,29 +808,13 @@ dApps: [
       imageLink: "url('project-logos/syscoin.jpg')",
       tooltip: "Syscoin NEVM",
       networks: ["Syscoin NEVM"],
-      twitterLink: "hhttps://twitter.com/syscoin",
+      twitterLink: "https://twitter.com/syscoin",
       websiteLink: "https://syscoin.org/",
       tokenStatus: "Has",
       tokenTicker: "SYS",
       tokenLink: "https://www.coingecko.com/en/coins/syscoin",
       status: "DEVELOPMENT",
-      statusColor: "##",
-    },
-     {
-      name: "OKEx",
-      category: "Infra",
-      description:
-        "OKEx cryptocurrency exchange offers easy direct onboarding to StarkNet.",
-      imageLink: "url('project-logos/okex.jpg')",
-      tooltip: "Starkware",
-      networks: ["starknet"],
-      twitterLink: "https://twitter.com/OKEx",
-      websiteLink: "https://www.okex.com",
-      tokenStatus: "Has",
-      tokenTicker: "OKB",
-      tokenLink: "https://www.coingecko.com/en/coins/okb",
-      status: "Development",
-      statusColor: "##",
+      statusColor: "#000000",
     },
   ],
   nfts: [
@@ -847,7 +896,7 @@ dApps: [
       status: "DEVELOPMENT",
       statusColor: "##",
     },
-     {
+    {
       name: "Boonji Project",
       category: "NFT",
       description:
@@ -860,7 +909,7 @@ dApps: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
-     {
+      {
       name: "Opensky",
       category: "NFT",
       description: "OpenSky lets you mint and transfer NFTs for a fraction of the cost on Ethereum. It uses zkSync, a scaling and privacy engine for Ethereum.",
@@ -869,6 +918,18 @@ dApps: [
       networks: ["zksync"],
       twitterLink: "https://twitter.com/blockblockio",
       websiteLink: "https://open-sky.vercel.app/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+     {
+      name: "Mint Square",
+      category: "NFT",
+      description: "Discover, Mint, Buy and Sell NFTs • Mint Square is an NFT Platform on Ethereum Layer 2 ZK Rollup",
+      imageLink: "url('project-logos/mintsquare.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/MintSquareNFT",
+      websiteLink: "https://mintsquare.io/",
       status: "LIVE",
       statusColor: "#30DE88",
     },
@@ -968,5 +1029,4 @@ dApps: [
       statusColor: "##",
     },
   ],
-
 };
