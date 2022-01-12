@@ -728,7 +728,6 @@ dApps: [
       imageLink: "url('project-logos/suez.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
-      twitterLink: "N/A",
       websiteLink: "https://suez.dev/",
       status: "TESTNET",
       statusColor: "#F4B832",
