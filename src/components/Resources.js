@@ -30,9 +30,10 @@ class Resources extends Component {
           zkTube Docs - <a href="https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs" rel="noopener noreferrer" target='_blank'>https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs</a> <br/><br/>
           ZKSwap Docs - <a href="https://en.wiki.zks.org/" rel="noopener noreferrer" target='_blank'>https://en.wiki.zks.org/</a> <br/><br/>
 
-        {/* <Heading level="2" style={{paddingTop:"15px"}}>
-         GitHub Resources
-        </Heading> */}
+       <Heading level="2" style={{paddingTop:"15px"}}>
+          Community Resources
+        </Heading>
+          Awesome StarkNet: A curated list of awesome StarkNet resources, libraries, tools and more - <a href="https://github.com/gakonst/awesome-starknet" rel="noopener noreferrer" target='_blank'>https://github.com/gakonst/awesome-starknet</a> <br/><br/>
        
         </Paragraph>
       </div>
