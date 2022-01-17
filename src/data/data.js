@@ -771,8 +771,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "SIG",
       tokenLink: "https://www.coingecko.com/en/coins/xsigma",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "DEVELOPMENT",
+      statusColor: "##",
      },
   ],
   infra: [
