@@ -324,8 +324,8 @@ wallets: [
       networks: ["zksync"],
       twitterLink: "https://twitter.com/argentHQ",
       websiteLink: "https://www.argent.xyz/",
-      status: "BETA",
-      statusColor: "#F4E532",
+      status: "LIVE",
+      statusColor: "#30DE88",
     },
     {
       name: "Argent X StarkNet Wallet",
