@@ -359,7 +359,7 @@ dApps: [
       statusColor: "#30DE88",
     },
     {
-      name: "dydx",
+      name: "dYdX",
       category: "Dapp & Rollup",
       description:
         "Trade Perpetual Contracts with low fees, deep liquidity, and up to 25× leverage.",
