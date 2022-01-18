@@ -587,9 +587,9 @@ dApps: [
       statusColor: "#000000",
     },
     {
-      name: "StarkVote",
+      name: "Snapshot X",
       category: "Dapp",
-      description: "Decentralized Trusted voting on Starknet by Snapshot Labs.",
+      description: "Snapshot X is a voting framework built on StarkNet, the layer 2 ZK-Rollup. It will allow any DAO to run their governance on-chain on layer 2 and execute transactions on Ethereum.",
       imageLink: "url('project-logos/snapshot.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
