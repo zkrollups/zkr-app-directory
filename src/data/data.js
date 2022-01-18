@@ -388,7 +388,7 @@ dApps: [
       statusColor: "#30DE88",
     },
     {
-      name: "Immutable",
+      name: "Immutable X",
       category: "Dapp & Rollup",
       description:
         "Ethereum NFT scaling platform. Zero gas fees, 9K TPS & 100% carbon neutral.",
