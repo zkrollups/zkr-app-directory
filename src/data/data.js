@@ -12,7 +12,7 @@ export const projects = {
       tooltip: "StarkNet",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/StarkWareLtd",
-      websiteLink: "https://starkware.co/starkex/",
+      websiteLink: "https://starkware.co/starknet/",
       featured: "featured",
       status: "LIVE",
       statusColor: "#30DE88",
