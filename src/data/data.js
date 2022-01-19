@@ -1150,5 +1150,18 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+     {
+      name: "StarkNet Cairo 101",
+      category: "Misc",
+      description:
+        "Get started with Cairo with this simple tutorial. Complete the puzzles, get points and learn about StarkNet smart contracts!",
+      imageLink: "url('project-logos/github.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://github.com/l-henri/starknet-cairo-101",
+      twitterLink: "https://twitter.com/HenriLieutaud",
+      status: "DEV",
+      statusColor: "#000000",
+    },  
   ],
 };
