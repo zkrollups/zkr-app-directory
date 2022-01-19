@@ -388,22 +388,6 @@ dApps: [
       statusColor: "#30DE88",
     },
     {
-      name: "Immutable X",
-      category: "Dapp & Rollup",
-      description:
-        "Ethereum NFT scaling platform. Zero gas fees, 9K TPS & 100% carbon neutral.",
-      imageLink: "url('project-logos/immutable.png')",
-      tooltip: "StarkEx",
-      networks: ["starkex"],
-      twitterLink: "https://twitter.com/Immutable",
-      websiteLink: "https://www.immutable.com/",
-      tokenStatus: "Has",
-      tokenTicker: "IMX",
-      tokenLink: "https://www.coingecko.com/en/coins/imx",
-      status: "LIVE",
-      statusColor: "#30DE88",
-    },
-    {
       name: "Curve",
       category: "Dapp",
       description:
@@ -889,6 +873,22 @@ dApps: [
   ],
   nfts: [
     {
+      name: "Immutable X",
+      category: "NFT",
+      description:
+        "Ethereum NFT scaling platform. Zero gas fees, 9K TPS & 100% carbon neutral.",
+      imageLink: "url('project-logos/immutable.png')",
+      tooltip: "StarkEx",
+      networks: ["starkex"],
+      twitterLink: "https://twitter.com/Immutable",
+      websiteLink: "https://www.immutable.com/",
+      tokenStatus: "Has",
+      tokenTicker: "IMX",
+      tokenLink: "https://www.coingecko.com/en/coins/imx",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+    {
       name: "zkNFT",
       category: "NFT",
       description:
@@ -935,7 +935,7 @@ dApps: [
       imageLink: "url('project-logos/briq.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
-      twitterLink: "https://twitter.com/briqs_",
+      twitterLink: "https://twitter.com/briqNFT",
       websiteLink: "https://briq.construction/",
       status: "DEV",
       statusColor: "#000000",
