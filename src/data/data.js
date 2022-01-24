@@ -784,19 +784,6 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
      },
-  {
-      name: "Yagi Finance",
-      category: "Dapp",
-      description:
-        "Yagi is a network of keepers on StarkNet L2 that automate protocol actions.",
-      imageLink: "url('project-logos/yagi.jpg')",
-      tooltip: "StarkNet",
-      networks: ["starknet"],
-      twitterLink: "https://twitter.com/yagi_fi",
-      websiteLink: "https://yagi.fi/",
-      status: "DEV",
-      statusColor: "#000000",
-     },
   ],
   infra: [
    {
@@ -895,6 +882,19 @@ dApps: [
       websiteLink: "https://voyager.online/",
       status: "LIVE",
       statusColor: "#30DE88",
+     },
+     {
+      name: "Yagi Finance",
+      category: "Infra",
+      description:
+        "Yagi is a network of keepers on StarkNet L2 that automate protocol actions.",
+      imageLink: "url('project-logos/yagi.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/yagi_fi",
+      websiteLink: "https://yagi.fi/",
+      status: "DEV",
+      statusColor: "#000000",
      },
        {
       name: "Warp",
