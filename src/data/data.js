@@ -1054,6 +1054,18 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+     {
+      name: "Oasis",
+      category: "NFT",
+      description: "Oasis is an NFT marketplace powered by StarkNet.Make offers and list nfts with near zero gas fees. Deploy your nft collection on starknet and oasis.",
+      imageLink: "url('project-logos/oasis.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/playoasisXYZ",
+      websiteLink: "https://testnet.playoasis.xyz/",
+     status: "TESTNET",
+      statusColor: "#F4B832",
+    },
   ],
     misc: [
     {
