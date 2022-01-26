@@ -277,7 +277,7 @@ wallets: [
         "Loopring Wallet integrates Loopring's zkRollup, a layer-2 scaling protocol to increase speeds and lower fees.",
       imageLink: "url('project-logos/loopring.jpg')",
       tooltip: "Loopring",
-      networks: ["loppring"],
+      networks: ["loopring"],
       twitterLink: "https://twitter.com/loopringorg",
       websiteLink: "http://loopring.io/",
       tokenStatus: "Has",
