@@ -1012,7 +1012,7 @@ dApps: [
         "Boonji Project “The Discovery of Galaxy Joa” NFT airdrop on zkSync",
       imageLink: "url('project-logos/boonji.jpg')",
       tooltip: "zkSync",
-      networks: ["zkSync"],
+      networks: ["zksync"],
       twitterLink: "https://twitter.com/boonjiproject",
       websiteLink: "https://www.boonjiproject.com/",
       status: "LIVE",
