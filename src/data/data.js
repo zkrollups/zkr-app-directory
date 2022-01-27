@@ -1067,7 +1067,22 @@ dApps: [
       statusColor: "#F4B832",
     },
   ],
-    misc: [
+  daos: [
+    {
+      name: "zkDAO",
+      category: "DAO",
+      description:
+        "zkDAO is a decentralized organization dedicated to expanding the zkSync ecosystem through active funding across numerous verticals.",
+      imageLink: "url('project-logos/zkdao.png')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/0xmons",
+      websiteLink: "https://zkdao.io/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+    ],
+ misc: [
     {
       name: "Physics puzzle on StarkNet",
       category: "Misc",
