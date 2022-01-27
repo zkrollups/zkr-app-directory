@@ -1071,12 +1071,11 @@ dApps: [
     {
       name: "zkDAO",
       category: "DAO",
-      description:
-        "zkDAO is a decentralized organization dedicated to expanding the zkSync ecosystem through active funding across numerous verticals.",
+      description: "zkDAO is a decentralized organization dedicated to expanding the zkSync ecosystem through active funding across numerous verticals.",
       imageLink: "url('project-logos/zkdao.png')",
       tooltip: "zkSync",
       networks: ["zksync"],
-      twitterLink: "https://twitter.com/0xmons",
+      twitterLink: "https://twitter.com/zkdao_official",
       websiteLink: "https://zkdao.io/",
       status: "LIVE",
       statusColor: "#30DE88",
