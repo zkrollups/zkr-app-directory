@@ -343,6 +343,22 @@ wallets: [
   ],
 dApps: [
     {
+      name: "zkLend",
+      category: "Dapp & Rollup",
+      description:
+        "zkLend is an L2 money-market protocol built on StarkNet, combining zk-rollup scalability, superior transaction speed, and cost-savings with Ethereum's security.",
+      imageLink: "url('project-logos/zkLend.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/zkLend",
+      websiteLink: "https://zklend.com",
+      tokenStatus: "Expected",
+      tokenTicker: "ZEND",
+      tokenLink: "https://zklend.com",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
       name: "DeversiFi",
       category: "Dapp",
       description:
@@ -1239,7 +1255,7 @@ dApps: [
       twitterLink: "https://twitter.com/HenriLieutaud",
       status: "DEV",
       statusColor: "#000000",
-    }, 
+    },
       {
       name: "Starknet Storage Verifier",
       category: "Misc",
