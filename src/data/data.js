@@ -784,6 +784,38 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
      },
+   {
+      name: "Celer Network",
+      category: "Dapp",
+      description:
+        "Celer Network is a layer-2 scaling platform that brings fast, secure and low-cost blockchain applications to Ethereum.",
+      imageLink: "url('project-logos/celer.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/CelerNetwork",
+      websiteLink: "https://cbridge.celer.network/#/transfer",
+       tokenStatus: "Has",
+      tokenTicker: "CELR",
+      tokenLink: "https://www.coingecko.com/en/coins/celer-network",
+       status: "DEV",
+      statusColor: "#000000",
+     },
+     {
+      name: "Composable Finance",
+      category: "Dapp",
+      description:
+        "A robust cross-chain & cross-layer infrastructure with intuitive tools for DeFi devs.",
+      imageLink: "url('project-logos/composable.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/ComposableFin",
+      websiteLink: "https://www.composable.finance/",
+       tokenStatus: "Expected",
+      tokenTicker: "LAYR",
+      tokenLink: "https://docs.composable.finance/governance-and-tokenomics/layr-tokens",
+       status: "DEV",
+      statusColor: "#000000",
+     },
   ],
   infra: [
    {
