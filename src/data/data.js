@@ -801,6 +801,19 @@ dApps: [
       statusColor: "#000000",
      },
      {
+      name: "Element Finance",
+      category: "Dapp",
+      description:
+        "Element Finance is an open source protocol for fixed and variable yield markets.",
+      imageLink: "url('project-logos/element.jpg')",
+      tooltip: "Aztec",
+      networks: ["aztec"],
+      twitterLink: "https://twitter.com/element_fi",
+      websiteLink: "https://www.element.fi/",
+       status: "DEV",
+      statusColor: "#000000",
+     },
+     {
       name: "Composable Finance",
       category: "Dapp",
       description:
