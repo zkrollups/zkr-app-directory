@@ -730,19 +730,6 @@ dApps: [
       status: "TESTNET",
       statusColor: "#F4B832",
     },
-    {
-      name: "Bibliotheca",
-      category: "Dapp",
-      description:
-        "Bibliotheca graphs Loot projects so you can see your progress in the LootVerse.",
-      imageLink: "url('project-logos/bibliotheca.jpg')",
-      tooltip: "StarkNet",
-      networks: ["starknet"],
-      twitterLink: "https://twitter.com/lootgraph",
-      websiteLink: "https://bibliothecaforloot.com/",
-      status: "LIVE",
-      statusColor: "#30DE88",
-     },
      {
       name: "UniSync",
       category: "Dapp",
@@ -1002,6 +989,19 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+     {
+      name: "Bibliotheca",
+      category: "NFT",
+      description:
+        "Bibliotheca graphs Loot projects so you can see your progress in the LootVerse.",
+      imageLink: "url('project-logos/bibliotheca.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/lootgraph",
+      websiteLink: "https://bibliothecaforloot.com/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+     },
     {
       name: "Dope Wars",
       category: "NFT",
