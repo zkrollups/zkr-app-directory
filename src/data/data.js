@@ -1114,6 +1114,19 @@ dApps: [
      status: "TESTNET",
       statusColor: "#F4B832",
     },
+    {
+      name: "GameStop",
+      category: "NFT",
+      description:
+        "GameStop has partnered with the StarkEx powered Immutable platform to launch their NFT marketplace.",
+      imageLink: "url('project-logos/gamestop.jpg')",
+      tooltip: "StarkEx",
+      networks: ["starkex"],
+      twitterLink: "https://twitter.com/GameStop",
+      websiteLink: "https://www.gamestop.com/",
+       status: "DEV",
+      statusColor: "#000000",
+    },
   ],
   daos: [
     {
