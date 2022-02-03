@@ -1123,7 +1123,7 @@ dApps: [
       tooltip: "StarkEx",
       networks: ["starkex"],
       twitterLink: "https://twitter.com/GameStop",
-      websiteLink: "https://www.gamestop.com/",
+      websiteLink: "https://nft.gamestop.com/",
        status: "DEV",
       statusColor: "#000000",
     },
