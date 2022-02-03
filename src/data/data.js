@@ -175,7 +175,7 @@ export const projects = {
       tooltip: "Scroll",
       networks: ["scroll"],
       twitterLink: "https://twitter.com/Scroll_ZKP",
-      websiteLink: "https://scroll.tech/",
+      websiteLink: "https://scroll.io/",
       status: "DEV",
       statusColor: "#000000",
     },
