@@ -461,8 +461,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "MUTE",
       tokenLink: "https://www.coingecko.com/en/coins/mute",
-      status: "LIVE",
-      statusColor: "#30DE88",
+       status: "TESTNET",
+      statusColor: "#F4B832",
     },
     {
       name: "Storj",
