@@ -235,8 +235,8 @@ export const projects = {
       tokenStatus: "Has",
       tokenTicker: "KNC",
       tokenLink: "https://www.coingecko.com/en/coins/kyber-network-crystal",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "TESTNET",
+      statusColor: "#F4B832",
     },
   ],
 wallets: [
@@ -677,8 +677,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "KNC",
       tokenLink: "https://www.coingecko.com/en/coins/kyber-network-crystal",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "TESTNET",
+      statusColor: "#F4B832",
     },
     {
       name: "LayerSwap",
