@@ -999,8 +999,8 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "https://twitter.com/TheDopeWars",
       websiteLink: "https://dopewars.gg/",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "DEV",
+      statusColor: "#000000",
     },
     {
       name: "Briq",
