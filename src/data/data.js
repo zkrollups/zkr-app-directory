@@ -714,8 +714,8 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "https://twitter.com/mySwapxyz",
       websiteLink: "https://www.myswap.xyz/",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "TESTNET",
+      statusColor: "#F4B832",
      },
      {
       name: "suez.dev",
