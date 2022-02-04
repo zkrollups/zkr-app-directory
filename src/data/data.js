@@ -756,8 +756,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "SIG",
       tokenLink: "https://www.coingecko.com/en/coins/xsigma",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "DEV",
+      statusColor: "#000000",
      },
       {
       name: "JediSwap",
@@ -858,8 +858,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "GRT",
       tokenLink: "https://www.coingecko.com/en/coins/the-graph",
-      status: "SOON",
-      statusColor: "#F4E532",
+      status: "Dev",
+      statusColor: "#000000",
     },
     {
       name: "StarkTx Transaction Decoder",
@@ -871,8 +871,8 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "N/A",
       websiteLink: "https://starktx.info/",
-      status: "BETA",
-      statusColor: "#F4E532",
+      status: "Live",
+      statusColor: "#30DE88",
      },
      {
       name: "Syscoin NEVM",
