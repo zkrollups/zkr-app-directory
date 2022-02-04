@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
 Box,
 Grommet,
@@ -11,13 +11,16 @@ TableRow,
 Text,
 } from 'grommet';
 
-import { grommet } from 'grommet/themes';
-import { data, columns } from './data';
-export const Default = () => (
+// import { grommet } from 'grommet/themes';
+// import { data, columns } from './data';
 
-<Table>
- <Grommet theme={grommet}>
-    <Box align="center" pad="large">
+class TokenTable extends Component {
+  render() {
+    return (
+
+
+
+<Box align="center" pad="large">
 <Table caption="Default Table">
   <TableHeader>
     <TableRow>
@@ -61,7 +64,7 @@ export const Default = () => (
   </TableBody>
 </Table>
 </Box>
-</Grommet>;
 
-);
-export default;
+)}}
+
+export default TokenTable;
