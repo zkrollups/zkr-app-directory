@@ -960,7 +960,7 @@ dApps: [
       name: "Banxa",
       category: "Infra",
       description:
-        "Banxa Holdings Inc is the world's fastest-growing, public, payment service provider (PSP) for the digital assets industry",
+        "Direct fiat purchasing for a range of L2 protocols including zkSync, Loopring and StarkNet.",
       imageLink: "url('project-logos/banxa.jpg')",
       tooltip: "zkSync, StarkNet, Loopring",
       networks: ["zksync", "starknet", "loopring"],
