@@ -817,6 +817,43 @@ dApps: [
        status: "DEV",
       statusColor: "#000000",
      },
+     {
+      name: "StarkSwap",
+      category: "Dapp",
+      description:
+        "Next generation DeFi powered by public ZK-Rollup technology",
+      imageLink: "url('project-logos/starkswap.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/starkswap",
+      websiteLink: "https://github.com/Starkswap",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "Serity",
+      category: "Dapp",
+      description:
+        "Serity is a community-owned protocol powering the creation and trading of yield-backed synthetic assets.",
+      imageLink: "url('project-logos/serity.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://serity.finance/",
+      twitterLink: "https://twitter.com/SerityFinance",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "ZKX",
+      category: "Dapp",
+      description:
+        "A perpetual swaps exchange optimized for off-chain asset trading and gamified user experience. Currently in stealth mode.",
+      imageLink: "url('project-logos/zkx.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
   infra: [
    {
@@ -920,6 +957,19 @@ dApps: [
       statusColor: "#30DE88",
      },
      {
+      name: "Banxa",
+      category: "Infra",
+      description:
+        "Banxa Holdings Inc is the world's fastest-growing, public, payment service provider (PSP) for the digital assets industry",
+      imageLink: "url('project-logos/banxa.jpg')",
+      tooltip: "zkSync, StarkNet, Loopring",
+      networks: ["zksync", "starknet", "loopring"],
+      twitterLink: "https://twitter.com/BanxaOfficial",
+      websiteLink: "https://banxa.com/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+     },
+     {
       name: "Yagi Finance",
       category: "Infra",
       description:
@@ -945,6 +995,19 @@ dApps: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
+    {
+      name: "Sandclock",
+      category: "Infra",
+      description:
+        "Sandclock is building the tooling that will leverage crosschain {DeFi strategies with built-in insurance, payment rails, and novel governance and tokenomics models} to enable seamless transfer of value across the web.",
+      imageLink: "url('project-logos/sandclock.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/SandclockOrg",
+      websiteLink: "https://www.sandclock.org/",
+      status: "DEV",
+      statusColor: "#000000",
+     },
   ],
   nfts: [
     {
@@ -1142,6 +1205,19 @@ dApps: [
       status: "LIVE",
       statusColor: "#30DE88",
      },
+     {
+      name: "FujiDAO",
+      category: "DAO",
+      description:
+        "Fuji is a protocol that aims to optimize loan expenses for DeFi users. It achieves this by monitoring the borrowing markets and whenever there is a better rate, it refinances the debt its users. ",
+      imageLink: "url('project-logos/fujidao.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/FujiFinance",
+      websiteLink: "https://www.fujidao.org/#/",
+      status: "DEV",
+      statusColor: "#000000",
+     },
     ],
  misc: [
     {
@@ -1325,6 +1401,58 @@ dApps: [
       networks: ["starknet"],
       websiteLink: "https://zorro.xyz/",
       twitterLink: "https://twitter.com/ZorroProtocol",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "StarknetFractals",
+      category: "Misc",
+      description:
+        "Generating the mandelbrot set on Starknet. Computes a 100x100 mandelbrot plot and stores necessary data to recontruct it onchain in 100 storage felts.",
+      imageLink: "url('project-logos/github.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://github.com/Orland0x/StarknetFractals",
+      twitterLink: "",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+     {
+      name: "starknet-rs",
+      category: "Misc",
+      description:
+        "StarkNet-rs is a complete StarkNet library in Rust by xJonathanLEI.",
+      imageLink: "url('project-logos/starknetrs.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://crates.io/crates/starknet",
+      twitterLink: "https://twitter.com/xJonathanLEI",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "starknet-js",
+      category: "Misc",
+      description:
+        "StarkNet-js is a JavaScript library for StarkNet by Sean.",
+      imageLink: "url('project-logos/github.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://github.com/0xs34n/starknet.js",
+      twitterLink: "https://twitter.com/0xs34n",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "starknet.py",
+      category: "Misc",
+      description:
+        "A StarkNet SDK for Python by Software Mansion",
+      imageLink: "url('project-logos/starknetpy.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://github.com/software-mansion/starknet.py",
+      twitterLink: "",
       status: "DEV",
       statusColor: "#000000",
     },
