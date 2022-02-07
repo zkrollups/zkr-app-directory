@@ -854,6 +854,20 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+   {
+      name: "ZkPad",
+      category: "Dapp",
+      description:
+        "ZkPad is the first secured Launchpad on zkRollups. We aim to bring sustainable liquidity to projects building on StarkNet and zkSync.",
+      imageLink: "url('project-logos/zkpad.jpg')",
+      tooltip: "zkSync, StarkNet",
+      networks: ["zksync", "starknet"],
+      websiteLink: "https://zkpadfi.medium.com/zkpad-to-empower-starkware-protocols-6325e757a452",
+      twitterLink: "https://twitter.com/ZKPadfi",
+      tokenStatus: "Expected",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
   infra: [
    {
