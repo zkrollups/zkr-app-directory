@@ -768,9 +768,9 @@ dApps: [
       tooltip: "StarkNet",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/JediSwap",
-      websiteLink: "https://beta.mesh.finance/",
-      status: "DEV",
-      statusColor: "#000000",
+      websiteLink: "https://app.testnet.jediswap.xyz/#/swap",
+      status: "TESTNET",
+      statusColor: "#F4B832",
     },
     { 
       name: "Element Finance",
