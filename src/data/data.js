@@ -125,7 +125,7 @@ export const projects = {
       name: "Aztec",
       category: "zkRollup",
       description:
-        "Aztec is an open source Layer 2 network bringing scalability and privacy too Ethereum. Aztec uses zkSNARK proofs to provide privacy and scaling.",
+        "Aztec is an open source Layer 2 network bringing scalability and privacy to Ethereum. Aztec uses zkSNARK proofs to provide privacy and scaling.",
       imageLink: "url('project-logos/aztec.jpg')",
       tooltip: "Aztec",
       networks: ["aztec"],
