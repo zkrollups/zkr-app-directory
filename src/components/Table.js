@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
 Box,
 Grommet,
+Heading,
 Tab,
 Table,
 TableBody,
@@ -21,7 +22,8 @@ class TokenTable extends Component {
   render() {
     return (
       <Box align="center" pad="large" overflow="auto">
-        <Table caption="zkRollup Projects with Tokens" size="small">
+        <Heading size="small">zkRollup Projects with Tokens</Heading>
+        <Table size="medium">
           <TableHeader>
             <TableRow>
             <TableCell scope="col" border="bottom">
@@ -44,7 +46,7 @@ class TokenTable extends Component {
                 <React.Fragment>
                   {projects.tokenStatus ?
                     <TableRow key={projects.name} name={projects.category}>
-                      <TableCell scope="row" border="bottom">
+                      <TableCell scope="row" border="bottom" style={{fontWeight:"bold"}}>
                         {projects.name}
                       </TableCell>
                       <TableCell scope="row" border="bottom">
@@ -53,7 +55,7 @@ class TokenTable extends Component {
                       <TableCell scope="row" border="bottom">
                         {projects.tokenTicker}
                       </TableCell>
-                      <TableCell scope="row" border="bottom">  <a href={projects.tokenLink} rel="noreferrer"> {projects.name} </a></TableCell>
+                      <TableCell scope="row" border="bottom">  <a href={projects.tokenLink} rel="noreferrer"> Link </a></TableCell>
                     </TableRow>
                   : null}
                 </React.Fragment>
