@@ -101,7 +101,7 @@ export const projects = {
       websiteLink: "https://zks.org",
       tokenStatus: "Has",
       tokenTicker: "ZKS",
-      tokenLink: "https://www.coingecko.com/en/coins/zkswap",
+      tokenLink: "https://www.coingecko.com/en/coins/zkspace",
       status: "LIVE",
       statusColor: "#30DE88",
     },
