@@ -930,8 +930,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "SYS",
       tokenLink: "https://www.coingecko.com/en/coins/syscoin",
-      status: "DEV",
-      statusColor: "#000000",
+      status: "Live",
+      statusColor: "#30DE88",
     },
     {
       name: "Covalent",
