@@ -170,7 +170,7 @@ export const projects = {
       name: "Scroll",
       category: "zkRollup",
       description:
-        "Scroll Tech aims to build an EVM-compatible zk-Rollup with a strong proving network.",
+        "Scroll Tech aims to build a fast and secure EVM-compatible zk-Rollup with a strong proving network.",
       imageLink: "url('project-logos/scroll.png')",
       tooltip: "Scroll",
       networks: ["scroll"],
