@@ -1184,6 +1184,19 @@ dApps: [
        status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "zkSharks",
+      category: "NFT",
+      description:
+        "zkSharks are 10,000 unique NFTs looking to promote Ethereum scaling and moving NFT trading to L2. Our goal is to be the first NFT collection to launch on zkSync 2.0.",
+      imageLink: "url('project-logos/zksharks.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/SharksZk",
+      websiteLink: "https://www.zksharks.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
   daos: [
     {
