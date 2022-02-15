@@ -238,6 +238,19 @@ export const projects = {
       status: "TESTNET",
       statusColor: "#F4B832",
     },
+    {
+      name: "Orbis",
+      category: "zkRollup",
+      description:
+        "Orbis is a Layer 2 ZK rollup scaling solution for Cardano. It utilizes recursive proofs to achieve highly scalable throughput supports a general purpose smart contract ecosystem alongside application specifc rollups.",
+      imageLink: "url('project-logos/orbis.jpg')",
+      tooltip: "Orbis",
+      networks: ["orbis"],
+      twitterLink: "https://twitter.com/orbisproject",
+      websiteLink: "https://orbisprotocol.com",
+       status: "DEV",
+      statusColor: "#000000",
+    },
   ],
 wallets: [
     {
