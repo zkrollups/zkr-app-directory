@@ -183,7 +183,7 @@ export const projects = {
       name: "Polygon Zero",
       category: "zkRollup",
       description:
-        "Polygon Zero uses the speed of Plonky2 to enable a more scalable and decentralized ZK L2. It offers both rollup and validium modes, giving users access to higher throughput and lower fees.",
+        "Polygon Zero uses the speed of Plonky2 to enable a more scalable and decentralized ZK L2 giving users access to higher throughput and lower fees.",
       imageLink: "url('project-logos/polygonzero.jpg')",
       tooltip: "Polygon Zero",
       networks: ["polygonzero"],
