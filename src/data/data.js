@@ -93,7 +93,7 @@ export const projects = {
     {
       name: "ZKSpace",
       category: "zkRollup",
-      description: "ZK-Rollups based Layer-2 DEX with the AMM model.",
+      description: "ZKSpace is an all-featured Layer 2 protocol using ZK-Rollups. Transactions are completed instantly and gas fees reduced tens of times.",
       imageLink: "url('project-logos/zkspace.jpg')",
       tooltip: "ZKSpace",
       networks: ["zkspace"],
