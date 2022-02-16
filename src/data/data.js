@@ -198,7 +198,7 @@ export const projects = {
     {
       name: "Edgeswap",
       category: "zkRollup",
-      description: "Edgeswap is an Ethereum-based (Layer 2) zkRollup Protocol.",
+      description: "Edgeswap is an Ethereum-based (Layer 2) zkRollup Protocol. EdgeSwap provides the market with high-performance, cost-effective swapping and farming services.",
       imageLink: "url('project-logos/edgeswap.jpg')",
       tooltip: "Edgeswap",
       networks: ["edgeswap"],
