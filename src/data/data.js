@@ -3,7 +3,7 @@
 // when adding projects take care with networks formatting, supported network values for now: zksync, starknet, starkex, polygon, loopring
 export const projects = {
   featured: [
-    {
+       {
       name: "Oasis",
       category: "NFT",
       description: "Oasis is an NFT marketplace powered by StarkNet. Make offers and list nfts with near zero gas fees. Deploy your nft collection on starknet and oasis.",
@@ -17,18 +17,18 @@ export const projects = {
       statusColor: "#F4B832",
     },
     {
-      name: "StarkNet",
-      category: "zkRollup",
+      name: "Briq",
+      category: "NFT",
       description:
-        "StarkNet, a permissionless scaling ZK rollup, live (Alpha) on Ethereum Mainnet since November 2021, a general-purpose Rollup that powers dApps of any business logic.",
-      imageLink: "url('project-logos/starknet.jpg')",
+        "A system where NFTs made out of building blocks, Briqs, that combine to create other NFTs.",
+      imageLink: "url('project-logos/briq.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
-      twitterLink: "https://twitter.com/StarkWareLtd",
-      websiteLink: "https://starkware.co/starknet/",
+      twitterLink: "https://twitter.com/briqNFT",
+      websiteLink: "https://briq.construction/",
       featured: "featured",
-      status: "LIVE",
-      statusColor: "#30DE88",
+      status: "TESTNET",
+      statusColor: "#F4B832",
     },
   ],
   rollups: [
