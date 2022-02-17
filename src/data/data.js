@@ -17,7 +17,7 @@ export const projects = {
       statusColor: "#F4B832",
     },
     {
-      name: "Briq",
+      name: "briq",
       category: "NFT",
       description:
           "briq is an NFT composability system based on fundamental elements called briqs that can be combined to create more complex structures.",
@@ -1085,7 +1085,7 @@ dApps: [
       statusColor: "#000000",
     },
     {
-      name: "Briq",
+      name: "briq",
       category: "NFT",
       description:
         "briq is an NFT composability system based on fundamental elements called briqs that can be combined to create more complex structures.",
