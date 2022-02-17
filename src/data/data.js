@@ -20,7 +20,7 @@ export const projects = {
       name: "Briq",
       category: "NFT",
       description:
-        "A system where NFTs made out of building blocks, Briqs, that combine to create other NFTs.",
+          "briqs can be combined to create NFTs called sets. Sets can be disassembled to get the briqs back and create something new. Sets can be combined to create even more complex structures. briqs are NFT matter.",
       imageLink: "url('project-logos/briq.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
@@ -1088,7 +1088,7 @@ dApps: [
       name: "Briq",
       category: "NFT",
       description:
-        "A system where NFTs made out of building blocks, Briqs, that combine to create other NFTs.",
+        "briqs can be combined to create NFTs called sets. Sets can be disassembled to get the briqs back and create something new. Sets can be combined to create even more complex structures. briqs are NFT matter.",
       imageLink: "url('project-logos/briq.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
