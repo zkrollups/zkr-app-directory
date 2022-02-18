@@ -875,6 +875,20 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
      },
+   {
+     name: "xBank",
+      category: "Dapp",
+      description:
+        "xBank is a non-custodial liquidity market protocol that manages deposits for lenders and facilitates lending for borrowers. xBank performs risk management to protect lenders from risks of illiquidity and insolvency.",
+      imageLink: "url('project-logos/xbank.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/xBankFinance",
+      websiteLink: "https://www.xbank.finance/",
+      tokenStatus: "Expected",
+      status: "DEV",
+      statusColor: "#000000",
+     },
   ],
   infra: [
    {
