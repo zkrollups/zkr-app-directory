@@ -885,7 +885,6 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "https://twitter.com/xBankFinance",
       websiteLink: "https://www.xbank.finance/",
-      tokenStatus: "Expected",
       status: "DEV",
       statusColor: "#000000",
      },
