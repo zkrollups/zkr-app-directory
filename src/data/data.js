@@ -1224,7 +1224,7 @@ dApps: [
       statusColor: "#000000",
     },
         {
-      name: "bitmapbox",
+      name: "Bitmap Box",
       category: "NFT",
       description: "Bitmap Box is a 2D block-building game and protocol. Combine blocks to make unique creations.",
       imageLink: "url('project-logos/bitmapbox.jpg')",
