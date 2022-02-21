@@ -10,7 +10,7 @@ const PageFooter = () => (
     <div>
     <Button icon={<Github color="black" />} hoverIndicator href="https://github.com/jaazinn/zkr-app-directory" target="_blank"/>
       <Button icon={<Reddit color="#FF4500" />} hoverIndicator href="https://www.reddit.com/r/zkRollups/" target="_blank"/>
-      <Button icon={<Twitter color="#1DA1F2" />} hoverIndicator href="https://twitter.com/joelkite" target="_blank"/>
+      <Button icon={<Twitter color="#1DA1F2" />} hoverIndicator href="https://twitter.com/zkRollupsXYZ" target="_blank"/>
     </div>
     <div style={{marginRight:"10px"}}>
       <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank" rel="noopener noreferrer" style={{color:"blue", fontSize:"medium", marginRight:"10px"}}>Add Project</a>
