@@ -888,6 +888,35 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
      },
+   {
+      name: "Forward Protocol",
+      category: "Dapp",
+      description:
+        "Forward Protocol is building WordPress for Web 3.0 with a customizable, no-code, drag & drop interface.",
+      imageLink: "url('project-logos/forward.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/ForwardProtocol/",
+      websiteLink: "https://forwardprotocol.io/",
+       tokenStatus: "Expected",
+      tokenTicker: "FORWARD",
+      tokenLink: "https://forwardprotocol.io/wp-content/uploads/2021/12/Forward_Tokenomics.pdf",
+       status: "DEV",
+      statusColor: "#000000",
+     },
+     {
+      name: "Poly Network",
+      category: "Dapp",
+      description:
+        "Poly Network is a global cross-chain interoperability protocol for implementing blockchain interoperability and building the Web3.0 infrastructure.",
+      imageLink: "url('project-logos/polynetwork.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/PolyNetwork2",
+      websiteLink: "https://poly.network/",
+      status: "DEV",
+      statusColor: "#000000",
+     },
   ],
   infra: [
    {
