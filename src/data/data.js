@@ -1665,7 +1665,7 @@ dApps: [
       tooltip: "StarkNet",
       networks: ["starknet"],
       websiteLink: "https://github.com/milancermak/xoroshiro-cairo",
-      twitterLink: "",
+      twitterLink: "https://twitter.com/milancermak",
       status: "DEV",
       statusColor: "#000000",
     },
