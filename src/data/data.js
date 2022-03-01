@@ -358,8 +358,8 @@ wallets: [
       networks: ["starkex"],
       twitterLink: "https://twitter.com/opera",
       websiteLink: "https://www.opera.com/",
-      status: "BETA",
-      statusColor: "#F4E532",
+      status: "Live",
+      statusColor: "#30DE88",
     },
   ],
 dApps: [
