@@ -348,6 +348,19 @@ wallets: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
+  {
+      name: "Opera Wallet",
+      category: "Mobile Browser Wallet",
+      description:
+        "The Opera mobile browser wallet has integrated StarkEx powered DeversiFi, for faster, easier, and cheaper ETH P2P transactions.",
+      imageLink: "url('project-logos/opera.jpg')",
+      tooltip: "StarkEx, DeversiFi",
+      networks: ["starkex"],
+      twitterLink: "https://twitter.com/opera",
+      websiteLink: "https://www.opera.com/",
+      status: "BETA",
+      statusColor: "#F4E532",
+    },
   ],
 dApps: [
     {
