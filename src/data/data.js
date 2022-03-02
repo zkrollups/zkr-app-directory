@@ -1230,6 +1230,22 @@ dApps: [
       status: "LIVE",
       statusColor: "#30DE88",
      },
+     {
+      name: "Ferrum Network",
+      category: "Dapp",
+      description:
+        "Ferrum Network is a cross-chain Blockchain as a Service DeFi company that specializes in adding deflationary token utility and advisory services to projects across the crypto space.",
+      imageLink: "url('project-logos/ferrum.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/FerrumNetwork",
+      websiteLink: "https://ferrum.network/",
+       tokenStatus: "HAS",
+      tokenTicker: "FRM",
+      tokenLink: "https://www.coingecko.com/en/coins/ferrum-network",
+      status: "Dev",
+      statusColor: "#000000",
+     },
   ],
   infra: [
    {
