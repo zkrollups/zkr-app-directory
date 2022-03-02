@@ -365,7 +365,7 @@ wallets: [
       name: "D'CENT",
       category: "Wallet",
       description:
-        "The D'CENT biometric wallet, card type wallet, and software wallet can all be managed from a single mobile app.",
+        "The über convenient multi crypto wallet with native dApp browser for Game, NFT, DeFi, and more.",
       imageLink: "url('project-logos/dcent.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
