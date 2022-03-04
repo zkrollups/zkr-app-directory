@@ -1173,7 +1173,7 @@ dApps: [
       name: "Vovo Finance",
       category: "Dapp",
       description:
-        "Vovo Finance is a structured products protocol that offers a variety of products catering to users with different risk profiles. Vovo offers products including principal protected products and yield enhancements products.",
+        "Vovo Finance is a structured products protocol that offers a variety of products catering to users with different risk profiles. Vovo offers products including principal protected products and yield enhancements.",
       imageLink: "url('project-logos/vovo.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
