@@ -1199,7 +1199,7 @@ dApps: [
       statusColor: "#000000",
      },
      {
-      name: "Yearn",
+      name: "yearn",
       category: "Dapp",
       description:
         "yearn.finance is a selection of Ethereum lending and trading protocols that allow users to optimize their crypto earnings.",
