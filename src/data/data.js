@@ -1183,10 +1183,10 @@ dApps: [
       statusColor: "#000000",
      },
       {
-      name: "Woo Network",
+      name: "WOO Network",
       category: "Dapp",
       description:
-        "Woo Network is a trading platform that features deep liquidity for superior order execution, zero-fee trading, and fully customizable trading workspaces.",
+        "WOO Network is a trading platform that features deep liquidity for superior order execution, zero-fee trading, and fully customizable trading workspaces.",
       imageLink: "url('project-logos/woo.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
