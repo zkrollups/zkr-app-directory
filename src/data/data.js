@@ -210,7 +210,7 @@ export const projects = {
     {
       name: "zkLink",
       category: "zkRollup",
-      description: "zkLink is a trustless chain-to-chain DEX based on zero-knowledge technology.",
+      description: "A unified, multi-chain L2 network secured by revolutionary zero-knowledge technology.",
       imageLink: "url('project-logos/zklink.jpg')",
       tooltip: "zkLink",
       networks: ["zklink"],
