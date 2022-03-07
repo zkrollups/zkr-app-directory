@@ -1287,7 +1287,7 @@ dApps: [
       category: "Dapp",
       description:
         "Aura is a new synthetics issuance protocol on Starknet. Aura’s first product is going to be a USD synthetic stablecoin with a corresponding Savings product.",
-      imageLink: "url('project-logos/sandclock.jpg')",
+      imageLink: "url('project-logos/aura.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/SandclockOrg",
