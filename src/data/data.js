@@ -1665,8 +1665,8 @@ dApps: [
       name: "iqlusion",
       category: "Infra",
       description:
-        "inlusion provides infrastructure for next-generation cryptocurrency technologies which are designed and built to scale to real-world demands.",
-      imageLink: "url('project-logos/inclusion.jpg')",
+        "iqlusion provides infrastructure for next-generation cryptocurrency technologies which are designed and built to scale to real-world demands.",
+      imageLink: "url('project-logos/iqlusion.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/iqlusioninc/",
