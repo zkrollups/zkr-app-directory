@@ -1469,8 +1469,8 @@ dApps: [
       description:
         "Staking, and application layer solutions for token holders and developers investing in and building on Web 3 technology",
       imageLink: "url('project-logos/figment.jpg')",
-      tooltip: "zkSync",
-      networks: ["zksync"],
+      tooltip: "zkSync, StarkNet",
+      networks: ["zksync", "starknet"],
       twitterLink: "https://twitter.com/Figment_io",
       websiteLink: "https://www.figment.io/",
       status: "DEV",
