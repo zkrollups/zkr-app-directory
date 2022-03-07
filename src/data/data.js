@@ -1290,7 +1290,7 @@ dApps: [
       imageLink: "url('project-logos/aura.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
-      twitterLink: "https://twitter.com/SandclockOrg",
+      twitterLink: "https://twitter.com/AuraProtocol",
       websiteLink: "https://sandclock.org/",
       status: "Dev",
       statusColor: "#000000",
