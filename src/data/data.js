@@ -1836,6 +1836,19 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+     {
+      name: "Alchemy",
+      category: "Infra",
+      description:
+        "Web3 development made easy. One magic line of code supercharges your development with the world’s most powerful blockchain developer platform, relied upon by the majority of the world's top blockchain apps.",
+      imageLink: "url('project-logos/alchemy.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://www.alchemy.com/layer2/starknet?",
+        twitterLink: "https://twitter.com/AlchemyPlatform",
+      status: "DEV",
+      statusColor: "#000000",
+    },  
   ],
   nfts: [
     {
