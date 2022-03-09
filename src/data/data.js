@@ -694,7 +694,7 @@ dApps: [
      {
       name: "zk.Money",
       category: "Dapp",
-      description: "zk.money is your app for managing your private assets. Today, you can shield and send DAI and ETH for confidential balances.",
+      description: "zk.money is an Ethereum Layer 2 privacy app built on top of the Aztec network. Sending and receiving a token is anonymous, and does not publish any of the transaction’s data publicly.",
       imageLink: "url('project-logos/aztec.jpg')",
       tooltip: "Aztec",
       networks: ["aztec"],
