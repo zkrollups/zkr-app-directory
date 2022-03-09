@@ -509,7 +509,7 @@ dApps: [
       name: "Gitcoin",
       category: "Dapp",
       description:
-        "Gitcoin grant contibutors can save on gas fees by paying using the zkSync or Loopring networks.",
+        "Gitcoin is where communities unite to build & fund the open web - you can support your favourite open source projects by donating via zkSync",
       imageLink: "url('project-logos/gitcoin.jpg')",
       tooltip: "zkSync, Loopring",
       networks: ["zksync", "loopring"],
