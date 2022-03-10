@@ -2082,16 +2082,19 @@ dApps: [
      status: "DEV",
       statusColor: "#000000",
     },
-     {
+       {
       name: "Dope Wars",
       category: "Games",
       description:
-        "The pursuit of money, power & respect in these NFT streets. Join the community, we're producing a game on Ethereum+StarkNet, inspired by the TI-83 classic",
+        "The pursuit of money, power & respect in these metaverse streets. Dope Wars is a community owned, emergent gaming ecosystem inspired by the original Drugs Wars game.",
       imageLink: "url('project-logos/dopewars.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/TheDopeWars",
       websiteLink: "https://dopewars.gg/",
+      tokenStatus: "Has",
+      tokenTicker: "PAPER",
+      tokenLink: "https://www.coingecko.com/en/coins/dope-wars-paper",
       status: "DEV",
       statusColor: "#000000",
     },
