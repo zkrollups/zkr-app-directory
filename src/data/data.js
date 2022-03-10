@@ -251,6 +251,19 @@ export const projects = {
        status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "Nectar Protocol",
+      category: "zkRollup",
+      description:
+        "Nectar is a zkRollup and HIPAA compliant decentralized storage protocol. Nectar is based on zkSync, a zero-knowledge rollup, and will be EVM compatible.",
+      imageLink: "url('project-logos/nectar.jpg')",
+      tooltip: "Nectar",
+      networks: ["nectar"],
+      twitterLink: "https://twitter.com/nectarprotocol",
+      websiteLink: "https://nectar.haus/",
+       status: "DEV",
+      statusColor: "#000000",
+    },
   ],
 wallets: [
     {
