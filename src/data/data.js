@@ -2095,8 +2095,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "PAPER",
       tokenLink: "https://www.coingecko.com/en/coins/dope-wars-paper",
-      status: "DEV",
-      statusColor: "#000000",
+      status: "LIVE",
+      statusColor: "#30DE88",
     },
     {
       name: "The Ninth",
