@@ -538,7 +538,7 @@ dApps: [
       name: "Mute",
       category: "Dapp",
       description:
-        "Mute is an easy-to-use L2 swap platform that runs on Ethereum.",
+        "Mute is a ZK-Rollup based automated market maker (AMM) exchange, farming platform, and IDO platform.",
       imageLink: "url('project-logos/mute.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
