@@ -768,7 +768,7 @@ dApps: [
      {
       name: "Orbiter Finance",
       category: "dapp",
-      description: "Orbiter Finance is a decentralized cross-rollup Layer 2 bridge that supports zkSync.",
+      description: "Orbiter Finance is a decentralized cross-rollup Layer 2 bridge with a contract only on the destination side and is Ethereum's future multi-rollup infrastructure, the cost is low, and the process is instant.",
       imageLink: "url('project-logos/orbiter.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
