@@ -2164,19 +2164,6 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
-     {
-      name: "NFTflow",
-      category: "NFT",
-      description:
-        "NFTflow is a platform for creating liquid markets for illiquid Non-Fungible Tokens (NFTs) on StarkNet.",
-      imageLink: "url('project-logos/nftflow.jpg')",
-      tooltip: "StarkNet",
-      networks: ["starknet"],
-      twitterLink: "https://twitter.com/NftflowStarkNet",
-      websiteLink: "https://nftflow.gw.to/",
-      status: "DEV",
-      statusColor: "#000000",
-    },
     {
       name: "Auclantis",
       category: "NFT",
