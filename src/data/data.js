@@ -1309,7 +1309,7 @@ dApps: [
       statusColor: "#000000",
      },
      {
-      name: "Via Exchange",
+      name: "Via",
       category: "Dapp",
       description:
         "Via is an advanced Cross-Chain Liquidity Aggregation Protocol and Infrastructure for GameFi",
