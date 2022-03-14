@@ -264,6 +264,22 @@ export const projects = {
        status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "Suterusu Protocol",
+      category: "zkRollup",
+      description:
+        "Suterusu is a privacy-protection infrastructure built for privacy-conscious Web 3.0 users. It aims to make privacy-preserving payment possible for all the digital assets in the crypto world. Its unique ZK-ConSNARK technology is the incarnation of trustlessness, decentralization, and transparency ethos of cryptocurrency. Suterusu is the privacy-preserving protocol for THE PEOPLE.",
+      imageLink: "url('project-logos/zksync.jpg')",
+      tooltip: "Suterusu",
+      networks: ["Ethereum", "Binance Smart Chain", "Polygon", "Fantom"],
+      twitterLink: "https://twitter.com/suterusu",
+      websiteLink: "https://suterusu.io/",
+      tokenStatus: "Expected",
+      tokenLink: "https://www.coingecko.com/en/coins/suterusu",
+      // featured: "featured",
+      status: "LIVE",
+      statusColor: "#b9aaff",
+    }
   ],
 wallets: [
     {
@@ -2842,6 +2858,6 @@ daos: [
       websiteLink: "https://clr.fund/#/",
        status: "DEV",
       statusColor: "#000000",
-     },
+     }
   ],
 };
