@@ -2888,7 +2888,7 @@ daos: [
       name: "StarkNet React",
       category: "Misc",
       description: "StarkNet React is a collection of React hooks for StarkNet.",
-      imageLink: "url('project-logos/github.jpg')",
+      imageLink: "url('project-logos/auclantis.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
       websiteLink: "https://github.com/auclantis/starknet-react",
