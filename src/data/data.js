@@ -2969,7 +2969,7 @@ daos: [
     {
       name: "cairo-dutch",
       category: "Misc",
-      description: "StarkNet and Cairo language utilities for devs on web.",
+      description: "A Dutch Auction written in Cairo for StarkNet. Ported after studying a reference implementation from solidity-by-example.",
       imageLink: "url('project-logos/github.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
