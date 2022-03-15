@@ -966,6 +966,19 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
      },
+    {
+      name: "Magnety",
+       category: "Dapp",
+       description:
+       "Magnety is an asset management protocol that allows anyone to build, customize and monetize their investment strategy through a fully customizable vault in which users can invest in a non-clustodial and trustless way",
+       imageLink: "url('project-logos/magnety.jpg')",
+       tooltip: "StarkNet",
+       networks: ["starknet"],
+       twitterLink: "https://twitter.com/magnetyfi",
+       websiteLink: "https://magnety.finance",
+       status: "DEV",
+       statusColor: "#000000",
+      },
    {
       name: "Forward Protocol",
       category: "Dapp",
