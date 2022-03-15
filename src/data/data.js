@@ -2876,7 +2876,7 @@ daos: [
       name: "Starknet-multisig",
       category: "Misc",
       description: "Multi-signature functionality for StarkNet - this is a work in progress.",
-      imageLink: "url('project-logos/github.jpg')",
+      imageLink: "url('project-logos/pathfinder.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
       websiteLink: "https://github.com/eqlabs/starknet-multisig",
