@@ -554,7 +554,7 @@ dApps: [
       name: "Storj",
       category: "Dapp",
       description:
-        "Storj Hosts (Storage Node Operators) can elect to receive their payments via zkSync.",
+        "Secure, private, affordable decentralized cloud object storage for developers - Storj Hosts (Storage Node Operators) can elect to receive their payments via zkSync.",
       imageLink: "url('project-logos/storj.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
