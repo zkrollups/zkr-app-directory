@@ -570,7 +570,7 @@ dApps: [
       name: "Golem",
       category: "Dapp",
       description:
-        "Golem Node Operators can choose to receive their payments via zkSync.",
+        "Golem is a flexible, open-source platform for democratised access to digital resourcesGolem - providers can choose to receive their payments via zkSync.",
       imageLink: "url('project-logos/golem.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
