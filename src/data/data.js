@@ -349,7 +349,7 @@ wallets: [
       statusColor: "#30DE88",
     },
     {
-      name: "Argent X StarkNet Wallet",
+      name: "Argent X",
       category: "Web Wallet",
       description:
         "Argent X is an open-source Chrome browser plugin wallet for StarkNet. Argent X supports StarkNet Alpha on the Ethereum mainnet.",
