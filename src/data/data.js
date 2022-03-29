@@ -989,8 +989,8 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "https://twitter.com/xBankFinance",
       websiteLink: "https://www.xbank.finance/",
-      status: "DEV",
-      statusColor: "#000000",
+       status: "TESTNET",
+      statusColor: "#F4B832",
      },
    {
       name: "Forward Protocol",
