@@ -1568,7 +1568,7 @@ dApps: [
       name: "SyncSwap",
       category: "Dapp",
       description:
-        "SynSwap is a decentralized AMM exchange built on zkSync.",
+        "SyncSwap is a decentralized AMM exchange built on zkSync.",
       imageLink: "url('project-logos/syncswap.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
