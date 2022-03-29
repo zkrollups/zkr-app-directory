@@ -308,6 +308,19 @@ wallets: [
       statusColor: "#30DE88",
     },
     {
+      name: "Polygon Hermez",
+      category: "Web Wallet",
+      description:
+        "A simple and self-custodial wallet for the Polygon Hermez Network",
+      imageLink: "url('project-logos/hermez.jpg')",
+      tooltip: "hermez",
+      networks: ["hermez"],
+      twitterLink: "https://twitter.com/0xPolygonHermez",
+      websiteLink: "https://hermez.io/wallet",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
+    {
       name: "imToken",
       category: "Mobile Wallet",
       description:
