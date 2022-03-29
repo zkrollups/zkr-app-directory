@@ -2274,6 +2274,18 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "Brine Finance",
+      category: "Infra",
+      description: "Brine is a decentralized order-book exchange which is Gasless, Instant and Trustless.",
+      imageLink: "url('project-logos/brinefinance.jpg')",
+      tooltip: "Starknet",
+      networks: ["polygon", "starkex","starknet"],
+      twitterLink: "https://twitter.com/BrineFinance",
+      websiteLink: "https://www.brine.finance/",
+      status: "DEV",
+      statusColor: "#6C5DD3",
+    },
   ],
   nfts: [
     {
