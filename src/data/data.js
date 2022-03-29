@@ -309,7 +309,7 @@ wallets: [
     },
     {
       name: "Polygon Hermez",
-      category: "Web Wallet",
+      category: "Mobile & Web Wallet",
       description:
         "A simple and self-custodial wallet for the Polygon Hermez Network",
       imageLink: "url('project-logos/hermez.jpg')",
