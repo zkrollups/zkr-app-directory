@@ -452,6 +452,32 @@ wallets: [
       status: "DEV",
       statusColor: "#000000",
     },
+   {
+      name: "Fox Wallet",
+      category: "Mobile Wallet",
+      description:
+        "Fox Wallet is a user-friendly Web3.0 portal built for a multi-chain ecosystem.",
+      imageLink: "url('project-logos/fox.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/FoxWallet",
+      websiteLink: "https://foxwallet.com/en",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+     {
+      name: "Go Pocket",
+      category: "Mobile Wallet",
+      description:
+        "Go Pocket is a next-gen crypto wallet which focuses on providing real-time and dynamic security services & best user experience.",
+      imageLink: "url('project-logos/gopocket.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/gopocketwallet",
+      websiteLink: "https://gopocket.security/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
 dApps: [
     {
