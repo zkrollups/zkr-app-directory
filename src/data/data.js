@@ -1564,6 +1564,58 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "SyncSwap",
+      category: "Dapp",
+      description:
+        "SynSwap is a decentralized AMM exchange built on zkSync.",
+      imageLink: "url('project-logos/syncswap.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/syncswap",
+      websiteLink: "https://www.syncswap.xyz/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+      {
+      name: "WardenSwap",
+      category: "Dapp",
+      description:
+        "WardenSwap is a multichain, AI powered, digital asset exchange platform.",
+      imageLink: "url('project-logos/warden.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/WardenSwap",
+      websiteLink: "https://www.wardenswap.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "Icewater",
+      category: "Dapp",
+      description:
+        "Icewater is a project dedicated toward building a non-pegged stablecoin, called H2O.",
+      imageLink: "url('project-logos/icewater.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/icewatermoney",
+      websiteLink: "https://icewater.money",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "Raise Finance",
+      category: "Dapp",
+      description:
+        "A platform for decentralized fundraising, investments and payments built on L2.",
+      imageLink: "url('project-logos/raise.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/raise_fi",
+      websiteLink: "https://www.raisefinance.io/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
  infra: [
    {
