@@ -2235,6 +2235,45 @@ dApps: [
        status: "DEV",
       statusColor: "#000000",
  },
+     {
+      name: "XID Network",
+      category: "Infra",
+      description:
+        "XID Network is a decentralized identity network built on on-chain data.",
+      imageLink: "url('project-logos/xid.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://mobile.twitter.com/XidNetwork",
+      websiteLink: "https://xidnetwork.xyz/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+      {
+      name: "Go+ Security",
+      category: "Infra",
+      description:
+        "Go+ Security is a security service platform for all types of blockchain users which supports independent risk submitting, quick risk detection and feedback.",
+      imageLink: "url('project-logos/go+.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/GoplusSecurity",
+      websiteLink: "https://gopluslabs.io/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+       {
+      name: "Gelato Network",
+      category: "Infra",
+      description:
+        "Gelato Network is a decentralized network of bots used by web3 developers to automate smart contract executions on public EVM compatible blockchains.",
+      imageLink: "url('project-logos/gelato.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/gelatonetwork",
+      websiteLink: "https://www.gelato.network/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
   nfts: [
     {
