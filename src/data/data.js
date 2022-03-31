@@ -478,6 +478,19 @@ wallets: [
       status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "Ledger",
+      category: "Wallet",
+      description:
+        "Buy, exchange and grow your crypto securely with a Ledger hardware wallet, combined with the Ledger Live app. It’s never been easier to keep your crypto safe and accessible.",
+      imageLink: "url('project-logos/ledger.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/Ledger",
+      websiteLink: "https://www.ledger.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
 dApps: [
     {
@@ -1616,6 +1629,32 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+   {
+      name: "Brine Finance",
+      category: "Dapp",
+      description:
+        "The decentralized order-book exchange for traders crafted by traders  Gasless | Instant | Cross-Chain | Secure | Trustless.",
+      imageLink: "url('project-logos/brine.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/BrineFinance",
+      websiteLink: "https://www.brine.finance/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+    {
+      name: "SithSwap",
+      category: "Dapp",
+      description:
+        "Sith­swap is a next‐gen amm on stark­net feat­uring instant vola­tile and stable swaps with ultra‐low slip­page, zero fees and the full secur­ity of ethereum.",
+      imageLink: "url('project-logos/sith.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/SithSwap",
+      websiteLink: "https://sithswap.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
  infra: [
    {
@@ -2609,6 +2648,19 @@ dApps: [
       status: "Stealth",
       statusColor: "#808080",
     },
+   {
+      name: "Exothium",
+      category: "Games",
+      description:
+        "A Quest to build a Regenerative project transforming the ideas of the Community into decentralized applications.",
+      imageLink: "url('project-logos/exothium.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/exothium",
+      websiteLink: "https://beta.exothium.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
     ],
 social: [ 
       {
@@ -3261,6 +3313,31 @@ daos: [
       networks: ["starknet"],
       websiteLink: "https://github.com/sambarnes/cairo-dutch",
       twitterLink: "https://twitter.com/__________sam__",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+         {
+      name: "Juno",
+      category: "Misc",
+      description:
+        "Juno is a Starknet client implementation from NethermindEth.",
+      imageLink: "url('project-logos/github.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/nethermindeth",
+      websiteLink: "https://github.com/NethermindEth/juno",
+      status: "DEV",
+      statusColor: "#000000",
+    },  
+    {
+      name: "Ricks",
+      category: "Misc",
+      description:
+        "An implementation of a new NFT fractionalization primitive, RICKS (Recurrently Issued Collectively Kept Shards), in starknet cairo.",
+      imageLink: "url('project-logos/github.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      websiteLink: "https://github.com/FawadHa1der/ricks-cairo-contracts",
       status: "DEV",
       statusColor: "#000000",
     },
