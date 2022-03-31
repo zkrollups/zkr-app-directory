@@ -1647,7 +1647,7 @@ dApps: [
       category: "Dapp",
       description:
         "Sith­swap is a next‐gen amm on stark­net feat­uring instant vola­tile and stable swaps with ultra‐low slip­page, zero fees and the full secur­ity of ethereum.",
-      imageLink: "url('project-logos/sith.jpg')",
+      imageLink: "url('project-logos/sithswap.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
       twitterLink: "https://twitter.com/SithSwap",
