@@ -963,8 +963,8 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "https://twitter.com/starkswap",
       websiteLink: "https://github.com/Starkswap",
-      status: "DEV",
-      statusColor: "#000000",
+      status: "TESTNET",
+      statusColor: "#F4B832",
     },
     {
       name: "Serity",
