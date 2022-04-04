@@ -2313,6 +2313,19 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "StarkGate Alpha",
+      category: "Infra",
+      description:
+        "StarkGate serves as a gateway between Ethereum and StarkNet, and allows users to do everything they can expect from a bridge.",
+      imageLink: "url('project-logos/starkgate.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+     twitterLink: "https://twitter.com/StarkWareLtd",
+      websiteLink: "https://goerli.starkgate.starknet.io/",
+      status: "TESTNET",
+      statusColor: "#F4B832",
+     },
   ],
   nfts: [
     {
