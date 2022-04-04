@@ -458,8 +458,8 @@ wallets: [
       description:
         "Fox Wallet is a user-friendly Web3.0 portal built for a multi-chain ecosystem.",
       imageLink: "url('project-logos/fox.jpg')",
-      tooltip: "zkSync",
-      networks: ["zksync"],
+      tooltip: "zkSync, StarkNet",
+      networks: ["zksync", "starknet"],
       twitterLink: "https://twitter.com/FoxWallet",
       websiteLink: "https://foxwallet.com/en",
       status: "DEV",
