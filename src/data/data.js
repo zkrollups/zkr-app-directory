@@ -2674,6 +2674,32 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "EtherQuest",
+      category: "Games",
+      description:
+        "Free to play, live action RPG Indie game where you own your items as NFTs.",
+      imageLink: "url('project-logos/etherquest.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://mobile.twitter.com/ether_quest",
+      websiteLink: "https://www.etherquestgame.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+      {
+      name: "Redline",
+      category: "Games",
+      description:
+        "Giant robot NFT racing and engineering on StarkNet and UE5. Deep Strategy and Drama Game.",
+      imageLink: "url('project-logos/redline.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/PlayRedline",
+      websiteLink: "https://redline.game/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
     ],
 social: [ 
       {
