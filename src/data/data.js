@@ -3380,5 +3380,17 @@ daos: [
       status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "SpaceFi",
+      category: "Misc",
+      description:
+        "SpaceFi is a cross-chain Web 3.0 platform with DEX, NFT, Starter and DAO on Layer2, Evmos and Celo. SpaceFi will be the first project to connect Evmos in Cosmos to zkSync  in Ethereum.",
+      imageLink: "url('project-logos/spacefi.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      websiteLink: "https://spacefi.io",
+      status: "TESTNET",
+      statusColor: "#F4B832",
+    },
   ],
 };
