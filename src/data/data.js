@@ -2326,6 +2326,22 @@ dApps: [
       status: "TESTNET",
       statusColor: "#F4B832",
      },
+    {
+      name: "Panther",
+      category: "Infra",
+      description:
+        "Panther is a decentralized protocol that provides end-to-end privacy for any digital asset using zkSNARK cryptography. This allows retail and institutional investors to execute private, trusted DeFi transactions across multiple blockchains.",
+      imageLink: "url('project-logos/panther.jpg')",
+      tooltip: "Panther",
+      networks: ["panther"],
+      twitterLink: "https://twitter.com/ZkPanther",
+      websiteLink: "https://www.pantherprotocol.io/",
+      tokenStatus: "Has",
+      tokenTicker: "ZKP",
+      tokenLink: "https://www.coingecko.com/en/coins/panther-protocol",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
   ],
   nfts: [
     {
