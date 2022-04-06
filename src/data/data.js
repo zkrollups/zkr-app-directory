@@ -2339,8 +2339,8 @@ dApps: [
       tokenStatus: "Has",
       tokenTicker: "ZKP",
       tokenLink: "https://www.coingecko.com/en/coins/panther-protocol",
-      status: "LIVE",
-      statusColor: "#30DE88",
+     status: "DEV",
+      statusColor: "#000000",
     },
   ],
   nfts: [
