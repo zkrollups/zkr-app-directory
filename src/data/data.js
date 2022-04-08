@@ -899,7 +899,7 @@ dApps: [
       name: "JediSwap",
       category: "Dapp",
       description:
-        "JediSwap is the first permissionless composable AMM on Starknet. Users can swap assets instantaneously with zero gas fees without losing custody of their funds. JediSwap is led by the Mesh community.",
+        "JediSwap is a fully permissionless and composable AMM built on Starknet",
       imageLink: "url('project-logos/jediswap.jpg')",
       tooltip: "StarkNet",
       networks: ["starknet"],
