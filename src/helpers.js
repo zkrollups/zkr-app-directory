@@ -4,5 +4,7 @@ export const NETWORKS = {
     starkex: "https://starkware.co/wp-content/uploads/2021/06/Group-15-Copy-4.png",
     polygon: "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
     loopring: "https://cryptologos.cc/logos/loopring-lrc-logo.png",
-    aztec: "https://avatars.githubusercontent.com/u/45291733"
+    aztec: "https://avatars.githubusercontent.com/u/45291733",
+    hermez: "https://i.imgur.com/oVL25Ac.png",
+    zklink: "https://icodrops.com/wp-content/uploads/2021/10/ZkLink_logo.jpeg"
 }
