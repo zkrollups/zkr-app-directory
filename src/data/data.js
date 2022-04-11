@@ -1512,14 +1512,14 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
-     {
+ {
       name: "ZKEX",
       category: "Dapp",
       description:
-        "ZKEX is a multi-chain order book L2 DEX, secured with zero-knowledge proofs.",
+        "ZKEX is a multi-chain L2 order book DEX, secured with zero-knowledge proofs, powered by zkSync, StarkNet, and zkLink.",
       imageLink: "url('project-logos/zkex.jpg')",
       tooltip: "zkSync, StarkNet, ZKLink",
-      networks: ["zksync", "starknet", "ZKLink"],
+      networks: ["zksync", "starknet", "zklink"],
       twitterLink: "https://twitter.com/ZKEX_Official",
       websiteLink: "https://zkex.com/",
       status: "DEV",
