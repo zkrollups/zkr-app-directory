@@ -1655,6 +1655,19 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+  {
+      name: "SynFutures",
+      category: "Dapp",
+      description:
+        "SynFutures is a next-generation derivatives exchange focused on creating an open and trustless derivatives market by enabling trading on any device with proper price feeds. ",
+      imageLink: "url('project-logos/synfutures.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/SynFuturesDefi",
+      websiteLink: "https://www.synfutures.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
  infra: [
    {
