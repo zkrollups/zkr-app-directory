@@ -1668,6 +1668,19 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
+   {
+      name: "Sat.is",
+      category: "Dapp",
+      description:
+        "Sat.is is the next generation multichain decentralized exchange that aims to provide the optimal trading experience with zero slippage, low transaction fees, and self-custody of funds.",
+      imageLink: "url('project-logos/satis.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/SatisDEX",
+      websiteLink: "https://zksync-testnet.sat.is/",
+      status: "TESTNET",
+      statusColor: "#F4B832",
+    },
   ],
  infra: [
    {
@@ -2018,8 +2031,8 @@ dApps: [
       networks: ["zksync"],
       twitterLink: "https://twitter.com/UTORG_pro",
       websiteLink: "https://utorg.pro/",
-    status: "DEV",
-      statusColor: "#000000",
+      status: "LIVE",
+      statusColor: "#30DE88",
      },
       {
       name: "Veramo",
