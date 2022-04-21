@@ -491,6 +491,19 @@ wallets: [
       status: "DEV",
       statusColor: "#000000",
     },
+  {
+      name: "Tally Ho",
+      category: "Web Wallet",
+      description:
+        "Tally Ho is a free, community owned, open-source Web3 wallet built as a browser extension.",
+      imageLink: "url('project-logos/tally.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/tallycash",
+      websiteLink: "https://tally.cash/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
 dApps: [
     {
@@ -1470,19 +1483,6 @@ dApps: [
       networks: ["zksync"],
       twitterLink: "https://twitter.com/PhezzanProtocol",
       websiteLink: "http://phezzan.xyz/",
-      status: "DEV",
-      statusColor: "#000000",
-    },
-    {
-      name: "Tally Ho",
-      category: "Dapp",
-      description:
-        "Tally Ho is a free, community owned, open-source Web3 wallet built as a browser extension.",
-      imageLink: "url('project-logos/tally.jpg')",
-      tooltip: "zkSync",
-      networks: ["zksync"],
-      twitterLink: "https://twitter.com/tallycash",
-      websiteLink: "https://tally.cash/",
       status: "DEV",
       statusColor: "#000000",
     },
