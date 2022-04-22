@@ -504,6 +504,19 @@ wallets: [
       status: "DEV",
       statusColor: "#000000",
     },
+      {
+      name: "BRAAVOS",
+      category: "Web Wallet",
+      description:
+        "Braavos is a browser extension for accessing dApps and holding crypto assets. Braavos runs on StarkNet and is currently an Alpha release.",
+      imageLink: "url('project-logos/braavos.jpg')",
+      tooltip: "StarkNet",
+      networks: ["starknet"],
+      twitterLink: "https://twitter.com/myBraavos",
+      websiteLink: "https://braavos.app/",
+      status: "LIVE",
+      statusColor: "#30DE88",
+    },
   ],
 dApps: [
     {
