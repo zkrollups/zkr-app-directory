@@ -774,7 +774,7 @@ dApps: [
      {
       name: "zkSync Checkout",
       category: "Dapp",
-      description: "zkSync Checkout helps anyone adopt permissionless checkouts backed by zkSync - receive payments automatically with all the benefits of the zkSync Rollup.",
+      description: "zkSync Checkout helps anyone adopt permissionless checkouts backed by zkSync - create and process payments with all the benefits of the zkSync Rollup.",
       imageLink: "url('project-logos/zksync.jpg')",
       tooltip: "zkSync",
       networks: ["zksync"],
