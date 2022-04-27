@@ -2381,6 +2381,19 @@ dApps: [
      status: "DEV",
       statusColor: "#000000",
     },
+    {
+      name: "CANVAS",
+      category: "Infra",
+      description:
+        "CANVAS Connect is a Layer 2 scaling solution that leverages Starkware’s ZK-Rollups to batch transactions into a single proof, abstracting gas costs from individual transactions.",
+      imageLink: "url('project-logos/canvas.jpg')",
+      tooltip: "StarkEx",
+      networks: ["starkex"],
+     twitterLink: "https://twitter.com/canvas_defi",
+      websiteLink: "https://canvas.co/",
+       status: "DEV",
+      statusColor: "#000000",
+     },
   ],
   nfts: [
     {
