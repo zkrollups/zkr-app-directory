@@ -1,0 +1,18 @@
+.more_wrap{
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+.btn_load{
+    
+    color: white;
+    background-color: #228be6;
+    /* padding: 3px; */
+    width: 6rem;
+    height: 2rem;
+    border: none;
+
+}

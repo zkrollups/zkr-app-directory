@@ -44,6 +44,7 @@ const MenuBar = () => {
               <Button label="About" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
             }
+       
           </span>
         </div>
       </AppBar>
