@@ -2599,19 +2599,6 @@ dApps: [
       status: "DEV",
       statusColor: "#000000",
     },
-    {
-      name: "altzone",
-      category: "NFT",
-      description:
-        "altzone are building a metaverse where you can execute smart contract operations in 3D.",
-      imageLink: "url('project-logos/altzone.jpg')",
-      tooltip: "StarkNet",
-      networks: ["starknet"],
-      twitterLink: "https://twitter.com/altzoneio",
-      websiteLink: "https://www.altzone.io/",
-      status: "DEV",
-      statusColor: "#000000",
-    },
   ],
  games: [
      {

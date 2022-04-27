@@ -23,7 +23,7 @@ const MenuBar = () => {
 
   return (
     <React.Fragment>
-      <AppBar background="linear-gradient(102.77deg, #865ED6 -9.18%, #18BAB9 209.09%)">
+      <AppBar  background="linear-gradient(102.77deg, #865ED6 -9.18%, #18BAB9 209.09%)">
         <a href="https://zkrollups.xyz/" style={{ textDecoration: 'none' }}>
         <Heading level='3' color='white' margin={{left:"medium", top:"none", bottom:"none"}}>zkRollup Directory</Heading>
         </a>
@@ -42,6 +42,11 @@ const MenuBar = () => {
             {
             <Link to="/about" style={{ textDecoration: 'none' , color: "white"}}>
               <Button label="About" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
+            </Link>
+            }
+            {
+            <Link to="/about" style={{ textDecoration: 'none' , color: "white"}}>
+              <Button label="Contact" hoverIndicator style={{ primary: true, color: "white", border:"none", position:"relative", top:"0px", fontSize:"14px", paddingRight:"5px", paddingLeft:"5px"}}/> 
             </Link>
             }
           </span>
