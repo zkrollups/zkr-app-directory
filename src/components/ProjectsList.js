@@ -35,13 +35,13 @@ const ProjectsList = ({ filter, search, networkFilter }) => {
 
     const show_more_data=()=>{
         // numberOfItems=numberOfItems+6
-        setnum(num+8)
+        setnum(num+16)
         console.log("numberOfItems",num)
     }
 
     const [showmore, setshowmore] = useState(false)
 
-    const [num, setnum] = useState(16)
+    const [num, setnum] = useState(40)
     console.log("numberOfInumnumnumtems",num)
     // var numberOfItems =showmore ? results.length : 6
     // console.log("chk arry showmore",showmore,"results",results.length,"numberOfItemsfilter",num)
