@@ -81,7 +81,7 @@ ProjectCard.propTypes = {
         name: PropTypes.string,
         imageLink: PropTypes.string,
         networks: PropTypes.array,
-        category: PropTypes.string,
+        category: PropTypes.array,
         description: PropTypes.string,
         statusColor: PropTypes.string,
         tooltip: PropTypes.string,
