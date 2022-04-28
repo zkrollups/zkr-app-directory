@@ -517,6 +517,19 @@ wallets: [
       status: "LIVE",
       statusColor: "#30DE88",
     },
+    {
+      name: "Coins.ph",
+      category: "Mobile Wallet",
+      description:
+        "Send money, buy load, pay bills, and do more from your phone. No bank account or credit card needed.",
+      imageLink: "url('project-logos/coinsph.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/coinsph",
+      websiteLink: "https://coins.ph/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
   ],
 dApps: [
     {
@@ -1694,6 +1707,19 @@ dApps: [
       status: "TESTNET",
       statusColor: "#F4B832",
     },
+       {
+      name: "CryptoSwap",
+      category: "Dapp",
+      description:
+        "CryptoSwap introduces the concepts of balancing liquidity and timelocked liquidity which provide an efficient and scalable solution to decentralized exchanges. ",
+      imageLink: "url('project-logos/cryptoswap.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/cryptoswaporg",
+      websiteLink: "https://cryptoswap.org/",
+       status: "DEV",
+      statusColor: "#000000",
+    },
   ],
  infra: [
    {
@@ -2622,6 +2648,32 @@ dApps: [
       networks: ["starknet"],
       twitterLink: "https://twitter.com/altzoneio",
       websiteLink: "https://www.altzone.io/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+         {
+      name: "NFTScan",
+      category: "NFT",
+      description:
+        "NFTScan is a professional NFT asset explorer and data open platform.",
+      imageLink: "url('project-logos/nftscan.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/nftscan_com",
+      websiteLink: "https://www.nftscan.com/",
+      status: "DEV",
+      statusColor: "#000000",
+    },
+      {
+      name: "the Sellouts",
+      category: "NFT",
+      description:
+        "Introducing The Sell Outs. Your new favourite band that’s big on ego and low on morals.",
+      imageLink: "url('project-logos/sellouts.jpg')",
+      tooltip: "zkSync",
+      networks: ["zksync"],
+      twitterLink: "https://twitter.com/TheSellOutsNFT",
+      websiteLink: "https://thesellouts.xyz/",
       status: "DEV",
       statusColor: "#000000",
     },
