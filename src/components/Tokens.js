@@ -17,7 +17,7 @@ Text,
 import { projects } from '../data/data';
 
 class TokenTable extends Component {
-  allProjects = projects.rollups.concat(projects.featured,projects.dApps,projects.daos,projects.infra,projects.misc,projects.nfts,projects.wallets,projects.games,projects.daos);
+  allProjects = projects;
 
   render() {
     return (
