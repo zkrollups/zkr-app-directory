@@ -35,13 +35,13 @@ const ProjectsList = ({ filter, search, networkFilter }) => {
 
     const show_more_data=()=>{
         // numberOfItems=numberOfItems+6
-        setnum(num+6)
+        setnum(num+8)
         console.log("numberOfItems",num)
     }
 
     const [showmore, setshowmore] = useState(false)
 
-    const [num, setnum] = useState(6)
+    const [num, setnum] = useState(16)
     console.log("numberOfInumnumnumtems",num)
     // var numberOfItems =showmore ? results.length : 6
     // console.log("chk arry showmore",showmore,"results",results.length,"numberOfItemsfilter",num)
@@ -58,22 +58,21 @@ const ProjectsList = ({ filter, search, networkFilter }) => {
                         <ProjectCard item={project} key={idx} />
                     ))
                 }
-              
-            </Box>
-{
-     num > results.length ?
-    null
-    :
+                {
+                num > results.length ?
+                null
+                :
 
-<div className='more_wrap'>
-<button 
-className='btn_load'
-onClick={show_more_data}>
-Show More
-</button>
-   
-</div>
-}
+                <div className='more_wrap'>
+                    <button 
+                        className='btn_load'
+                        onClick={show_more_data}>
+                        Show More
+                    </button>
+                </div>
+                }
+            </Box>
+
 
            
         </React.Fragment>
