@@ -14,7 +14,7 @@ const All = () => {
       <SearchBar setSearch={setSearch} search={search} />
       <Menu setFilter={setFilter} filter={filter} />
       <NetworkFilter setNetworkFilter={setNetworkFilter} networkFilter={networkFilter} />
-      <ProjectsList filter={filter} search={search} networkFilter={networkFilter} />
+      <ProjectsList filter={filter} search={search} networkFilter={networkFilter} setFilter={setFilter}  />
     </React.Fragment>
   )
 };
