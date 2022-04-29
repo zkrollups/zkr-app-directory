@@ -2,7 +2,7 @@
 // use #30DE88 for LIVE, #F4E532 for SOON, #F4B832 for TESTNET
 // when adding projects take care with networks formatting, supported network values for now: zksync, starknet, starkex, polygon, loopring
 export const projects=  [
-   {
+  {
     "name": "StarkEx",
     "category": [
       "zkRollup"

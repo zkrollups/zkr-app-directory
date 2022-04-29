@@ -4,10 +4,13 @@ import {
   Grommet,
   ResponsiveContext,
 } from 'grommet';
+import 'semantic-ui-css/semantic.min.css'
 import PageFooter from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import All from './screens/All';
 import MenuBar from './components/MenuBar';
+import Navbar from './components/NavBar/navbar';
+import Baner from './components/Baner/baner';
 import About from './components/About';
 import Resources from './components/Resources';
 import Twitter from './components/Twitter';
@@ -18,6 +21,7 @@ const theme = {
     colors: {
       brand: '#228BE6',
       background: '#ebf2ff',
+      // background: '#1D1D27',
     },
     font: {
       family: 'Roboto',
@@ -37,6 +41,8 @@ class App extends Component {
             <Box fill>
               <BrowserRouter>
                 <MenuBar/>
+                {/* <Navbar/>
+                <Baner/> */}
                     <Routes>
                       <Route path='/' element={<All/>} />
                       <Route path='/resources' element={<Resources/>} />

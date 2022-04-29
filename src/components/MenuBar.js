@@ -23,7 +23,7 @@ const MenuBar = () => {
 
   return (
     <React.Fragment>
-      <AppBar background="linear-gradient(102.77deg, #865ED6 -9.18%, #18BAB9 209.09%)">
+      <AppBar >
         <a href="https://zkrollups.xyz/" style={{ textDecoration: 'none' }}>
         <Heading level='3' color='white' margin={{left:"medium", top:"none", bottom:"none"}}>zkRollup Directory</Heading>
         </a>

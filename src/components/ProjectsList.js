@@ -19,9 +19,21 @@ const ProjectsList = ({ filter, search, networkFilter }) => {
 //           .indexOf(obj.name) == pos;
 //       });
      
-    //  console.log("datadatadata",data);
+     console.log("datadatadata",results);
 
-
+     useEffect(() => {
+         if(search.length && networkFilter.length ){
+            setResults(projects.filter(project => project.name.toLowerCase().includes(search.toLowerCase())).filter(project => project.networks.includes(networkFilter) || !networkFilter.length)); 
+         }
+        else if (search.length) {
+            setResults(projects.filter(project => project.name.toLowerCase().includes(search.toLowerCase())));
+        } else if(networkFilter.length){
+            setResults(projects.filter(project => project.networks.includes(networkFilter) || !networkFilter.length));
+        
+        }else {
+            setResults(projects);
+        }
+    }, [search,networkFilter]);
 
 
     useEffect(() => {
@@ -36,30 +48,29 @@ const ProjectsList = ({ filter, search, networkFilter }) => {
     const show_more_data=()=>{
         // numberOfItems=numberOfItems+6
         setnum(num+16)
-        console.log("numberOfItems",num)
+        console.log("number=========>>>>>>>>>>OfItems",num,results.length )
     }
 
     const [showmore, setshowmore] = useState(false)
 
-    const [num, setnum] = useState(40)
-    console.log("numberOfInumnumnumtems",num)
+    const [num, setnum] = useState(6)
+    console.log("numberOfInumnum ==========numtems",num,"dddd",results.length )
     // var numberOfItems =showmore ? results.length : 6
     // console.log("chk arry showmore",showmore,"results",results.length,"numberOfItemsfilter",num)
 
     return (
         <React.Fragment>
             <Box className="custom-scrollbar" direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true" margin={{ left: "xlarge", right: "xlarge" }} style={{ zoom: "0.92" }}>
-                {results.slice(0, num)
-                  
-                    .filter(project => project.name.toLowerCase().includes(search.toLowerCase()))
-                    .filter(project => project.networks.includes(networkFilter) || !networkFilter.length)
+                {results .slice(0, num)
+                   
                     
                     .map((project, idx) => (
+                        
                         <ProjectCard item={project} key={idx} />
                     ))
                 }
                 {
-                num > results.length ?
+                num > results.length -1 ?
                 null
                 :
 
