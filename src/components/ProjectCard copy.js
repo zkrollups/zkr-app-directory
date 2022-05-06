@@ -27,9 +27,9 @@ const ProjectCard = ({ item }) => (
             </a>
         
 
-            <CardBody pad="medium" align="center" className='card_body' background="#36368F">
+            <CardBody pad="medium" align="center" className='card_body' background="#FE5400">
                 <div className='top_categry'>
-                <Button   primary label={item.status} color={item.statusColor} data-tip data-for={item.name} />
+                <Button   primary label={item.status} color="white" data-tip data-for={item.name} />
                 </div>
           
                 <div className='card_imge my-2 p-2' style={{backgroundImage:item.imageLink} }></div>
@@ -57,7 +57,7 @@ const ProjectCard = ({ item }) => (
                 </div>
                 </div>
                 <div>
-                <Text margin="small" size="medium"  color="#7E7E98">Network:{item.category.join(", ")}</Text>
+                <Text margin="small" size="medium"  color="#7E7E98">Network: {item.category.join(", ")}</Text>
            
                 </div>
                 <div>

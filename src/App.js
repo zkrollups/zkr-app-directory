@@ -4,20 +4,25 @@ import {
   Grommet,
   ResponsiveContext,
 } from 'grommet';
+import 'semantic-ui-css/semantic.min.css'
 import PageFooter from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import All from './screens/All';
 import MenuBar from './components/MenuBar';
+import Navbar from './components/NavBar/navbar';
+import Baner from './components/Baner/baner';
 import About from './components/About';
 import Resources from './components/Resources';
 import Twitter from './components/Twitter';
 import Tokens from './components/Tokens';
-
+import Foter from "./components/Footernew/footer"
+import Stay from './components/stay_updated/index';
 const theme = {
   global: {
     colors: {
       brand: '#228BE6',
-      background: '#ebf2ff',
+      background: '#1D1D26',
+      // background: '#1D1D27',
     },
     font: {
       family: 'Roboto',
@@ -34,9 +39,11 @@ class App extends Component {
       <Grommet theme={theme} full>
         <ResponsiveContext.Consumer>
           {size => (
-            <Box fill>
+            // <Box fill>
               <BrowserRouter>
-                <MenuBar/>
+                {/* <MenuBar/> */}
+                 <Navbar/>
+               
                     <Routes>
                       <Route path='/' element={<All/>} />
                       <Route path='/resources' element={<Resources/>} />
@@ -44,9 +51,10 @@ class App extends Component {
                       <Route path='/feed' element={<Twitter/>} />
                       <Route path='/tokens' element={<Tokens/>} />
                     </Routes>
-                <PageFooter/>
+                <Stay/>                  
+                <Foter/>
               </BrowserRouter>
-            </Box>
+            // </Box>
           )}
         </ResponsiveContext.Consumer>
       </Grommet>

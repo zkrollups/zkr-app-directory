@@ -19,3 +19,42 @@
   background: #555;
   border-radius: 20px;
 }
+
+
+.dive_hide{
+
+}
+
+
+.togle_btn{
+  display:none ;
+}
+
+.dive_show{
+  display: block;
+}
+
+@media screen and (max-width: 900px) and (min-width: 0px) {
+
+
+ 
+.togle_btn{
+  display:block ;
+}
+
+.dive_hide{
+  display: none;
+}
+
+
+}
+
+
+.ui.menu .dropdown.item .menu{
+  background-color: #343443 !important;
+
+}
+
+.text{
+  color: white !important;
+}

@@ -1,0 +1,62 @@
+.serach_bar{
+    /* border: 1px solid red; */
+ background: #343443;
+ border-radius: 7px;
+ padding: 2px;
+    
+}
+
+/* @media screen and (max-width: 600px) and (min-width: 0px) {
+/* 
+ .serach_bar{
+     width: 30rem;
+ }
+
+} */ */
+
+
+.bar_inp{
+    width: 50%;
+    /* border: 1px solid yellow */
+}
+
+
+.hHTkts{
+    border: none !important;
+}
+.bar_drop{
+    width: 50%;   
+}
+
+.ui.menu{
+    background: none !important;
+    display: flex;
+
+}
+
+
+.ui.menu .item {
+    color: white !important;
+}
+
+.ser_btn{
+background: #A7E2F2;
+
+    width: 9rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    height: 3em;
+    align-items: center;
+
+  }
+
+  input {
+    flex: 1;
+    width:100%;
+    border: 0;
+  }
+  
