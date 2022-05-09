@@ -31,7 +31,7 @@ const close_menu=()=>{
        <Baner  setSearch={setSearch} search={search} search_category={search_category} setSearch_category={setSearch_category}  /> 
        {/* < SearchBar/> */}
 
-       <div className='row '>
+       <div className='row space_cat'>
        {
              sidemenu?
             //  <button className='togle_btn w-25' onClick={close_menu}>Close</button>
@@ -44,11 +44,12 @@ const close_menu=()=>{
            }
 
 {/* <i className={sidemenu ? "fa fa-times" : "fa fa-bars"}></i> */}
+{/* <div className='col-1'></div> */}
        <div className= {
            sidemenu?
            'col-12 dive_show  '
 :
-'col-3 dive_hide  '
+' col-lg-2 col-md-4 col-sm-6 dive_hide  '
          }>
          <Menu setFilter={setFilter} filter={filter}  results={results} setResults={setResults} />
          </div>
@@ -56,7 +57,7 @@ const close_menu=()=>{
         {
           sidemenu?
           null:
-          <div className='col-lg-9 col-md-12 col-sm-12 '>
+          <div className=' col-lg-10 col-md-8   col-sm-12 '>
          
           
           

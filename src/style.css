@@ -2,7 +2,13 @@
 .custom-scrollbar::-webkit-scrollbar {
   width: 10px;
 }
+.space_cat{
+  margin-left: 10%;
+}
 
+.main_product{
+  margin-right: 2%;
+}
 /* Track */
 .custom-scrollbar::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -19,11 +25,11 @@
   background: #555;
   border-radius: 20px;
 }
-
-
 .dive_hide{
-
+  /* width: 13%; */
 }
+
+
 
 
 .togle_btn{
@@ -32,9 +38,10 @@
 
 .dive_show{
   display: block;
+
 }
 
-@media screen and (max-width: 900px) and (min-width: 0px) {
+@media screen and (max-width: 770px) and (min-width: 0px) {
 
 
  
@@ -44,6 +51,7 @@
 
 .dive_hide{
   display: none;
+
 }
 
 
