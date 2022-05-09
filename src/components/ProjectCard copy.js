@@ -21,15 +21,16 @@ import { NETWORKS } from '../helpers';
 
 const ProjectCard = ({ item }) => (
     <React.Fragment>
-        <Card height={{ min: "small", max: "medium" }} width={{ min: "375px", max: "medium" }}  margin="medium" >
-            <a href={item.websiteLink} target="_blank" rel="noopener noreferrer">
-            {/*  */}
-            </a>
         
+        <Card height={"231px"} width={"small" }  margin="small" >
+            {/* <a href={item.websiteLink} target="_blank" rel="noopener noreferrer"> */}
+            {/*  */}
+            {/* </a> */}
+         
 
-            <CardBody pad="medium" align="center" className='card_body' background="#FE5400">
+            {/* <CardBody pad="medium" align="center" className='card_body' background="#36368F">
                 <div className='top_categry'>
-                <Button   primary label={item.status} color="white" data-tip data-for={item.name} />
+                <Button   primary label={item.status} color={item.statusColor} data-tip data-for={item.name} />
                 </div>
           
                 <div className='card_imge my-2 p-2' style={{backgroundImage:item.imageLink} }></div>
@@ -57,17 +58,16 @@ const ProjectCard = ({ item }) => (
                 </div>
                 </div>
                 <div>
-                <Text margin="small" size="medium"  color="#7E7E98">Network: {item.category.join(", ")}</Text>
+                <Text margin="small" size="medium"  color="#7E7E98">Network:{item.category.join(", ")}</Text>
            
                 </div>
                 <div>
                 <Text margin="small" size="medium" color="#7E7E98">Token: {item.tokenStatus ?item.tokenStatus === "Has" ?item.tokenTicker:"Token Expected":"N/A"}</Text>
            
-                </div>
+                </div> 
     
          
         </Card>
-       
     </React.Fragment>
 );
 

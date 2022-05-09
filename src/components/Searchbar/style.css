@@ -1,31 +1,63 @@
+
 .serach_bar{
     /* border: 1px solid red; */
  background: #343443;
  border-radius: 7px;
- padding: 2px;
+ padding: 0.5%;
     
 }
+.drop_main{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 19px;
 
-/* @media screen and (max-width: 600px) and (min-width: 0px) {
-/* 
- .serach_bar{
-     width: 30rem;
+/* white */
+
+color: #FFFFFF;
+}
+@media screen and (max-width: 690px){
+
+ .bar_inp{
+     width: 50% !important;
+          /* border: 1px solid blue; */
  }
+ .bar_drop{
+    /* border: 1px solid blue !important; */
+    width: 60% !important;
+}
 
-} */ */
+}
+@media screen and (max-width: 580px){
+
+    .bar_inp{
+        width: 45% !important;
+             /* border: 1px solid blue; */
+    }
+    .bar_drop{
+       /* border: 1px solid blue !important; */
+       width: 65% !important;
+   }
+   
+   }
 
 
 .bar_inp{
-    width: 50%;
+    width: 60%;
+    color:#ccccd0;
     /* border: 1px solid yellow */
 }
 
-
 .hHTkts{
     border: none !important;
+    height: 100% !important;
+    /* width: 22.25rem !important; */
 }
 .bar_drop{
-    width: 50%;   
+    width: 56%;   
+    display: flex;
+    justify-content: flex-end;
 }
 
 .ui.menu{
@@ -40,11 +72,22 @@
 }
 
 .ser_btn{
-background: #A7E2F2;
 
-    width: 9rem;
+    width: 42%;
     height: 3rem;
-    border-radius: 5px;
+
+    height: 100%;
+    background: #A7E2F2;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
 }
 
 .search {

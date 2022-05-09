@@ -1,3 +1,6 @@
+.top_space{
+  padding-top: 46px;
+}
 .navbar {
     background-color: #232330;
     height: 80px;
@@ -31,7 +34,7 @@
   .nav-logo {
     color: #51AFC2;
     align-items: center;
-    margin-left: 20px;
+   /* margin-left: calc(100vw - .5%)!important; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -47,7 +50,8 @@
     display: flex;
     list-style: none;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 7%;
+  
   }
   
   .nav-links {
@@ -65,19 +69,30 @@
   .fa-code {
     margin-left: 1rem;
   }
-  
+  .spacing{
+    margin-left: 49px;
+  }
   .nav-item {
     line-height: 40px;
     margin-right: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
   }
   
 
 .add_project{
     height: 3rem;
-    width: 3rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     color: black !important;
     border-radius: 40px;
     background-color: #A7E2F2;
+    
     /* border: 1px solid red; */
 }
 
@@ -108,6 +123,35 @@
     display: none;
   }
   
+
+  
+  
+   @media screen and (width < 1707px) {
+    .nav-logo{
+      margin-left: 10.5%;
+    }
+ 
+  }
+  @media screen and (width > 1540px) and (width<=1750px){
+    .nav-logo{
+      margin-left: 5.5%;
+    }
+ 
+  }
+  
+
+  @media screen and (width > 1920px) and (width<=2048px){
+    .nav-logo{
+      margin-left: -3.5%;
+    }
+ 
+  }
+  @media screen and (width > 2048px) and (width<=2305px){
+    .nav-logo{
+      margin-left: -10.5%;
+    }
+ 
+  }
   @media screen and (max-width: 960px) {
     
     .nav-menu {

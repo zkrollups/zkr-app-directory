@@ -14,9 +14,9 @@ function navbar() {
 
   return (
     <>
- <div>
+ <div >
      <div className={click ? "main-container" : ""}  onClick={()=>Close()} />
-      <nav className="navbar" onClick={e => e.stopPropagation()}>
+      <nav className="navbar top_space" onClick={e => e.stopPropagation()}>
         <div className="nav-container">
           {/* <NavLink exact to="/" className="nav-logo"> */}
          <a className="nav-logo"><img src={icon1}></img></a>
@@ -67,7 +67,7 @@ function navbar() {
                 Contact 
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item spacing">
               <NavLink
                 exact
                 to="/contact"

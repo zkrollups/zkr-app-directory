@@ -8,17 +8,17 @@ function stay() {
    <>
    
 
-<div className='container main_c py-5'>
-<div className='row main_wrap my-5'>
+<div className=' main_c '>
+<div className='row main_wrap'>
 	<div className=' col-sm- 12 col-lg-6 col-md-6 img_part'>
-<div className='col-4'>
-<img src={stay_img}></img>
+<div className='col-2'>
+<img src={stay_img} width={'65px'} height={"73px"}></img>
 </div>
-<div className='col-8 mt-3'>
+<div className='col-10 spacing_left'>
 	<div>
 	<span class="stay">Stay Updated</span>
 	</div>
-<div className='my-2'>
+<div className='my-2 subtitle_be'>
 <span >Be the first to know about Ethereum Layer 2 news</span>
 </div>
 
@@ -26,7 +26,7 @@ function stay() {
 </div>
 
 	</div>
-	<div className='col-sm- 12 col-lg-6 col-md-6'>
+	<div className='col-sm- 12 col-lg-6 col-md-6 spacing_2'>
 		<div className='src_side p-2'>
 			<div>	<input className='inpp' placeholder='Enter Your Email Please'></input></div>
 	<div>

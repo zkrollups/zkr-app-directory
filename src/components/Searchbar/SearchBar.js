@@ -2,7 +2,9 @@ import * as React from 'react';
 import { Dropdown, Menu } from 'semantic-ui-react'
 import { AiOutlineSearch } from "react-icons/ai";
 import PropTypes from 'prop-types';
+import magnifier from '../../actets/magnifier.png'
 import "./style.css"
+import dropdown_image from "../../actets/dropdown.svg";
 import {
   Box,
   TextInput,
@@ -43,15 +45,16 @@ const SearchBar = ({ setSearch, search,setSearch_category, search_category }) =>
     
 
     
-      <Box   className='serach_bar'  margin={{horizontal: 'auto', bottom: 'medium', top: 'large'}} direction="row" justify="between" gap="small" width={"38rem"} style={{minWidth:"200px"}}>
+      <Box   className='serach_bar'  margin={{horizontal: 'auto', bottom: 'medium', top: 'large'}} direction="row" justify="between" gap="small" width={"52.4rem"} style={{minWidth:"200px"}}>
     <div className='bar_inp d-flex'>
-   <AiOutlineSearch size={23} className="m-2"/>
+   {/* <AiOutlineSearch size={23} className="m-2"/> */}
+   <img src={magnifier} width={'18px'} height={'18px'} className="m-3"/>
     <TextInput  placeholder="Search projects by title" value={search} onChange={event => setSearch(event.target.value)} />
     </div>
 
           <div className='d-flex bar_drop'>
-          <Menu compact className='drop_main'>
-    <Dropdown   options={options}  item onChange={(e, result) => handleChange(e,result)} value={search_category}/>
+          <Menu compact>
+    <Dropdown  className='drop_main'   options={options}  item onChange={(e, result) => handleChange(e,result)} value={search_category} icon={<img src={dropdown_image} width={'9px'} height={'6px'}  />}/>
   </Menu>
 <button className='ser_btn'>Search</button>
 

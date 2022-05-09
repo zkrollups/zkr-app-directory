@@ -10,7 +10,7 @@ import Logo2 from "../../actets/flogo2.png"
 import Logo3 from "../../actets/flogo3.png"
 function Footer() {
   return (
-    <footer class="footer-area footer--light color_area">
+    <footer class="footer-area footer--light ">
       <div class="footer-big">
         {/* <!-- start .container --> */}
         <div class="container">
@@ -43,23 +43,21 @@ function Footer() {
                 <div class="footer-menu footer-menu--1">
                   <h4 class="footer-widget-title">Company</h4>
                   <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
+                   
+                    <li className="inner_list">
                       <Link to="#">
                        Resources
                       </Link>
 
                     </li>
-                    <li>
+                    <li className="inner_list">
                       <Link to="#">
                         About
                       </Link>
 
                     </li>
 
-                    <li>
+                    <li className="inner_list">
                       <Link to="#">
                      Contact  </Link>
 
@@ -83,13 +81,13 @@ function Footer() {
                 <div class="footer-menu">
                   <h4 class="footer-widget-title">Support</h4>
                   <ul>
-                    <li>
+                    <li className="inner_list">
                       <a href="#x_start">List a Project</a>
                     </li>
-                    <li>
-                      <a href="#how_work">Patner with Us</a>
+                    <li className="inner_list">
+                      <a href="#how_work">Partner with Us</a>
                     </li>
-                    <li>
+                    <li className="inner_list">
                       <a href="#x_Features">Contact</a>
                     </li>
                  
@@ -109,18 +107,15 @@ function Footer() {
                 <div class="footer-menu no-padding">
                   <h4 class="footer-widget-title">About</h4>
                   <ul>
-                    <li>
+                    <li className="inner_list">
                       <Link to="#">
-                        Term and Service
+                        Terms of Service
                       </Link>
                     </li>
-                    <li>
+                    <li className="inner_list">
                       <a href="#">Privacy Policy</a>
                     </li>
                   
-                    <li>
-                      <a href="#">Refund Policy</a>
-                    </li>
                 
                   </ul>
                 </div>
@@ -131,7 +126,7 @@ function Footer() {
             <div class="col-md-2 col-sm-4">
               <div class="footer-widget1">
                 <div class="footer-menu no-padding">
-                  <h4 class="footer-widget-title">Help Support</h4>
+                  <h4 class="footer-widget-title">Follow US</h4>
                   <ul className="d-flex">
                     <li>
                     <img src={Logo1}/>
@@ -171,8 +166,8 @@ function Footer() {
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="copyright-text">
-                <p>
+              <div class="copyright-text copy_text">
+                <p >
                 Copyright @2022 
                   <a href="#"> zkRollups.xyz</a>. All rights reserved.
                   {/* <a href="https://zkRollups.xyz">SALDIRI</a> */}
