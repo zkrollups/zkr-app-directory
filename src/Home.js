@@ -4,7 +4,8 @@ const Home = (props) => {
   console.log(props.location);
   console.log(props.match);
   console.log(props.history);
-  return <></>;
+  return <>
+  aaaa</>;
 }
 
 export default Home;

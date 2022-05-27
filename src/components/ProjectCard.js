@@ -13,66 +13,61 @@ import {
     Paragraph,
     Avatar,
 } from 'grommet';
+import Cardpic from  "../actets/card logos/starknet-logo1.svg"
+import "./style.css"
 import { Twitter, Language, Money } from 'grommet-icons';
 import ReactTooltip from 'react-tooltip';
 import { NETWORKS } from '../helpers';
 
 const ProjectCard = ({ item }) => (
     <React.Fragment>
-        <Card height={{ min: "small", max: "medium" }} width={{ min: "small", max: "medium" }} background="light-1" margin="medium" >
-            <a href={item.websiteLink} target="_blank" rel="noopener noreferrer">
-            <CardHeader pad="large" background={item.imageLink} style={{position:'relative'}} >
-                {item.tokenStatus ? (
-                    <React.Fragment>
-                    <ReactTooltip id={item.name + item.tokenStatus} place="right" type="dark" effect="solid">
-                        <Text>
-                            { item.tokenStatus === "Has" ? ("Has a Token: $" + item.tokenTicker) : "Token Expected"}
-                        </Text>
-                    </ReactTooltip>
-                    <Box style={{position:'absolute', top: '5px', right: '5px'}} data-tip data-for={item.name + item.tokenStatus}>
-                        <Button icon={<Money color={item.tokenStatus === "Has" ? ("gold") : "grey"} />} hoverIndicator href={item.tokenLink ? (item.tokenLink) : null} target="_blank" />
-                    </Box>
+        <Card height={"231px"} width={"small" }  margin="small" >
+            {/* <a href={item.websiteLink} target="_blank" rel="noopener noreferrer"> */}
+            {/*  */}
+            {/* </a> */}
+         
 
-                    </React.Fragment>
-                ) : null}
-                {item.featured === 'featured' ? (
-                    <Box height='xsmall' style={{position:'absolute', top: '0px', left: '5px'}} >
-                        <Image src="/featured.svg" fit="contain" alt="React Logo" />
-                    </Box>
-                ) : null}
-            </CardHeader>
-            </a>
-            <CardBody pad="medium" align="center">
-                <a href={item.websiteLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                <Heading margin="none" size="small" color="black">{item.name}</Heading>
-                </a>
-                <Text margin="small" size="medium">{item.category}</Text>
-                <Paragraph margin="small" size="small">{item.description}</Paragraph>
+            {/* <CardBody pad="medium" align="center" className='card_body' background="#36368F">
+                <div className='top_categry'>
+                <Button   primary label={item.status} color={item.statusColor} data-tip data-for={item.name} />
+                </div>
+          
+                <div className='card_imge my-2 p-2' style={{backgroundImage:item.imageLink} }></div>
+
+<div className='body_text'>
+    {
+        item.search_on.map((value)=>
+            <Text margin="small" size="medium" className='body_text_'>{value.toUpperCase()}</Text>
+        )
+    }
+
+
+</div>
+          
+        
+        
+
             </CardBody>
-            <CardFooter pad={{ horizontal: "small" }} background="light-2">
-                <div style={{ zoom: "0.85" }}>
-                    <Box direction="row" align="center" alignContent="center" justify="center">
-                        <Button primary label={item.status} color={item.statusColor} data-tip data-for={item.name} />
-                        <ReactTooltip id={item.name} place="right" type="dark" effect="solid">
-                            <Text>
-                                {item.tooltip}
-                            </Text>
-                        </ReactTooltip>
-                        {item.networks && item.networks.length ? (
-                            <Box margin={{left: '20px'}} direction="row" gap={'small'}>
-                                {item.networks.map((network, idx) => (
-                                    <Avatar src={NETWORKS[network]} size={'30px'} key={idx} />
-                                ))}
-                            </Box>
-                        ) : null}
-                    </Box>
+            {/* <CardFooter background="light-2"> */}
+           <div className='d-flex foter_wrap'>
+                <Text margin="small" size="medium " className='fist_h'>{item.name}</Text>
+                <div>
+                    <Button icon={<Twitter color="white" />} hoverIndicator href={item.twitterLink} target="_blank" />
+                    <Button icon={<Language color="white" />} hoverIndicator href={item.websiteLink} target="_blank" />
+                </div>
                 </div>
                 <div>
-                    <Button icon={<Twitter color="black" />} hoverIndicator href={item.twitterLink} target="_blank" />
-                    <Button icon={<Language color="black" />} hoverIndicator href={item.websiteLink} target="_blank" />
+                <Text margin="small" size="medium"  color="#7E7E98">Network:{item.category.join(", ")}</Text>
+           
                 </div>
-            </CardFooter>
+                <div>
+                <Text margin="small" size="medium" color="#7E7E98">Token: {item.tokenStatus ?item.tokenStatus === "Has" ?item.tokenTicker:"Token Expected":"N/A"}</Text>
+           
+                </div> 
+    
+         
         </Card>
+       
     </React.Fragment>
 );
 
