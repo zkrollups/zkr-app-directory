@@ -1,0 +1,106 @@
+
+
+
+  @media screen and (max-width: 1800px) {
+
+.resorce_card_wrap_tow{
+  width: 100% !important;
+}
+.resorce_card_wrap{
+  width: 100% !important;
+}
+
+  }
+
+
+
+.inside{
+  width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+
+.fist_w{
+  width: 80%;
+  text-align: center;
+}
+
+.second_w{
+  width: 20%;
+  text-align: center;
+}
+
+
+
+.resorce_card_wrap{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  width: 80%;
+}
+.resorce_card_wrap_tow{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+
+}
+
+  .resorce_card{
+    width: 267px;
+    height: 231px;
+    left: 512.07px;
+    top: 309.26px;
+    background: #6CBBD0;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.4%;
+  }
+  .resorce_card2{
+    width: 267px;
+    height: 231px;
+    left: 512.07px;
+    top: 309.26px;
+    background: #6CBBD0;
+    border-radius: 20px;
+    display: flex;
+    align-content: flex-start;
+      justify-content: flex-start;
+    align-items: center;
+    margin-right: 1.4%;
+  }
+
+
+  .resorce_text{
+    /* position: absolute; */
+/* width: 172.48px; */
+/* height: 117.18px; */
+left: 549.52px;
+top: 395.82px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+margin-left: 12%;
+
+/* white */
+
+color: #FFFFFF;
+
+  }
+
+
+  .resorce_text2{
+    
+    color: #333333;
+  }
+
+  .margn_botm_last{
+    margin-bottom: 12%;
+  }

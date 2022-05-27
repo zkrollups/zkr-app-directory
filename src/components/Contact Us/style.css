@@ -1,0 +1,134 @@
+.contact_form{
+  /* border: 1px solid red; */
+  width: 51%;
+  /* margin: 0 auto; */
+  padding: 20px;
+}
+
+.main_wrap_form{
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+
+
+.contact_form{
+  /* border: 1px solid red; */
+  width: 80%;
+}
+
+}
+@media screen and (max-width: 1000px) {
+
+
+.contact_form{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+}
+
+
+
+
+.contact_inp{
+  
+height: 59px;
+background: #262630;
+width: 100%;
+border-radius: 10px;
+padding-left: 34px;
+margin-bottom: 40px;
+color: #FFFFFF;
+}
+
+.contact_inp_mesg{
+  margin-top: 25px;
+background: #262630;
+width: 100%;
+height: 211px;
+border-radius: 10px;
+padding-left: 34px;
+padding-bottom: 148px;
+color: #FFFFFF;
+}
+
+
+.submit_buton{
+  margin-top: 45px;
+  margin-bottom: 151px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 35px;
+gap: 10px;
+
+width: 100%;
+height: 65px;
+background: #A7E2F2;
+border-radius: 10px;
+color: #333333;
+font-weight: 600;
+font-size: 16px;
+}
+
+
+
+.main_heading{
+  margin-top: 88px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 37px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.detil_wrap{
+  color: #FFFFFF;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+/* or 144% */
+width: 100%;
+height: 101px;
+text-align: center;
+}
+
+
+.contact_inp_mesg::placeholder {
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+
+.contact_inp_mesg:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+
+.contact_inp_mesg::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+.contact_inp::placeholder {
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+
+.contact_inp:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+
+.contact_inp::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFFFFF;
+  opacity: 0.75;
+}
