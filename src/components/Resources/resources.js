@@ -3,7 +3,7 @@ import "./style.css";
 import Leftarow from "../../actets/left.png";
 import LeftBBB from "../../actets/leftblack.png";
 function Resources() {
-  const arr = [{ color: "#E5E5E5" }];
+  // const arr = [{ color: "#E5E5E5" }];
 
   const arry1 = [
     { text: "An Incomplete Guide to Rollups " },
@@ -41,7 +41,7 @@ function Resources() {
                       <p className="resorce_text">{item.text} </p>
                     </div>
                     <div className="second_w">
-                      <img src={Leftarow}></img>
+                      <img src={Leftarow} alt=""></img>
                     </div>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ function Resources() {
                         </p>
                       </div>
                       <div className="second_w">
-                        <img src={LeftBBB}></img>
+                        <img src={LeftBBB} alt=""></img>
                       </div>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ function Resources() {
                       <p className="resorce_text">     {item.text}  </p>
                     </div>
                     <div className="second_w">
-                      <img src={Leftarow}></img>
+                      <img src={Leftarow} alt=""></img>
                     </div>
                   </div>
                 </div>

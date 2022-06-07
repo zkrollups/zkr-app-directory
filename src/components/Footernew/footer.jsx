@@ -1,16 +1,14 @@
 import React from "react";
 import "./abc.css";
 // import logo from "../Assets/images/jitsimeet.svg";
-import { Link, useHistory } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import logo from '../../actets/logo.png'
 import Logo1 from "../../actets/flogo1.png"
 import Logo2 from "../../actets/flogo2.png"
 import Logo3 from "../../actets/flogo3.png"
-import { useNavigate  } from "react-router-dom";
+// import { useNavigate  } from "react-router-dom";
 
 function Footer() {
-  const navigate = useNavigate();
-
 
 const scrolup=()=>{
   //console.log(" window.scrollTo(0, 0)")
@@ -31,7 +29,7 @@ const scrolup=()=>{
                   <ul class="contact-details">
                     <li>
                       <span ></span> 
-                      <img src={logo}/>
+                      <img src={logo} alt="zkrollupslogo"/>
                       {/* <a href="tel:344-755-111">ssss</a> */}
                     </li>
                     <li>
@@ -90,7 +88,7 @@ const scrolup=()=>{
                   <h4 class="footer-widget-title">Support</h4>
                   <ul>
                     <li className="inner_list">
-                      <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank">List a Project</a>
+                      <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank" rel="noopener noreferrer">List a Project</a>
                     </li>
                     <li className="inner_list">
                       <a href="/contact">Partner with Us</a>
@@ -139,18 +137,18 @@ const scrolup=()=>{
                   <h4 class="footer-widget-title">Follow Us</h4>
                   <ul className="d-flex">
                     <li>
-                      <a href="https://twitter.com/zkRollupsXYZ" target="_blank">
-                        <img src={Logo1}/>
+                      <a href="https://twitter.com/zkRollupsXYZ" target="_blank" rel="noopener noreferrer">
+                        <img src={Logo1} alt="twitter"/>
                       </a>
                     </li>
                     <li>
-                      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank">
-                        <img className="mx-3" src={Logo2}/>
+                      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-3" src={Logo2} alt="github"/>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.reddit.com/r/zkRollups/" target="_blank">
-                        <img src={Logo3}/>
+                      <a href="https://www.reddit.com/r/zkRollups/" target="_blank" rel="noopener noreferrer">
+                        <img src={Logo3} alt="reddit"/>
                       </a>
                     </li>
                  

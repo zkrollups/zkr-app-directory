@@ -4,7 +4,7 @@ import {
   ResponsiveContext,
 } from 'grommet';
 import 'semantic-ui-css/semantic.min.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, } from 'react-router-dom';
 import All from './screens/All';
 import Navbar from './components/NavBar/navbar';
 import Foter from "./components/Footernew/footer"

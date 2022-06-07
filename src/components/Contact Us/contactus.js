@@ -22,7 +22,6 @@ const notify = () => toast.success(' Thanks! We Will Contact soon.', {
   progress: undefined,
   });
 
-const [apiresponse, setapiresponse] = useState()
 //console.log("''namenamename''",name,email,mesage)  
 const Sumit_handler=(event)=>{
   event.preventDefault();
@@ -45,11 +44,10 @@ const baseUrl= process.env.REACT_APP_BASE_URL
 
 const GetCar_detail = (name,email,mesage) => {
   axios.post(baseUrl,{
-
     name:name,
     to:email,
     text:mesage,
-  })  .then(function (response) {
+  }).then(function (response) {
     //console.log(" citiess api=================>>>>> ", response.data);
     notify()
       document.getElementById('nam').value = ''
