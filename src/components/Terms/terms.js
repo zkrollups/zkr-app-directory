@@ -1,7 +1,7 @@
 import React from "react";
 import {useEffect} from "react"
 import "./style.css";
-import SearchBar from "../Searchbar/SearchBar";
+
 function Terms({ setSearch, search, setSearch_category, search_category }) {
 
   useEffect(() => {

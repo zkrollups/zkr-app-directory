@@ -22,7 +22,7 @@ function navbar() {
           {/* <NavLink exact to="/" className="nav-logo"> */}
          <a className="nav-logo" onClick={()=>{
          navigate("/")
-         }}><img src={icon1}></img></a>
+         }}><img src={icon1} alt=""></img></a>
             
           {/* </NavLink> */}
           <ul className={click ? "nav-menu nav_active" : "nav-menu"}>
@@ -77,6 +77,7 @@ function navbar() {
                 activeClassName="active"
                 className="nav-links add_project"
                 target="_blank"
+                rel="noopener noreferrer"
                onClick={click ? handleClick : null}
               >
                 Add Project +

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import { Dimmer, Loader, Segment } from "semantic-ui-react";
+import { Loader, } from "semantic-ui-react";
 import axios from "axios";
 import "react-toastify/dist/ReactToastify.css";
-import { Twitter, Language, Money } from "grommet-icons";
+import { Twitter, } from "grommet-icons";
 import globe from "../../actets/globe.png";
 import cardpic1 from "../../actets/Frame 28.png";
 import cardpic2 from "../../actets/Group 141.png";
@@ -16,35 +16,16 @@ import LastCard3 from "../../actets/Group 138 (1).png";
 import Tweet from "../../actets/icons8-retweet-24 (1).png";
 import Like from "../../actets/icons8-heart-24 (1).png";
 import Reply from "../../actets/icons8-twitter-reply-16.png";
-
 import { projects } from "../../data/data";
-
-import { useParams } from "react-router-dom"
-import { useLocation } from "react-router-dom";
-import {
-  Heading,
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Image,
-  Text,
-  Paragraph,
-  Avatar,
-} from "grommet";
+import { useParams } from "react-router-dom";
+import { Button, } from "grommet";
 import { useNavigate } from "react-router-dom";
 
 function CardDetail({
-  filter,
   setFilter,
-  setSearch,
-  search_category,
 }) {
 
   const navigate = useNavigate();
-
-  const location = useLocation();
 
   const [card_data, setResults] = useState(null);
  
@@ -74,7 +55,7 @@ const [loading, setloading] = useState(true)
     //console.log("projects count", projects.length)
     if(projects.length>0 ){
       for(var i=0; i<projects.length;i++){
-        if( projects[i].name.toLowerCase()==params.name.toLowerCase().replaceAll("-", " ") )
+        if( projects[i].name.toLowerCase()===params.name.toLowerCase().replaceAll("-", " ") )
         {
           // //console.log("current data ",projects[i])
           setResults(projects[i])
@@ -89,15 +70,6 @@ const [loading, setloading] = useState(true)
     
   }, []);
 
-
-
-
-  
-
-
-
-
- 
 
   const [tweets, settweets] = useState([]);
   //console.log("tweetstweets", tweets);
@@ -123,55 +95,22 @@ if(response.data.data){
         //console.log(error);
       });
   };
-
-
-
-
  
+  // const scroll=()=>{
 
-
-
-
-    
-
-
- 
-
-
-  const scroll=()=>{
-
-    // window.scroll(0,findPos(document.getElementById("scrol")));
-    document.querySelector('#scrol').scrollIntoView({
-        behavior: 'smooth'
-      });
-  }
-
+  //   // window.scroll(0,findPos(document.getElementById("scrol")));
+  //   document.querySelector('#scrol').scrollIntoView({
+  //       behavior: 'smooth'
+  //     });
+  // }
 
 
   //useEffect(() => {
   //console.log("useEffectuseEffectuseEffect=>>>>>>>>>>>>") },[] )
   
 
-  
-
-
-
-
-
-
 //   const params = useParams()
 // //console.log("nameeeeeeeeeeeeeeeeeeee===>>>>>>>>>",params.name)
-
-
-
-
-
-
-
-
-
-
-
 
   return card_data ? (
     <>
@@ -220,6 +159,7 @@ if(response.data.data){
                       src={globe}
                       width={"23px"}
                       height={"23px"}
+                      alt="website link"
                     />
                   }
                   hoverIndicator
@@ -269,7 +209,7 @@ if(response.data.data){
               <div className="col-3">
                 <div className="">
                   {" "}
-                  <img src={cardpic1}></img>
+                  <img src={cardpic1} alt=""></img>
                 </div>
               </div>
               <div className="col-3 ">
@@ -284,7 +224,7 @@ if(response.data.data){
                 <div className="">
                   {
                     card_data.hyperlink1?
-                    <img src={Leftarow}></img>
+                    <img src={Leftarow} alt=""></img>
                     :
                     null
                   }
@@ -330,7 +270,7 @@ if(response.data.data){
                       className="imge_back"
                       style={{ backgroundImage: `url(${cardpic2})` }}
                     >
-                      <img src={cardpic2logo}></img>
+                      <img src={cardpic2logo} alt=""></img>
                     </div>
                   )}
                 </div>
@@ -349,10 +289,10 @@ if(response.data.data){
               </div>
               <div className="col-3 d-flex justify-content-end ">
                 <div className="">
-                  {card_data.hyperlink2 ? <img src={Leftarow}></img> : null}
+                  {card_data.hyperlink2 ? <img src={Leftarow} alt=""></img> : null}
                 </div>
               </div>
-              <div className="col-1"></div>
+              <div className="col-1"></div> 
             </div>
           </div>
           <div className="">
@@ -365,7 +305,7 @@ if(response.data.data){
               <div className="col-3 ">
                 <div className="">
                   {" "}
-                  <img src={cardpic3}></img>
+                  <img src={cardpic3} alt=""></img>
                 </div>
               </div>
               <div className="col-3 ">
@@ -376,7 +316,7 @@ if(response.data.data){
               </div>
               <div className="col-3 d-flex justify-content-end ">
                 <div className="">
-                  <img src={Leftarow}></img>
+                  <img src={Leftarow} alt=""></img>
                 </div>
               </div>
               <div className="col-1"></div>
@@ -390,7 +330,7 @@ if(response.data.data){
             <div className="brige_wrap mt-3 ">
               <div className="brige_card row card_div">
                 <div className="col-2 circle_no">
-                  <img src={LastCard1}></img>
+                  <img src={LastCard1} alt=""></img>
                 </div>
                 <div className="col-6">
                   <p className="brige_text"> {card_data.Text1}</p>
@@ -406,7 +346,7 @@ if(response.data.data){
 
               <div className="brige_card row card_div">
                 <div className="col-2">
-                  <img src={LastCard2}></img>
+                  <img src={LastCard2} alt=""></img>
                 </div>
                 <div className="col-6">
                   <p className="brige_text"> {card_data.Text2}</p>
@@ -418,7 +358,7 @@ if(response.data.data){
               {/* <div className="doted_line2"></div> */}
               <div className="brige_card row">
                 <div className="col-2">
-                  <img src={LastCard3}></img>
+                  <img src={LastCard3} alt=""></img>
                 </div>
                 <div className="col-10">
                   <p className="brige_text"> {card_data.Text3} </p>
@@ -473,9 +413,9 @@ Today, we’re launching the first EVM-compatible ZK Rollup on public testnet.
                   tweets.map((item,index) => {
                     return (
                       <>
-                        <div className={index==0?"d-flex  tweet_first":"d-flex  "}>
+                        <div className={index===0?"d-flex  tweet_first":"d-flex  "}>
                           <div className="col-3 logo_wrap">
-                            <img className="" src={item.image}></img>
+                            <img className="" src={item.image} alt=""></img>
                           </div>
 
                           <div className="col-8">
@@ -489,15 +429,16 @@ Today, we’re launching the first EVM-compatible ZK Rollup on public testnet.
                                 <img
                                   src={Reply}
                                   className="mx-2 reply_logo"
+                                  alt="replies"
                                 ></img>
                                 {item.comments}
                               </div>
                               <div className="mx-2 d-flex align-items-center">
-                                <img src={Tweet} className="mx-2"></img>
+                                <img src={Tweet} className="mx-2" alt="retweets"></img>
                                 {item.retweet}
                               </div>
                               <div className="d-flex align-items-center">
-                                <img src={Like} className="mx-2"></img>
+                                <img src={Like} className="mx-2" alt="likes"></img>
                                 {item.likes}
                               </div>
                             </div>

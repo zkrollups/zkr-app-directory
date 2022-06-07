@@ -12,12 +12,10 @@ import Tokens from '../components/Tokens';
 import CardDetail from "../components/CardDetail/CardDetail"
 
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
 } from "react-router-dom";
 import { useLocation } from 'react-router';
-import { useNavigate  } from "react-router-dom";
 
 const All = () => {
   const [filter, setFilter] = useState('');
@@ -26,9 +24,6 @@ const All = () => {
   const [search_category, setSearch_category] = useState("all");
   const [networkFilter, setNetworkFilter] = useState('');
   const [results, setResults] = useState([]);
-
-  const navigate = useNavigate();
-
   const [sidemenu, setsidemenu] = useState(false);
 
 const show_menu=()=>{
@@ -45,7 +40,7 @@ const location = useLocation();
     <React.Fragment>
 
 {
-  location.pathname=="/about" || location.pathname=="/contact" || location.pathname=="/carddetail" || location.pathname=="/resources" || location.pathname=="/tokens" ?
+  location.pathname==="/about" || location.pathname==="/contact" || location.pathname==="/carddetail" || location.pathname==="/resources" || location.pathname==="/tokens" ?
   null
   :
   <Baner  setSearch={setSearch} search={search} search_category={search_category} setSearch_category={setSearch_category} search_in={search_in} setSearch_in={setSearch_in} /> 
