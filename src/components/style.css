@@ -6,6 +6,9 @@
     border-radius: 20px;
     border: 1px solid red;
 } */
+.no_product{
+  color:white;
+}
 .visible .options{
   z-index: 9999;
 }

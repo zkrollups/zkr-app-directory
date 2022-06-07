@@ -23,7 +23,7 @@ const notify = () => toast.success(' Thanks! We Will Contact soon.', {
   });
 
 const [apiresponse, setapiresponse] = useState()
-console.log("''namenamename''",name,email,mesage)  
+//console.log("''namenamename''",name,email,mesage)  
 const Sumit_handler=(event)=>{
   event.preventDefault();
 
@@ -35,13 +35,13 @@ const Sumit_handler=(event)=>{
 
 
   
-    console.log("''namenamename'in condtion '",name,email,mesage)
+    //console.log("''namenamename'in condtion '",name,email,mesage)
 
 
 }
 const baseUrl= process.env.REACT_APP_BASE_URL
 
-console.log("base ==============",baseUrl)
+//console.log("base ==============",baseUrl)
 
 const GetCar_detail = (name,email,mesage) => {
   axios.post(baseUrl,{
@@ -50,7 +50,7 @@ const GetCar_detail = (name,email,mesage) => {
     to:email,
     text:mesage,
   })  .then(function (response) {
-    console.log(" citiess api=================>>>>> ", response.data);
+    //console.log(" citiess api=================>>>>> ", response.data);
     notify()
       document.getElementById('nam').value = ''
   document.getElementById('emi').value = ''
@@ -58,7 +58,7 @@ const GetCar_detail = (name,email,mesage) => {
     // setapiresponse( response.data)
   })
 .catch(function (error) {
-  console.log(error);
+  //console.log(error);
 })
  
 };

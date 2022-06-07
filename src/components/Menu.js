@@ -18,25 +18,181 @@ import {
 } from 'grommet';
 import "./style.css"
 
-const Menu = ({ setFilter, filter,results, setResults  }) => {
+const Menu = ({ setFilter, filter,results, setResults,set_search,search_in,setSearch_in  }) => {
 
   const navigate = useNavigate();
-  console.log(results. length,"resultsresults")
+  //console.log(results. length,"resultsresults")
 
   const [click, setClick] = useState(false);
-  console.log("width========>> ",window.innerWidth)
+  //console.log("width========>> ",window.innerWidth)
   const [active, setactive] = useState(false);
  
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
 
+var allCounts=[];
+var search_category = 'asasd';
+var  localfilter='';
+const getAllCounts=() =>{
+ 
+  Array.isArray(filter) ? localfilter = filter.toString() : localfilter = filter;
+  allCounts=[];
+  allCounts.push(localfilter.toLowerCase()=="all" || localfilter.toLowerCase()==""?results.length:0);
 
+ var rollupsCount =0;
+ if( localfilter.includes("rollups")){
+  rollupsCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('rollups') >= 0
+                : true
+    )
+ })
+ }
+ 
+
+ allCounts.push( localfilter.includes("rollups") ? rollupsCount.length : 0);
+ 
+ var walletsCount =0;
+ if( localfilter.includes("wallets")){
+  walletsCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('wallets') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("wallets") ? walletsCount.length : 0)
+
+ var infraCount =0;
+ if( localfilter.includes("infra")){
+  infraCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('infra') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("infra") ? infraCount.length : 0)
+
+ 
+ 
+ var dAppsCount =0;
+ if( localfilter.includes("dApps")){
+ dAppsCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('dApps') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("dApps") ? dAppsCount.length : 0)
+
+
+ var nftsCount =0;
+ if( localfilter.includes("nfts")){
+  nftsCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('nfts') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("nfts") ? nftsCount.length : 0)
+
+ var gamesCount =0;
+ if( localfilter.includes("games")){
+  gamesCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('games') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("games") ? gamesCount.length : 0)
+
+ var socialCount =0;
+ if( localfilter.includes("social")){
+  socialCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('social') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("social") ? socialCount.length : 0)
+
+ var daosCount =0;
+ if( localfilter.includes("daos")){
+  daosCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('daos') >= 0
+                : true
+    )
+ })
+ }
+ allCounts.push( localfilter.includes("daos") ? daosCount.length : 0)
+
+
+ var miscCount =0;
+ if( localfilter.includes("misc")){
+  miscCount= results
+  .filter((result) => {
+    return (
+      
+      search_category != "all"
+                ? result.search_on.indexOf('misc') >= 0
+                : true
+    )
+ })
+ }
+allCounts.push( localfilter.includes("misc") ? miscCount.length : 0)
+
+
+
+
+
+//  allCounts.push(rollupsCountwallets.length);
+ 
+
+ //allcounts.push(results.filter(results.).length);
+ //console.log("kuch day doonnnnn",allCounts);
+
+}
+
+getAllCounts();
   const filter_fun=(e)=>{
-    
+   
     navigate("/")
     setFilter(e)
     setactive(e)
-    console.log("chk filter_fun",e)
+    set_search("")
+    setSearch_in("")
+
+    //console.log("chk filter_fun",e)
   }
   return (
     <React.Fragment>
@@ -50,111 +206,123 @@ const Menu = ({ setFilter, filter,results, setResults  }) => {
       <h1 className='text-cente'>Categories</h1>
       </div>
       
-        <div className={filter=="" ?'btn_wrap active active2 px-3':'btn_wrap px-3 '} onClick={(e) => filter_fun((''))  }  > 
+        <div className={allCounts[0] > 0  ?'btn_wrap active active2 px-3':'btn_wrap px-3 '} onClick={(e) => filter_fun((''))  }  > 
         <img className='menu_logo cat_image' src={icon1} width={'22px'} height={"22px"}></img>
           <span className='mx-3 categry cat_title'> All</span>
           {
-            filter=="" ?
-             <span className='mr-3'> {results.length}</span>
+            allCounts[0] > 0 ? 
+            
+             <span className='mr-3'> {allCounts[0]}</span>
              :
              null
           }
+          
          
         </div>
-        <div className={filter=="rollups" ?'btn_wrap active px-3':'btn_wrap px-3 '}   onClick={() => filter_fun(('rollups')) }  > 
+
+        <div className={ allCounts[1] > 0 ||  localfilter.includes ("rollups")  ? 'btn_wrap active px-3': 'btn_wrap px-3 ' }  onClick={() => filter_fun(('rollups')) }  > 
           <div><img className='cat_image' src={icon2} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> Rollups</span>
           {
-            filter=="rollups" ?
-             <span className='mr-'> {results.length}</span>
+            allCounts[1] > 0 ? 
+            
+             <span className='mr-'> {allCounts[1]}</span>
              :
              null
+        
+             
           }
-          {/* <button label="All" setFilter('rollups')} active={filter === 'rollups'}  /> */}
+         
+             
+        
+          
         </div>
-        <div className={filter=="wallets" ?'btn_wrap active px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('wallets')) } > 
+        
+
+        {/* <button label="All" setFilter('rollups')} active={filter === 'rollups'}  /> */}
+        <div className= { allCounts[2] > 0 ||  localfilter.includes ("wallets") ? 'btn_wrap active px-3':'btn_wrap px-3 '}   onClick={() => filter_fun(('wallets')) } > 
           <div><img className='cat_image' src={icon3} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> Wallets</span>
           {
-            filter=="wallets" ?
-             <span className='mr-5'> {results.length}</span>
+            allCounts[2] > 0 ?
+             <span className='mr-5'> {allCounts[2]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="infra" ?'btn_wrap active px-3':'btn_wrap px-3 '}   onClick={() => filter_fun(('infra')) }> 
+        <div className={ allCounts[3] > 0 ||  localfilter.includes ("infra") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('infra')) }> 
           <div><img className='cat_image' src={icon4} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> Infra</span>
           {
-            filter=="infra" ?
-             <span className='mr-5'> {results.length}</span>
+            allCounts[3] > 0 ?
+             <span className='mr-5'> {allCounts[3]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="dApps" ?'btn_wrap active px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('dApps')) }> 
+        <div className={ allCounts[4] > 0 ||  localfilter.includes ("dApps") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('dApps')) }> 
           <div><img  className='cat_image' src={icon5} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> dApps</span>
           {
-            filter=="dApps" ?
-             <span className='mr-5'> {results.length}</span>
+            allCounts[4] > 0 ?
+             <span className='mr-5'> {allCounts[4]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="nfts" ?'btn_wrap active px-3':'btn_wrap px-3 '}   onClick={() => filter_fun(('nfts')) }> 
+        <div className={ allCounts[5] > 0 ||  localfilter.includes ("nfts") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('nfts')) }> 
           <div><img className='cat_image' src={icon6} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> NFTs</span>
           {
-            filter=="nfts" ?
-             <span className='mr-5'> {results.length}</span>
+          allCounts[5] > 0 ?
+             <span className='mr-5'> {allCounts[5]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="games" ?'btn_wrap active px-3 ':'btn_wrap  px-3'}  onClick={() => filter_fun(('games')) }> 
+        <div className={ allCounts[6] > 0 ||  localfilter.includes ("games") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('games')) }> 
           <div><img className='cat_image' src={icon7} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> Games</span>
           {
-            filter=="games" ?
-             <span className='mr-5'> {results.length}</span>
+          allCounts[6] > 0 ?
+             <span className='mr-5'> {allCounts[6]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="social" ?'btn_wrap active px-3':'btn_wrap  px-3'}  onClick={() =>filter_fun (('social')) }> 
+        <div className={ allCounts[7] > 0 ||  localfilter.includes ("social")  ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() =>filter_fun (('social')) }> 
           <div><img className='cat_image' src={icon8} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> Social</span>
           {
-            filter=="social" ?
-             <span className='mr-5'> {results.length}</span>
+           allCounts[7] > 0 ?
+             <span className='mr-5'> {allCounts[7]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="daos" ?'btn_wrap active px-3':'btn_wrap  px-3'}  onClick={() => filter_fun(('daos')) }> 
+        <div className={ allCounts[8] > 0 ||  localfilter.includes ("daos") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('daos')) }> 
           <div><img src={icon9} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> DAOs</span>
           {
-            filter=="daos" ?
-             <span className='mr-5'> {results.length}</span>
+           allCounts[8] > 0 ?
+             <span className='mr-5'> {allCounts[8]}</span>
              :
              null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={filter=="misc" ?'btn_wrap active px-3':'btn_wrap  px-3'}  onClick={() => filter_fun(('misc')) }> 
+        <div className={ allCounts[9] > 0 ||  localfilter.includes ("misc") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('misc')) }> 
           <div><img className='cat_image' src={icon10} width={'22px'} height={"22px"}></img></div>
           <span className='mx-3 cat_title'> Misc</span>
           {
-            filter=="misc" ?
-             <span className='mr-5'> {results.length}</span>
+            allCounts[9] > 0 ?
+             <span className='mr-5'> {allCounts[9]}</span>
              :
              null
           }

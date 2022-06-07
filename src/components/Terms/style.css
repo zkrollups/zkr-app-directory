@@ -1,0 +1,47 @@
+
+
+
+  @media screen and (max-width: 795px) {
+
+
+
+
+  }
+
+.main_wrap_term{
+  /* border: 1px solid red; */
+  width: 80%;
+  padding-bottom: 300px;
+
+}
+
+.textall{
+  margin-left: 4%;
+}
+
+.about_haeading{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 37px;
+/* or 176% */
+
+
+color: #FFFFFF;
+}
+
+.textall p{
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 23px; */
+  /* or 144% */
+  
+  
+  /* white */
+  
+  color: #FFFFFF;
+}

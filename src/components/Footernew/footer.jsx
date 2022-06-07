@@ -16,7 +16,7 @@ function Footer() {
 
 
 const scrolup=()=>{
-  console.log(" window.scrollTo(0, 0)")
+  //console.log(" window.scrollTo(0, 0)")
 
 
 }
@@ -127,7 +127,7 @@ const scrolup=()=>{
                   <h4 class="footer-widget-title">About</h4>
                   <ul>
                     <li className="inner_list">
-                      <Link to="/about" onClick={()=>{
+                      <Link to="/terms" onClick={()=>{
                         scrolup()
                       }}>
                         Terms of Service

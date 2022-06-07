@@ -238,7 +238,9 @@ margin-top: 6%;
   flex-wrap: wrap;
   /* width: 83%; */
 }
-
+.tweet_first{
+  margin-top: 100px !important;
+}
 .addres_text{
 
   font-family: 'Inter';

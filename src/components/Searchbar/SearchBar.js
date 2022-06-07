@@ -10,14 +10,14 @@ import {
   TextInput,
 } from 'grommet';
 
-const SearchBar = ({ setSearch, search,setSearch_category, search_category }) => {
-  const [search_in, setSearch_in] = useState('');
+const SearchBar = ({ setSearch, search,setSearch_category, search_category,search_in,setSearch_in }) => {
+
   const [search_category_in, setSearch_category_in] = useState("all");
   const handleChange = (e, result) => {
     const { name, value } = result;
-    // console.log("result===========<>> ",result)
+    // //console.log("result===========<>> ",result)
     setSearch_category_in(value)
-    // console.log(search)
+    // //console.log(search)
     // const s = search;
     // setSearch(s)
     // this.setState({

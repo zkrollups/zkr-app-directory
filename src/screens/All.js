@@ -4,6 +4,7 @@ import Menu from '../components/Menu';
 // import Menu from '../components/menu2';
 import ContactUs from '../components/Contact Us/contactus';
 import About from '../components/About/about';
+import Terms from "../components/Terms/terms"
 import ProjectsList from '../components/ProjectsList';
 import SearchBar from '../components/SearchBar';
 import NetworkFilter from '../components/NetworkFilter';
@@ -31,6 +32,7 @@ import { useNavigate  } from "react-router-dom";
 const All = () => {
   const [filter, setFilter] = useState('');
   const [search, setSearch] = useState('');
+  const [search_in, setSearch_in] = useState('');
   const [search_category, setSearch_category] = useState("all");
   const [networkFilter, setNetworkFilter] = useState('');
   const [results, setResults] = useState([]);
@@ -47,16 +49,16 @@ const close_menu=()=>{
 }
 const location = useLocation();
 
-// console.log("locationlocationlocation",location.pathname)
+// //console.log("locationlocationlocation",location)
 
   return (
     <React.Fragment>
 
 {
-  location.pathname=="/about" || location.pathname=="/contact" || location.pathname=="/carddetail" || location.pathname=="/resources" ?
+  location.pathname=="/about" || location.pathname=="/contact" || location.pathname=="/carddetail" || location.pathname=="/resources" || location.pathname=="/tokens" ?
   null
   :
-  <Baner  setSearch={setSearch} search={search} search_category={search_category} setSearch_category={setSearch_category}  /> 
+  <Baner  setSearch={setSearch} search={search} search_category={search_category} setSearch_category={setSearch_category} search_in={search_in} setSearch_in={setSearch_in} /> 
 
 
 }
@@ -84,7 +86,7 @@ const location = useLocation();
 :
 ' col-lg-2 col-md-4 col-sm-6 dive_hide  '
          }>
-         <Menu setFilter={setFilter} filter={filter}  results={results} setResults={setResults} />
+         <Menu setFilter={setFilter} filter={filter}  results={results} setResults={setResults} set_search={setSearch}  search_in={search_in} setSearch_in={setSearch_in} />
          </div>
          
         {
@@ -98,9 +100,11 @@ const location = useLocation();
                      
                       <Route path='/about' element={<About/>} />
                       <Route path='/contact' element={<ContactUs/>} />
+                      <Route path='/terms' element={<Terms/>} />
                       <Route path='/feed' element={<Twitter/>} />
                       <Route path='/tokens' element={<Tokens/>} />
-                      <Route path='/carddetail' element={<CardDetail/>} />
+                      <Route path='/:name' element={<CardDetail setFilter={setFilter} />} />
+                    
                     </Routes>
           
           </div>
