@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import SearchBar from "../Searchbar/SearchBar";
 import Leftarow from "../../actets/left.png";
 import LeftBBB from "../../actets/leftblack.png";
 function Resources() {

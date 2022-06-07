@@ -12,10 +12,6 @@ import icon7 from "../actets/Vector (6).png";
 import icon10 from "../actets/misc.png";
 import icon8 from "../actets/social.png";
 import { useNavigate  } from "react-router-dom";
-import {
-  Box,
-  Button,
-} from 'grommet';
 import "./style.css"
 
 const Menu = ({ setFilter, filter,results, setResults,set_search,search_in,setSearch_in  }) => {
