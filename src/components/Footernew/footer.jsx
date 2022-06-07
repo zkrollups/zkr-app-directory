@@ -53,20 +53,20 @@ const scrolup=()=>{
                   <ul>
                    
                     <li className="inner_list">
-                      <Link to="#">
+                      <Link to="/resources">
                        Resources
                       </Link>
 
                     </li>
                     <li className="inner_list">
-                      <Link to="#">
+                      <Link to="/about">
                         About
                       </Link>
 
                     </li>
 
                     <li className="inner_list">
-                      <Link to="#">
+                      <Link to="/contact">
                      Contact  </Link>
 
                     </li>
@@ -93,10 +93,10 @@ const scrolup=()=>{
                       <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank">List a Project</a>
                     </li>
                     <li className="inner_list">
-                      <a href="#how_work">Partner with Us</a>
+                      <a href="/contact">Partner with Us</a>
                     </li>
                     <li className="inner_list">
-                      <a href="#x_Features">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                  
 
@@ -123,7 +123,7 @@ const scrolup=()=>{
                       </Link>
                     </li>
                     <li className="inner_list">
-                      <a href="#">Privacy Policy</a>
+                      <a href="/terms">Privacy Policy</a>
                     </li>
                   
                 
@@ -136,16 +136,22 @@ const scrolup=()=>{
             <div class="col-6 col-lg-2 center_footer flex_end_ ">
               <div class="footer-widget1">
                 <div class="footer-menu no-padding">
-                  <h4 class="footer-widget-title">Follow US</h4>
+                  <h4 class="footer-widget-title">Follow Us</h4>
                   <ul className="d-flex">
                     <li>
-                    <img src={Logo1}/>
+                      <a href="https://twitter.com/zkRollupsXYZ" target="_blank">
+                        <img src={Logo1}/>
+                      </a>
                     </li>
                     <li>
-                    <img className="mx-3" src={Logo2}/>
+                      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank">
+                        <img className="mx-3" src={Logo2}/>
+                      </a>
                     </li>
                     <li>
-                    <img src={Logo3}/>
+                      <a href="https://www.reddit.com/r/zkRollups/" target="_blank">
+                        <img src={Logo3}/>
+                      </a>
                     </li>
                  
                     {/* <li>
@@ -179,8 +185,8 @@ const scrolup=()=>{
             <div class="col-md-12">
               <div class="copyright-text copy_text">
                 <p >
-                Copyright @2022 
-                  <a href="#"> zkRollups.xyz</a>. All rights reserved.
+                Copyright &copy;2022 
+                  <a href="/"> zkRollups.xyz</a>. All rights reserved.
                   {/* <a href="https://zkRollups.xyz">SALDIRI</a> */}
                 </p>
               </div>
