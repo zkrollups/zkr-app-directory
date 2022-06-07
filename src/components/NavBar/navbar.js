@@ -71,15 +71,16 @@ function navbar() {
               </NavLink>
             </li>
             <li className="nav-item spacing">
-              <NavLink
+              <a
                 exact
-                to="/"
+                href="https://forms.gle/pbpKnTfvuy6GjKVy8"
                 activeClassName="active"
                 className="nav-links add_project"
+                target="_blank"
                onClick={click ? handleClick : null}
               >
                 Add Project +
-              </NavLink>
+              </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
