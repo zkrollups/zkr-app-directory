@@ -42,8 +42,12 @@ function About({ setSearch, search, setSearch_category, search_category }) {
                   <div  className="name_wrap ">
                     <h6 className="text-center person_name">Joel Kite</h6>
                     <div className="d-flex justify-content-center  ">
-                      <img className="mx-1" src={Tweter}></img>
-                      <img className="mx-1" src={Linkind}></img>
+                      <a href="https://twitter.com/joelkite" target="_blank">
+                        <img className="mx-1" src={Tweter}></img>
+                      </a>
+                      <a href="https://gitcoin.co/milvinae" target="_blank">
+                        <img className="mx-1" src={Linkind}></img>
+                      </a>
                     </div>
 
                   </div>
@@ -56,10 +60,14 @@ function About({ setSearch, search, setSearch_category, search_category }) {
 
                   </div>
                   <div  className="name_wrap ">
-                    <h6 className="text-center person_name">Joel Kite</h6>
+                    <h6 className="text-center person_name">Jason Garland</h6>
                     <div className="d-flex justify-content-center  ">
-                      <img className="mx-1" src={Tweter}></img>
-                      <img className="mx-1" src={Linkind}></img>
+                      <a href="https://twitter.com/jaazinn" target="_blank">
+                        <img className="mx-1" src={Tweter}></img>
+                      </a>
+                      <a href="https://gitcoin.co/jaazinn" target="_blank">
+                        <img className="mx-1" src={Linkind}></img>
+                      </a>
                     </div>
 
                   </div>
