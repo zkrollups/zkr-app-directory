@@ -1,7 +1,5 @@
 import React from "react";
 import "./abc.css";
-import { FaEnvelopeOpenText, } from 'react-icons/fa';
-import { FiPhoneCall, } from 'react-icons/fi';
 // import logo from "../Assets/images/jitsimeet.svg";
 import { Link, useHistory } from "react-router-dom";
 import logo from '../../actets/logo.png'
@@ -9,22 +7,14 @@ import Logo1 from "../../actets/flogo1.png"
 import Logo2 from "../../actets/flogo2.png"
 import Logo3 from "../../actets/flogo3.png"
 import { useNavigate  } from "react-router-dom";
+
 function Footer() {
   const navigate = useNavigate();
 
 
-
-
 const scrolup=()=>{
   //console.log(" window.scrollTo(0, 0)")
-
-
 }
-
-
-
-
-
 
 
   return (

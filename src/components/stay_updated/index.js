@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import SearchBar from '../Searchbar/SearchBar'
 import stay_img from '../../actets/stay.png';
 
 function stay() {

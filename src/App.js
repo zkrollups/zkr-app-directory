@@ -1,20 +1,12 @@
 import React, { Component } from 'react';
 import {
-  Box,
   Grommet,
   ResponsiveContext,
 } from 'grommet';
 import 'semantic-ui-css/semantic.min.css'
-import PageFooter from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import All from './screens/All';
-import MenuBar from './components/MenuBar';
 import Navbar from './components/NavBar/navbar';
-import Baner from './components/Baner/baner';
-import About from './components/About';
-import Resources from './components/Resources';
-import Twitter from './components/Twitter';
-import Tokens from './components/Tokens';
 import Foter from "./components/Footernew/footer"
 import Stay from './components/stay_updated/index';
 // import CardDetail from "./components/DetailCard/card"
@@ -43,12 +35,8 @@ class App extends Component {
             // <Box fill>
               <BrowserRouter>
                 {/* <MenuBar/> */}
-
-
-                
-                 <Navbar/>
-                 <All/>
-                 
+                <Navbar/>
+                <All/>  
                 <Stay/>                  
                 <Foter/>
               </BrowserRouter>

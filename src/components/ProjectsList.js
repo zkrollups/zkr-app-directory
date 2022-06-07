@@ -1,32 +1,15 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import { Box } from "grommet";
-
 import { projects } from "../data/data";
-import ProjectCard from "./ProjectCard";
-import ProjectCardUp from "./ProjectCard copy";
-import { User } from "grommet-icons";
 import { useNavigate } from "react-router-dom";
 import dropdown_image from "../actets/dropdown.svg";
 import "./style.css";
 import Pagination from "@mui/material/Pagination";
 import { Dropdown, Menu } from "semantic-ui-react";
-import { Twitter, Language, Money } from "grommet-icons";
+import { Twitter, } from "grommet-icons";
 import globe from "../actets/globe.png";
-import twitter from "../actets/twitter.png";
-import { NETWORKS } from "../helpers";
 import {
-  Heading,
-
   Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Image,
-  Text,
-  Paragraph,
-  Avatar,
 } from "grommet";
 const ProjectsList = ({
   setNetworkFilter,
@@ -36,7 +19,6 @@ const ProjectsList = ({
   networkFilter,
   results,
   setResults,
-  setSearch_category,
   search_category,
 }) => {
   // const defaultState = Object.keys(projects).map(key => {//console.log(projects[key]); return projects[key]}).flat();

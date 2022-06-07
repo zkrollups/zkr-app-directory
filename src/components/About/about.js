@@ -1,11 +1,10 @@
 import React from "react";
-import { useEffect } from "react";
 import "./style.css";
-import SearchBar from "../Searchbar/SearchBar";
 import Person1 from "../../actets/UxpOYFku_400x400 1.png"
 import Person2 from "../../actets/Mask group.png"
 import Tweter from "../../actets/flogo1.png"
 import Linkind from "../../actets/linkd.png"
+
 function About({ setSearch, search, setSearch_category, search_category }) {
   return (
     <>

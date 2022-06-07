@@ -1,6 +1,5 @@
 import React from 'react'
 import {useState} from 'react'
-import { Navbar,Nav,Container } from 'react-bootstrap';
 import "./style.css"
 import { NavLink } from "react-router-dom";
 import icon1 from "../../actets/logo.png"
