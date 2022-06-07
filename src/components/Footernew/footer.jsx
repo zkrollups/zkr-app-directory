@@ -16,7 +16,6 @@ const scrolup=()=>{
   //console.log(" window.scrollTo(0, 0)")
 }
 
-
   return (
     <footer class="footer-area footer--light " >
       <div class="footer-big">
@@ -91,7 +90,7 @@ const scrolup=()=>{
                   <h4 class="footer-widget-title">Support</h4>
                   <ul>
                     <li className="inner_list">
-                      <a href="#x_start">List a Project</a>
+                      <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank">List a Project</a>
                     </li>
                     <li className="inner_list">
                       <a href="#how_work">Partner with Us</a>
