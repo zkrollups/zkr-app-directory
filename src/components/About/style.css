@@ -1,47 +1,191 @@
 
 
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 1550px) {
+    .main_wrap_about{
+      width: 100% !important;
+    }
+  }
+
+     /* @media  screen and (min-width: 641px) and (max-width: 1007px) {
+      .goal_text{
+        font-size: 20px !important;
+      }
+  }
+
+  @media  screen and (min-width: 324px) and (max-width: 640px) {
+    .goal_text{
+      font-size: 12px !important;
+    }
+} */
+
+  @media screen and (max-width: 520px) {
 
 
-
+.card_wrap{
+  flex-wrap: wrap !important;
+}
+.user_card{
+  margin-top: 20px !important;
+  width: 100% !important;
+  }
 
   }
+
+  @media screen and (max-width: 1200px) {
+    .text_wrap{
+      width: 100% !important;
+    }
+
+    .card_wrap{
+      width: 100% !important;
+      justify-content: space-evenly !important;
+      margin-top: 20px !important;
+    }
+  }
+
+
+
+.text_wrap{
+  width: 50%;
+/* border: 1px solid red; */
+}
+.card_wrap{
+  width: 50% ;
+  /* border: 1px solid blue; */
+  display: flex!important;
+    justify-content: space-between;
+}
+
+
+
+
 
 .main_wrap_about{
   /* border: 1px solid red; */
   width: 80%;
   padding-bottom: 100px;
 
-}
 
-.textall{
-  margin-left: 4%;
-}
 
-.about_haeading{
-  font-family: 'Inter';
+  }
+
+
+  .card_goal{
+    padding: 8%;
+    background: #6CBBD0;
+    border-radius: 20px;
+  }
+
+  .goal_text{
+text-align: justify;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 2.4vw; */
+    font-size: 34px;
+    line-height: 43px;
+    /* or 126% */
+    
+    /* text-align: center; */
+    
+    /* white */
+    
+    color: #FFFFFF;
+
+
+  }
+
+
+  .fist_heading{
+    font-family: Inter;
 font-style: normal;
 font-weight: 700;
 font-size: 21px;
 line-height: 37px;
-/* or 176% */
+/* identical to box height, or 176% */
 
 
 color: #FFFFFF;
+  }
+.About_us_wrap{
+  margin-top: 8%;
+  margin-bottom: 8%;
+  /* border: 1px solid red; */
 }
 
-.textall p{
-  
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  /* line-height: 23px; */
-  /* or 144% */
-  
-  
-  /* white */
-  
-  color: #FFFFFF;
-}
+  .about_heading{
+    font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 37px;
+/* identical to box height, or 176% */
+
+
+color: #FFFFFF;
+
+  }
+
+  .about_text{
+    font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 43px;
+/* or 126% */
+
+width: 92%;
+/* original color */
+
+color: #A7E2F2;
+  }
+
+  .user_card{
+    width: 45%;
+height: 368px;
+left: 1110.29px;
+top: 774px;
+/* padding: 30px; */
+max-width: 267px;
+background: #343443;
+border-radius: 20px;
+  }
+
+  .img_wrap_p{
+     /* border: 1px solid red; */
+    /* border-radius: 100%;  */
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+  }
+
+  .img_cl{
+    border-radius: 100%;
+    width: 90%;
+    height: 90%;
+  }
+
+  .person_name{
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 37px;
+/* identical to box height, or 231% */
+
+
+color: #FFFFFF;
+  }
+
+
+  .name_wrap{
+    display: flex;
+    height: 31%;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-evenly;
+  }

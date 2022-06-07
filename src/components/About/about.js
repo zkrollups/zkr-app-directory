@@ -1,83 +1,74 @@
 import React from "react";
-import {useEffect} from "react"
+import { useEffect } from "react";
 import "./style.css";
 import SearchBar from "../Searchbar/SearchBar";
+import Person1 from "../../actets/UxpOYFku_400x400 1.png"
+import Person2 from "../../actets/Mask group.png"
+import Tweter from "../../actets/flogo1.png"
+import Linkind from "../../actets/linkd.png"
 function About({ setSearch, search, setSearch_category, search_category }) {
-
-  useEffect(() => {
-    // window.scrollTo(0, 0)
-    console.log("useEffectuseEffectuseEffect")
-    scroll()
-  }, [])
-  
-
-  const scroll=()=>{
-
-    // window.scroll(0,findPos(document.getElementById("scrol")));
-    document.querySelector('#scrol').scrollIntoView({
-        behavior: 'smooth'
-      });
-  }
-
-
-
-
-
-
   return (
     <>
-      <div className="container-fluied" id="scrol">
-        <div className="main_wrap_about mt-4">
-          <h2 className="about_haeading">Terms of Use</h2>
-          <div className="textall">
-          <p>Last updated September 30, 2021</p>
-          <p>
-          As a noncustodial service committed to advancing open finance, Numio
-          is committed to preserving the privacy of its users. Please also
-          review our Terms of Use and canary.txt.
-         
-           
-          </p>
+      <div className="container-fluied">
+        <div className="main_wrap_about">
+          <div className="fist_card_wrap">
+            <p className="fist_heading my-5">Our Goal</p>
 
-          <p>AGREEMENT TO TERMS</p>
-          <p>
-            These Terms of Use constitute a legally binding agreement made
-            between you, whether personally or on behalf of an entity (“you”)
-            and Numio, Inc. (“Numio“, “Company“, “we“, “us“, or “our“),
-            concerning your access to and use of the https://www.numio.one
-            website (“Site“), the “Numio” application (“App“) as well as any
-            other digital services, media form, media channel, mobile website or
-            mobile application related, linked, or otherwise connected thereto
-            (collectively, the “Services”). You agree that by accessing the
-            Services, you have read, understood, and agreed to be bound by all
-            of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS
-            OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES
-            AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-          </p>
-          <p>
-            THESE TERMS AND CONDITIONS ARE SUBJECT TO CHANGE WITHOUT NOTICE,
-            FROM TIME TO TIME IN OUR SOLE DISCRETION.
-          </p>
-          <p>
-            The Services provide software tools for users to access and manage
-            various features and functions related to digital assets including
-            tokens, cryptocurrencies, virtual currencies or any other digital
-            assets you own that are supported by the Services (collectively,
-            “Digital Assets”), including interfacing with third party sources
-            for certain information regarding the value of Digital Assets. The
-            Services do not purchase, sell, store or exchange Digital Assets. We
-            do not recommend that you use the Services unless you are familiar
-            with Digital Assets, Blockchain technology and can securely store
-            your own private key. The App includes information about various
-            Digital Assets, however, such inclusion or availability of
-            information does not imply endorsement by Numio of such Digital
-            Assets or any association with the operators of the Digital Assets.
-            Numio includes or makes such information available for your
-            convenience only. You understand and accept the inherent security
-            risks of using the Internet.
-          </p>
+            <div className="card_goal">
+              <p className="goal_text">
+                “Our goal is simple: to aggregate any and every project building
+                zkRollups, building on zkRollups, and building for zkRollups. By
+                making these projects easy to find via an intuitive directory,
+                we will promote adoption of this world-changing tech.”
+              </p>
+            </div>
           </div>
-      
+
+          <div className="About_us_wrap ">
+            <div className=" row">
+              <div className="text_wrap">
+                <h6 className="about_heading">About Us</h6>
+                <p className="about_text">
+                  Jason Garland and Joel Kite are Co-Founders of Numio and have
+                  been building on zkRollup technology since 2020.
+                </p>
+              </div>
+              <div className="  card_wrap ">
+         
+                <div className="user_card ">
+                  <div className="img_wrap_p">
+                    <img className="img_cl" src={Person1}></img>
+
+                  </div>
+                  <div  className="name_wrap ">
+                    <h6 className="text-center person_name">Joel Kite</h6>
+                    <div className="d-flex justify-content-center  ">
+                      <img className="mx-1" src={Tweter}></img>
+                      <img className="mx-1" src={Linkind}></img>
+                    </div>
+
+                  </div>
+                
+                </div>
+               
+                <div className="user_card   ">
+                  <div className="img_wrap_p">
+                    <img className="img_cl" src={Person2}></img>
+
+                  </div>
+                  <div  className="name_wrap ">
+                    <h6 className="text-center person_name">Joel Kite</h6>
+                    <div className="d-flex justify-content-center  ">
+                      <img className="mx-1" src={Tweter}></img>
+                      <img className="mx-1" src={Linkind}></img>
+                    </div>
+
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

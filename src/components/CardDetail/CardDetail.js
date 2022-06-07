@@ -21,6 +21,9 @@ import Tweet from "../../actets/icons8-retweet-24 (1).png";
 import Like from "../../actets/icons8-heart-24 (1).png";
 import Reply from "../../actets/icons8-twitter-reply-16.png";
 
+import { projects } from "../../data/data";
+
+import { useParams } from "react-router-dom"
 import { useLocation } from "react-router-dom";
 import {
   Heading,
@@ -37,83 +40,106 @@ import {
 import { useNavigate } from "react-router-dom";
 
 function CardDetail({
+  filter,
+  setFilter,
   setSearch,
-  search,
-  setSearch_category,
   search_category,
 }) {
+
   const navigate = useNavigate();
 
   const location = useLocation();
 
-  const [card_data, setcard_data] = useState(location.state);
+  const [card_data, setResults] = useState(null);
+ 
+  const [result1, setresult1] = useState("");
+  const [result2, setresult2] = useState("");
+  const params= useParams();
+  //const [card_dataa, setResults] = useState([]);
 
-  const result1 = card_data.wallet_address.substring(1, 6);
-  const result2 = card_data.wallet_address.substring(8, 12);
-
-const [nodata, setnodata] = useState(false)
-
+// const [nodata, setnodata] = useState(false)
+ 
 const [loading, setloading] = useState(true)
 
   useEffect(() => {
-    console.log("card_datacard_data=====in use effcet======>>>>>>>", card_data);
+    //console.log("card_datacard_data=====in use effcet======>>>>>>>", card_data);
 
-    console.log(
-      "location.statelocation.state===========>>>>>>",
-      location.state,
-      card_data
-    );
-    if (!card_data) {
-      console.log("if condtion true");
-      navigate("/");
+    // //console.log(
+    //   "location.statelocation.state===========>>>>>>",
+    //   location.state,
+    //   card_data
+    // );
+    // if (!card_data) {
+    //   //console.log("if condtion true");
+    //   navigate("/");
+
+    // }
+
+    //console.log("projects count", projects.length)
+    if(projects.length>0 ){
+      for(var i=0; i<projects.length;i++){
+        if( projects[i].name.toLowerCase()==params.name.toLowerCase().replaceAll("-", " ") )
+        {
+          // //console.log("current data ",projects[i])
+          setResults(projects[i])
+          Get_tweets(projects[i].twitterLink)
+          setresult1(projects[i].wallet_address.substring(1, 6));
+          setresult2(projects[i].wallet_address.substring(8, 12));
+          break
+        }
+      }
     }
+
+    
   }, []);
 
-  useEffect(() => {
-    console.log("location.state.twitterLink", location.state.twitterLink);
 
-    Get_tweets(location.state.twitterLink)
-  }, []);
+
+
+  
+
+
+
+
+ 
 
   const [tweets, settweets] = useState([]);
-  console.log("tweetstweets", tweets);
+  //console.log("tweetstweets", tweets);
   const baseUrl = process.env.REACT_APP_TWEETER_BASE_URL
 
-  console.log("process.env.REACT_APP_TWEETER_BASE_URL",process.env.REACT_APP_TWEETER_BASE_URL)
+  //console.log("process.env.REACT_APP_TWEETER_BASE_URL",process.env.REACT_APP_TWEETER_BASE_URL)
   const Get_tweets = (link) => {
     axios
       .post(baseUrl, {
         link: link,
       })
       .then(function(response) {
-        console.log(" citiess api=================>>>>> ", response.data);
+        //console.log(" citiess api=================>>>>> ", response.data);
 
         setloading(false)
 if(response.data.data){
   settweets(response.data.data);
 }
-else{
-  setnodata(true)
-}
+
       
       })
       .catch(function(error) {
-        console.log(error);
+        //console.log(error);
       });
   };
 
-  console.log("card_datacard_data down ===========>>>>>>>", card_data);
+
+
+
+ 
 
 
 
 
+    
 
 
-  useEffect(() => {
-    // window.scrollTo(0, 0)
-    console.log("useEffectuseEffectuseEffect")
-    scroll()
-  }, [])
+ 
 
 
   const scroll=()=>{
@@ -123,6 +149,26 @@ else{
         behavior: 'smooth'
       });
   }
+
+
+
+  //useEffect(() => {
+  //console.log("useEffectuseEffectuseEffect=>>>>>>>>>>>>") },[] )
+  
+
+  
+
+
+
+
+
+
+//   const params = useParams()
+// //console.log("nameeeeeeeeeeeeeeeeeeee===>>>>>>>>>",params.name)
+
+
+
+
 
 
 
@@ -209,11 +255,16 @@ else{
             <div
               className= {card_data.hyperlink1?"type_card mx-3 d-flex justify-content-evenly align-items-center":"type_card2 mx-3 d-flex justify-content-evenly align-items-center "}
               onClick={() => {
-                if(card_data.hyperlink1 )
-             {
-              window.open(card_data.hyperlink1, "_blank")
-             }
+                // if(card_data.hyperlink1 )
+            //  {
+              // window.open(card_data.hyperlink1, "_blank")
+              setFilter(card_data.search_on)
+              navigate("/")
+            //  }
               
+                navigate("/");
+
+
               }}
 
 
@@ -239,7 +290,7 @@ else{
                     card_data.hyperlink1?
                     <img src={Leftarow}></img>
                     :
-null
+                    null
                   }
                 
                 </div>
@@ -255,6 +306,7 @@ null
              {
               window.open(card_data.hyperlink2, "_blank")
              }
+
               
           
               }}
@@ -345,10 +397,10 @@ null
                   <img src={LastCard1}></img>
                 </div>
                 <div className="col-6">
-                  <p className="brige_text">Bridge money to  {card_data.name}</p>
+                  <p className="brige_text"> {card_data.Text1}</p>
                 </div>
                 <div className="col-4 d-flex justify-content-center">
-                  <button className="brige_btn"> Bridge</button>
+                  <button className="brige_btn">  {card_data.linkText1}</button>
                   {/* <button className="brige_btn"> Bridge</button> */}
                 </div>
               </div>
@@ -361,10 +413,10 @@ null
                   <img src={LastCard2}></img>
                 </div>
                 <div className="col-6">
-                  <p className="brige_text">Go to the Aave dapp</p>
+                  <p className="brige_text"> {card_data.Text2}</p>
                 </div>
                 <div className="col-4 d-flex justify-content-center">
-                  <button className="dapp_btn "> Aave dApp</button>
+                  <button className="dapp_btn ">  {card_data.linkText2}</button>
                 </div>
               </div>
               {/* <div className="doted_line2"></div> */}
@@ -373,9 +425,7 @@ null
                   <img src={LastCard3}></img>
                 </div>
                 <div className="col-10">
-                  <p className="brige_text">
-                    Click “Make a trade” and follow the instructions
-                  </p>
+                  <p className="brige_text"> {card_data.Text3} </p>
                 </div>
               </div>
             </div>
@@ -424,10 +474,10 @@ Today, we’re launching the first EVM-compatible ZK Rollup on public testnet.
  
 </div> */}
                 {!loading ? ( tweets.length > 0 ? 
-                  tweets.map((item) => {
+                  tweets.map((item,index) => {
                     return (
                       <>
-                        <div className="d-flex  mt-2">
+                        <div className={index==0?"d-flex  tweet_first":"d-flex  "}>
                           <div className="col-3 logo_wrap">
                             <img className="" src={item.image}></img>
                           </div>
@@ -511,8 +561,9 @@ Today, we’re launching the first EVM-compatible ZK Rollup on public testnet.
 
 
   ) : (
-    <></>
-  );
-}
+
+    card_data ? (<>Loading</>) :(<> No data found </>)
+     
+  )}
 
 export default CardDetail;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { Box } from "grommet";
+
 import { projects } from "../data/data";
 import ProjectCard from "./ProjectCard";
 import ProjectCardUp from "./ProjectCard copy";
@@ -16,6 +17,7 @@ import twitter from "../actets/twitter.png";
 import { NETWORKS } from "../helpers";
 import {
   Heading,
+
   Button,
   Card,
   CardHeader,
@@ -37,8 +39,8 @@ const ProjectsList = ({
   setSearch_category,
   search_category,
 }) => {
-  // const defaultState = Object.keys(projects).map(key => {console.log(projects[key]); return projects[key]}).flat();
-  console.log("filterfilterfilterfilter===>> ", filter.length, search.length);
+  // const defaultState = Object.keys(projects).map(key => {//console.log(projects[key]); return projects[key]}).flat();
+  // //console.log("filterfilterfilterfilter===>> ", filter.length, search.length);
 
   const navigate = useNavigate();
   const [tokenfilter, settokenfilter] = useState("all");
@@ -79,7 +81,7 @@ const ProjectsList = ({
   //           .indexOf(obj.name) == pos;
   //       });
 
-  //  console.log("datadatadata",results);
+  //  //console.log("datadatadata",results);
   useEffect(() => {
     settotal_pages(Math.ceil(results.length / total_show));
   }, [results]);
@@ -106,12 +108,12 @@ const ProjectsList = ({
           )
       );
     } else if (search.length) {
-      // console.log('search cat =-===>> ',search_category)
-      // console.log("i am in simple search ")
+      // //console.log('search cat =-===>> ',search_category)
+      // //console.log("i am in simple search ")
       setFilter(search_category == "all" ? "" : search_category);
       setResults(
         projects.filter((project) => {
-          console.log("condition ===========>>>> ");
+          //console.log("condition ===========>>>> ");
           return (
             project.name.toLowerCase().includes(search.toLowerCase()) &&
             (search_category != "all"
@@ -134,32 +136,62 @@ const ProjectsList = ({
     } else {
       setResults(projects);
     }
-    // console.log("i am inside the search filter====>>>  ",results);
+    // //console.log("i am inside the search filter====>>>  ",results);
   }, [search, networkFilter, search_category]);
 
   useEffect(() => {
     if (filter.length && !search.length) {
+      if(Array.isArray(filter)){
+        //console.log("array======>> ",filter)
+        setResults(
+          projects.filter((project) =>{ 
+            var flag=false;
+            for(var i=0;i<project.search_on.length;i++){
+              if(filter.indexOf(project.search_on[i])>=0){
+                flag=true;
+                break;
+              }
+            }
+            return flag;
+          })
+         )}
+      else{
       setResults(
         projects.filter((project) => project.search_on.indexOf(filter) >= 0)
       );
-    } else if (!filter.length && !search.length) {
+      }
+    }  
+    // else if (filter.length && search.length){
+
+    //   setResults(
+    //   projects.filter((project) => ((project.search_on.indexOf(filter) >= 0)&& (project.name.toLowerCase().includes(search.toLowerCase())))))
+    // } 
+    
+    // if(!filter.length && search.length){
+    //   setResults(
+    //     projects.filter((project) => (( (search_category != "all"
+    //     ? project.search_on.indexOf(search_category) >= 0
+    //     : true))&& (project.name.toLowerCase().includes(search.toLowerCase()))))) 
+    // }
+    else if (!filter.length && !search.length) {
       setResults(projects);
     }
+
   }, [filter]);
 
   const show_more_data = () => {
     // numberOfItems=numberOfItems+6
     setnum(num + 32);
-    // console.log("number=========>>>>>>>>>>OfItems",num,results.length )
+    // //console.log("number=========>>>>>>>>>>OfItems",num,results.length )
   };
 
   const [showmore, setshowmore] = useState(false);
 
   const [num, setnum] = useState(40);
   const [num2, setnum2] = useState(3);
-  // console.log("numberOfInumnum ==========numtems",num,"dddd",results.length )
+  // //console.log("numberOfInumnum ==========numtems",num,"dddd",results.length )
   // var numberOfItems =showmore ? results.length : 6
-  // console.log("chk arry showmore",showmore,"results",results.length,"numberOfItemsfilter",num)
+  // //console.log("chk arry showmore",showmore,"results",results.length,"numberOfItemsfilter",num)
 
   // =================pagination===========
   const [dropvalue, setdropvalue] = useState("all");
@@ -187,13 +219,13 @@ const ProjectsList = ({
       setNetworkFilter("");
     }
     setdropvalue(value);
-    console.log("setNetworkFiltersetNetworkFilter up", value, text, result);
+    //console.log("setNetworkFiltersetNetworkFilter up", value, text, result);
   };
 
   const item_slect = (e, result) => {
     const { text, value } = result;
 
-    console.log(text, "item_slect up", value);
+    //console.log(text, "item_slect up", value);
     settotal_show(value);
     const total = Math.ceil(results.length / value);
     settotal_pages(total);
@@ -205,7 +237,7 @@ const ProjectsList = ({
   };
 
   const paginationhandler = (event, val) => {
-    console.log("Page changes ");
+    //console.log("Page changes ");
 
     if (curentpage < val) {
       const end = val * total_show;
@@ -218,7 +250,7 @@ const ProjectsList = ({
       setpaginate_start(v);
       setpaginate_end(total_show * val);
 
-      console.log("else condtion");
+      //console.log("else condtion");
     }
     console.log(
       "after pagination start ",
@@ -253,9 +285,11 @@ const ProjectsList = ({
         <div className="row  my-3 container" id="scrol">
           <div className="col ffff ">
             <h6 className=" showi">
-              Showing : {filter == "" ? "All" : filter.toUpperCase()}
+              Showing : {filter == "" ? "All" :Array.isArray(filter)?filter.join(",") :filter.toUpperCase()}
             </h6>
           </div>
+
+
           <div className="col  bbbb ">
             <Menu compact className="drop_main">
               <Dropdown
@@ -276,6 +310,7 @@ const ProjectsList = ({
               />
             </Menu>
           </div>
+          
         </div>
       ) : (
         <>
@@ -304,13 +339,24 @@ const ProjectsList = ({
               </Menu>
             </div>
           </div>
+          
           <div className="row show_cards container">
+            
             {results.slice(0, num2).map((item, idx) => (
+              
               <div
                 class="v40_4201_up  col-5 mt-5"
                 style={{ cursor: "pointer" }}
                 onClick={() => {
-                  navigate("/carddetail", { state: item });
+
+               
+           
+                  navigate(`/${item.name}`, { state:item} );
+             
+           
+               
+             
+                  
                 }}
               >
                 <div
@@ -403,6 +449,7 @@ const ProjectsList = ({
             <h2 className="">
               Showing : {filter == "" ? "All" : filter.toUpperCase()}
             </h2>
+          
           </div>
           <div className="col-6 bbbb"></div>
         </div>
@@ -411,13 +458,21 @@ const ProjectsList = ({
       {/* <Box className="custom-scrollbar  " direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true"  style={{ zoom: "0.92" }}> */}
 
       {/* <div className='v40_4293'> */}
-      <div className="row show_cards container">
+      
+      
+      {results.length>0? <div className="row show_cards container">
         {results.slice(paginate_start, paginate_end).map((item, idx) => (
           <div
             class="v40_4201  mt-5"
             style={{ cursor: "pointer" }}
             onClick={() => {
-              navigate("/carddetail", { state: item });
+           
+            //   var myname= item.name;
+            //  myname=myname.replace(" ", "-");
+
+              navigate(`/${item.name.replaceAll(" ", "-")}`);
+
+              
             }}
           >
             <div class="v40_4202" style={{ background: item.backgroud_color }}>
@@ -511,7 +566,8 @@ const ProjectsList = ({
             </span>
           </div>
         ))}
-      </div>
+      </div>: <h4 class="no_product">No Data found</h4>}
+     
       {/* </div> */}
 
       {/* </Box> */}
