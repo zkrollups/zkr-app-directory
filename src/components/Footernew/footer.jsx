@@ -64,8 +64,7 @@ const scrolup=()=>{
                     </li>
 
                     <li className="inner_list">
-                      <Link to="/contact">
-                     Contact  </Link>
+                      <a href="https://linktr.ee/zkrollups.xyz" target="_blank" rel="noopener noreferrer">Linktree</a>
 
                     </li>
                     
@@ -94,7 +93,7 @@ const scrolup=()=>{
                       <a href="/contact">Partner with Us</a>
                     </li>
                     <li className="inner_list">
-                      <a href="/contact">Contact</a>
+                      <a href="mailto:gm@zkrollups.xyz">Email Us</a>
                     </li>
                  
 
