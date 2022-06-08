@@ -25,7 +25,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/StarkWareLtd",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://starkware.co/starknet/"
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
       "tokenStatus": "Expected",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zksync",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zksync.io/"
   },
   {
@@ -88,7 +88,7 @@ export const projects = [
     "Text3": "Click (Make a trade) and follow the instructions ",
     "tooltip": "Aztec",
     "twitterLink": "https://twitter.com/aztecnetwork",
-    "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
     "websiteLink": "https://aztec.network/"
   },
   {
@@ -117,7 +117,7 @@ export const projects = [
     "Text3": "Click (Make a trade) and follow the instructions ",
     "tooltip": "StarkEx",
     "twitterLink": "https://twitter.com/StarkWareLtd",
-    "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
     "websiteLink": "https://starkware.co/starkex/"
   },
   {
@@ -154,7 +154,7 @@ export const projects = [
       "tokenTicker": "LRC",
       "tooltip": "Loopring",
       "twitterLink": "https://twitter.com/loopringorg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "http://loopring.io/"
   },
   {
@@ -189,7 +189,7 @@ export const projects = [
       "tokenTicker": "c",
       "tooltip": "ZKSpace",
       "twitterLink": "https://twitter.com/ZKSpaceOfficial",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zks.org"
   },
   {
@@ -224,7 +224,7 @@ export const projects = [
       "tokenTicker": "MATIC",
       "tooltip": "Polygon Hermez",
       "twitterLink": "https://twitter.com/0xPolygonHermez",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://hermez.io/"
   },
   {
@@ -257,7 +257,7 @@ export const projects = [
       "tokenTicker": "MATIC",
       "tooltip": "Polygon Miden",
       "twitterLink": "https://twitter.com/0xPolygonMiden",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/maticnetwork/miden"
   },
   {
@@ -290,7 +290,7 @@ export const projects = [
       "tokenTicker": "ZKT",
       "tooltip": "zkTube",
       "twitterLink": "https://twitter.com/zktubeofficial/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zktube.io/"
   },
   {
@@ -319,7 +319,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Scroll",
       "twitterLink": "https://twitter.com/Scroll_ZKP",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://scroll.io/"
   },
   {
@@ -352,7 +352,7 @@ export const projects = [
       "tokenTicker": "MATIC",
       "tooltip": "Polygon Zero",
       "twitterLink": "https://twitter.com/0xPolygonZero",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://polygon.technology/solutions/polygon-zero"
   },
   {
@@ -383,7 +383,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Edgeswap",
       "twitterLink": "https://twitter.com/EdgeSwap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://edgeswap.io/"
   },
   {
@@ -418,7 +418,7 @@ export const projects = [
       "tokenTicker": "ZKL",
       "tooltip": "zkLink",
       "twitterLink": "https://twitter.com/zkLinkorg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zk.link/"
   },
   {
@@ -453,7 +453,7 @@ export const projects = [
       "tokenTicker": "KNC",
       "tooltip": "ZKyber",
       "twitterLink": "https://twitter.com/KyberNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://kyberswap.com/zkyber/"
   },
   {
@@ -482,7 +482,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Orbis",
       "twitterLink": "https://twitter.com/orbisproject",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://orbisprotocol.com"
   },
   {
@@ -511,7 +511,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Nectar",
       "twitterLink": "https://twitter.com/nectarprotocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://nectar.haus/"
   },
   {
@@ -543,7 +543,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/getnumio",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://numio.one"
   },
   {
@@ -572,7 +572,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/imTokenOfficial",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://token.im/"
   },
   {
@@ -601,7 +601,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/argentHQ",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.argent.xyz/"
   },
   {
@@ -630,7 +630,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/argentHQ",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.argent.xyz/argent-x/"
   },
   {
@@ -659,7 +659,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkEx, DeversiFi",
       "twitterLink": "https://twitter.com/opera",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.opera.com/"
   },
   {
@@ -688,7 +688,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/DCENTwallets",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://dcentwallet.com/"
   },
   {
@@ -717,7 +717,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/MathWallet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mathwallet.org/"
   },
   {
@@ -746,7 +746,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/ONTOWallet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://onto.app/"
   },
   {
@@ -775,7 +775,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/web3auth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://web3auth.io/"
   },
   {
@@ -804,7 +804,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/GetBlockWallet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://blockwallet.io/"
   },
   {
@@ -834,7 +834,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync, StarkNet",
       "twitterLink": "https://twitter.com/FoxWallet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://foxwallet.com/en"
   },
   {
@@ -863,7 +863,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/gopocketwallet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://gopocket.security/"
   },
   {
@@ -892,7 +892,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/Ledger",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.ledger.com/"
   },
   {
@@ -921,7 +921,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/tallycash",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://tally.cash/"
   },
   {
@@ -950,7 +950,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/myBraavos",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://braavos.app/"
   },
   {
@@ -983,7 +983,7 @@ export const projects = [
       "tokenTicker": "DVF",
       "tooltip": "StarkEx",
       "twitterLink": "https://twitter.com/deversifi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://deversifi.com/"
   },
   {
@@ -1016,7 +1016,7 @@ export const projects = [
       "tokenTicker": "DYDX",
       "tooltip": "StarkEx)",
       "twitterLink": "https://twitter.com/dydxprotocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://dydx.exchange/"
   },
   {
@@ -1045,7 +1045,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkEx",
       "twitterLink": "https://twitter.com/Sorare",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://sorare.com/"
   },
   {
@@ -1078,7 +1078,7 @@ export const projects = [
       "tokenTicker": "CRV",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/CurveFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zksync.curve.fi/"
   },
   {
@@ -1109,7 +1109,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync, StarkNet",
       "twitterLink": "https://mobile.twitter.com/zigzagexchange",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://info.zigzag.exchange/"
   },
   {
@@ -1142,7 +1142,7 @@ export const projects = [
       "tokenTicker": "PSP",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/paraswap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://paraswap.io"
   },
   {
@@ -1176,7 +1176,7 @@ export const projects = [
       "tokenTicker": "GTC",
       "tooltip": "zkSync, Loopring",
       "twitterLink": "https://twitter.com/gitcoin",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://gitcoin.co/"
   },
   {
@@ -1209,7 +1209,7 @@ export const projects = [
       "tokenTicker": "MUTE",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/mute_io",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mute.io/"
   },
   {
@@ -1242,7 +1242,7 @@ export const projects = [
       "tokenTicker": "STORJ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/storj",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.storj.io/"
   },
   {
@@ -1275,7 +1275,7 @@ export const projects = [
       "tokenTicker": "GLM",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/golemproject",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.golem.network/"
   },
   {
@@ -1304,7 +1304,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Loopring",
       "twitterLink": "https://twitter.com/Rails_eth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://rails.eth.link/"
   },
   {
@@ -1337,7 +1337,7 @@ export const projects = [
       "tokenTicker": "PNT",
       "tooltip": "Loopring",
       "twitterLink": "https://twitter.com/pNetworkDeFi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://p.network/"
   },
   {
@@ -1366,7 +1366,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ibetyouxyz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://ibetyou.xyz/"
   },
   {
@@ -1399,7 +1399,7 @@ export const projects = [
       "tokenTicker": "MKR",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/makerdao",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://forum.makerdao.com/t/introducing-maker-wormhole/11550"
   },
   {
@@ -1432,7 +1432,7 @@ export const projects = [
       "tokenTicker": "AKRO",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/akropolisio",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.akropolis.io/"
   },
   {
@@ -1461,7 +1461,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/SnapshotLabs",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://snapshot.org/#/"
   },
   {
@@ -1490,7 +1490,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zksync",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://checkout.zksync.io/link"
   },
   {
@@ -1519,7 +1519,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zkSync",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mint.zksync.dev/"
   },
   {
@@ -1548,7 +1548,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Aztec",
       "twitterLink": "https://twitter.com/aztecprotocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zk.money/"
   },
   {
@@ -1577,7 +1577,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/layerswap/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.layerswap.io/"
   },
   {
@@ -1607,7 +1607,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync, StarkNet",
       "twitterLink": "https://twitter.com/Orbiter_Finance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://orbiter.finance/"
   },
   {
@@ -1636,7 +1636,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/mySwapxyz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.myswap.xyz/"
   },
   {
@@ -1665,7 +1665,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/SuezBridge",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://suez.dev/"
   },
   {
@@ -1694,7 +1694,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zkSync",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://blog.matter-labs.io/unisync-a-port-of-uniswap-v2-on-the-zkevm-b12954748504"
   },
   {
@@ -1727,7 +1727,7 @@ export const projects = [
       "tokenTicker": "SIG",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/xSigma5",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://xsigma.fi/"
   },
   {
@@ -1756,7 +1756,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/JediSwap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://app.testnet.jediswap.xyz/#/swap"
   },
   {
@@ -1785,7 +1785,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "Aztec",
       "twitterLink": "https://twitter.com/element_fi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.element.fi/"
   },
   {
@@ -1818,7 +1818,7 @@ export const projects = [
       "tokenTicker": "CELR",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/CelerNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://cbridge.celer.network/#/transfer"
   },
   {
@@ -1851,7 +1851,7 @@ export const projects = [
       "tokenTicker": "LAYR",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/ComposableFin",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.composable.finance/"
   },
   {
@@ -1880,7 +1880,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/starkswap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/Starkswap"
   },
   {
@@ -1909,7 +1909,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/SerityFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://serity.finance/"
   },
   {
@@ -1937,7 +1937,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5"
+      "wallet_address": "",
   },
   {
       "name": "ZkPad",
@@ -1966,7 +1966,7 @@ export const projects = [
       "tokenStatus": "Expected",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ZKPadfi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zkpadfi.medium.com/zkpad-to-empower-starkware-protocols-6325e757a452"
   },
   {
@@ -1996,7 +1996,7 @@ export const projects = [
       "tokenStatus": "Expected",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/zkLend",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zklend.com"
   },
   {
@@ -2025,7 +2025,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/xBankFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.xbank.finance/"
   },
   {
@@ -2058,7 +2058,7 @@ export const projects = [
       "tokenTicker": "FORWARD",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/ForwardProtocol/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://forwardprotocol.io/"
   },
   {
@@ -2087,7 +2087,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/PolyNetwork2",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://poly.network/"
   },
   {
@@ -2116,7 +2116,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/SymbOnStark",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://symbonstark.surge.sh/#/"
   },
   {
@@ -2145,7 +2145,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/mallowsxyz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://home.byoa.org/"
   },
   {
@@ -2178,7 +2178,7 @@ export const projects = [
       "tokenTicker": "1inch",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/1inch",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://1inch.exchange/"
   },
   {
@@ -2207,7 +2207,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/88mphapp",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://88mph.app/"
   },
   {
@@ -2242,7 +2242,7 @@ export const projects = [
       "tokenTicker": "ALCX",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/AlchemixFi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://app.alchemix.fi/"
   },
   {
@@ -2273,7 +2273,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/aragonproject",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://aragon.org/"
   },
   {
@@ -2302,7 +2302,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/fraxfinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://frax.finance/"
   },
   {
@@ -2335,7 +2335,7 @@ export const projects = [
       "tokenTicker": "HFT",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/hashflownetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.hashflow.com/"
   },
   {
@@ -2368,7 +2368,7 @@ export const projects = [
       "tokenTicker": "MHRB",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/MarhabaDeFi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mrhb.network/"
   },
   {
@@ -2403,7 +2403,7 @@ export const projects = [
       "tokenTicker": "OHM",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/OlympusDAO",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.olympusdao.finance/"
   },
   {
@@ -2432,7 +2432,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/rubicondefi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://rubicon.finance/"
   },
   {
@@ -2461,7 +2461,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/TakerProtocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://taker.org/"
   },
   {
@@ -2490,7 +2490,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/TracerDAO",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://tracer.finance/"
   },
   {
@@ -2523,7 +2523,7 @@ export const projects = [
       "tokenTicker": "HUE",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/trustlessfi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.trustless.fi/"
   },
   {
@@ -2552,7 +2552,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/VovoFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://vovo.finance/"
   },
   {
@@ -2585,7 +2585,7 @@ export const projects = [
       "tokenTicker": "WOO",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/WOOnetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://woo.org/"
   },
   {
@@ -2618,7 +2618,7 @@ export const projects = [
       "tokenTicker": "YFI",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/iearnfinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://yearn.finance/"
   },
   {
@@ -2647,7 +2647,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zerion_io",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zerion.io/"
   },
   {
@@ -2680,7 +2680,7 @@ export const projects = [
       "tokenTicker": "FRM",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/FerrumNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://ferrum.network/"
   },
   {
@@ -2709,7 +2709,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/alpharoad_fi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://alpharoad.fi/"
   },
   {
@@ -2738,7 +2738,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/okx",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.okx.com/"
   },
   {
@@ -2767,7 +2767,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/AuraProtocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://sandclock.org/"
   },
   {
@@ -2796,7 +2796,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/via_protocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://via.exchange/"
   },
   {
@@ -2829,7 +2829,7 @@ export const projects = [
       "tokenTicker": "PWRD",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/groprotocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.gro.xyz/"
   },
   {
@@ -2862,7 +2862,7 @@ export const projects = [
       "tokenTicker": "PWRD",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/IncrementHQ",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://increment.finance/"
   },
   {
@@ -2895,7 +2895,7 @@ export const projects = [
       "tokenTicker": "AAVE",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/aaveaave",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://aave.com/"
   },
   {
@@ -2924,7 +2924,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/magnetyfi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://medium.com/@magnety.finance/magnety-defi-4-all-6414990639e8"
   },
   {
@@ -2953,7 +2953,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/BabylonFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.babylon.finance/"
   },
   {
@@ -2982,7 +2982,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/PhezzanProtocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "http://phezzan.xyz/"
   },
   {
@@ -3011,7 +3011,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/dank_protocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://dank-protocol.com/"
   },
   {
@@ -3040,7 +3040,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/KrebitDAO",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://krebit.id/"
   },
   {
@@ -3071,7 +3071,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync, StarkNet, ZKLink",
       "twitterLink": "https://twitter.com/ZKEX_Official",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zkex.com/"
   },
   {
@@ -3100,7 +3100,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/manifest/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://manifest.gg/"
   },
   {
@@ -3129,7 +3129,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/official_cvi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://cvi.finance/"
   },
   {
@@ -3158,7 +3158,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/hedgeyfinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://hedgey.finance/"
   },
   {
@@ -3187,7 +3187,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/ArweaveTeam",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.arweave.org/"
   },
   {
@@ -3216,7 +3216,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/syncswap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.syncswap.xyz/"
   },
   {
@@ -3245,7 +3245,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/WardenSwap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.wardenswap.com/"
   },
   {
@@ -3274,7 +3274,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/icewatermoney",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://icewater.money"
   },
   {
@@ -3303,7 +3303,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/raise_fi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.raisefinance.io/"
   },
   {
@@ -3332,7 +3332,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/BrineFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.brine.finance/"
   },
   {
@@ -3361,7 +3361,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/SithSwap",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://sithswap.com/"
   },
   {
@@ -3390,7 +3390,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/SynFuturesDefi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.synfutures.com/"
   },
   {
@@ -3419,7 +3419,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/SatisDEX",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zksync-testnet.sat.is/"
   },
   {
@@ -3448,7 +3448,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/RampNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://ramp.network/"
   },
   {
@@ -3477,7 +3477,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zksync",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zkscan.io/"
   },
   {
@@ -3510,7 +3510,7 @@ export const projects = [
       "tokenTicker": "GRT",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/graphprotocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://thegraph.com/"
   },
   {
@@ -3539,7 +3539,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "N/A",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://starktx.info/"
   },
   {
@@ -3572,7 +3572,7 @@ export const projects = [
       "tokenTicker": "SYS",
       "tooltip": "Syscoin NEVM",
       "twitterLink": "https://twitter.com/syscoin",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://syscoin.org/"
   },
   {
@@ -3605,7 +3605,7 @@ export const projects = [
       "tokenTicker": "CQT",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/Covalent_HQ",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.covalenthq.com/"
   },
   {
@@ -3634,7 +3634,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/nethermindeth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://voyager.online/"
   },
   {
@@ -3665,7 +3665,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync, StarkNet, Loopring",
       "twitterLink": "https://twitter.com/BanxaOfficial",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://banxa.com/"
   },
   {
@@ -3694,7 +3694,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/yagi_fi",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://yagi.fi/"
   },
   {
@@ -3723,7 +3723,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/nethermindeth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/NethermindEth/warp"
   },
   {
@@ -3752,7 +3752,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/SandclockOrg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.sandclock.org/"
   },
   {
@@ -3781,7 +3781,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/mallowsxyz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://home.byoa.org/"
   },
   {
@@ -3810,7 +3810,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/InsightsFlow/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.snowflake.com/datasets/token-flow-insights-starknet-data-warehouse-beta/"
   },
   {
@@ -3843,7 +3843,7 @@ export const projects = [
       "tokenTicker": "LINK",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/chainlink",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://chain.link/"
   },
   {
@@ -3872,7 +3872,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/ConnextNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.connext.network/"
   },
   {
@@ -3901,7 +3901,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/deBridgeFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://debridge.finance/"
   },
   {
@@ -3931,7 +3931,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync, StarkNet",
       "twitterLink": "https://twitter.com/Figment_io",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.figment.io/"
   },
   {
@@ -3960,7 +3960,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/gnosisSafe",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://gnosis-safe.io/"
   },
   {
@@ -3989,7 +3989,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/MoralisWeb3",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://moralis.io/"
   },
   {
@@ -4022,7 +4022,7 @@ export const projects = [
       "tokenTicker": "ANY",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/MultichainOrg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://multichain.org/"
   },
   {
@@ -4051,7 +4051,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/MystikoNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mystiko.network/"
   },
   {
@@ -4080,7 +4080,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/nomadxyz_",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.nomad.xyz/"
   },
   {
@@ -4109,7 +4109,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/sprintcheckout",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.sprintcheckout.com/"
   },
   {
@@ -4138,7 +4138,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/TenderlyApp",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://tenderly.co/"
   },
   {
@@ -4167,7 +4167,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/thegeoweb",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.geoweb.network/"
   },
   {
@@ -4196,7 +4196,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/UTORG_pro",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://utorg.pro/"
   },
   {
@@ -4225,7 +4225,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/veramojs",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://veramo.io/"
   },
   {
@@ -4254,7 +4254,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/iqlusioninc/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.iqlusion.io/"
   },
   {
@@ -4283,7 +4283,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/InsightsFlow",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://tokenflow.live/"
   },
   {
@@ -4312,7 +4312,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/CephalopodEquip",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://cephalopod.equipment/"
   },
   {
@@ -4341,7 +4341,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/PeckShield",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://peckshield.com/"
   },
   {
@@ -4370,7 +4370,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ChainstackHQ",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://chainstack.com/"
   },
   {
@@ -4399,7 +4399,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ConsenSys/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://ConsenSys.net/"
   },
   {
@@ -4428,7 +4428,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/infura_io/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://infura.io/"
   },
   {
@@ -4457,7 +4457,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/CryptoExperts",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.cryptoexperts.com/"
   },
   {
@@ -4485,7 +4485,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.abdk.consulting/"
   },
   {
@@ -4514,7 +4514,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/equilibrium_co",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/eqlabs/pathfinder"
   },
   {
@@ -4542,7 +4542,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5"
+      "wallet_address": "",
   },
   {
       "name": "AARVANT",
@@ -4569,7 +4569,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5"
+      "wallet_address": "",
   },
   {
       "name": "Stark Gate",
@@ -4596,7 +4596,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5"
+      "wallet_address": "",
   },
   {
       "name": "Erigon",
@@ -4624,7 +4624,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ErigonEth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/ledgerwatch/erigon"
   },
   {
@@ -4653,7 +4653,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/AlchemyPlatform",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.alchemy.com/layer2/starknet?"
   },
   {
@@ -4682,7 +4682,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/stakefish",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://stake.fish/"
   },
   {
@@ -4711,7 +4711,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/AngleProtocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.angle.money/"
   },
   {
@@ -4740,7 +4740,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/walletconnect",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://walletconnect.com/"
   },
   {
@@ -4769,7 +4769,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/SimplexCC",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.simplex.com/"
   },
   {
@@ -4798,7 +4798,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/AutomataNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.ata.network/"
   },
   {
@@ -4827,7 +4827,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://mobile.twitter.com/XidNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://xidnetwork.xyz/"
   },
   {
@@ -4856,7 +4856,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/GoplusSecurity",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://gopluslabs.io/"
   },
   {
@@ -4885,7 +4885,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/gelatonetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.gelato.network/"
   },
   {
@@ -4914,7 +4914,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/StarkWareLtd",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://goerli.starkgate.starknet.io/"
   },
   {
@@ -4947,7 +4947,7 @@ export const projects = [
       "tokenTicker": "ZKP",
       "tooltip": "Panther",
       "twitterLink": "https://twitter.com/ZkPanther",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.pantherprotocol.io/"
   },
   {
@@ -4980,7 +4980,7 @@ export const projects = [
       "tokenTicker": "IMX",
       "tooltip": "StarkEx",
       "twitterLink": "https://twitter.com/Immutable",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.immutable.com/"
   },
   {
@@ -5009,7 +5009,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/0xmons",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zknft.xyz/"
   },
   {
@@ -5038,7 +5038,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/PunksZk",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "#"
   },
   {
@@ -5067,7 +5067,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/briqNFT",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://briq.construction/"
   },
   {
@@ -5096,7 +5096,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/boonjiproject",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.boonjiproject.com/"
   },
   {
@@ -5125,7 +5125,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/blockblockio",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://open-sky.vercel.app/"
   },
   {
@@ -5154,7 +5154,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/MintSquareNFT",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mintsquare.io/"
   },
   {
@@ -5183,7 +5183,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/playoasisXYZ",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://testnet.playoasis.xyz/"
   },
   {
@@ -5212,7 +5212,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkEx",
       "twitterLink": "https://twitter.com/GameStop",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://nft.gamestop.com/"
   },
   {
@@ -5241,7 +5241,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/SharksZk",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.zksharks.com/"
   },
   {
@@ -5270,7 +5270,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/bitmapbox",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.bitmapbox.xyz/"
   },
   {
@@ -5299,7 +5299,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/phi_xyz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://phi-xyz.notion.site/532af6de66e64c7c883d552d301b8020"
   },
   {
@@ -5328,7 +5328,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/mallowsxyz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://home.byoa.org/"
   },
   {
@@ -5356,7 +5356,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://kubribridge.vercel.app/"
   },
   {
@@ -5385,7 +5385,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://mobile.twitter.com/socol_io",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5"
+      "wallet_address": "",
   },
   {
       "name": "Auclantis",
@@ -5413,7 +5413,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/auclantis",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://auclantis.com/"
   },
   {
@@ -5442,7 +5442,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/tofuNFT",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://tofunft.com/"
   },
   {
@@ -5471,7 +5471,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/influenceth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.influenceth.io/"
   },
   {
@@ -5504,7 +5504,7 @@ export const projects = [
       "tokenTicker": "PAPER",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/TheDopeWars",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://dopewars.gg/"
   },
   {
@@ -5533,7 +5533,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ninth_gg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://ninth.gg/"
   },
   {
@@ -5564,7 +5564,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/OpenStars",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.openstars.org/#/"
   },
   {
@@ -5593,7 +5593,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/game_of_blocks",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://docs.gameofblocks.io/litepaper"
   },
   {
@@ -5622,7 +5622,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/LootRealms",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://bibliothecaforloot.com/"
   },
   {
@@ -5651,7 +5651,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/AgeOfEykar",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://eykar.org/"
   },
   {
@@ -5680,7 +5680,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "http://twitter.com/zkasino_io",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zkasino.io/"
   },
   {
@@ -5708,7 +5708,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5"
+      "wallet_address": "",
   },
   {
       "name": "Exothium",
@@ -5736,7 +5736,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/exothium",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://beta.exothium.com/"
   },
   {
@@ -5765,7 +5765,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://mobile.twitter.com/ether_quest",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.etherquestgame.com/"
   },
   {
@@ -5794,7 +5794,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/PlayRedline",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://redline.game/"
   },
   {
@@ -5823,7 +5823,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/onPstr",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://pstr.app/"
   },
   {
@@ -5852,7 +5852,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/zkdao_official",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zkdao.io/"
   },
   {
@@ -5881,7 +5881,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/lootgraph",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://bibliothecaforloot.com/"
   },
   {
@@ -5910,7 +5910,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/FujiFinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://www.fujidao.org/#/"
   },
   {
@@ -5939,7 +5939,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/iearnfinance",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://yearn.finance/"
   },
   {
@@ -5968,7 +5968,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/matchbox_dao",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://mirror.xyz/matchboxdao.eth"
   },
   {
@@ -5997,7 +5997,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://mobile.twitter.com/sascdao",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/sascdao"
   },
   {
@@ -6025,7 +6025,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/guiltygyoza/physics-puzzle-starknet"
   },
   {
@@ -6053,7 +6053,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/mortimr/qasr"
   },
   {
@@ -6081,7 +6081,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/makerdao/starknet-dai-bridge"
   },
   {
@@ -6109,7 +6109,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/guiltygyoza/rk4-starknet"
   },
   {
@@ -6137,7 +6137,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/kobigurk/stardrop"
   },
   {
@@ -6165,7 +6165,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/guiltygyoza/tictactoe-on-starknet"
   },
   {
@@ -6193,7 +6193,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/Shard-Labs/starknet-hardhat-example"
   },
   {
@@ -6221,7 +6221,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/seanjameshan/starkops"
   },
   {
@@ -6250,7 +6250,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/zasciiz",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/Starknet-php/starknet.php"
   },
   {
@@ -6279,7 +6279,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/guiltygyoza",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/guiltygyoza/3d-asset-on-starknet"
   },
   {
@@ -6308,7 +6308,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/shard_labs/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/Shard-Labs/starknet-devnet/tree/master"
   },
   {
@@ -6337,7 +6337,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/shard_labs/",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/Shard-Labs/starknet-hardhat-plugin"
   },
   {
@@ -6366,7 +6366,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/HenriLieutaud",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/l-henri/starknet-cairo-101"
   },
   {
@@ -6395,7 +6395,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/OilerNetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/OilerNetwork/starknet-l2-storage-verifier"
   },
   {
@@ -6424,7 +6424,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ZorroProtocol",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://zorro.xyz/"
   },
   {
@@ -6453,7 +6453,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/Orland0x/StarknetFractals"
   },
   {
@@ -6482,7 +6482,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/xJonathanLEI",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://crates.io/crates/starknet"
   },
   {
@@ -6511,7 +6511,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/0xs34n",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/0xs34n/starknet.js"
   },
   {
@@ -6540,7 +6540,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/software-mansion/starknet.py"
   },
   {
@@ -6569,7 +6569,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/__________sam__",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/sambarnes/cairo-multisig"
   },
   {
@@ -6598,7 +6598,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/__________sam__",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/sambarnes/cairo-glyph"
   },
   {
@@ -6627,7 +6627,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/milancermak",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/milancermak/xoroshiro-cairo"
   },
   {
@@ -6655,7 +6655,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://docs.google.com/document/d/1rrYC32w63FzzV61rJWqqYomEMgfZ3cRR1jOlJmnnxeY/edit"
   },
   {
@@ -6684,7 +6684,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/openzeppelin",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/OpenZeppelin/nile"
   },
   {
@@ -6713,7 +6713,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/topology_gg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/topology-gg/fountain"
   },
   {
@@ -6742,7 +6742,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/topology_gg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/topology-gg/fountain"
   },
   {
@@ -6771,7 +6771,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/topology_gg",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/topology-gg/fountain"
   },
   {
@@ -6799,7 +6799,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/greenlucid/chess-cairo"
   },
   {
@@ -6827,7 +6827,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/ametel01/Ogame-Cairo"
   },
   {
@@ -6856,7 +6856,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/swmansion",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/software-mansion-labs/starknet-web3-rpc-adapter"
   },
   {
@@ -6885,7 +6885,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/kootsZhin",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/kootsZhin/warp-to-cairo"
   },
   {
@@ -6914,7 +6914,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/clrfund",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://clr.fund/#/"
   },
   {
@@ -6943,7 +6943,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/equilibrium_co",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/eqlabs/starknet-multisig"
   },
   {
@@ -6972,7 +6972,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/auclantis",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/auclantis/starknet-react"
   },
   {
@@ -7001,7 +7001,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/mattsse_",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/mattsse/cairo-lang-rs"
   },
   {
@@ -7030,7 +7030,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/Meckerrr",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/AntoineMkr/EIP-2981_Cairo"
   },
   {
@@ -7058,7 +7058,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/DemerzelSolutions/voyager/pkgs/container/voyager"
   },
   {
@@ -7086,7 +7086,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/skyro-compiler/skyro"
   },
   {
@@ -7115,7 +7115,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/NoahCitron",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/ncitron/cairo-merkle-distributor"
   },
   {
@@ -7144,7 +7144,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/ccarnino",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://cairo-utils-web.vercel.app/"
   },
   {
@@ -7173,7 +7173,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/__________sam__",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/sambarnes/cairo-dutch"
   },
   {
@@ -7202,7 +7202,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
       "twitterLink": "https://twitter.com/nethermindeth",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/NethermindEth/juno"
   },
   {
@@ -7230,7 +7230,7 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+      "wallet_address": "",
       "websiteLink": "https://github.com/FawadHa1der/ricks-cairo-contracts"
   }
 ]

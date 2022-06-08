@@ -311,7 +311,14 @@ if(response.data.data){
               <div className="col-3 ">
                 <div className="">
                   <h6 className="type_text_">Address</h6>
-                  <p className="addres_text">{result1}....{result2}</p>
+                  {result1 ?
+                    (
+                      <p className="addres_text">{result1}....{result2}</p>
+                    )
+                    :(
+                      <p>N/A</p>
+                    )
+                  }
                 </div>
               </div>
               <div className="col-3 d-flex justify-content-end ">
