@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import magnifier from '../../actets/magnifier.png'
 import "./style.css";
 import dropdown_image from "../../actets/dropdown.svg";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 import {
   Box,
   TextInput,
@@ -49,10 +50,21 @@ const SearchBar = ({ setSearch, search,setSearch_category, search_category,searc
     <div className='bar_inp d-flex'>
    {/* <AiOutlineSearch size={23} className="m-2"/> */}
    <img src={magnifier} alt="" width={'18px'} height={'18px'} className="m-3"/>
+
     <TextInput onKeyUp={(e)=>{if (e.key === 'Enter' || e.keyCode === 13){
        setSearch(search_in);
        setSearch_category(search_category_in);
     }}}  placeholder="Search projects by title" value={search_in} onChange={event => setSearch_in(event.target.value)} />
+
+    {  
+    search_in.length > 0 ?
+    <AiOutlineCloseCircle className='appClose' size={30} color="red"  onClick={()=>{
+      setSearch_in("");
+      setSearch("all")
+      //  setSearch_in("all");
+    }}  /> 
+    :null}
+
     </div>
 
           <div className='d-flex bar_drop'>
