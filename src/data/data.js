@@ -522,6 +522,7 @@ export const projects = [
           "Mobile Wallet"
       ],
       "description": "Numio is a non-custodial Ethereum L2 (zkSync) wallet that lets you send, store, buy & swap tokens, interact with dApps and more. Available on Android & iOS.",
+      "featured": "featured",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.numio.pay",
       "hyperlink1": "https://numio.one",
       "hyperlink2": "",
@@ -1087,6 +1088,7 @@ export const projects = [
           "Dapp"
       ],
       "description": "ZigZag is a native, easy-to-use, reliable, fully secure and low fee Decentralized Exchange built on ZK Rollups.",
+      "featured": "featured",
       "hyperlink1": "https://info.zigzag.exchange/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
