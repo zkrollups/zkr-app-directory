@@ -526,7 +526,7 @@ export const projects = [
       "hyperlink1": "https://numio.one",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/numio.jpg')",
+      "imageLink": "url('project-logos/numio.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
