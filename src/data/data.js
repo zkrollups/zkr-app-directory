@@ -64,7 +64,7 @@ export const projects = [
           "zkRollup",
           "Web Wallet"
       ],
-      "description": "zkSync is a user-centric zkRollup platform from Matter Labs. It is a scaling solution for Ethereum, already live on Ethereum mainnet.",
+      "description": "zkSync is a trustless protocol for scalable low-cost payments on Ethereum, powered by zkRollup technology. It uses zero-knowledge proofs and on-chain data availability to keep users' funds as safe as though they never left the mainnet.",
       "featured": "featured",
       "hyperlink1": "https://zksync.io/",
       "hyperlink2": "https://zksync.io/faq/tokenomics.html",
