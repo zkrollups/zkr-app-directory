@@ -328,42 +328,48 @@ if(response.data.data){
           <div className=" col-sm-12 col-md-12 col-lg-12 col-xl-7 ">
             <h2 className="mb-5">Getting Started</h2>
             <div className="brige_wrap mt-3 ">
-              <div className="brige_card row card_div">
-                <div className="col-2 circle_no">
-                  <img src={LastCard1} alt=""></img>
-                </div>
-                <div className="col-6">
-                  <p className="brige_text"> {card_data.Text1}</p>
-                </div>
-                <div className="col-4 d-flex justify-content-center">
-                  <button className="brige_btn">  {card_data.linkText1}</button>
-                  {/* <button className="brige_btn"> Bridge</button> */}
-                </div>
-              </div>
-              {/* <div className="w-100 border"> */}
-              {/* <div className="doted_line"></div> */}
-              {/* </div> */}
 
-              <div className="brige_card row card_div">
-                <div className="col-2">
-                  <img src={LastCard2} alt=""></img>
-                </div>
-                <div className="col-6">
-                  <p className="brige_text"> {card_data.Text2}</p>
-                </div>
-                <div className="col-4 d-flex justify-content-center">
-                  <button className="dapp_btn ">  {card_data.linkText2}</button>
-                </div>
-              </div>
-              {/* <div className="doted_line2"></div> */}
-              <div className="brige_card row">
-                <div className="col-2">
-                  <img src={LastCard3} alt=""></img>
-                </div>
-                <div className="col-10">
-                  <p className="brige_text"> {card_data.Text3} </p>
-                </div>
-              </div>
+              {card_data.Text1 ?  
+                (
+                  <React.Fragment>
+                  <div className="brige_card row card_div">
+                  <div className="col-2 circle_no">
+                    <img src={LastCard1} alt=""></img>
+                  </div>
+                  <div className="col-6">
+                    <p className="brige_text"> {card_data.Text1}</p>
+                  </div>
+                  <div className="col-4 d-flex justify-content-center">
+                    <button className="brige_btn">  {card_data.linkText1}</button>
+                  </div>
+                  </div>
+
+                  <div className="brige_card row card_div">
+                  <div className="col-2">
+                    <img src={LastCard2} alt=""></img>
+                  </div>
+                  <div className="col-6">
+                    <p className="brige_text"> {card_data.Text2}</p>
+                  </div>
+                  <div className="col-4 d-flex justify-content-center">
+                    <button className="dapp_btn ">  {card_data.linkText2}</button>
+                  </div>
+                  </div>
+
+                  <div className="brige_card row">
+                  <div className="col-2">
+                    <img src={LastCard3} alt=""></img>
+                  </div>
+                  <div className="col-10">
+                    <p className="brige_text"> {card_data.Text3} </p>
+                  </div>
+                  </div>
+                  </React.Fragment>
+                )
+              : (
+                <h3>Coming Soon!</h3>
+              )}
+
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-5 d-flex ">
@@ -371,44 +377,7 @@ if(response.data.data){
               <h2 className="mb-5"> {card_data.name} Latest</h2>
 
               <div className="update">
-                {/* <div className="d-flex">
-  <div className="col-3 logo_wrap">
-  <img src={UpdateLogo}></img>
-  </div>
-
- <div className="col-8 ">
- <div className="d-flex">
-   <span>
- Feb 22
- </span>
-
-   </div>
-
-  <p className="update_text">
-
-
-ZK Rollups capable of general computation are often considered key to Ethereum’s endgame, but a year ago, leading researchers believed we were many years away. 
-
-Today, we’re launching the first EVM-compatible ZK Rollup on public testnet.
-  </p>
-  <div className="d-flex">
-
-<div className="d-flex">
-  <img src={Reply} className="mx-2 reply_logo"></img>
-  30
-</div>
-<div className="mx-2 d-flex">
-  <img src={Tweet} className="mx-2" ></img> 
-  12
-</div>
-<div className="d-flex">
-  <img src={Like} className="mx-2" ></img> 
-  12
-</div>
-  </div>
- </div>
- 
-</div> */}
+                
                 {!loading ? ( tweets.length > 0 ? 
                   tweets.map((item,index) => {
                     return (
@@ -472,27 +441,12 @@ Today, we’re launching the first EVM-compatible ZK Rollup on public testnet.
                 )}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </>
-
-
-
 
 
 
