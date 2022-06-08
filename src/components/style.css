@@ -418,7 +418,7 @@ color: white !important;
   background-color: grey !important;
 }
 
-/* .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root{
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root{
   
   color: #7E7E98  !important;
   border-radius: 4px !important;
@@ -446,7 +446,22 @@ color: white !important;
 .css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon{
   font-size: 2.2rem !important;
   color: white !important;
-} */
+}
+
+.MuiButtonBase-root{
+  color:white;
+}
+
+
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root{
+  color: white !important;
+}
+
+
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color:grey!important;
+
+}
 
 .btn_load{
   margin-left: 30%;
