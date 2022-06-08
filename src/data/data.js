@@ -69,7 +69,7 @@ export const projects = [
       "hyperlink1": "https://zksync.io/",
       "hyperlink2": "https://zksync.io/faq/tokenomics.html",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zksync.jpg')",
+      "imageLink": "url('project-logos/zksync.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
