@@ -1,34 +1,5 @@
 export const projects = [
   {
-      "name": "StarkEx",
-      "backgroud_color": "#F1F1F0",
-      "category": [
-          "zkRollup"
-      ],
-      "description": " StarkEx, a custom standalone scaling service by StarkWare, has been powering applications since June 2020, settled over $350B, with over 90M transactions, serving hundreds of thousands of users.",
-      "hyperlink1": "https://starkware.co/starkex/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starkex.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "starkex"
-      ],
-      "search_on": [
-          "rollups"
-      ],
-      "status": "LIVE",
-      "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "StarkEx",
-      "twitterLink": "https://twitter.com/StarkWareLtd",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
-      "websiteLink": "https://starkware.co/starkex/"
-  },
-  {
       "name": "StarkNet",
       "backgroud_color": "#2D2F4B",
       "category": [
@@ -90,6 +61,64 @@ export const projects = [
       "twitterLink": "https://twitter.com/zksync",
       "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
       "websiteLink": "https://zksync.io/"
+  },
+  {
+    "name": "Aztec",
+    "backgroud_color": "#6C6DD6",
+    "category": [
+        "zkRollup"
+    ],
+    "description": "Aztec is an open source Layer 2 network bringing scalability and privacy to Ethereum. Aztec uses zkSNARK proofs to provide privacy and scaling.",
+    "hyperlink1": "https://aztec.network/",
+    "hyperlink2": "",
+    "hyperlink3": "https://www.google.com/",
+    "imageLink": "url('project-logos/aztec.png')",
+    "linkText1": "Bridge ",
+    "linkText2": "Aave dApp",
+    "networks": [
+        "aztec"
+    ],
+    "search_on": [
+        "rollups"
+    ],
+    "status": "LIVE",
+    "statusColor": "#30DE88",
+    // "Text1": "",
+    "Text2": "Go to the Aave dapp ",
+    "Text3": "Click (Make a trade) and follow the instructions ",
+    "tooltip": "Aztec",
+    "twitterLink": "https://twitter.com/aztecnetwork",
+    "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+    "websiteLink": "https://aztec.network/"
+  },
+  {
+    "name": "StarkEx",
+    "backgroud_color": "#F1F1F0",
+    "category": [
+        "zkRollup"
+    ],
+    "description": " StarkEx, a custom standalone scaling service by StarkWare, has been powering applications since June 2020, settled over $350B, with over 90M transactions, serving hundreds of thousands of users.",
+    "hyperlink1": "https://starkware.co/starkex/",
+    "hyperlink2": "",
+    "hyperlink3": "https://www.google.com/",
+    "imageLink": "url('project-logos/starkex.png')",
+    "linkText1": "Bridge ",
+    "linkText2": "Aave dApp",
+    "networks": [
+        "starkex"
+    ],
+    "search_on": [
+        "rollups"
+    ],
+    "status": "LIVE",
+    "statusColor": "#30DE88",
+    // "Text1": "",
+    "Text2": "Go to the Aave dapp ",
+    "Text3": "Click (Make a trade) and follow the instructions ",
+    "tooltip": "StarkEx",
+    "twitterLink": "https://twitter.com/StarkWareLtd",
+    "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
+    "websiteLink": "https://starkware.co/starkex/"
   },
   {
       "name": "Loopring",
@@ -197,35 +226,6 @@ export const projects = [
       "twitterLink": "https://twitter.com/0xPolygonHermez",
       "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
       "websiteLink": "https://hermez.io/"
-  },
-  {
-      "name": "Aztec",
-      "backgroud_color": "#6C6DD6",
-      "category": [
-          "zkRollup"
-      ],
-      "description": "Aztec is an open source Layer 2 network bringing scalability and privacy to Ethereum. Aztec uses zkSNARK proofs to provide privacy and scaling.",
-      "hyperlink1": "https://aztec.network/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/aztec.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "aztec"
-      ],
-      "search_on": [
-          "rollups"
-      ],
-      "status": "LIVE",
-      "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "Aztec",
-      "twitterLink": "https://twitter.com/aztecnetwork",
-      "wallet_address": "3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5",
-      "websiteLink": "https://aztec.network/"
   },
   {
       "name": "Polygon Miden",
