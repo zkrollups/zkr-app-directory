@@ -38,7 +38,7 @@ export const projects = [
       "hyperlink1": "https://starkware.co/starknet/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starknet.jpg')",
+      "imageLink": "url('project-logos/starknet.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
