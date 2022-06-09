@@ -4296,7 +4296,7 @@ export const projects = [
       "hyperlink1": "https://cephalopod.equipment/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/cephalopod.jpg')",
+      "imageLink": "url('project-logos/cephalopod.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4325,7 +4325,7 @@ export const projects = [
       "hyperlink1": "https://peckshield.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/peckshield.jpg')",
+      "imageLink": "url('project-logos/peckshield.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4354,7 +4354,7 @@ export const projects = [
       "hyperlink1": "https://chainstack.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/chainstack.jpg')",
+      "imageLink": "url('project-logos/chainstack.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
