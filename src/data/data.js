@@ -5693,7 +5693,7 @@ export const projects = [
       "hyperlink1": "",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/stealth.jpg')",
+      "imageLink": "url('project-logos/stealth.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5720,7 +5720,7 @@ export const projects = [
       "hyperlink1": "https://beta.exothium.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/exothium.jpg')",
+      "imageLink": "url('project-logos/exothium.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5749,7 +5749,7 @@ export const projects = [
       "hyperlink1": "https://www.etherquestgame.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/etherquest.jpg')",
+      "imageLink": "url('project-logos/etherquest.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5778,7 +5778,7 @@ export const projects = [
       "hyperlink1": "https://redline.game/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/redline.jpg')",
+      "imageLink": "url('project-logos/redline.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5807,7 +5807,7 @@ export const projects = [
       "hyperlink1": "https://pstr.app/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/poster.jpg')",
+      "imageLink": "url('project-logos/poster.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5865,7 +5865,7 @@ export const projects = [
       "hyperlink1": "https://bibliothecaforloot.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/bibliotheca.jpg')",
+      "imageLink": "url('project-logos/loot.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5894,7 +5894,7 @@ export const projects = [
       "hyperlink1": "https://www.fujidao.org/#/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/fujidao.jpg')",
+      "imageLink": "url('project-logos/fujidao.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5923,7 +5923,7 @@ export const projects = [
       "hyperlink1": "https://mirror.xyz/matchboxdao.eth",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/matchbox.jpg')",
+      "imageLink": "url('project-logos/matchbox.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5952,7 +5952,7 @@ export const projects = [
       "hyperlink1": "https://github.com/sascdao",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/sasc.jpg')",
+      "imageLink": "url('project-logos/sasc.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5981,7 +5981,7 @@ export const projects = [
       "hyperlink1": "https://github.com/guiltygyoza/physics-puzzle-starknet",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6009,7 +6009,7 @@ export const projects = [
       "hyperlink1": "https://github.com/mortimr/qasr",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6037,7 +6037,7 @@ export const projects = [
       "hyperlink1": "https://github.com/makerdao/starknet-dai-bridge",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6065,7 +6065,7 @@ export const projects = [
       "hyperlink1": "https://github.com/guiltygyoza/rk4-starknet",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6093,7 +6093,7 @@ export const projects = [
       "hyperlink1": "https://github.com/kobigurk/stardrop",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6121,7 +6121,7 @@ export const projects = [
       "hyperlink1": "https://github.com/guiltygyoza/tictactoe-on-starknet",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6149,7 +6149,7 @@ export const projects = [
       "hyperlink1": "https://github.com/Shard-Labs/starknet-hardhat-example",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6177,7 +6177,7 @@ export const projects = [
       "hyperlink1": "https://github.com/seanjameshan/starkops",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6205,7 +6205,7 @@ export const projects = [
       "hyperlink1": "https://github.com/Starknet-php/starknet.php",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6234,7 +6234,7 @@ export const projects = [
       "hyperlink1": "https://github.com/guiltygyoza/3d-asset-on-starknet",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6263,7 +6263,7 @@ export const projects = [
       "hyperlink1": "https://github.com/Shard-Labs/starknet-devnet/tree/master",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6292,7 +6292,7 @@ export const projects = [
       "hyperlink1": "https://github.com/Shard-Labs/starknet-hardhat-plugin",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6321,7 +6321,7 @@ export const projects = [
       "hyperlink1": "https://github.com/l-henri/starknet-cairo-101",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6350,7 +6350,7 @@ export const projects = [
       "hyperlink1": "https://github.com/OilerNetwork/starknet-l2-storage-verifier",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/oiler.jpg')",
+      "imageLink": "url('project-logos/oiler.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6379,7 +6379,7 @@ export const projects = [
       "hyperlink1": "https://zorro.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zorro.jpg')",
+      "imageLink": "url('project-logos/zorro.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6408,7 +6408,7 @@ export const projects = [
       "hyperlink1": "https://github.com/Orland0x/StarknetFractals",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6437,7 +6437,7 @@ export const projects = [
       "hyperlink1": "https://crates.io/crates/starknet",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starknetrs.jpg')",
+      "imageLink": "url('project-logos/starknetrs.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6466,7 +6466,7 @@ export const projects = [
       "hyperlink1": "https://github.com/0xs34n/starknet.js",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6495,7 +6495,7 @@ export const projects = [
       "hyperlink1": "https://github.com/software-mansion/starknet.py",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starknetpy.jpg')",
+      "imageLink": "url('project-logos/starknetpy.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6524,7 +6524,7 @@ export const projects = [
       "hyperlink1": "https://github.com/sambarnes/cairo-multisig",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6553,7 +6553,7 @@ export const projects = [
       "hyperlink1": "https://github.com/sambarnes/cairo-glyph",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6582,7 +6582,7 @@ export const projects = [
       "hyperlink1": "https://github.com/milancermak/xoroshiro-cairo",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6611,7 +6611,7 @@ export const projects = [
       "hyperlink1": "https://docs.google.com/document/d/1rrYC32w63FzzV61rJWqqYomEMgfZ3cRR1jOlJmnnxeY/edit",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/curvezero.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6668,7 +6668,7 @@ export const projects = [
       "hyperlink1": "https://github.com/topology-gg/fountain",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/topology.jpg')",
+      "imageLink": "url('project-logos/topology.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6697,7 +6697,7 @@ export const projects = [
       "hyperlink1": "https://github.com/topology-gg/fountain",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/topology.jpg')",
+      "imageLink": "url('project-logos/topology.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6726,7 +6726,7 @@ export const projects = [
       "hyperlink1": "https://github.com/topology-gg/fountain",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/topology.jpg')",
+      "imageLink": "url('project-logos/topology.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6755,7 +6755,7 @@ export const projects = [
       "hyperlink1": "https://github.com/greenlucid/chess-cairo",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6783,7 +6783,7 @@ export const projects = [
       "hyperlink1": "https://github.com/ametel01/Ogame-Cairo",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6811,7 +6811,7 @@ export const projects = [
       "hyperlink1": "https://github.com/software-mansion-labs/starknet-web3-rpc-adapter",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6840,7 +6840,7 @@ export const projects = [
       "hyperlink1": "https://github.com/kootsZhin/warp-to-cairo",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6869,7 +6869,7 @@ export const projects = [
       "hyperlink1": "https://clr.fund/#/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/clr.jpg')",
+      "imageLink": "url('project-logos/clr.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6898,7 +6898,7 @@ export const projects = [
       "hyperlink1": "https://github.com/eqlabs/starknet-multisig",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/pathfinder.jpg')",
+      "imageLink": "url('project-logos/pathfinder.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6927,7 +6927,7 @@ export const projects = [
       "hyperlink1": "https://github.com/auclantis/starknet-react",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/auclantis.jpg')",
+      "imageLink": "url('project-logos/auclantis.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6956,7 +6956,7 @@ export const projects = [
       "hyperlink1": "https://github.com/mattsse/cairo-lang-rs",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6985,7 +6985,7 @@ export const projects = [
       "hyperlink1": "https://github.com/AntoineMkr/EIP-2981_Cairo",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7014,7 +7014,7 @@ export const projects = [
       "hyperlink1": "https://github.com/DemerzelSolutions/voyager/pkgs/container/voyager",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7042,7 +7042,7 @@ export const projects = [
       "hyperlink1": "https://github.com/skyro-compiler/skyro",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/skyro.jpg')",
+      "imageLink": "url('project-logos/skyro.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7070,7 +7070,7 @@ export const projects = [
       "hyperlink1": "https://github.com/ncitron/cairo-merkle-distributor",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7128,7 +7128,7 @@ export const projects = [
       "hyperlink1": "https://github.com/sambarnes/cairo-dutch",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7157,7 +7157,7 @@ export const projects = [
       "hyperlink1": "https://github.com/NethermindEth/juno",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7186,7 +7186,7 @@ export const projects = [
       "hyperlink1": "https://github.com/FawadHa1der/ricks-cairo-contracts",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.jpg')",
+      "imageLink": "url('project-logos/github.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
