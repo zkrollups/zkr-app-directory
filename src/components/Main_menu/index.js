@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import SearchBar from '../Searchbar/SearchBar'
+
 function MainMenu() {
   return (
    <>

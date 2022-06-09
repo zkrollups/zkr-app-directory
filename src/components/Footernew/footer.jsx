@@ -1,31 +1,18 @@
 import React from "react";
 import "./abc.css";
-import { FaEnvelopeOpenText, } from 'react-icons/fa';
-import { FiPhoneCall, } from 'react-icons/fi';
 // import logo from "../Assets/images/jitsimeet.svg";
-import { Link, useHistory } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import logo from '../../actets/logo.png'
 import Logo1 from "../../actets/flogo1.png"
 import Logo2 from "../../actets/flogo2.png"
 import Logo3 from "../../actets/flogo3.png"
-import { useNavigate  } from "react-router-dom";
+// import { useNavigate  } from "react-router-dom";
+
 function Footer() {
-  const navigate = useNavigate();
-
-
-
 
 const scrolup=()=>{
   //console.log(" window.scrollTo(0, 0)")
-
-
 }
-
-
-
-
-
-
 
   return (
     <footer class="footer-area footer--light " >
@@ -42,7 +29,7 @@ const scrolup=()=>{
                   <ul class="contact-details">
                     <li>
                       <span ></span> 
-                      <img src={logo}/>
+                      <img src={logo} alt="zkrollupslogo"/>
                       {/* <a href="tel:344-755-111">ssss</a> */}
                     </li>
                     <li>
@@ -64,21 +51,20 @@ const scrolup=()=>{
                   <ul>
                    
                     <li className="inner_list">
-                      <Link to="#">
+                      <Link to="/resources">
                        Resources
                       </Link>
 
                     </li>
                     <li className="inner_list">
-                      <Link to="#">
+                      <Link to="/about">
                         About
                       </Link>
 
                     </li>
 
                     <li className="inner_list">
-                      <Link to="#">
-                     Contact  </Link>
+                      <a href="https://linktr.ee/zkrollups.xyz" target="_blank" rel="noopener noreferrer">Linktree</a>
 
                     </li>
                     
@@ -101,13 +87,13 @@ const scrolup=()=>{
                   <h4 class="footer-widget-title">Support</h4>
                   <ul>
                     <li className="inner_list">
-                      <a href="#x_start">List a Project</a>
+                      <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank" rel="noopener noreferrer">List a Project</a>
                     </li>
                     <li className="inner_list">
-                      <a href="#how_work">Partner with Us</a>
+                      <a href="/contact">Partner with Us</a>
                     </li>
                     <li className="inner_list">
-                      <a href="#x_Features">Contact</a>
+                      <a href="mailto:gm@zkrollups.xyz">Email Us</a>
                     </li>
                  
 
@@ -134,7 +120,7 @@ const scrolup=()=>{
                       </Link>
                     </li>
                     <li className="inner_list">
-                      <a href="#">Privacy Policy</a>
+                      <a href="/terms">Privacy Policy</a>
                     </li>
                   
                 
@@ -147,16 +133,22 @@ const scrolup=()=>{
             <div class="col-6 col-lg-2 center_footer flex_end_ ">
               <div class="footer-widget1">
                 <div class="footer-menu no-padding">
-                  <h4 class="footer-widget-title">Follow US</h4>
+                  <h4 class="footer-widget-title">Follow Us</h4>
                   <ul className="d-flex">
                     <li>
-                    <img src={Logo1}/>
+                      <a href="https://twitter.com/zkRollupsXYZ" target="_blank" rel="noopener noreferrer">
+                        <img src={Logo1} alt="twitter"/>
+                      </a>
                     </li>
                     <li>
-                    <img className="mx-3" src={Logo2}/>
+                      <a href="https://github.com/jaazinn/zkr-app-directory" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-3" src={Logo2} alt="github"/>
+                      </a>
                     </li>
                     <li>
-                    <img src={Logo3}/>
+                      <a href="https://www.reddit.com/r/zkRollups/" target="_blank" rel="noopener noreferrer">
+                        <img src={Logo3} alt="reddit"/>
+                      </a>
                     </li>
                  
                     {/* <li>
@@ -190,8 +182,8 @@ const scrolup=()=>{
             <div class="col-md-12">
               <div class="copyright-text copy_text">
                 <p >
-                Copyright @2022 
-                  <a href="#"> zkRollups.xyz</a>. All rights reserved.
+                Copyright &copy;2022 
+                  <a href="/"> zkRollups.xyz</a>. All rights reserved.
                   {/* <a href="https://zkRollups.xyz">SALDIRI</a> */}
                 </p>
               </div>
