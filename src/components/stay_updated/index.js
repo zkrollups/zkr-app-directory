@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css"
+import SearchBar from '../Searchbar/SearchBar'
 import stay_img from '../../actets/stay.png';
 
 function stay() {
@@ -11,7 +12,7 @@ function stay() {
 <div className='row main_wrap'>
 	<div className=' col-sm-12 col-lg-6 col-md-12 img_part mb-3'>
 <div className='col-2'>
-<img src={stay_img} alt="" width={'65px'} height={"73px"}></img>
+<img src={stay_img} width={'65px'} height={"73px"}></img>
 </div>
 <div className='col-10 spacing_left'>
 	<div>

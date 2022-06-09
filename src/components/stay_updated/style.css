@@ -69,7 +69,7 @@
   margin-left: 14.8%;
   margin-right: 14.8%;
   /* margin-right: 16.7%; */
-  margin-top: 85px;
+  /* margin-top: 85px; */
 }
 .src_side{
   border-radius: 10px;
@@ -328,3 +328,13 @@ line-height: 48px;
     text-align: left;
   }
   
+  .more_wrap {
+    width: 80%;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    margin-bottom: 175px;
+    justify-content: center;
+    /* padding: 12px; */
+    padding-top: 10px;
+    /* padding-bottom: 165px; */
+}

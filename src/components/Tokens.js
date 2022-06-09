@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import './token.css';
 import {
 Box,
+Grommet,
 Heading,
+Tab,
 Table,
 TableBody,
 TableCell,
+TableFooter,
 TableHeader,
 TableRow,
+Text,
 } from 'grommet';
 
 // import { grommet } from 'grommet/themes';
