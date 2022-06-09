@@ -1,12 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
+    Heading,
+    Box,
     Button,
     Card,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    Image,
     Text,
+    Paragraph,
+    Avatar,
 } from 'grommet';
+import Cardpic from  "../actets/card logos/starknet-logo1.svg"
 import "./style.css"
 import { Twitter, Language, Money } from 'grommet-icons';
+import ReactTooltip from 'react-tooltip';
+import { NETWORKS } from '../helpers';
 
 const ProjectCard = ({ item }) => (
     <React.Fragment>

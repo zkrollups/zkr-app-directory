@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import { Navbar,Nav,Container } from 'react-bootstrap';
 import "./style.css"
 import { NavLink } from "react-router-dom";
 import icon1 from "../../actets/logo.png"
@@ -22,7 +23,7 @@ function navbar() {
           {/* <NavLink exact to="/" className="nav-logo"> */}
          <a className="nav-logo" onClick={()=>{
          navigate("/")
-         }}><img src={icon1} alt=""></img></a>
+         }}><img src={icon1}></img></a>
             
           {/* </NavLink> */}
           <ul className={click ? "nav-menu nav_active" : "nav-menu"}>
@@ -71,17 +72,15 @@ function navbar() {
               </NavLink>
             </li>
             <li className="nav-item spacing">
-              <a
+              <NavLink
                 exact
-                href="https://forms.gle/pbpKnTfvuy6GjKVy8"
+                to="/"
                 activeClassName="active"
                 className="nav-links add_project"
-                target="_blank"
-                rel="noopener noreferrer"
                onClick={click ? handleClick : null}
               >
                 Add Project +
-              </a>
+              </NavLink>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
