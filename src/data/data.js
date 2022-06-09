@@ -5109,7 +5109,7 @@ export const projects = [
       "hyperlink1": "https://open-sky.vercel.app/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/opensky.jpg')",
+      "imageLink": "url('project-logos/blockblock.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5138,7 +5138,7 @@ export const projects = [
       "hyperlink1": "https://mintsquare.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/mintsquare.jpg')",
+      "imageLink": "url('project-logos/mintsquare.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5158,16 +5158,16 @@ export const projects = [
       "websiteLink": "https://mintsquare.io/"
   },
   {
-      "name": "Oasis",
+      "name": "Aspect",
       "backgroud_color": "#EB5600",
       "category": [
           "NFT"
       ],
-      "description": "Oasis is an NFT marketplace powered by StarkNet. Make offers and list nfts with near zero gas fees. Deploy your nft collection on starknet and oasis.",
-      "hyperlink1": "https://testnet.playoasis.xyz/",
+      "description": "Aspect is an NFT marketplace powered by StarkNet. Make offers and list nfts with near zero gas fees. Deploy your nft collection on starknet and Aspect.",
+      "hyperlink1": "https://testnet.aspect.co/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/oasis.jpg')",
+      "imageLink": "url('project-logos/aspect.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5182,9 +5182,9 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "twitterLink": "https://twitter.com/playoasisXYZ",
+      "twitterLink": "https://twitter.com/aspectdotco",
       "wallet_address": "",
-      "websiteLink": "https://testnet.playoasis.xyz/"
+      "websiteLink": "https://testnet.aspect.co/"
   },
   {
       "name": "GameStop",
@@ -5196,7 +5196,7 @@ export const projects = [
       "hyperlink1": "https://nft.gamestop.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/gamestop.jpg')",
+      "imageLink": "url('project-logos/gamestop.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5225,7 +5225,7 @@ export const projects = [
       "hyperlink1": "https://www.zksharks.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zksharks.jpg')",
+      "imageLink": "url('project-logos/zksharks.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5254,7 +5254,7 @@ export const projects = [
       "hyperlink1": "https://www.bitmapbox.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/bitmapbox.jpg')",
+      "imageLink": "url('project-logos/bitmapbox.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5283,7 +5283,7 @@ export const projects = [
       "hyperlink1": "https://phi-xyz.notion.site/532af6de66e64c7c883d552d301b8020",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/phi.jpg')",
+      "imageLink": "url('project-logos/phi.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5312,7 +5312,7 @@ export const projects = [
       "hyperlink1": "https://home.byoa.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/mallows.jpg')",
+      "imageLink": "url('project-logos/mallows.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5341,7 +5341,7 @@ export const projects = [
       "hyperlink1": "https://kubribridge.vercel.app/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/kubri.jpg')",
+      "imageLink": "url('project-logos/kubri.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5369,7 +5369,7 @@ export const projects = [
       "hyperlink1": "",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/socol.jpg')",
+      "imageLink": "url('project-logos/socol.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5397,7 +5397,7 @@ export const projects = [
       "hyperlink1": "https://auclantis.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/auclantis.jpg')",
+      "imageLink": "url('project-logos/auclantis.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5426,7 +5426,7 @@ export const projects = [
       "hyperlink1": "https://tofunft.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/tofu.jpg')",
+      "imageLink": "url('project-logos/tofu.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5455,7 +5455,7 @@ export const projects = [
       "hyperlink1": "https://www.influenceth.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/influence.jpg')",
+      "imageLink": "url('project-logos/influence.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5484,7 +5484,7 @@ export const projects = [
       "hyperlink1": "https://dopewars.gg/",
       "hyperlink2": "https://www.coingecko.com/en/coins/dope-wars-paper",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/dopewars.jpg')",
+      "imageLink": "url('project-logos/dopewars.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5517,7 +5517,7 @@ export const projects = [
       "hyperlink1": "https://ninth.gg/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/theninth.jpg')",
+      "imageLink": "url('project-logos/theninth.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5547,7 +5547,7 @@ export const projects = [
       "hyperlink1": "https://www.openstars.org/#/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/openstars.jpg')",
+      "imageLink": "url('project-logos/openstars.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5577,7 +5577,7 @@ export const projects = [
       "hyperlink1": "https://docs.gameofblocks.io/litepaper",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/gameofblocks.jpg')",
+      "imageLink": "url('project-logos/gameofblocks.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5606,7 +5606,7 @@ export const projects = [
       "hyperlink1": "https://bibliothecaforloot.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/loot.jpg')",
+      "imageLink": "url('project-logos/loot.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5635,7 +5635,7 @@ export const projects = [
       "hyperlink1": "https://eykar.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/eykar.jpg')",
+      "imageLink": "url('project-logos/eykar.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5664,7 +5664,7 @@ export const projects = [
       "hyperlink1": "https://zkasino.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zkasino.jpg')",
+      "imageLink": "url('project-logos/zkasino.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
