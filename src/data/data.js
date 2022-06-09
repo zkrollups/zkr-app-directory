@@ -3084,7 +3084,7 @@ export const projects = [
       "hyperlink1": "https://manifest.gg/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/manifest.jpg')",
+      "imageLink": "url('project-logos/manifest.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3113,7 +3113,7 @@ export const projects = [
       "hyperlink1": "https://cvi.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/cvi.jpg')",
+      "imageLink": "url('project-logos/cvi.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3142,7 +3142,7 @@ export const projects = [
       "hyperlink1": "https://hedgey.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/hedgey.jpg')",
+      "imageLink": "url('project-logos/hedgey.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3171,7 +3171,7 @@ export const projects = [
       "hyperlink1": "https://www.arweave.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/arweave.jpg')",
+      "imageLink": "url('project-logos/arweave.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3200,7 +3200,7 @@ export const projects = [
       "hyperlink1": "https://www.syncswap.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/syncswap.jpg')",
+      "imageLink": "url('project-logos/syncswap.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3229,7 +3229,7 @@ export const projects = [
       "hyperlink1": "https://www.wardenswap.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/warden.jpg')",
+      "imageLink": "url('project-logos/warden.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3258,7 +3258,7 @@ export const projects = [
       "hyperlink1": "https://icewater.money",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/icewater.jpg')",
+      "imageLink": "url('project-logos/icewater.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5912,35 +5912,6 @@ export const projects = [
       "twitterLink": "https://twitter.com/FujiFinance",
       "wallet_address": "",
       "websiteLink": "https://www.fujidao.org/#/"
-  },
-  {
-      "name": "Yearn",
-      "backgroud_color": "#36368F",
-      "category": [
-          "DAO"
-      ],
-      "description": "yearn.finance is a selection of Ethereum lending and trading protocols that allow users to optimize their crypto earnings.",
-      "hyperlink1": "https://yearn.finance/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/yearn.jpg')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "zksync"
-      ],
-      "search_on": [
-          "daos"
-      ],
-      "status": "LIVE",
-      "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "zkSync",
-      "twitterLink": "https://twitter.com/iearnfinance",
-      "wallet_address": "",
-      "websiteLink": "https://yearn.finance/"
   },
   {
       "name": "MatchboxDAO",
