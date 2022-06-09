@@ -12,10 +12,6 @@ import icon7 from "../actets/Vector (6).png";
 import icon10 from "../actets/misc.png";
 import icon8 from "../actets/social.png";
 import { useNavigate  } from "react-router-dom";
-import {
-  Box,
-  Button,
-} from 'grommet';
 import "./style.css"
 
 const Menu = ({ setFilter, filter,results, setResults,set_search,search_in,setSearch_in  }) => {
@@ -27,8 +23,8 @@ const Menu = ({ setFilter, filter,results, setResults,set_search,search_in,setSe
   //console.log("width========>> ",window.innerWidth)
   const [active, setactive] = useState(false);
  
-  const handleClick = () => setClick(!click);
-  const Close = () => setClick(false);
+  // const handleClick = () => setClick(!click);
+  // const Close = () => setClick(false);
 
 var allCounts=[];
 var search_category = 'asasd';
@@ -37,7 +33,7 @@ const getAllCounts=() =>{
  
   Array.isArray(filter) ? localfilter = filter.toString() : localfilter = filter;
   allCounts=[];
-  allCounts.push(localfilter.toLowerCase()=="all" || localfilter.toLowerCase()==""?results.length:0);
+  allCounts.push(localfilter.toLowerCase()==="all" || localfilter.toLowerCase()===""?results.length:0);
 
  var rollupsCount =0;
  if( localfilter.includes("rollups")){
@@ -45,7 +41,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('rollups') >= 0
                 : true
     )
@@ -61,7 +57,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('wallets') >= 0
                 : true
     )
@@ -75,7 +71,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('infra') >= 0
                 : true
     )
@@ -91,7 +87,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('dApps') >= 0
                 : true
     )
@@ -106,7 +102,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('nfts') >= 0
                 : true
     )
@@ -120,7 +116,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('games') >= 0
                 : true
     )
@@ -134,7 +130,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('social') >= 0
                 : true
     )
@@ -148,7 +144,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('daos') >= 0
                 : true
     )
@@ -163,7 +159,7 @@ const getAllCounts=() =>{
   .filter((result) => {
     return (
       
-      search_category != "all"
+      search_category !== "all"
                 ? result.search_on.indexOf('misc') >= 0
                 : true
     )
@@ -172,12 +168,7 @@ const getAllCounts=() =>{
 allCounts.push( localfilter.includes("misc") ? miscCount.length : 0)
 
 
-
-
-
 //  allCounts.push(rollupsCountwallets.length);
- 
-
  //allcounts.push(results.filter(results.).length);
  //console.log("kuch day doonnnnn",allCounts);
 
@@ -207,7 +198,7 @@ getAllCounts();
       </div>
       
         <div className={allCounts[0] > 0  ?'btn_wrap active active2 px-3':'btn_wrap px-3 '} onClick={(e) => filter_fun((''))  }  > 
-        <img className='menu_logo cat_image' src={icon1} width={'22px'} height={"22px"}></img>
+        <img className='menu_logo cat_image' src={icon1} width={'22px'} height={"22px"} alt=""></img>
           <span className='mx-3 categry cat_title'> All</span>
           {
             allCounts[0] > 0 ? 
@@ -221,7 +212,7 @@ getAllCounts();
         </div>
 
         <div className={ allCounts[1] > 0 ||  localfilter.includes ("rollups")  ? 'btn_wrap active px-3': 'btn_wrap px-3 ' }  onClick={() => filter_fun(('rollups')) }  > 
-          <div><img className='cat_image' src={icon2} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon2} width={'22px'} height={"22px"} alt=""></img></div>
           <span className='mx-3 cat_title'> Rollups</span>
           {
             allCounts[1] > 0 ? 
@@ -241,7 +232,7 @@ getAllCounts();
 
         {/* <button label="All" setFilter('rollups')} active={filter === 'rollups'}  /> */}
         <div className= { allCounts[2] > 0 ||  localfilter.includes ("wallets") ? 'btn_wrap active px-3':'btn_wrap px-3 '}   onClick={() => filter_fun(('wallets')) } > 
-          <div><img className='cat_image' src={icon3} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon3} width={'22px'} height={"22px"} alt="rollups"></img></div>
           <span className='mx-3 cat_title'> Wallets</span>
           {
             allCounts[2] > 0 ?
@@ -252,7 +243,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[3] > 0 ||  localfilter.includes ("infra") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('infra')) }> 
-          <div><img className='cat_image' src={icon4} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon4} width={'22px'} height={"22px"} alt="infra"></img></div>
           <span className='mx-3 cat_title'> Infra</span>
           {
             allCounts[3] > 0 ?
@@ -263,7 +254,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[4] > 0 ||  localfilter.includes ("dApps") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('dApps')) }> 
-          <div><img  className='cat_image' src={icon5} width={'22px'} height={"22px"}></img></div>
+          <div><img  className='cat_image' src={icon5} width={'22px'} height={"22px"} alt="dapps"></img></div>
           <span className='mx-3 cat_title'> dApps</span>
           {
             allCounts[4] > 0 ?
@@ -274,7 +265,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[5] > 0 ||  localfilter.includes ("nfts") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('nfts')) }> 
-          <div><img className='cat_image' src={icon6} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon6} width={'22px'} height={"22px"} alt="nfts"></img></div>
           <span className='mx-3 cat_title'> NFTs</span>
           {
           allCounts[5] > 0 ?
@@ -285,7 +276,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[6] > 0 ||  localfilter.includes ("games") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('games')) }> 
-          <div><img className='cat_image' src={icon7} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon7} width={'22px'} height={"22px"} alt="games"></img></div>
           <span className='mx-3 cat_title'> Games</span>
           {
           allCounts[6] > 0 ?
@@ -296,7 +287,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[7] > 0 ||  localfilter.includes ("social")  ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() =>filter_fun (('social')) }> 
-          <div><img className='cat_image' src={icon8} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon8} width={'22px'} height={"22px"} alt="social"></img></div>
           <span className='mx-3 cat_title'> Social</span>
           {
            allCounts[7] > 0 ?
@@ -307,7 +298,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[8] > 0 ||  localfilter.includes ("daos") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('daos')) }> 
-          <div><img src={icon9} width={'22px'} height={"22px"}></img></div>
+          <div><img src={icon9} width={'22px'} height={"22px"} alt="daos"></img></div>
           <span className='mx-3 cat_title'> DAOs</span>
           {
            allCounts[8] > 0 ?
@@ -318,7 +309,7 @@ getAllCounts();
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
         <div className={ allCounts[9] > 0 ||  localfilter.includes ("misc") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('misc')) }> 
-          <div><img className='cat_image' src={icon10} width={'22px'} height={"22px"}></img></div>
+          <div><img className='cat_image' src={icon10} width={'22px'} height={"22px"} alt="misc"></img></div>
           <span className='mx-3 cat_title'> Misc</span>
           {
             allCounts[9] > 0 ?

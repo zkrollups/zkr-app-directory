@@ -318,10 +318,6 @@
     margin-top: 1px;
     margin-left: 2px;
   }
-
-  .knmKel{
-    width: 0px !important;
-  }
   .v40_4218 {
     width: 188px;
     color: rgba(255,255,255,1);
@@ -400,7 +396,6 @@
   width: 80%;
   /* border: 1px solid red; */
   /* display: flex; */
-  margin-bottom: 175px;
   justify-content: center;
   /* padding: 12px; */
   padding-top: 130px;
@@ -452,20 +447,20 @@ color: white !important;
   font-size: 2.2rem !important;
   color: white !important;
 }
+
 .MuiButtonBase-root{
   color:white;
 }
-
 
 .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root{
   color: white !important;
 }
 
-
 .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
   background-color:grey!important;
 
 }
+
 .btn_load{
   margin-left: 30%;
   color: white;

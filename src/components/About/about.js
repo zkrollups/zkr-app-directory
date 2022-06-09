@@ -1,11 +1,10 @@
 import React from "react";
-import { useEffect } from "react";
 import "./style.css";
-import SearchBar from "../Searchbar/SearchBar";
 import Person1 from "../../actets/UxpOYFku_400x400 1.png"
 import Person2 from "../../actets/Mask group.png"
 import Tweter from "../../actets/flogo1.png"
 import Linkind from "../../actets/linkd.png"
+
 function About({ setSearch, search, setSearch_category, search_category }) {
   return (
     <>
@@ -37,14 +36,18 @@ function About({ setSearch, search, setSearch_category, search_category }) {
          
                 <div className="user_card ">
                   <div className="img_wrap_p">
-                    <img className="img_cl" src={Person1}></img>
+                    <img className="img_cl" alt="" src={Person1}></img>
 
                   </div>
                   <div  className="name_wrap ">
                     <h6 className="text-center person_name">Joel Kite</h6>
                     <div className="d-flex justify-content-center  ">
-                      <img className="mx-1" src={Tweter}></img>
-                      <img className="mx-1" src={Linkind}></img>
+                      <a href="https://twitter.com/joelkite" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-1" alt="" src={Tweter}></img>
+                      </a>
+                      <a href="https://gitcoin.co/milvinae" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-1" alt="" src={Linkind}></img>
+                      </a>
                     </div>
 
                   </div>
@@ -53,14 +56,18 @@ function About({ setSearch, search, setSearch_category, search_category }) {
                
                 <div className="user_card   ">
                   <div className="img_wrap_p">
-                    <img className="img_cl" src={Person2}></img>
+                    <img className="img_cl" alt="" src={Person2}></img>
 
                   </div>
                   <div  className="name_wrap ">
-                    <h6 className="text-center person_name">Joel Kite</h6>
+                    <h6 className="text-center person_name">Jason Garland</h6>
                     <div className="d-flex justify-content-center  ">
-                      <img className="mx-1" src={Tweter}></img>
-                      <img className="mx-1" src={Linkind}></img>
+                      <a href="https://twitter.com/jaazinn" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-1" alt="" src={Tweter}></img>
+                      </a>
+                      <a href="https://gitcoin.co/jaazinn" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-1" alt="" src={Linkind}></img>
+                      </a>
                     </div>
 
                   </div>
