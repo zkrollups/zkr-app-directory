@@ -1,7 +1,7 @@
 import React from "react";
 import {useEffect} from "react"
 import "./style.css";
-
+import SearchBar from "../Searchbar/SearchBar";
 function Terms({ setSearch, search, setSearch_category, search_category }) {
 
   useEffect(() => {
@@ -19,17 +19,22 @@ function Terms({ setSearch, search, setSearch_category, search_category }) {
       });
   }
 
+
+
+
+
+
   return (
     <>
       <div className="container-fluied" id="scrol">
         <div className="main_wrap_term mt-4">
           <h2 className="about_haeading">Terms of Use</h2>
           <div className="textall">
-          <p>Last updated June 7, 2022</p>
+          <p>Last updated September 30, 2021</p>
           <p>
-          As an educational service committed to advancing open finance adoption, zkRollups
+          As a noncustodial service committed to advancing open finance, Numio
           is committed to preserving the privacy of its users. Please also
-          review our Terms of Use.
+          review our Terms of Use and canary.txt.
          
            
           </p>
@@ -38,9 +43,9 @@ function Terms({ setSearch, search, setSearch_category, search_category }) {
           <p>
             These Terms of Use constitute a legally binding agreement made
             between you, whether personally or on behalf of an entity (“you”)
-            and zkRollups.xyz ("zkRollups", “Company“, “we“, “us“, or “our“),
-            concerning your access to and use of the https://www.zkRollups.xyz
-            website (“Site“), the “zkRollups” application (“App“) as well as any
+            and Numio, Inc. (“Numio“, “Company“, “we“, “us“, or “our“),
+            concerning your access to and use of the https://www.numio.one
+            website (“Site“), the “Numio” application (“App“) as well as any
             other digital services, media form, media channel, mobile website or
             mobile application related, linked, or otherwise connected thereto
             (collectively, the “Services”). You agree that by accessing the
@@ -54,18 +59,22 @@ function Terms({ setSearch, search, setSearch_category, search_category }) {
             FROM TIME TO TIME IN OUR SOLE DISCRETION.
           </p>
           <p>
-            The Services provide software tools for users to find and learn about
-            various applications and tools related to digital assets including
-            tokens, cryptocurrencies, and virtual currencies. The projects listed
-            here are crowdsourced and nothing on this site constitutes an endorsement.  
-            The use of any of these services may result in the loss or theft of funds.
-            The App includes information about various
+            The Services provide software tools for users to access and manage
+            various features and functions related to digital assets including
+            tokens, cryptocurrencies, virtual currencies or any other digital
+            assets you own that are supported by the Services (collectively,
+            “Digital Assets”), including interfacing with third party sources
+            for certain information regarding the value of Digital Assets. The
+            Services do not purchase, sell, store or exchange Digital Assets. We
+            do not recommend that you use the Services unless you are familiar
+            with Digital Assets, Blockchain technology and can securely store
+            your own private key. The App includes information about various
             Digital Assets, however, such inclusion or availability of
-            information does not imply endorsement by zkRollups of such Digital
+            information does not imply endorsement by Numio of such Digital
             Assets or any association with the operators of the Digital Assets.
-            zkRollups includes or makes such information available for your
+            Numio includes or makes such information available for your
             convenience only. You understand and accept the inherent security
-            risks of using the Internet, new technology, and blockchain applications.
+            risks of using the Internet.
           </p>
           </div>
       
