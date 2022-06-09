@@ -3490,7 +3490,7 @@ export const projects = [
       "hyperlink1": "https://thegraph.com/",
       "hyperlink2": "https://www.coingecko.com/en/coins/the-graph",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/thegraph.jpg')",
+      "imageLink": "url('project-logos/thegraph.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3523,7 +3523,7 @@ export const projects = [
       "hyperlink1": "https://starktx.info/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starkTx.jpg')",
+      "imageLink": "url('project-logos/starkTx.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3552,7 +3552,7 @@ export const projects = [
       "hyperlink1": "https://syscoin.org/",
       "hyperlink2": "https://www.coingecko.com/en/coins/syscoin",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/syscoin.jpg')",
+      "imageLink": "url('project-logos/syscoin.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3585,7 +3585,7 @@ export const projects = [
       "hyperlink1": "https://www.covalenthq.com/",
       "hyperlink2": "https://www.coingecko.com/en/coins/covalent",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/covalent.jpg')",
+      "imageLink": "url('project-logos/covalent.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3618,7 +3618,7 @@ export const projects = [
       "hyperlink1": "https://voyager.online/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starknet.jpg')",
+      "imageLink": "url('project-logos/starknet.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3647,7 +3647,7 @@ export const projects = [
       "hyperlink1": "https://banxa.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/banxa.jpg')",
+      "imageLink": "url('project-logos/banxa.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3678,7 +3678,7 @@ export const projects = [
       "hyperlink1": "https://yagi.fi/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/yagi.jpg')",
+      "imageLink": "url('project-logos/yagi.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
