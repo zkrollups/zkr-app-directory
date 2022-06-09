@@ -3287,7 +3287,7 @@ export const projects = [
       "hyperlink1": "https://www.raisefinance.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/raise.jpg')",
+      "imageLink": "url('project-logos/raise.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3316,7 +3316,7 @@ export const projects = [
       "hyperlink1": "https://www.brine.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/brine.jpg')",
+      "imageLink": "url('project-logos/brine.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3345,7 +3345,7 @@ export const projects = [
       "hyperlink1": "https://sithswap.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/sithswap.jpg')",
+      "imageLink": "url('project-logos/sithswap.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3374,7 +3374,7 @@ export const projects = [
       "hyperlink1": "https://www.synfutures.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/synfutures.jpg')",
+      "imageLink": "url('project-logos/synfutures.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3403,7 +3403,7 @@ export const projects = [
       "hyperlink1": "https://zksync-testnet.sat.is/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/satis.jpg')",
+      "imageLink": "url('project-logos/satis.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3432,7 +3432,7 @@ export const projects = [
       "hyperlink1": "https://ramp.network/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/ramp.jpg')",
+      "imageLink": "url('project-logos/ramp.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3461,7 +3461,7 @@ export const projects = [
       "hyperlink1": "https://zkscan.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zksync.jpg')",
+      "imageLink": "url('project-logos/zksync.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
