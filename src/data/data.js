@@ -64,7 +64,7 @@ export const projects = [
   },
   {
     "name": "Aztec",
-    "backgroud_color": "#6C6DD6",
+    "backgroud_color": "#2D2F4B",
     "category": [
         "zkRollup"
     ],
@@ -295,7 +295,7 @@ export const projects = [
   },
   {
       "name": "Scroll",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#6C6DD6",
       "category": [
           "zkRollup"
       ],
@@ -517,7 +517,7 @@ export const projects = [
   {
       "name": "Numio",
       "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
-      "backgroud_color": "#3F3F3F",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Mobile Wallet"
       ],
@@ -548,7 +548,7 @@ export const projects = [
   },
   {
       "name": "imToken",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#6C6DD6",
       "category": [
           "Mobile Wallet"
       ],
@@ -3577,7 +3577,7 @@ export const projects = [
   },
   {
       "name": "Covalent",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Infra"
       ],
