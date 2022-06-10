@@ -516,14 +516,13 @@ export const projects = [
   },
   {
       "name": "Numio",
-      "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
       "backgroud_color": "#2D2F4B",
       "category": [
           "Mobile Wallet"
       ],
-      "description": "Numio is a non-custodial Ethereum L2 (zkSync) wallet that lets you send, store, buy & swap tokens, interact with dApps and more. Available on Android & iOS.",
-      "featured": "featured",
+      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial. Available on Android and iOS, Numio was the first zkRollup powered mobile payments app to be released on Google Play.",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.numio.pay",
+      "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
       "hyperlink1": "https://numio.one",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
