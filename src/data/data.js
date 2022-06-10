@@ -517,7 +517,7 @@ export const projects = [
   {
       "name": "Numio",
       "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#3F3F3F",
       "category": [
           "Mobile Wallet"
       ],
@@ -2100,7 +2100,7 @@ export const projects = [
       "hyperlink1": "https://symbonstark.surge.sh/#/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/symbonstark.jpg')",
+      "imageLink": "url('project-logos/symbonstark.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2129,7 +2129,7 @@ export const projects = [
       "hyperlink1": "https://home.byoa.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starkle.jpg')",
+      "imageLink": "url('project-logos/starkle.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2158,7 +2158,7 @@ export const projects = [
       "hyperlink1": "https://1inch.exchange/",
       "hyperlink2": "https://www.coingecko.com/en/coins/1inch",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/1inch.jpg')",
+      "imageLink": "url('project-logos/1inch.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2191,7 +2191,7 @@ export const projects = [
       "hyperlink1": "https://88mph.app/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/88mph.jpg')",
+      "imageLink": "url('project-logos/88mph.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2221,7 +2221,7 @@ export const projects = [
       "hyperlink1": "https://app.alchemix.fi/",
       "hyperlink2": "https://www.coingecko.com/en/coins/Alchemix",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/alchemix.jpg')",
+      "imageLink": "url('project-logos/alchemix.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2256,7 +2256,7 @@ export const projects = [
       "hyperlink1": "https://aragon.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/aragon.jpg')",
+      "imageLink": "url('project-logos/aragon.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2286,7 +2286,7 @@ export const projects = [
       "hyperlink1": "https://frax.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/frax.jpg')",
+      "imageLink": "url('project-logos/frax.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2315,7 +2315,7 @@ export const projects = [
       "hyperlink1": "https://www.hashflow.com/",
       "hyperlink2": "https://www.hashflow.com/token",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/hashflow.jpg')",
+      "imageLink": "url('project-logos/hashflow.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2348,7 +2348,7 @@ export const projects = [
       "hyperlink1": "https://mrhb.network/",
       "hyperlink2": "https://www.coingecko.com/en/coins/marhabadefi",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/mrhb.jpg')",
+      "imageLink": "url('project-logos/mrhb.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2382,7 +2382,7 @@ export const projects = [
       "hyperlink1": "https://www.olympusdao.finance/",
       "hyperlink2": "https://www.coingecko.com/en/coins/olympus",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/olympus.jpg')",
+      "imageLink": "url('project-logos/olympus.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2416,7 +2416,7 @@ export const projects = [
       "hyperlink1": "https://rubicon.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/rubicon.jpg')",
+      "imageLink": "url('project-logos/rubicon.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2445,7 +2445,7 @@ export const projects = [
       "hyperlink1": "https://taker.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/taker.jpg')",
+      "imageLink": "url('project-logos/taker.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2474,7 +2474,7 @@ export const projects = [
       "hyperlink1": "https://tracer.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/tracer.jpg')",
+      "imageLink": "url('project-logos/tracer.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2503,7 +2503,7 @@ export const projects = [
       "hyperlink1": "https://www.trustless.fi/",
       "hyperlink2": "https://www.trustless.fi/hue",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/trustless.jpg')",
+      "imageLink": "url('project-logos/trustless.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2536,7 +2536,7 @@ export const projects = [
       "hyperlink1": "https://vovo.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/vovo.jpg')",
+      "imageLink": "url('project-logos/vovo.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2565,7 +2565,7 @@ export const projects = [
       "hyperlink1": "https://woo.org/",
       "hyperlink2": "https://www.coingecko.com/en/coins/woo-network",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/woo.jpg')",
+      "imageLink": "url('project-logos/woo.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2598,7 +2598,7 @@ export const projects = [
       "hyperlink1": "https://yearn.finance/",
       "hyperlink2": "https://www.coingecko.com/en/coins/yearn-finance",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/yearn.jpg')",
+      "imageLink": "url('project-logos/yearn.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2631,7 +2631,7 @@ export const projects = [
       "hyperlink1": "https://zerion.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zerion.jpg')",
+      "imageLink": "url('project-logos/zerion.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2660,7 +2660,7 @@ export const projects = [
       "hyperlink1": "https://ferrum.network/",
       "hyperlink2": "https://www.coingecko.com/en/coins/ferrum-network",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/ferrum.jpg')",
+      "imageLink": "url('project-logos/ferrum.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2693,7 +2693,7 @@ export const projects = [
       "hyperlink1": "https://alpharoad.fi/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/alpharoad.jpg')",
+      "imageLink": "url('project-logos/alpharoad.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2722,7 +2722,7 @@ export const projects = [
       "hyperlink1": "https://www.okx.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/okx.jpg')",
+      "imageLink": "url('project-logos/okx.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2751,7 +2751,7 @@ export const projects = [
       "hyperlink1": "https://sandclock.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/aura.jpg')",
+      "imageLink": "url('project-logos/aura.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2780,7 +2780,7 @@ export const projects = [
       "hyperlink1": "https://via.exchange/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/via.jpg')",
+      "imageLink": "url('project-logos/via.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2809,7 +2809,7 @@ export const projects = [
       "hyperlink1": "https://www.gro.xyz/",
       "hyperlink2": "https://www.coingecko.com/en/coins/pwrd-stablecoin",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/gro.jpg')",
+      "imageLink": "url('project-logos/gro.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2842,7 +2842,7 @@ export const projects = [
       "hyperlink1": "https://increment.finance/",
       "hyperlink2": "https://www.coingecko.com/en/coins/pwrd-stablecoin",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/increment.jpg')",
+      "imageLink": "url('project-logos/increment.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2875,7 +2875,7 @@ export const projects = [
       "hyperlink1": "https://aave.com/",
       "hyperlink2": "https://www.coingecko.com/en/coins/aave",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/aave.jpg')",
+      "imageLink": "url('project-logos/aave.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2908,7 +2908,7 @@ export const projects = [
       "hyperlink1": "https://medium.com/@magnety.finance/magnety-defi-4-all-6414990639e8",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/magnety.jpg')",
+      "imageLink": "url('project-logos/magnety.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2937,7 +2937,7 @@ export const projects = [
       "hyperlink1": "https://www.babylon.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/babylon.jpg')",
+      "imageLink": "url('project-logos/babylon.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2966,7 +2966,7 @@ export const projects = [
       "hyperlink1": "http://phezzan.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/phezzan.jpg')",
+      "imageLink": "url('project-logos/phezzan.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2995,7 +2995,7 @@ export const projects = [
       "hyperlink1": "https://dank-protocol.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/dank.jpg')",
+      "imageLink": "url('project-logos/dank.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3024,7 +3024,7 @@ export const projects = [
       "hyperlink1": "https://krebit.id/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/krebit.jpg')",
+      "imageLink": "url('project-logos/krebit.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3053,7 +3053,7 @@ export const projects = [
       "hyperlink1": "https://zkex.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zkex.jpg')",
+      "imageLink": "url('project-logos/zkex.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3084,7 +3084,7 @@ export const projects = [
       "hyperlink1": "https://manifest.gg/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/manifest.jpg')",
+      "imageLink": "url('project-logos/manifest.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3113,7 +3113,7 @@ export const projects = [
       "hyperlink1": "https://cvi.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/cvi.jpg')",
+      "imageLink": "url('project-logos/cvi.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3142,7 +3142,7 @@ export const projects = [
       "hyperlink1": "https://hedgey.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/hedgey.jpg')",
+      "imageLink": "url('project-logos/hedgey.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3171,7 +3171,7 @@ export const projects = [
       "hyperlink1": "https://www.arweave.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/arweave.jpg')",
+      "imageLink": "url('project-logos/arweave.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3200,7 +3200,7 @@ export const projects = [
       "hyperlink1": "https://www.syncswap.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/syncswap.jpg')",
+      "imageLink": "url('project-logos/syncswap.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3229,7 +3229,7 @@ export const projects = [
       "hyperlink1": "https://www.wardenswap.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/warden.jpg')",
+      "imageLink": "url('project-logos/warden.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3258,7 +3258,7 @@ export const projects = [
       "hyperlink1": "https://icewater.money",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/icewater.jpg')",
+      "imageLink": "url('project-logos/icewater.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3287,7 +3287,7 @@ export const projects = [
       "hyperlink1": "https://www.raisefinance.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/raise.jpg')",
+      "imageLink": "url('project-logos/raise.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3316,7 +3316,7 @@ export const projects = [
       "hyperlink1": "https://www.brine.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/brine.jpg')",
+      "imageLink": "url('project-logos/brine.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3345,7 +3345,7 @@ export const projects = [
       "hyperlink1": "https://sithswap.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/sithswap.jpg')",
+      "imageLink": "url('project-logos/sithswap.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3374,7 +3374,7 @@ export const projects = [
       "hyperlink1": "https://www.synfutures.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/synfutures.jpg')",
+      "imageLink": "url('project-logos/synfutures.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3403,7 +3403,7 @@ export const projects = [
       "hyperlink1": "https://zksync-testnet.sat.is/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/satis.jpg')",
+      "imageLink": "url('project-logos/satis.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3432,7 +3432,7 @@ export const projects = [
       "hyperlink1": "https://ramp.network/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/ramp.jpg')",
+      "imageLink": "url('project-logos/ramp.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3461,7 +3461,7 @@ export const projects = [
       "hyperlink1": "https://zkscan.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zksync.jpg')",
+      "imageLink": "url('project-logos/zksync.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3490,7 +3490,7 @@ export const projects = [
       "hyperlink1": "https://thegraph.com/",
       "hyperlink2": "https://www.coingecko.com/en/coins/the-graph",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/thegraph.jpg')",
+      "imageLink": "url('project-logos/thegraph.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3523,7 +3523,7 @@ export const projects = [
       "hyperlink1": "https://starktx.info/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starkTx.jpg')",
+      "imageLink": "url('project-logos/starkTx.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3552,7 +3552,7 @@ export const projects = [
       "hyperlink1": "https://syscoin.org/",
       "hyperlink2": "https://www.coingecko.com/en/coins/syscoin",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/syscoin.jpg')",
+      "imageLink": "url('project-logos/syscoin.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3585,7 +3585,7 @@ export const projects = [
       "hyperlink1": "https://www.covalenthq.com/",
       "hyperlink2": "https://www.coingecko.com/en/coins/covalent",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/covalent.jpg')",
+      "imageLink": "url('project-logos/covalent.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3618,7 +3618,7 @@ export const projects = [
       "hyperlink1": "https://voyager.online/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starknet.jpg')",
+      "imageLink": "url('project-logos/starknet.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3647,7 +3647,7 @@ export const projects = [
       "hyperlink1": "https://banxa.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/banxa.jpg')",
+      "imageLink": "url('project-logos/banxa.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3678,7 +3678,7 @@ export const projects = [
       "hyperlink1": "https://yagi.fi/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/yagi.jpg')",
+      "imageLink": "url('project-logos/yagi.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3707,7 +3707,7 @@ export const projects = [
       "hyperlink1": "https://github.com/NethermindEth/warp",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/nethermind.jpg')",
+      "imageLink": "url('project-logos/nethermind.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3736,7 +3736,7 @@ export const projects = [
       "hyperlink1": "https://www.sandclock.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/sandclock.jpg')",
+      "imageLink": "url('project-logos/sandclock.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3765,7 +3765,7 @@ export const projects = [
       "hyperlink1": "https://home.byoa.org/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/realtime.jpg')",
+      "imageLink": "url('project-logos/realtime.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3794,7 +3794,7 @@ export const projects = [
       "hyperlink1": "https://www.snowflake.com/datasets/token-flow-insights-starknet-data-warehouse-beta/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/sdw.jpg')",
+      "imageLink": "url('project-logos/sdw.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3823,7 +3823,7 @@ export const projects = [
       "hyperlink1": "https://chain.link/",
       "hyperlink2": "https://www.coingecko.com/en/coins/chainlink",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/chainlink.jpg')",
+      "imageLink": "url('project-logos/chainlink.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3856,7 +3856,7 @@ export const projects = [
       "hyperlink1": "https://www.connext.network/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/connext.jpg')",
+      "imageLink": "url('project-logos/connext.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3885,7 +3885,7 @@ export const projects = [
       "hyperlink1": "https://debridge.finance/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/debridge.jpg')",
+      "imageLink": "url('project-logos/debridge.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3914,7 +3914,7 @@ export const projects = [
       "hyperlink1": "https://www.figment.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/figment.jpg')",
+      "imageLink": "url('project-logos/figment.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3944,7 +3944,7 @@ export const projects = [
       "hyperlink1": "https://gnosis-safe.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/gnosis.jpg')",
+      "imageLink": "url('project-logos/gnosis.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -3973,7 +3973,7 @@ export const projects = [
       "hyperlink1": "https://moralis.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/moralis.jpg')",
+      "imageLink": "url('project-logos/moralis.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4002,7 +4002,7 @@ export const projects = [
       "hyperlink1": "https://multichain.org/",
       "hyperlink2": "https://www.coingecko.com/en/coins/anyswap",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/multichain.jpg')",
+      "imageLink": "url('project-logos/multichain.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4035,7 +4035,7 @@ export const projects = [
       "hyperlink1": "https://mystiko.network/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/mystiko.jpg')",
+      "imageLink": "url('project-logos/mystiko.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4064,7 +4064,7 @@ export const projects = [
       "hyperlink1": "https://www.nomad.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/nomad.jpg')",
+      "imageLink": "url('project-logos/nomad.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4093,7 +4093,7 @@ export const projects = [
       "hyperlink1": "https://www.sprintcheckout.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/sprint.jpg')",
+      "imageLink": "url('project-logos/sprint.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4122,7 +4122,7 @@ export const projects = [
       "hyperlink1": "https://tenderly.co/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/tenderly.jpg')",
+      "imageLink": "url('project-logos/tenderly.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4151,7 +4151,7 @@ export const projects = [
       "hyperlink1": "https://www.geoweb.network/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/geoweb.jpg')",
+      "imageLink": "url('project-logos/geoweb.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4180,7 +4180,7 @@ export const projects = [
       "hyperlink1": "https://utorg.pro/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/utorg.jpg')",
+      "imageLink": "url('project-logos/utorg.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4209,7 +4209,7 @@ export const projects = [
       "hyperlink1": "https://veramo.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/veramo.jpg')",
+      "imageLink": "url('project-logos/veramo.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4238,7 +4238,7 @@ export const projects = [
       "hyperlink1": "https://www.iqlusion.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/iqlusion.jpg')",
+      "imageLink": "url('project-logos/iqlusion.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4267,7 +4267,7 @@ export const projects = [
       "hyperlink1": "https://tokenflow.live/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/tokenflow.jpg')",
+      "imageLink": "url('project-logos/sdw.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4296,7 +4296,7 @@ export const projects = [
       "hyperlink1": "https://cephalopod.equipment/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/cephalopod.jpg')",
+      "imageLink": "url('project-logos/cephalopod.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4325,7 +4325,7 @@ export const projects = [
       "hyperlink1": "https://peckshield.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/peckshield.jpg')",
+      "imageLink": "url('project-logos/peckshield.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -4354,7 +4354,7 @@ export const projects = [
       "hyperlink1": "https://chainstack.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/chainstack.jpg')",
+      "imageLink": "url('project-logos/chainstack.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5912,35 +5912,6 @@ export const projects = [
       "twitterLink": "https://twitter.com/FujiFinance",
       "wallet_address": "",
       "websiteLink": "https://www.fujidao.org/#/"
-  },
-  {
-      "name": "Yearn",
-      "backgroud_color": "#36368F",
-      "category": [
-          "DAO"
-      ],
-      "description": "yearn.finance is a selection of Ethereum lending and trading protocols that allow users to optimize their crypto earnings.",
-      "hyperlink1": "https://yearn.finance/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/yearn.jpg')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "zksync"
-      ],
-      "search_on": [
-          "daos"
-      ],
-      "status": "LIVE",
-      "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "zkSync",
-      "twitterLink": "https://twitter.com/iearnfinance",
-      "wallet_address": "",
-      "websiteLink": "https://yearn.finance/"
   },
   {
       "name": "MatchboxDAO",

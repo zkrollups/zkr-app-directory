@@ -1,33 +1,17 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import { Box } from "grommet";
-
 import { projects } from "../data/data";
-import ProjectCard from "./ProjectCard";
-import ProjectCardUp from "./ProjectCard copy";
-import { User } from "grommet-icons";
 import { useNavigate } from "react-router-dom";
 import dropdown_image from "../actets/dropdown.svg";
 import "./style.css";
 import Pagination from "@mui/material/Pagination";
 import { Dropdown, Menu } from "semantic-ui-react";
-import { Twitter, Language, Money } from "grommet-icons";
+import { Twitter, } from "grommet-icons";
 import globe from "../actets/globe.png";
-import twitter from "../actets/twitter.png";
-import { NETWORKS } from "../helpers";
 import {
-  Heading,
-
   Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Image,
-  Text,
-  Paragraph,
-  Avatar,
 } from "grommet";
+
 const ProjectsList = ({
   setNetworkFilter,
   filter,
@@ -36,7 +20,6 @@ const ProjectsList = ({
   networkFilter,
   results,
   setResults,
-  setSearch_category,
   search_category,
 }) => {
   // const defaultState = Object.keys(projects).map(key => {//console.log(projects[key]); return projects[key]}).flat();
@@ -84,7 +67,10 @@ const ProjectsList = ({
   //  //console.log("datadatadata",results);
   useEffect(() => {
     settotal_pages(Math.ceil(results.length / total_show));
+  
+    item_slect("notmove",{"text":total_show,"value":total_show})
   }, [results]);
+
 
   useEffect(() => {
     console.log(
@@ -97,7 +83,7 @@ const ProjectsList = ({
           .filter((project) => {
             return (
               project.name.toLowerCase().includes(search.toLowerCase()) &&
-              (search_category != "all"
+              (search_category !== "all"
                 ? project.search_on.indexOf(search_category) >= 0
                 : true)
             );
@@ -110,13 +96,13 @@ const ProjectsList = ({
     } else if (search.length) {
       // //console.log('search cat =-===>> ',search_category)
       // //console.log("i am in simple search ")
-      setFilter(search_category == "all" ? "" : search_category);
+      setFilter(search_category === "all" ? "" : search_category);
       setResults(
         projects.filter((project) => {
           //console.log("condition ===========>>>> ");
           return (
             project.name.toLowerCase().includes(search.toLowerCase()) &&
-            (search_category != "all"
+            (search_category !== "all"
               ? project.search_on.indexOf(search_category) >= 0
               : true)
           );
@@ -198,7 +184,7 @@ const ProjectsList = ({
 
   const token_slect = (e, result) => {
     const { text, value } = result;
-    if (value != "all") {
+    if (value !== "all") {
       setResults(
         projects.filter((project) =>
           project.tokenStatus ? project.tokenStatus.includes(value) : false
@@ -213,7 +199,7 @@ const ProjectsList = ({
   const network_slect = (e, result) => {
     const { text, value } = result;
 
-    if (value != "all") {
+    if (value !== "all") {
       setNetworkFilter(value);
     } else {
       setNetworkFilter("");
@@ -233,7 +219,9 @@ const ProjectsList = ({
     setcurentpage(1);
     setpaginate_start(0);
     setpaginate_end(value);
+    if(e!="notmove"){
     scroll();
+    }
   };
 
   const paginationhandler = (event, val) => {
@@ -285,7 +273,7 @@ const ProjectsList = ({
         <div className="row  my-3 container" id="scrol">
           <div className="col ffff ">
             <h6 className=" showi">
-              Showing : {filter == "" ? "All" :Array.isArray(filter)?filter.join(",") :filter.toUpperCase()}
+              Showing : {filter === "" ? "All" :Array.isArray(filter)?filter.join(",") :filter.toUpperCase()}
             </h6>
           </div>
 
@@ -342,7 +330,7 @@ const ProjectsList = ({
           
           <div className="row show_cards container">
             
-            {results.slice(0, num2).map((item, idx) => (
+            {results.filter((project)=>project.hasOwnProperty('featured')?true:false).map((item, idx) => (
               
               <div
                 class="v40_4201_up  col-5 mt-5"
@@ -416,6 +404,7 @@ const ProjectsList = ({
                           src={globe}
                           width={"23px"}
                           height={"23px"}
+                          alt=""
                         />
                       }
                       hoverIndicator
@@ -447,7 +436,7 @@ const ProjectsList = ({
         <div className="row  " id="scrol">
           <div className="col-6 ffff">
             <h2 className="">
-              Showing : {filter == "" ? "All" : filter.toUpperCase()}
+              Showing : {filter === "" ? "All" : filter.toUpperCase()}
             </h2>
           
           </div>
@@ -476,7 +465,7 @@ const ProjectsList = ({
             }}
           >
             <div class="v40_4202" style={{ background: item.backgroud_color }}>
-              {item.status == "TESTNET" ? (
+              {item.status === "TESTNET" ? (
                 <div class="v40_4211_ten">
                   <span
                     class="v40_4212"
@@ -545,6 +534,7 @@ const ProjectsList = ({
                       src={globe}
                       width={"23px"}
                       height={"23px"}
+                      alt=""
                     />
                   }
                   hoverIndicator
@@ -593,19 +583,18 @@ const ProjectsList = ({
             <div className=" w22_wrap  col-lg-3 col-md-12 ac col- sm-12 ">
               <Menu compact>
                 <Dropdown
-                 
                   value={total_show}
                   options={options3}
                   onChange={(e, result) => item_slect(e, result)}
                   item
                   icon={
-                    <img src={dropdown_image} width={"9px"} height={"6px"} />
+                    <img src={dropdown_image} width={"9px"} height={"6px"} alt="" />
                   }
                 />
               </Menu>
             </div>
           </div>
-         </div> 
+        </div>
       ) : null}
 
 

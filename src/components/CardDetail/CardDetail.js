@@ -37,7 +37,11 @@ function CardDetail({
 // const [nodata, setnodata] = useState(false)
  
 const [loading, setloading] = useState(true)
-
+useEffect(() => {
+  if(card_data){
+    scroll();
+  }
+},[card_data])
   useEffect(() => {
     //console.log("card_datacard_data=====in use effcet======>>>>>>>", card_data);
 
@@ -96,13 +100,13 @@ if(response.data.data){
       });
   };
  
-  // const scroll=()=>{
+  const scroll=()=>{
 
-  //   // window.scroll(0,findPos(document.getElementById("scrol")));
-  //   document.querySelector('#scrol').scrollIntoView({
-  //       behavior: 'smooth'
-  //     });
-  // }
+    // window.scroll(0,findPos(document.getElementById("scrol")));
+    document.querySelector('#scrol').scrollIntoView({
+        behavior: 'smooth'
+      });
+  }
 
 
   //useEffect(() => {
@@ -400,7 +404,7 @@ if(response.data.data){
                             </div>
 
                             <p className="update_text ">{item.description}</p>
-                            <div className="d-flex">
+                            <div className="marginclass d-flex" >
                               <div className="d-flex align-items-center">
                                 <img
                                   src={Reply}
