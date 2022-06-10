@@ -905,7 +905,7 @@ export const projects = [
       "hyperlink1": "https://tally.cash/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/tally.jpg')",
+      "imageLink": "url('project-logos/tally.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -926,7 +926,7 @@ export const projects = [
   },
   {
       "name": "Braavos",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Web Wallet"
       ],
@@ -955,7 +955,7 @@ export const projects = [
   },
   {
       "name": "DeversiFi",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#EB5600",
       "category": [
           "Dapp"
       ],
@@ -1309,7 +1309,7 @@ export const projects = [
   },
   {
       "name": "pNetwork",
-      "backgroud_color": "#36368F",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Dapp"
       ],
@@ -1582,7 +1582,7 @@ export const projects = [
   },
   {
       "name": "Orbiter Finance",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "dapp"
       ],
@@ -1732,7 +1732,7 @@ export const projects = [
   },
   {
       "name": "JediSwap",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp"
       ],
@@ -1949,7 +1949,7 @@ export const projects = [
       "hyperlink1": "https://zkpad.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zkpad.jpg')",
+      "imageLink": "url('project-logos/zkpad.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2038,7 +2038,7 @@ export const projects = [
       "hyperlink1": "https://forwardprotocol.io/",
       "hyperlink2": "https://forwardprotocol.io/wp-content/uploads/2021/12/Forward_Tokenomics.pdf",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/forward.jpg')",
+      "imageLink": "url('project-logos/forward.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2212,7 +2212,7 @@ export const projects = [
   },
   {
       "name": "Alchemix",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp",
           "DAO"
@@ -2373,7 +2373,7 @@ export const projects = [
   },
   {
       "name": "OlympusDAO",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp",
           "DAO"
@@ -3016,7 +3016,7 @@ export const projects = [
   },
   {
       "name": "Krebit",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp"
       ],
@@ -3163,7 +3163,7 @@ export const projects = [
   },
   {
       "name": "Arweave",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Dapp"
       ],
@@ -3250,7 +3250,7 @@ export const projects = [
   },
   {
       "name": "Icewater",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Dapp"
       ],
@@ -3337,7 +3337,7 @@ export const projects = [
   },
   {
       "name": "SithSwap",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp"
       ],
@@ -4375,7 +4375,7 @@ export const projects = [
   },
   {
       "name": "ConsenSys",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Infra"
       ],
@@ -4404,7 +4404,7 @@ export const projects = [
   },
   {
       "name": "Infura",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#EB5600",
       "category": [
           "Infra"
       ],
@@ -4687,7 +4687,7 @@ export const projects = [
   },
   {
       "name": "Angle Protocol",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#6C6DD6",
       "category": [
           "Infra"
       ],
@@ -4715,8 +4715,8 @@ export const projects = [
       "websiteLink": "https://www.angle.money/"
   },
   {
-      "name": "Wallet Connect",
-      "backgroud_color": "#EB5600",
+      "name": "WalletConnect",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Infra"
       ],
@@ -4811,7 +4811,7 @@ export const projects = [
       "hyperlink1": "https://xidnetwork.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/xid.jpg')",
+      "imageLink": "url('project-logos/xid.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -5130,7 +5130,7 @@ export const projects = [
   },
   {
       "name": "Mint Square",
-      "backgroud_color": "#36368F",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "NFT"
       ],
@@ -5159,7 +5159,7 @@ export const projects = [
   },
   {
       "name": "Aspect",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#6C6DD6",
       "category": [
           "NFT"
       ],
@@ -5389,7 +5389,7 @@ export const projects = [
   },
   {
       "name": "Auclantis",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#EB5600",
       "category": [
           "NFT"
       ],
@@ -5712,7 +5712,7 @@ export const projects = [
   },
   {
       "name": "Exothium",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Games"
       ],
@@ -6084,7 +6084,7 @@ export const projects = [
       "websiteLink": "https://github.com/guiltygyoza/rk4-starknet"
   },
   {
-      "name": "StarDrop - anonymous rewards on StarkNet",
+      "name": "StarDrop - anonymous rewards",
       "backgroud_color": "#36368F",
       "category": [
           "Misc"
@@ -6371,7 +6371,7 @@ export const projects = [
   },
   {
       "name": "Zorro",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Misc"
       ],
@@ -6400,7 +6400,7 @@ export const projects = [
   },
   {
       "name": "StarknetFractals",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#EB5600",
       "category": [
           "Misc"
       ],
@@ -6487,7 +6487,7 @@ export const projects = [
   },
   {
       "name": "starknet.py",
-      "backgroud_color": "#36368F",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Misc"
       ],
@@ -6639,7 +6639,7 @@ export const projects = [
       "hyperlink1": "https://github.com/OpenZeppelin/nile",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/openzeppelin.jpg')",
+      "imageLink": "url('project-logos/openzeppelin.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7099,7 +7099,7 @@ export const projects = [
       "hyperlink1": "https://cairo-utils-web.vercel.app/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/utils.jpg')",
+      "imageLink": "url('project-logos/utils.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
