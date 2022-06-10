@@ -7202,5 +7202,672 @@ export const projects = [
       "tooltip": "StarkNet",
       "wallet_address": "",
       "websiteLink": "https://github.com/FawadHa1der/ricks-cairo-contracts"
-  }
+  },
+  {
+      "name": "Canvas",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "dapp"
+      ],
+      "description": "CANVAS unlocks Decentralised Finance (DeFi) and enables everyone to access the Future of Finance.",
+      "hyperlink1": "https://www.canvas.co/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/canvas.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "dApps"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/canvas_defi",
+      "wallet_address": "",
+      "websiteLink": "https://www.canvas.co/"
+  },
+  {
+      "name": "Arcticium",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "NFT"
+      ],
+      "description": "Building an ecosystem and community for NFTs on StarkNet",
+      "hyperlink1": "http://arcticium.com/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/arcticiumm.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/arcticiumm",
+      "wallet_address": "",
+      "websiteLink": "http://arcticium.com/"
+  },
+    {
+      "name": "StarkNet IoT",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Misc"
+      ],
+      "description": "This app uses verified IoT data to mint NFTs for users that will store an image and the insurance metadata, as well as a calculated score for these users.",
+      "hyperlink1": "https://github.com/StarkWareHackathon/starknet-IoT-DAO",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/github.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "misc"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "",
+      "wallet_address": "",
+      "websiteLink": "https://github.com/StarkWareHackathon/starknet-IoT-DAO"
+  },
+    {
+      "name": "Starcombo",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "dapp"
+      ],
+      "description": "Starcombo is a tool allowing users to build their DeFi strategy on Starknet simply by drag&drop.",
+      "hyperlink1": "https://testnet.starcombo.xyz/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/starcombo.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "dApps"
+      ],
+      "status": "TESTNET",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/Starcombo_xyz",
+      "wallet_address": "",
+      "websiteLink": "https://testnet.starcombo.xyz/"
+  },
+      {
+      "name": "Randomfeedooooor",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "infra"
+      ],
+      "description": "Randomness on the blockchain.",
+      "hyperlink1": "https://randomfeedooooor.vercel.app/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/randomfeed.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "LIVE",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "",
+      "wallet_address": "",
+      "websiteLink": "https://randomfeedooooor.vercel.app/"
+  },
+   {
+      "name": "Apibara",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "NFT"
+      ],
+      "description": "Build your own NFT marketplace in a fraction of the time. Focus on building what you love, we provide the rest.",
+      "hyperlink1": "https://randomfeedooooor.vercel.app/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/randomfeed.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "",
+      "wallet_address": "",
+      "websiteLink": "https://randomfeedooooor.vercel.app/"
+  },
+     {
+      "name": "cartridge",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Game"
+      ],
+      "description": "starknet gaming console 👾🕹",
+      "hyperlink1": "https://starknet.cartridge.gg/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/cartridge.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "games"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/cartridge_gg",
+      "wallet_address": "",
+      "websiteLink": "https://starknet.cartridge.gg/"
+  },
+       {
+      "name": "giza",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Infra"
+      ],
+      "description": "Fully on-chain Artificial Intelligence 🧠 powered by ZK proofs 🚀",
+      "hyperlink1": "https://gizatech.xyz/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/giza.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "LIVE",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/gizatechxyz",
+      "wallet_address": "",
+      "websiteLink": "https://gizatech.xyz/"
+  },
+  {
+      "name": "starksync btc",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Infra"
+      ],
+      "description": "Relay for validating bitcoin blocks and adding them to ethereum smart contracts implemented in cairo.",
+      "hyperlink1": "https://git.tu-berlin.de/luckylee/starkrelay",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/starksyncbtc.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/lucidLuckylee",
+      "wallet_address": "",
+      "websiteLink": "https://git.tu-berlin.de/luckylee/starkrelay"
+  },
+  {
+      "name": "pontis oracle",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Infra"
+      ],
+      "description": "Pontis is the leading oracle on Starknet, built to empower native protocols to realize their ambitious potential.",
+      "hyperlink1": "https://www.pontisoracle.xyz/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/pontis.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "LIVE",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "",
+      "wallet_address": "",
+      "websiteLink": "https://www.pontisoracle.xyz/"
+  },
+  {
+      "name": "Stork Oracle",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Infra"
+      ],
+      "description": "Low-latency, traded on-chain price feeds designed for StarkNet and StarkEx.",
+      "hyperlink1": "https://www.stork.network/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/stork.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/StorkOracle",
+      "wallet_address": "",
+      "websiteLink": "https://www.stork.network/"
+  },
+    {
+      "name": "starknethouse",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Misc"
+      ],
+      "description": "StarkNet House is a virtual educational summer program presented by Topology in collaboration with StarkWare and pioneers in the Starknet ecosystem.",
+      "hyperlink1": "https://www.starknet.house/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/starknethouse.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "Misc"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/StarknetHouse",
+      "wallet_address": "",
+      "websiteLink": "https://www.starknet.house/"
+  },
+      {
+      "name": "Metamaterial",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Games"
+      ],
+      "description": "MetaMaterial is a protocol that allows Blockchain games to share resources/items/weapons with each other.",
+      "hyperlink1": "https://goerli.metamaterial.app/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/metamaterial.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "games"
+      ],
+      "status": "TESTNET",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/material_meta",
+      "wallet_address": "",
+      "websiteLink": "https://goerli.metamaterial.app/"
+  },
+   {
+      "name": "StarkGuild DAO",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "DAO"
+      ],
+      "description": "To Follow...",
+      "hyperlink1": "",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/unreleased.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "dao"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "",
+      "wallet_address": "",
+      "websiteLink": ""
+  },
+    {
+      "name": "zkCairo Cats",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "NFT"
+      ],
+      "description": "10,000 cairo cats living in the zkmetaverse. coming soon.",
+      "hyperlink1": "",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/unreleased.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "",
+      "wallet_address": "",
+      "websiteLink": ""
+  },
+  {
+      "name": "BitKeep",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Wallet"
+      ],
+      "description": "Find the hottest assets in BitKeep. BitKeep is the top crypto wallet in Asia. BitKeep Swap. Any chain.Any token.Any time.",
+      "hyperlink1": "https://bitkeep.com/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/bitkeep.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "wallet"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/BitKeepOS",
+      "wallet_address": "",
+      "websiteLink": "https://bitkeep.com/"
+  },
+      {
+      "name": "Homespace",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "NFT"
+      ],
+      "description": "Decentralized NFT Metaverse with Architecture and Artificial Intelligence",
+      "hyperlink1": "https://homespace.is/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/homespace.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/HomeSpaceNFT",
+      "wallet_address": "",
+      "websiteLink": "https://homespace.is/"
+  },
+  {
+      "name": "Standard Protocol",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "dApp"
+      ],
+      "description": "Builders of self-sovereign, decentralized reserve bank, bringing truly 'self-custodial' decentralized finance.",
+      "hyperlink1": "https://standard.tech/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/standard.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "dApps"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/standardweb3",
+      "wallet_address": "",
+      "websiteLink": "https://standard.tech/"
+  },
+    {
+      "name": "OMNIA Protocol",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Infra"
+      ],
+      "description": "Untraceable blockchain nodes infrastructure.",
+      "hyperlink1": "https://omniatech.io/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/omnia.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/omnia_protocol",
+      "wallet_address": "",
+      "websiteLink": "https://omniatech.io/"
+  },
+  {
+      "name": "OnJunoHQ",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "dApp"
+      ],
+      "description": "Crypto Friendly Banking: Earn, invest and spend both your cash and crypto from one powerful checking account",
+      "hyperlink1": "https://onjuno.com/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/onjuno.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "dApps"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/OnJunoHQ",
+      "wallet_address": "",
+      "websiteLink": "https://onjuno.com/"
+  },
+    {
+      "name": "RSS3",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Infra"
+      ],
+      "description": "RSS3 is an open information syndication protocol that aims to support efficient and decentralized information distribution in Web3.",
+      "hyperlink1": "https://rss3.io/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/rss3.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/rss3_",
+      "wallet_address": "",
+      "websiteLink": "https://rss3.io/"
+  },
+  {
+      "name": "Reddio",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "NFT"
+      ],
+      "description": "The world first easy-to-use composable APIs with affordable gas fee, to integrate NFT into your application and beyond.",
+      "hyperlink1": "https://www.reddio.com/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/reddio.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/reddio_com",
+      "wallet_address": "",
+      "websiteLink": "https://www.reddio.com/"
+  },
+    {
+      "name": "4EVERLAND",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "NFT"
+      ],
+      "description": "A Web3 cloud computing platform with global acceleration, privacy protection, distributed storage, and other technical features.",
+      "hyperlink1": "https://www.4everland.org/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/4everland.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/4everland_org",
+      "wallet_address": "",
+      "websiteLink": "https://www.4everland.org/"
+  },
 ]
