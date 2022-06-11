@@ -111,7 +111,7 @@ if(response.data.data){
 
 //   const params = useParams()
 // //console.log("nameeeeeeeeeeeeeeeeeeee===>>>>>>>>>",params.name)
-
+  
   return card_data ? (
     <>
       <div className="container-fluied "  id="scrol">
@@ -169,7 +169,7 @@ if(response.data.data){
               </div>
             </div>
             <div className="pt-5">
-              <p className="card_descrip">{card_data.description}</p>
+              <p className="card_descrip display_linebreak">{card_data.description}</p>
               {/* 
               <p className="card_descrip">
                 zkSync is a mission-driven project. Its purpose is to break
