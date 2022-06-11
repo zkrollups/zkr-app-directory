@@ -1,3 +1,7 @@
+.marginclass{
+  margin-bottom: 5px;
+}
+
 
 .lbPHCq{
   height: fit-content !important;
@@ -18,9 +22,7 @@
   background-image: none !important;
 } */
 
-.display_linebreak {
-  white-space: pre-line;
-}
+
 
 
 
@@ -241,7 +243,7 @@ margin-top: 6%;
   /* width: 83%; */
 }
 .tweet_first{
-  margin-top: 100px !important;
+  margin-top: 0px !important;
 }
 .addres_text{
 
@@ -335,7 +337,6 @@ border-radius: 20px;
   background: #343443;
   border-radius: 20px;
   flex-direction: column;
-  justify-content: space-around;
   padding: 10% 7% 7% 2%;
 }
 
@@ -479,4 +480,5 @@ color: #FFFFFF;
   line-height: 26px;
   text-align: justify;
   color: #FFFFFF;
+  word-break: break-all;
 }
