@@ -529,6 +529,7 @@ export const projects = [
       "imageLink": "url('project-logos/numio.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
+      "featured": "featured",
       "networks": [
           "zksync"
       ],
