@@ -67,6 +67,7 @@ const ProjectsList = ({
   //  //console.log("datadatadata",results);
   useEffect(() => {
     settotal_pages(Math.ceil(results.length / total_show));
+    item_slect("notmove",{"text":total_show,"value":total_show});
   }, [results]);
 
   useEffect(() => {
@@ -216,7 +217,9 @@ const ProjectsList = ({
     setcurentpage(1);
     setpaginate_start(0);
     setpaginate_end(value);
+    if(e!="notmove"){
     scroll();
+    }
   };
 
   const paginationhandler = (event, val) => {
@@ -325,7 +328,7 @@ const ProjectsList = ({
           
           <div className="row show_cards container">
             
-            {results.slice(0, num2).map((item, idx) => (
+            {results.filter((project)=>project.hasOwnProperty('featured')?true:false).map((item, idx) => (
               
               <div
                 class="v40_4201_up  col-5 mt-5"
