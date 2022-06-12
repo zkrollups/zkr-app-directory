@@ -89,9 +89,9 @@ const scrolup=()=>{
                     <li className="inner_list">
                       <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank" rel="noopener noreferrer">List a Project</a>
                     </li>
-                    <li className="inner_list">
+                    {/* <li className="inner_list">
                       <a href="/contact">Partner with Us</a>
-                    </li>
+                    </li> */}
                     <li className="inner_list">
                       <a href="mailto:gm@zkrollups.xyz">Email Us</a>
                     </li>
