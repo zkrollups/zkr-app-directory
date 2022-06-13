@@ -1971,7 +1971,7 @@ export const projects = [
   },
   {
       "name": "zkLend",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp"
       ],
@@ -1979,7 +1979,7 @@ export const projects = [
       "hyperlink1": "https://zklend.com",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zkLend.png')",
+      "imageLink": "url('project-logos/zklend.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
