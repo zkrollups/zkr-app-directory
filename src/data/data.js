@@ -5159,7 +5159,7 @@ export const projects = [
   },
   {
       "name": "Aspect",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#000000",
       "category": [
           "NFT"
       ],
