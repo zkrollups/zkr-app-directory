@@ -5043,7 +5043,7 @@ export const projects = [
   },
   {
       "name": "briq",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#EB5600",
       "category": [
           "NFT"
       ],
