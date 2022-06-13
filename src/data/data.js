@@ -520,7 +520,7 @@ export const projects = [
       "category": [
           "Mobile Wallet"
       ],
-      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. \n \n Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial. Available on Android and iOS, Numio was the first zkRollup powered mobile payments app to be released on Google Play.",
+      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. \n \n Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial.\n \n  Available on Android and iOS, Numio was the first zkRollup powered mobile payments app to be released on Google Play.",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.numio.pay",
       "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
       "hyperlink1": "https://numio.one",
@@ -539,8 +539,8 @@ export const projects = [
       "status": "LIVE",
       "statusColor": "#30DE88",
       "Text1": "Get the Numio app",
-      "Text2": "Follow the instructions to create a wallet ",
-      "Text3": "Fund your wallet from Ethereum or zkSync ",
+      "Text2": "Follow the instructions to create a wallet",
+      "Text3": "Fund your wallet from Ethereum, zkSync, or with a debit or credit card",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/getnumio",
       "wallet_address": "",
@@ -5099,6 +5099,35 @@ export const projects = [
       "wallet_address": "",
       "websiteLink": "https://www.boonjiproject.com/"
   },
+   {
+      "name": "Mint Square",
+      "backgroud_color": "#F1F1F0",
+      "category": [
+          "NFT"
+      ],
+      "description": "Discover, Mint, Buy and Sell NFTs • Mint Square is an NFT Platform on Ethereum Layer 2 ZK Rollup",
+      "hyperlink1": "https://mintsquare.io/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/mintsquare.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "TESTNET",
+      "statusColor": "#F4B832",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/MintSquareNFT",
+      "wallet_address": "",
+      "websiteLink": "https://mintsquare.io/"
+  },
   {
       "name": "Opensky",
       "backgroud_color": "#2D2F4B",
@@ -5127,35 +5156,6 @@ export const projects = [
       "twitterLink": "https://twitter.com/blockblockio",
       "wallet_address": "",
       "websiteLink": "https://open-sky.vercel.app/"
-  },
-  {
-      "name": "Mint Square",
-      "backgroud_color": "#F1F1F0",
-      "category": [
-          "NFT"
-      ],
-      "description": "Discover, Mint, Buy and Sell NFTs • Mint Square is an NFT Platform on Ethereum Layer 2 ZK Rollup",
-      "hyperlink1": "https://mintsquare.io/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/mintsquare.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "starknet"
-      ],
-      "search_on": [
-          "nfts"
-      ],
-      "status": "TESTNET",
-      "statusColor": "#F4B832",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "StarkNet",
-      "twitterLink": "https://twitter.com/MintSquareNFT",
-      "wallet_address": "",
-      "websiteLink": "https://mintsquare.io/"
   },
   {
       "name": "Aspect",
