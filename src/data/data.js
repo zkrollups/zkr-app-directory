@@ -5047,7 +5047,7 @@ export const projects = [
       "category": [
           "NFT"
       ],
-      "description": "briq is an NFT composability system based on fundamental elements called briqs that can be combined to create more complex structures.",
+      "description": "briq is an NFT composability system based on fundamental elements called briqs that can be combined to create NFTs. These NFTs can be combined with other briq NFTs or disassembled to get the briqs back. briq is NFT LEGO.",
       "hyperlink1": "https://briq.construction/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
