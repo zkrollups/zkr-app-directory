@@ -75,7 +75,7 @@ href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
     <meta property="twitter:url" content="https://zkrollups.xyz/">
     <meta name="twitter:title" content="zkRollup Directory">
     <meta name="twitter:description" content="Directory of Ethereum zkRollup ecosystem participants, including rollups, wallets, dapps, NFTs, and infra projects building on zkSync, StarkNet, and more.">
-    <meta name="twitter:image" content="https://www.zkrollups.xyz/social-share-image.png?">
+    <meta name="twitter:image" content="https://www.zkrollups.xyz/social-share-image.png">
 
     <style type="text/css">
       body {
