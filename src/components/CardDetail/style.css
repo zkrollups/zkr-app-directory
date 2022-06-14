@@ -22,7 +22,9 @@
   background-image: none !important;
 } */
 
-
+.display_linebreak {
+  white-space: pre-line;
+}
 
 
 
