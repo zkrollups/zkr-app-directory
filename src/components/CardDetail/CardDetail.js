@@ -20,7 +20,8 @@ import { projects } from "../../data/data";
 import { useParams } from "react-router-dom";
 import { Button, } from "grommet";
 import { useNavigate } from "react-router-dom";
-
+import {main} from '../../scrapper';
+var AWS = require('aws-sdk');
 function CardDetail({
   setFilter,
 }) {
@@ -65,6 +66,7 @@ useEffect(() => {
           // //console.log("current data ",projects[i])
           setResults(projects[i])
           Get_tweets(projects[i].twitterLink)
+          
           setresult1(projects[i].wallet_address.substring(1, 6));
           setresult2(projects[i].wallet_address.substring(8, 12));
           break
@@ -81,24 +83,26 @@ useEffect(() => {
   const baseUrl = process.env.REACT_APP_TWEETER_BASE_URL
 
   //console.log("process.env.REACT_APP_TWEETER_BASE_URL",process.env.REACT_APP_TWEETER_BASE_URL)
-  const Get_tweets = (link) => {
-    axios
-      .post(baseUrl, {
-        link: link,
-      })
-      .then(function(response) {
-        //console.log(" citiess api=================>>>>> ", response.data);
+  const Get_tweets = async (link) => {
+    var data = await main(link);
+    setloading(false)
+    if(data.data){
+      settweets(data.data);
+    }
+    // axios
+    //   .post(baseUrl, {
+    //     link: link,
+    //   })
+    //   .then(function(response) {
+    //     //console.log(" citiess api=================>>>>> ", response.data);
 
-        setloading(false)
-if(response.data.data){
-  settweets(response.data.data);
-}
+       
 
       
-      })
-      .catch(function(error) {
-        //console.log(error);
-      });
+    //   })
+    //   .catch(function(error) {
+    //     //console.log(error);
+    //   });
   };
  
   const scroll=()=>{
