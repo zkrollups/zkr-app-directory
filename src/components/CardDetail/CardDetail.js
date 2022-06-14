@@ -356,20 +356,22 @@ useEffect(() => {
                     <p className="brige_text"> {card_data.Text1}</p>
                   </div>
                   <div className="col-4 d-flex justify-content-center">
-                    <button className="brige_btn">  {card_data.linkText1}</button>
+                    <a href={card_data.hyperlink2} className="brige_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText1}</a>
                   </div>
                   </div>
 
                   <div className="brige_card row card_div">
-                  <div className="col-2">
-                    <img src={LastCard2} alt=""></img>
-                  </div>
-                  <div className="col-6">
-                    <p className="brige_text"> {card_data.Text2}</p>
-                  </div>
-                  <div className="col-4 d-flex justify-content-center">
-                    <button className="dapp_btn ">  {card_data.linkText2}</button>
-                  </div>
+                    <div className="col-2">
+                      <img src={LastCard2} alt=""></img>
+                    </div>
+                    <div className="col-6">
+                      <p className="brige_text"> {card_data.Text2}</p>
+                    </div>
+                    <div className="col-4 d-flex justify-content-center">
+                      {card_data.linkText2 && card_data.hyperlink3 ?(
+                        <a href={card_data.hyperlink3} className="dapp_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText2}</a>
+                      ):null}
+                    </div>
                   </div>
 
                   <div className="brige_card row">

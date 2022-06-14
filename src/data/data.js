@@ -295,7 +295,7 @@ export const projects = [
   },
   {
       "name": "Scroll",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "zkRollup"
       ],
@@ -520,15 +520,16 @@ export const projects = [
       "category": [
           "Mobile Wallet"
       ],
-      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. \n \n Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial. Available on Android and iOS, Numio was the first zkRollup powered mobile payments app to be released on Google Play.",
+      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. \n \n Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial.\n \n  Available on Android and iOS, Numio was the first zkRollup powered mobile payments app to be released on Google Play.",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.numio.pay",
       "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
       "hyperlink1": "https://numio.one",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
+      "hyperlink2": "https://www.numio.one/download/",
+      "hyperlink3": "",
       "imageLink": "url('project-logos/numio.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
+      "linkText1": "Get the App ",
+      "linkText2": "",
+      "featured": "featured",
       "networks": [
           "zksync"
       ],
@@ -537,9 +538,9 @@ export const projects = [
       ],
       "status": "LIVE",
       "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
+      "Text1": "Get the Numio app",
+      "Text2": "Follow the instructions to create a wallet",
+      "Text3": "Fund your wallet from Ethereum, zkSync, or with a debit or credit card",
       "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/getnumio",
       "wallet_address": "",
@@ -1970,15 +1971,15 @@ export const projects = [
   },
   {
       "name": "zkLend",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#36368F",
       "category": [
           "Dapp"
       ],
-      "description": "zkLend is an L2 money-market protocol built on StarkNet, combining zk-rollup scalability, superior transaction speed, and cost-savings with Ethereum's security.",
+      "description": "zkLend is an L2 money-market protocol built on StarkNet which combines zk-rollup scalability with Ethereum’s security, enabling participants to efficiently earn interest on deposits and seamlessly borrow assets. The protocol offers a dual solution: a permissioned and compliance-focused solution for institutional clients, and a permissionless service for DeFi users - all without sacrificing decentralisation.",
       "hyperlink1": "https://zklend.com",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/zkLend.png')",
+      "imageLink": "url('project-logos/zklend.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -2833,7 +2834,7 @@ export const projects = [
   },
   {
       "name": "Increment",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp"
       ],
@@ -2866,7 +2867,7 @@ export const projects = [
   },
   {
       "name": "AAVE",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Dapp"
       ],
@@ -2961,7 +2962,7 @@ export const projects = [
       "category": [
           "Dapp"
       ],
-      "description": "Phezzan Protocol, a cross chain 19.45% interest earning derivative DEX",
+      "description": "Phezzan Protocol is an interest earning perpetual DEX, with a mission to Democratize Perpetual Trading for All. \n \n Our main features include: \n \n 1. Yield bearing assets can be used as collateral \n \n 2. PnL settles in stablecoins, can auto convert to yield bearing assets according to user preference \n \n 3. Market, Limit & Stop Orders \n \n  4. Multi-collateral support \n \n 5. Will launch on zkSync 2.0 to offer the best speed and gas fees",
       "hyperlink1": "http://phezzan.xyz/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
@@ -2974,8 +2975,8 @@ export const projects = [
       "search_on": [
           "dApps"
       ],
-      "status": "DEV",
-      "statusColor": "#000000",
+      "status": "TESTNET",
+      "statusColor": "#F4B832",
       // "Text1": "",
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
@@ -3543,7 +3544,7 @@ export const projects = [
   },
   {
       "name": "Syscoin NEVM",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Infra"
       ],
@@ -5042,11 +5043,11 @@ export const projects = [
   },
   {
       "name": "briq",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#EB5600",
       "category": [
           "NFT"
       ],
-      "description": "briq is an NFT composability system based on fundamental elements called briqs that can be combined to create more complex structures.",
+      "description": "briq is an NFT composability system based on fundamental elements called briqs that can be combined to create NFTs. These NFTs can be combined with other briq NFTs or disassembled to get the briqs back. briq is NFT LEGO.",
       "hyperlink1": "https://briq.construction/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
@@ -5098,6 +5099,35 @@ export const projects = [
       "wallet_address": "",
       "websiteLink": "https://www.boonjiproject.com/"
   },
+   {
+      "name": "Mint Square",
+      "backgroud_color": "#F1F1F0",
+      "category": [
+          "NFT"
+      ],
+      "description": "Discover, Mint, Buy and Sell NFTs • Mint Square is an NFT Platform on Ethereum Layer 2 ZK Rollup",
+      "hyperlink1": "https://mintsquare.io/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/mintsquare.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "nfts"
+      ],
+      "status": "TESTNET",
+      "statusColor": "#F4B832",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/MintSquareNFT",
+      "wallet_address": "",
+      "websiteLink": "https://mintsquare.io/"
+  },
   {
       "name": "Opensky",
       "backgroud_color": "#2D2F4B",
@@ -5128,37 +5158,8 @@ export const projects = [
       "websiteLink": "https://open-sky.vercel.app/"
   },
   {
-      "name": "Mint Square",
-      "backgroud_color": "#F1F1F0",
-      "category": [
-          "NFT"
-      ],
-      "description": "Discover, Mint, Buy and Sell NFTs • Mint Square is an NFT Platform on Ethereum Layer 2 ZK Rollup",
-      "hyperlink1": "https://mintsquare.io/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/mintsquare.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "starknet"
-      ],
-      "search_on": [
-          "nfts"
-      ],
-      "status": "TESTNET",
-      "statusColor": "#F4B832",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "StarkNet",
-      "twitterLink": "https://twitter.com/MintSquareNFT",
-      "wallet_address": "",
-      "websiteLink": "https://mintsquare.io/"
-  },
-  {
       "name": "Aspect",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "NFT"
       ],
@@ -5199,7 +5200,8 @@ export const projects = [
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
-          "starkex"
+          "starkex",
+          "loopring"
       ],
       "search_on": [
           "nfts"
@@ -5597,7 +5599,7 @@ export const projects = [
   },
   {
       "name": "Realms (for Adventurers)",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Games"
       ],
@@ -5914,7 +5916,7 @@ export const projects = [
   },
   {
       "name": "MatchboxDAO",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "DAO"
       ],
@@ -7234,7 +7236,7 @@ export const projects = [
   },
   {
       "name": "Arcticium",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "NFT"
       ],
@@ -7242,7 +7244,7 @@ export const projects = [
       "hyperlink1": "http://arcticium.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/arcticiumm.png')",
+      "imageLink": "url('project-logos/arcticium.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7263,7 +7265,7 @@ export const projects = [
   },
     {
       "name": "StarkNet IoT",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Misc"
       ],
@@ -7321,7 +7323,7 @@ export const projects = [
   },
       {
       "name": "Randomfeedooooor",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "infra"
       ],
@@ -7350,15 +7352,15 @@ export const projects = [
   },
    {
       "name": "Apibara",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#EB5600",
       "category": [
           "NFT"
       ],
       "description": "Build your own NFT marketplace in a fraction of the time. Focus on building what you love, we provide the rest.",
-      "hyperlink1": "https://randomfeedooooor.vercel.app/",
+      "hyperlink1": "https://www.apibara.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/randomfeed.png')",
+      "imageLink": "url('project-logos/apibara.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -7373,9 +7375,9 @@ export const projects = [
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
-      "twitterLink": "",
+      "twitterLink": "https://twitter.com/apibara_web3",
       "wallet_address": "",
-      "websiteLink": "https://randomfeedooooor.vercel.app/"
+      "websiteLink": "https://www.apibara.com/"
   },
      {
       "name": "cartridge",
@@ -7408,7 +7410,7 @@ export const projects = [
   },
        {
       "name": "giza",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "Infra"
       ],
@@ -7437,7 +7439,7 @@ export const projects = [
   },
   {
       "name": "starksync btc",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#EB5600",
       "category": [
           "Infra"
       ],
@@ -7466,7 +7468,7 @@ export const projects = [
   },
   {
       "name": "pontis oracle",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "Infra"
       ],
@@ -7495,7 +7497,7 @@ export const projects = [
   },
   {
       "name": "Stork Oracle",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#6C6DD6",
       "category": [
           "Infra"
       ],
@@ -7582,7 +7584,7 @@ export const projects = [
   },
    {
       "name": "StarkGuild DAO",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "DAO"
       ],
@@ -7640,9 +7642,9 @@ export const projects = [
   },
   {
       "name": "BitKeep",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
-          "Wallet"
+          "Mobile Wallet"
       ],
       "description": "Find the hottest assets in BitKeep. BitKeep is the top crypto wallet in Asia. BitKeep Swap. Any chain.Any token.Any time.",
       "hyperlink1": "https://bitkeep.com/",
@@ -7655,7 +7657,7 @@ export const projects = [
           "zksync"
       ],
       "search_on": [
-          "wallet"
+          "wallets"
       ],
       "status": "DEV",
       "statusColor": "#000000",
@@ -7669,7 +7671,7 @@ export const projects = [
   },
       {
       "name": "Homespace",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "NFT"
       ],
@@ -7756,7 +7758,7 @@ export const projects = [
   },
   {
       "name": "OnJunoHQ",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "dApp"
       ],
@@ -7785,7 +7787,7 @@ export const projects = [
   },
     {
       "name": "RSS3",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Infra"
       ],
@@ -7843,7 +7845,7 @@ export const projects = [
   },
     {
       "name": "4EVERLAND",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "NFT"
       ],

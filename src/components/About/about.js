@@ -4,6 +4,7 @@ import Person1 from "../../actets/UxpOYFku_400x400 1.png"
 import Person2 from "../../actets/Mask group.png"
 import Tweter from "../../actets/flogo1.png"
 import Linkind from "../../actets/linkd.png"
+import GitHub from "../../actets/githb.png"
 
 function About({ setSearch, search, setSearch_category, search_category }) {
   return (
@@ -33,7 +34,7 @@ function About({ setSearch, search, setSearch_category, search_category }) {
                 </p>
               </div>
               <div className="  card_wrap ">
-         
+
                 <div className="user_card ">
                   <div className="img_wrap_p">
                     <img className="img_cl" alt="" src={Person1}></img>
@@ -45,15 +46,15 @@ function About({ setSearch, search, setSearch_category, search_category }) {
                       <a href="https://twitter.com/joelkite" target="_blank" rel="noopener noreferrer">
                         <img className="mx-1" alt="" src={Tweter}></img>
                       </a>
-                      <a href="https://gitcoin.co/milvinae" target="_blank" rel="noopener noreferrer">
-                        <img className="mx-1" alt="" src={Linkind}></img>
+                      <a href="https://github.com/milvinae" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-1" alt="" src={GitHub}></img>
                       </a>
                     </div>
 
                   </div>
-                
+
                 </div>
-               
+
                 <div className="user_card   ">
                   <div className="img_wrap_p">
                     <img className="img_cl" alt="" src={Person2}></img>
@@ -65,13 +66,13 @@ function About({ setSearch, search, setSearch_category, search_category }) {
                       <a href="https://twitter.com/jaazinn" target="_blank" rel="noopener noreferrer">
                         <img className="mx-1" alt="" src={Tweter}></img>
                       </a>
-                      <a href="https://gitcoin.co/jaazinn" target="_blank" rel="noopener noreferrer">
-                        <img className="mx-1" alt="" src={Linkind}></img>
+                      <a href="https://github.com/jaazinn" target="_blank" rel="noopener noreferrer">
+                        <img className="mx-1" alt="" src={GitHub}></img>
                       </a>
                     </div>
 
                   </div>
-                
+
                 </div>
               </div>
             </div>

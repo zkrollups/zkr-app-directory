@@ -50,12 +50,15 @@ const ProjectsList = ({
   ];
   const options = [
     { key: 0, text: "Networks", value: "all" },
-    { key: 1, text: "loopring", value: "loopring" },
-    { key: 2, text: "zkspace", value: "zkspace" },
-    { key: 3, text: "aztec", value: "aztec" },
-    { key: 1, text: "loopring", value: "loopring" },
-    { key: 2, text: "zkspace", value: "zkspace" },
-    { key: 3, text: "aztec", value: "aztec" },
+    { key: 1, text: "Aztec", value: "aztec" },
+    { key: 2, text: "Loopring", value: "loopring" },
+    { key: 3, text: "Polygon Hermez", value: "polygonhermez" },
+    { key: 4, text: "Polygon Miden", value: "polygonmiden" },
+    { key: 5, text: "Polygon Zero", value: "polygonzero" },
+    { key: 6, text: "StarkEx", value: "starkex" },
+    { key: 7, text: "StarkNet", value: "starkNet" },
+    { key: 8, text: "ZKSpace", value: "zkspace" },
+    { key: 9, text: "zkSync", value: "zksync" },
   ];
 
   //   var  data = results.filter((obj, pos, arr) => {
@@ -128,7 +131,7 @@ const ProjectsList = ({
       if(Array.isArray(filter)){
         //console.log("array======>> ",filter)
         setResults(
-          projects.filter((project) =>{ 
+          projects.filter((project) =>{
             var flag=false;
             for(var i=0;i<project.search_on.length;i++){
               if(filter.indexOf(project.search_on[i])>=0){
@@ -144,18 +147,18 @@ const ProjectsList = ({
         projects.filter((project) => project.search_on.indexOf(filter) >= 0)
       );
       }
-    }  
+    }
     // else if (filter.length && search.length){
 
     //   setResults(
     //   projects.filter((project) => ((project.search_on.indexOf(filter) >= 0)&& (project.name.toLowerCase().includes(search.toLowerCase())))))
-    // } 
-    
+    // }
+
     // if(!filter.length && search.length){
     //   setResults(
     //     projects.filter((project) => (( (search_category != "all"
     //     ? project.search_on.indexOf(search_category) >= 0
-    //     : true))&& (project.name.toLowerCase().includes(search.toLowerCase()))))) 
+    //     : true))&& (project.name.toLowerCase().includes(search.toLowerCase())))))
     // }
     else if (!filter.length && !search.length) {
       setResults(projects);
@@ -296,7 +299,7 @@ const ProjectsList = ({
               />
             </Menu>
           </div>
-          
+
         </div>
       ) : (
         <>
@@ -325,24 +328,24 @@ const ProjectsList = ({
               </Menu>
             </div>
           </div>
-          
+
           <div className="row show_cards container">
-            
+
             {results.filter((project)=>project.hasOwnProperty('featured')?true:false).map((item, idx) => (
-              
+
               <div
                 class="v40_4201_up  col-5 mt-5"
                 style={{ cursor: "pointer" }}
                 onClick={() => {
 
-               
-           
+
+
                   navigate(`/${item.name}`, { state:item} );
-             
-           
-               
-             
-                  
+
+
+
+
+
                 }}
               >
                 <div
@@ -376,7 +379,7 @@ const ProjectsList = ({
                 </div>
                 {/* <div className='row'>
                           <span class="v40_4218">{item.name}</span>
-                 
+
                           <div>
                               <Button icon={<Twitter color="white" width={"18"} height={"18"} />} hoverIndicator href={item.twitterLink} target="_blank" />
                               <Button icon={<Language color="white"  width={"18"} height={"18"} />} hoverIndicator href={item.websiteLink} target="_blank" />
@@ -436,7 +439,7 @@ const ProjectsList = ({
             <h2 className="">
               Showing : {filter === "" ? "All" : filter.toUpperCase()}
             </h2>
-          
+
           </div>
           <div className="col-6 bbbb"></div>
         </div>
@@ -445,21 +448,21 @@ const ProjectsList = ({
       {/* <Box className="custom-scrollbar  " direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true"  style={{ zoom: "0.92" }}> */}
 
       {/* <div className='v40_4293'> */}
-      
-      
+
+
       {results.length>0? <div className="row show_cards container">
         {results.slice(paginate_start, paginate_end).map((item, idx) => (
           <div
             class="v40_4201  mt-5"
             style={{ cursor: "pointer" }}
             onClick={() => {
-           
+
             //   var myname= item.name;
             //  myname=myname.replace(" ", "-");
 
               navigate(`/${item.name.replaceAll(" ", "-")}`);
 
-              
+
             }}
           >
             <div class="v40_4202" style={{ background: item.backgroud_color }}>
@@ -505,7 +508,7 @@ const ProjectsList = ({
             </div>
             {/* <div className='row'>
                             <span class="v40_4218">{item.name}</span>
-                   
+
                             <div>
                                 <Button icon={<Twitter color="white" width={"18"} height={"18"} />} hoverIndicator href={item.twitterLink} target="_blank" />
                                 <Button icon={<Language color="white"  width={"18"} height={"18"} />} hoverIndicator href={item.websiteLink} target="_blank" />
@@ -555,7 +558,7 @@ const ProjectsList = ({
           </div>
         ))}
       </div>: <h4 class="no_product">No Data found</h4>}
-     
+
       {/* </div> */}
 
       {/* </Box> */}
