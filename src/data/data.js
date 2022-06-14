@@ -1971,11 +1971,11 @@ export const projects = [
   },
   {
       "name": "zkLend",
-      "backgroud_color": "#2D2F4B",
+      "backgroud_color": "#36368F",
       "category": [
           "Dapp"
       ],
-      "description": "zkLend is an L2 money-market protocol built on StarkNet, combining zk-rollup scalability, superior transaction speed, and cost-savings with Ethereum's security.",
+      "description": "zkLend is an L2 money-market protocol built on StarkNet which combines zk-rollup scalability with Ethereum’s security, enabling participants to efficiently earn interest on deposits and seamlessly borrow assets. The protocol offers a dual solution: a permissioned and compliance-focused solution for institutional clients, and a permissionless service for DeFi users - all without sacrificing decentralisation.",
       "hyperlink1": "https://zklend.com",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
@@ -5200,7 +5200,8 @@ export const projects = [
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
-          "starkex"
+          "starkex",
+          "loopring"
       ],
       "search_on": [
           "nfts"
