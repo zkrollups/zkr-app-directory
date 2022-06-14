@@ -2834,7 +2834,7 @@ export const projects = [
   },
   {
       "name": "Increment",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Dapp"
       ],
@@ -2867,7 +2867,7 @@ export const projects = [
   },
   {
       "name": "AAVE",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Dapp"
       ],
@@ -5599,7 +5599,7 @@ export const projects = [
   },
   {
       "name": "Realms (for Adventurers)",
-      "backgroud_color": "#F1F1F0",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "Games"
       ],
@@ -5916,7 +5916,7 @@ export const projects = [
   },
   {
       "name": "MatchboxDAO",
-      "backgroud_color": "#EB5600",
+      "backgroud_color": "#2D2F4B",
       "category": [
           "DAO"
       ],
