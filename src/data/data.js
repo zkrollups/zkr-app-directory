@@ -295,7 +295,7 @@ export const projects = [
   },
   {
       "name": "Scroll",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "zkRollup"
       ],
@@ -3544,7 +3544,7 @@ export const projects = [
   },
   {
       "name": "Syscoin NEVM",
-      "backgroud_color": "#6C6DD6",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Infra"
       ],
