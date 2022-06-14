@@ -89,20 +89,6 @@ useEffect(() => {
     if(data.data){
       settweets(data.data);
     }
-    // axios
-    //   .post(baseUrl, {
-    //     link: link,
-    //   })
-    //   .then(function(response) {
-    //     //console.log(" citiess api=================>>>>> ", response.data);
-
-       
-
-      
-    //   })
-    //   .catch(function(error) {
-    //     //console.log(error);
-    //   });
   };
  
   const scroll=()=>{
