@@ -1947,7 +1947,7 @@ export const projects = [
       ],
       "description": "ZkPad is the first secured Launchpad on zkRollups. We aim to bring sustainable liquidity to projects building on StarkNet.",
       "hyperlink1": "https://zkpad.io/",
-      "hyperlink2": "",
+      "hyperlink2": "https://wp.zkpad.io/tokenomics",
       "hyperlink3": "https://www.google.com/",
       "imageLink": "url('project-logos/zkpad.png')",
       "linkText1": "Bridge ",
