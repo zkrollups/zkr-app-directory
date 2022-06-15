@@ -56,7 +56,7 @@ const ProjectsList = ({
     { key: 4, text: "Polygon Miden", value: "polygonmiden" },
     { key: 5, text: "Polygon Zero", value: "polygonzero" },
     { key: 6, text: "StarkEx", value: "starkex" },
-    { key: 7, text: "StarkNet", value: "starkNet" },
+    { key: 7, text: "StarkNet", value: "starknet" },
     { key: 8, text: "ZKSpace", value: "zkspace" },
     { key: 9, text: "zkSync", value: "zksync" },
   ];
