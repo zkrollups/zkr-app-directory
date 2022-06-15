@@ -25,10 +25,10 @@ const scrolup=()=>{
               <div class="footer-widget">
                 <div class="widget-about">
                   <img alt="" className="img2" />
-               
+
                   <ul class="contact-details">
                     <li>
-                      <span ></span> 
+                      <span ></span>
                       <img src={logo} alt="zkrollupslogo"/>
                       {/* <a href="tel:344-755-111">ssss</a> */}
                     </li>
@@ -49,7 +49,7 @@ const scrolup=()=>{
                 <div class="footer-menu footer-menu--1">
                   <h4 class="footer-widget-title">Company</h4>
                   <ul>
-                   
+
                     <li className="inner_list">
                       <Link to="/resources">
                        Resources
@@ -67,9 +67,9 @@ const scrolup=()=>{
                       <a href="https://linktr.ee/zkrollups.xyz" target="_blank" rel="noopener noreferrer">Linktree</a>
 
                     </li>
-                    
-                   
-                  
+
+
+
                     {/* <li>
                       <a href="#">HTML Template</a>
                     </li> */}
@@ -89,13 +89,13 @@ const scrolup=()=>{
                     <li className="inner_list">
                       <a href="https://forms.gle/pbpKnTfvuy6GjKVy8" target="_blank" rel="noopener noreferrer">List a Project</a>
                     </li>
-                    {/* <li className="inner_list">
-                      <a href="/contact">Partner with Us</a>
-                    </li> */}
+                    <li className="inner_list">
+                      <a href="" target="_blank" rel="noopener noreferrer">Featured Posts</a>
+                    </li>
                     <li className="inner_list">
                       <a href="mailto:gm@zkrollups.xyz">Email Us</a>
                     </li>
-                 
+
 
                     {/* <li>
                       <a href="#">Blog</a>
@@ -122,8 +122,8 @@ const scrolup=()=>{
                     <li className="inner_list">
                       <a href="/terms">Privacy Policy</a>
                     </li>
-                  
-                
+
+
                   </ul>
                 </div>
                 {/* <!-- end /.footer-menu --> */}
@@ -150,7 +150,7 @@ const scrolup=()=>{
                         <img src={Logo3} alt="reddit"/>
                       </a>
                     </li>
-                 
+
                     {/* <li>
                       <a href="#">FAQs</a>
                     </li>
@@ -182,7 +182,7 @@ const scrolup=()=>{
             <div class="col-md-12">
               <div class="copyright-text copy_text">
                 <p >
-                Copyright &copy;2022 
+                Copyright &copy;2022
                   <a href="/"> zkRollups.xyz</a>. All rights reserved.
                   {/* <a href="https://zkRollups.xyz">SALDIRI</a> */}
                 </p>
