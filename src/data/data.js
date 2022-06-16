@@ -299,7 +299,7 @@ export const projects = [
       "category": [
           "zkRollup"
       ],
-      "description": "Scroll aims to build a fast and secure EVM-compatible zk-Rollup with a strong proving network.",
+      "description": "A native zkEVM Layer 2 Solution for Ethereum. Scaling Ethereum with cutting-edge research and technology.",
       "hyperlink1": "https://scroll.io/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
