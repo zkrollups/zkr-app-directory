@@ -141,7 +141,7 @@ export const projects = {
       name: "Scroll",
       category: ["zkRollup"],
       description:
-        "Scroll aims to build a fast and secure EVM-compatible zk-Rollup with a strong proving network.",
+        "A native zkEVM Layer 2 Solution for Ethereum. Scaling Ethereum with cutting-edge research and technology.",
       imageLink: "url('project-logos/scroll.png')",
       tooltip: "Scroll",
       networks: ["scroll"],
