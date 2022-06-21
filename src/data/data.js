@@ -7876,4 +7876,330 @@ export const projects = [
       "wallet_address": "",
       "websiteLink": "https://www.4everland.org/"
   },
+  {
+      "name": "dappnode",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "Misc"
+      ],
+      "description": "Wrapper around EQlabs Pathfinder to run a StarkNet full node giving you a safe view into StarkNet network, helping to keep the network secure and the data accurate.",
+      "hyperlink1": "https://github.com/bufander/DAppNodePackage-pathfinder",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/github.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "misc"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "wallet_address": "",
+      "websiteLink": "https://github.com/bufander/DAppNodePackage-pathfinder"
+  },
+  {
+  "name": "Mostar",
+  "backgroud_color": "#F1F1F0",
+  "category": [
+      "infra"
+  ],
+  "description": "Mostar is a multi-asset bridge between Ethereum and Starknet",
+  "hyperlink1": "https://github.com/zetsuboii/cairo-projects/tree/mostar/mostar",
+  "hyperlink2": "",
+  "hyperlink3": "https://www.google.com/",
+  "imageLink": "url('project-logos/mostar.png')",
+  "linkText1": "Bridge ",
+  "linkText2": "Aave dApp",
+  "networks": [
+      "starknet"
+  ],
+  "search_on": [
+      "infra"
+  ],
+  "status": "Dev",
+  "statusColor": "#000000",
+  // "Text1": "",
+  "Text2": "Go to the Aave dapp ",
+  "Text3": "Click (Make a trade) and follow the instructions ",
+  "tooltip": "StarkNet",
+  "twitterLink": "https://twitter.com/zetsuboii_",
+  "wallet_address": "",
+  "websiteLink": "https://github.com/zetsuboii/cairo-projects/tree/mostar/mostar"
+  },
+  {
+     "name": "Musicvers",
+     "backgroud_color": "#EB5600",
+     "category": [
+         "NFT"
+     ],
+     "description": "Musicvers is a musical NFT marketplace built on StarkNet",
+     "hyperlink1": "https://www.musicvers.com/",
+     "hyperlink2": "",
+     "hyperlink3": "https://www.google.com/",
+     "imageLink": "url('project-logos/musicvers.png')",
+     "linkText1": "Bridge ",
+     "linkText2": "Aave dApp",
+     "networks": [
+         "starknet"
+     ],
+     "search_on": [
+         "nfts"
+     ],
+     "status": "DEV",
+     "statusColor": "#000000",
+     // "Text1": "",
+     "Text2": "Go to the Aave dapp ",
+     "Text3": "Click (Make a trade) and follow the instructions ",
+     "tooltip": "StarkNet",
+     "twitterLink": "https://mobile.twitter.com/musicvers_",
+     "wallet_address": "",
+     "websiteLink": "https://www.musicvers.com/"
+  },
+  {
+     "name": "Almanacnft",
+     "backgroud_color": "#6C6DD6",
+     "category": [
+         "NFT"
+     ],
+     "description": "An NFT collection of 10,000 unique crypto trading days on StarkNet",
+     "hyperlink1": "https://www.almanacnft.xyz/#/",
+     "hyperlink2": "",
+     "hyperlink3": "https://www.google.com/",
+     "imageLink": "url('project-logos/almanac.png')",
+     "linkText1": "Bridge ",
+     "linkText2": "Aave dApp",
+     "networks": [
+         "starknet"
+     ],
+     "search_on": [
+         "nfts"
+     ],
+     "status": "TESTNET",
+     "statusColor": "#30DE88",
+     // "Text1": "",
+     "Text2": "Go to the Aave dapp ",
+     "Text3": "Click (Make a trade) and follow the instructions ",
+     "tooltip": "StarkNet",
+     "twitterLink": "https://twitter.com/almanac",
+     "wallet_address": "",
+     "websiteLink": "https://www.almanacnft.xyz/#/"
+  },
+  {
+     "name": "StarkSheet",
+     "backgroud_color": "#2D2F4B",
+     "category": [
+         "NFT"
+     ],
+     "description": "A spreadsheet built on StarkNet: each cell is a dynamic NFT and each sheet is a collection. Cell as a NFT brings granular cell ownership and unlimited data.",
+     "hyperlink1": "https://www.starksheet.xyz/",
+     "hyperlink2": "",
+     "hyperlink3": "https://www.google.com/",
+     "imageLink": "url('project-logos/starksheet.png')",
+     "linkText1": "Bridge ",
+     "linkText2": "Aave dApp",
+     "networks": [
+         "starknet"
+     ],
+     "search_on": [
+         "nfts"
+     ],
+     "status": "DEV",
+     "statusColor": "#000000",
+     // "Text1": "",
+     "Text2": "Go to the Aave dapp ",
+     "Text3": "Click (Make a trade) and follow the instructions ",
+     "tooltip": "StarkNet",
+     "twitterLink": "https://twitter.com/almanac",
+     "wallet_address": "",
+     "websiteLink": "https://www.starksheet.xyz/"
+  },
+  {
+     "name": "Starkpass",
+     "backgroud_color": "#F1F1F0",
+     "category": [
+         "NFT"
+     ],
+     "description": "StarkPass is an NFT can track Starknet onchain data as svg image.",
+     "hyperlink1": "https://goerli.voyager.online/contract/0x024a736c82f92d86a7f60f9e449a1513f6ea082810e3a2ca882e9ebe706a1879",
+     "hyperlink2": "",
+     "hyperlink3": "https://www.google.com/",
+     "imageLink": "url('project-logos/starkpass.png')",
+     "linkText1": "Bridge ",
+     "linkText2": "Aave dApp",
+     "networks": [
+         "starknet"
+     ],
+     "search_on": [
+         "nfts"
+     ],
+     "status": "TESTNET",
+     "statusColor": "#30DE88",
+     // "Text1": "",
+     "Text2": "Go to the Aave dapp ",
+     "Text3": "Click (Make a trade) and follow the instructions ",
+     "tooltip": "StarkNet",
+     "twitterLink": "https://twitter.com/AttuneDao/",
+     "wallet_address": "",
+     "websiteLink": "https://goerli.voyager.online/contract/0x024a736c82f92d86a7f60f9e449a1513f6ea082810e3a2ca882e9ebe706a1879"
+  },
+  {
+      "name": "Fox Tech",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "zkRollup"
+      ],
+      "description": "Fox Tech aims to improve scalability and performance in blockchains using ZK-FOAKS(Zero-Knowledge-Fast Objective Argument of Knowledges) technology, providing cryptographic proofs that are zero-knowledge, no need for a trusted setup, and quantum secure and fully EVM-compatible.",
+      "hyperlink1": "https://fox.tech/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/foxtech.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "fox"
+      ],
+      "search_on": [
+          "rollups"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "Fox",
+      "twitterLink": "https://twitter.com/foxchain_tech",
+      "wallet_address": "",
+      "websiteLink": "https://fox.tech/"
+  },
+  {
+      "name": "Venus Protocol",
+      "backgroud_color": "#EB5600",
+      "category": [
+          "Dapp"
+      ],
+      "description": "Venus is a StarkNet Defi Investment Protocol.",
+      "hyperlink1": "http://www.venus.town/trade",
+      "hyperlink2": "",
+      "hyperlink3": "",
+      "imageLink": "url('project-logos/venus.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starkex"
+      ],
+      "search_on": [
+          "dApps"
+      ],
+      "status": "LIVE",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "token_image_url": "",
+      "tokenLink": "",
+      "tokenStatus": "",
+      "tokenTicker": "",
+      "tooltip": "StarkEx",
+      "twitterLink": "https://twitter.com/ProtocolVenus",
+      "wallet_address": "",
+      "websiteLink": "http://www.venus.town/trade"
+  },
+  {
+      "name": "DOMANI",
+      "backgroud_color": "#36368F",
+      "category": [
+          "Dapp"
+      ],
+      "description": "DOMANI Protocol is an asset management protocol that facilitates portfolio tokenization, active rebalancing, and trading of a multi-token position via the recently launched multiswap DEX.",
+      "hyperlink1": "https://domani.finance/",
+      "hyperlink2": "",
+      "hyperlink3": "",
+      "imageLink": "url('project-logos/domani.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "dApps"
+      ],
+      "status": "LIVE",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "token_image_url": "",
+      "tokenLink": "",
+      "tokenStatus": "",
+      "tokenTicker": "",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/DomaniProtocol",
+      "wallet_address": "",
+      "websiteLink": "https://domani.finance/"
+  },
+  {
+      "name": "Verilog",
+      "backgroud_color": "#6C6DD6",
+      "category": [
+          "Infra"
+      ],
+      "description": "Verilog elevates the security standard for Web3 ecosystems, covering the entire protocol stack.",
+      "hyperlink1": "https://www.verilog.solutions/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/verilog.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/verilog_audit",
+      "wallet_address": "",
+      "websiteLink": "https://www.verilog.solutions/"
+  },
+  {
+      "name": "Checkpoint",
+      "backgroud_color": "#F1F1F0",
+      "category": [
+          "Infra"
+      ],
+      "description": "Checkpoint is a library from Snapshot for indexing data from StarkNet events and making it accessible through GraphQL.",
+      "hyperlink1": "https://checkpoint.fyi/#/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/checkpoint.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/SnapshotLabs",
+      "wallet_address": "",
+      "websiteLink": "https://checkpoint.fyi"
+  },
 ]
