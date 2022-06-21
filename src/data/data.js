@@ -1107,7 +1107,7 @@ export const projects = [
       // "Text1": "",
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
-      "token_image_url": "url('https://miro.medium.com/fit/c/176/176/1*hQ1mLTGu9T4H1S-aqim3AQ.png')",
+      "token_image_url": "url('https://i.imgur.com/Ge089K9.png')",
       "tokenLink": "https://twitter.com/ZigZagExchange/status/1538914642277281793",
       "tokenStatus": "Expected",
       "tokenTicker": "ZigZag",
