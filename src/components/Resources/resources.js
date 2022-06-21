@@ -12,6 +12,17 @@ function Resources() {
     { text: "The best comparison on zkRollups today ", link: "https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" }
   ];
   const arry2 = [
+    { text: "Awesome StarkNet", link: "https://github.com/gakonst/awesome-starknet" },
+    { text: "Awesome zkEVM", link: "https://github.com/LuozhuZhang/awesome-zkevm" },
+    { text: "Awesome zkSync", link: "https://github.com/juanscolari/awesome-zksync" },
+    { text: "Awesome Loopring", link: "https://github.com/Loopring/awesome-loopring" },
+    { text: "StarkNet Cairo 101", link: "https://github.com/l-henri/starknet-cairo-101" },
+    { text: "Cairo Goldmine", link: "https://github.com/beautyisourbusiness/cairo-goldmine" },
+
+    // { text: "zkTube Docs", link: "" },
+    // { text: "ZKSwap Docs ", link: "" },
+  ];
+  const arry3 = [
     { text: "StarkNet and Cairo Documentation", link: "https://www.cairo-lang.org/docs/" },
     { text: "Hermez network docs", link: "https://docs.hermez.io/#/" },
     { text: "Introduction to zkSync for Developers ", link: "https://zksync.io/dev/" },
@@ -19,11 +30,6 @@ function Resources() {
     { text: "Loopring Developer Docs  ", link: "https://docs.loopring.io/en/" },
     { text: "zkTube Docs", link: "https://github.com/zkTube-Labs/zkTube-docs/tree/main/docs" },
     { text: "ZKSwap Docs ", link: "https://en.wiki.zks.org/" }
-  ];
-  const arry3 = [
-    { text: "Awesome StarkNet  ", link: "https://github.com/gakonst/awesome-starknet" },
-    // { text: "zkTube Docs", link: "" },
-    // { text: "ZKSwap Docs ", link: "" },
   ];
 
   return (
@@ -34,7 +40,7 @@ function Resources() {
           <div className="resorce_card_wrap">
             {arry1.map((item) => {
               return (
-                <div className="resorce_card mb-4">          
+                <div className="resorce_card mb-4">
                   <div className="inside">
                     <div className="fist_w">
                       <a href={item.link} target="_blank" rel="noopener noreferrer">
@@ -49,7 +55,7 @@ function Resources() {
               );
             })}
           </div>
-          <h2 className="my-5">zkRollup Docs</h2>
+          <h2 className="my-5">Community Resources</h2>
           <div className="resorce_card_wrap_tow">
             {arry2.map(
               (item) => {
@@ -64,7 +70,7 @@ function Resources() {
                       <div className="fist_w">
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                           <p className="resorce_text resorce_text2">
-                            {item.text} 
+                            {item.text}
                           </p>
                         </a>
                       </div>
@@ -77,7 +83,7 @@ function Resources() {
               }
             )}
           </div>
-          <h2 className="my-5">Community Resources</h2>
+          <h2 className="my-5">zkRollup Docs</h2>
           <div className="resorce_card_wrap margn_botm_last">
             {arry3.map((item) => {
               return (
