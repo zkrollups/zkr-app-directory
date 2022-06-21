@@ -1113,7 +1113,7 @@ export const projects = [
       "tokenTicker": "ZigZag",
       "tooltip": "zkSync, StarkNet",
       "twitterLink": "https://mobile.twitter.com/zigzagexchange",
-      "wallet_address": "https://etherscan.io/token/0xc91a71a1ffa3d8b22ba615ba1b9c01b2bbbf55ad",
+      "wallet_address": "",
       "websiteLink": "https://info.zigzag.exchange/"
   },
   {
