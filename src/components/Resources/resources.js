@@ -6,11 +6,13 @@ function Resources() {
   // const arr = [{ color: "#E5E5E5" }];
 
   const arry1 = [
-    { text: "An Incomplete Guide to Rollups ", link: "https://vitalik.ca/general/2021/01/05/rollup.html" },
-    { text: "ZK-Rollups on EthHub ", link: "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/" },
-    { text: "What are zkRollups? ", link: "https://www.numio.one/what-are-zkrollups/" },
-    { text: "The best comparison on zkRollups today ", link: "https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" }
+    { text: "An Incomplete Guide to Rollups", link: "https://vitalik.ca/general/2021/01/05/rollup.html" },
+    { text: "Zero-Knowledge Rollups", link: "https://ethereum.org/en/developers/docs/scaling/zk-rollups/" },
+    { text: "ZK-Rollups on EthHub", link: "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/" },
+    { text: "What are zkRollups?", link: "https://www.numio.one/what-are-zkrollups/" },
+    { text: "The best comparison on zkRollups today", link: "https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" }
   ];
+
   const arry2 = [
     { text: "Awesome StarkNet", link: "https://github.com/gakonst/awesome-starknet" },
     { text: "Awesome zkEVM", link: "https://github.com/LuozhuZhang/awesome-zkevm" },
@@ -36,7 +38,7 @@ function Resources() {
     <>
       <div className="container-fluied">
         <div className="main wrap_resorce">
-          <h2 className="my-5">Guides</h2>
+          <h2 className="my-5">General Guides</h2>
           <div className="resorce_card_wrap">
             {arry1.map((item) => {
               return (
