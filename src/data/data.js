@@ -1109,7 +1109,7 @@ export const projects = [
       "Text3": "Click (Make a trade) and follow the instructions ",
       "token_image_url": "url('https://i.imgur.com/Ge089K9.png')",
       "tokenLink": "https://twitter.com/ZigZagExchange/status/1538914642277281793",
-      "tokenStatus": "Expected",
+      "tokenStatus": "Has",
       "tokenTicker": "ZigZag",
       "tooltip": "zkSync, StarkNet",
       "twitterLink": "https://mobile.twitter.com/zigzagexchange",
