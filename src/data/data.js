@@ -8202,4 +8202,33 @@ export const projects = [
       "wallet_address": "",
       "websiteLink": "https://checkpoint.fyi"
   },
+  {
+     "name": "Imperium Wars",
+     "backgroud_color": "#2D2F4B",
+     "category": [
+         "NFT"
+     ],
+     "description": "Imperium Wars is an NFT game mixing diplomacy, conquest and economics - built on StarkNet",
+     "hyperlink1": "https://imperiumwars.xyz/",
+     "hyperlink2": "",
+     "hyperlink3": "https://www.google.com/",
+     "imageLink": "url('project-logos/imperium.png')",
+     "linkText1": "Bridge ",
+     "linkText2": "Aave dApp",
+     "networks": [
+         "starknet"
+     ],
+     "search_on": [
+         "nfts"
+     ],
+     "status": "DEV",
+     "statusColor": "#000000",
+     // "Text1": "",
+     "Text2": "Go to the Aave dapp ",
+     "Text3": "Click (Make a trade) and follow the instructions ",
+     "tooltip": "StarkNet",
+     "twitterLink": "https://twitter.com/imperiumwars",
+     "wallet_address": "",
+     "websiteLink": "https://imperiumwars.xyz/"
+  },
 ]
