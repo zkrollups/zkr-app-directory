@@ -20,6 +20,7 @@ function Resources() {
     { text: "Awesome Loopring", link: "https://github.com/Loopring/awesome-loopring" },
     { text: "StarkNet Cairo 101", link: "https://github.com/l-henri/starknet-cairo-101" },
     { text: "Cairo Goldmine", link: "https://github.com/beautyisourbusiness/cairo-goldmine" },
+    { text: "zkRollup research library", link: "https://github.com/john-light/zkrollups/blob/main/library.md" },
 
     // { text: "zkTube Docs", link: "" },
     // { text: "ZKSwap Docs ", link: "" },
