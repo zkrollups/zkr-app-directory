@@ -107,14 +107,12 @@ position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
+  transform: translate(-0%, -10%);
 }
 
 .logo_{
   
-
-
-  display: flex;
+display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 6px 15px;
