@@ -2722,7 +2722,7 @@ export const projects = [
       "category": [
           "Dapp"
       ],
-      "description": "Discover crypto, built on top of the world's most powerful exchange.",
+      "description": "OKX is an innovative cryptocurrency exchange with advanced financial services. We rely on blockchain technology to provide everything you need for wise trading and investment.",
       "hyperlink1": "https://www.okx.com/",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
