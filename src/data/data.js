@@ -520,7 +520,7 @@ export const projects = [
       "category": [
           "Mobile Wallet"
       ],
-      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. \n \n Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial.\n \n  Available on Android and iOS, Numio was the first zkRollup powered mobile payments app to be released on Google Play.",
+      "description": "Buy, sell, trade, earn crypto with DeFi, collect NFTs, and more, while saving you up to 100x on Ethereum fees. \n \n Numio gives you more control over your digital assets in one convenient app. Numio can be used pseudonymously, or with an optional zkProof powered identity verification system. All Numio products are non-custodial.\n \n  Available on Android and iOS.",
       "googlePlay": "https://play.google.com/store/apps/details?id=com.numio.pay",
       "appleStore": "https://apps.apple.com/us/app/numio/id1538072952",
       "hyperlink1": "https://numio.one",
