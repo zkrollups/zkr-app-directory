@@ -8231,4 +8231,33 @@ export const projects = [
      "wallet_address": "",
      "websiteLink": "https://imperiumwars.xyz/"
   },
+  {
+      "name": "reality.eth",
+      "backgroud_color": "#EB5600",
+      "category": [
+          "Infra"
+      ],
+      "description": "Crowd-sourced verification for smart contracts. reality.eth provides a flexible mechanism for verifying real-world events for smart contracts.",
+      "hyperlink1": "https://reality.eth.link/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/realityeth.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "zksync"
+      ],
+      "search_on": [
+          "infra"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "zkSync",
+      "twitterLink": "https://twitter.com/RealityEth",
+      "wallet_address": "",
+      "websiteLink": "https://reality.eth.link/"
+  },
 ]
