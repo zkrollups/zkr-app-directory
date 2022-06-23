@@ -2735,8 +2735,8 @@ export const projects = [
       "search_on": [
           "dApps"
       ],
-      "status": "Dev",
-      "statusColor": "#000000",
+      "status": "LIVE",
+      "statusColor": "#30DE88",
       // "Text1": "",
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
