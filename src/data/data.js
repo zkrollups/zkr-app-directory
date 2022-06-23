@@ -2717,8 +2717,8 @@ export const projects = [
       "websiteLink": "https://alpharoad.fi/"
   },
   {
-      "name": "OKx",
-      "backgroud_color": "#2D2F4B",
+      "name": "OKX",
+      "backgroud_color": "#F1F1F0",
       "category": [
           "Dapp"
       ],
@@ -2730,7 +2730,7 @@ export const projects = [
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
-          "starknet"
+          "zkSync"
       ],
       "search_on": [
           "dApps"
@@ -2740,7 +2740,11 @@ export const projects = [
       // "Text1": "",
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "StarkNet",
+      "token_image_url": "url('https://assets.coingecko.com/coins/images/4463/small/WeChat_Image_20220118095654.png?1642471050')",
+      "tokenLink": "https://www.coingecko.com/en/coins/okb",
+      "tokenStatus": "Has",
+      "tokenTicker": "OKB",
+      "tooltip": "zkSync",
       "twitterLink": "https://twitter.com/okx",
       "wallet_address": "",
       "websiteLink": "https://www.okx.com/"
