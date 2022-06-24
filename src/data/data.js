@@ -1,33 +1,5 @@
 export const projects = [
-  {
-      "name": "StarkNet",
-      "backgroud_color": "#2D2F4B",
-      "category": [
-          "zkRollup"
-      ],
-      "description": "StarkNet, a permissionless scaling ZK rollup, live (Alpha) on Ethereum Mainnet since November 2021, a general-purpose Rollup that powers dApps of any business logic.",
-      "hyperlink1": "https://starkware.co/starknet/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/starknet.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "starknet"
-      ],
-      "search_on": [
-          "rollups"
-      ],
-      "status": "LIVE",
-      "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "StarkNet",
-      "twitterLink": "https://twitter.com/StarkWareLtd",
-      "wallet_address": "",
-      "websiteLink": "https://starkware.co/starknet/"
-  },
+
   {
       "name": "zkSync",
       "backgroud_color": "#36368F",
@@ -92,33 +64,68 @@ export const projects = [
     "websiteLink": "https://aztec.network/"
   },
   {
-    "name": "StarkEx",
-    "backgroud_color": "#F1F1F0",
-    "category": [
-        "zkRollup"
-    ],
-    "description": " StarkEx, a custom standalone scaling service by StarkWare, has been powering applications since June 2020, settled over $350B, with over 90M transactions, serving hundreds of thousands of users.",
-    "hyperlink1": "https://starkware.co/starkex/",
-    "hyperlink2": "",
-    "hyperlink3": "https://www.google.com/",
-    "imageLink": "url('project-logos/starkex.png')",
-    "linkText1": "Bridge ",
-    "linkText2": "Aave dApp",
-    "networks": [
-        "starkex"
-    ],
-    "search_on": [
-        "rollups"
-    ],
-    "status": "LIVE",
-    "statusColor": "#30DE88",
-    // "Text1": "",
-    "Text2": "Go to the Aave dapp ",
-    "Text3": "Click (Make a trade) and follow the instructions ",
-    "tooltip": "StarkEx",
-    "twitterLink": "https://twitter.com/StarkWareLtd",
+      "name": "Scroll",
+      "backgroud_color": "#F1F1F0",
+      "category": [
+          "zkRollup"
+      ],
+      "description": "A native zkEVM Layer 2 Solution for Ethereum. Scaling Ethereum with cutting-edge research and technology.",
+      "hyperlink1": "https://scroll.io/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/scroll.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "scroll"
+      ],
+      "search_on": [
+          "rollups"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "Scroll",
+      "twitterLink": "https://twitter.com/Scroll_ZKP",
       "wallet_address": "",
-    "websiteLink": "https://starkware.co/starkex/"
+      "websiteLink": "https://scroll.io/"
+  },
+  {
+      "name": "Polygon Hermez",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "zkRollup",
+          "Mobile & Web Wallet"
+      ],
+      "description": "Polygon Hermez is an open-source ZK-Rollup optimised for secure, low-cost and usable token transfers on the wings of Ethereum.",
+      "hyperlink1": "https://hermez.io/",
+      "hyperlink2": "https://www.coingecko.com/en/coins/polygon",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/hermez.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "polygonhermez"
+      ],
+      "search_on": [
+          "rollups",
+          "wallets"
+      ],
+      "status": "LIVE",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "token_image_url": "url('project-logos/token_images/polygon.png')",
+      "tokenLink": "https://www.coingecko.com/en/coins/polygon",
+      "tokenStatus": "Has",
+      "tokenTicker": "MATIC",
+      "tooltip": "Polygon Hermez",
+      "twitterLink": "https://twitter.com/0xPolygonHermez",
+      "wallet_address": "",
+      "websiteLink": "https://hermez.io/"
   },
   {
       "name": "Loopring",
@@ -158,6 +165,98 @@ export const projects = [
       "websiteLink": "http://loopring.io/"
   },
   {
+      "name": "Polygon Zero",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "zkRollup"
+      ],
+      "description": "Polygon Zero uses the speed of Plonky2 to enable a more scalable and decentralized ZK L2 giving users access to higher throughput and lower fees.",
+      "hyperlink1": "https://polygon.technology/solutions/polygon-zero",
+      "hyperlink2": "https://www.coingecko.com/en/coins/polygon",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/polygonzero.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "polygonzero"
+      ],
+      "search_on": [
+          "rollups"
+      ],
+      "status": "DEV",
+      "statusColor": "#000000",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "token_image_url": "url('project-logos/token_images/polygon.png')",
+      "tokenLink": "https://www.coingecko.com/en/coins/polygon",
+      "tokenStatus": "Has",
+      "tokenTicker": "MATIC",
+      "tooltip": "Polygon Zero",
+      "twitterLink": "https://twitter.com/0xPolygonZero",
+      "wallet_address": "",
+      "websiteLink": "https://polygon.technology/solutions/polygon-zero"
+  },
+  {
+      "name": "StarkNet",
+      "backgroud_color": "#2D2F4B",
+      "category": [
+          "zkRollup"
+      ],
+      "description": "StarkNet, a permissionless scaling ZK rollup, live (Alpha) on Ethereum Mainnet since November 2021, a general-purpose Rollup that powers dApps of any business logic.",
+      "hyperlink1": "https://starkware.co/starknet/",
+      "hyperlink2": "",
+      "hyperlink3": "https://www.google.com/",
+      "imageLink": "url('project-logos/starknet.png')",
+      "linkText1": "Bridge ",
+      "linkText2": "Aave dApp",
+      "networks": [
+          "starknet"
+      ],
+      "search_on": [
+          "rollups"
+      ],
+      "status": "LIVE",
+      "statusColor": "#30DE88",
+      // "Text1": "",
+      "Text2": "Go to the Aave dapp ",
+      "Text3": "Click (Make a trade) and follow the instructions ",
+      "tooltip": "StarkNet",
+      "twitterLink": "https://twitter.com/StarkWareLtd",
+      "wallet_address": "",
+      "websiteLink": "https://starkware.co/starknet/"
+  },
+  {
+    "name": "StarkEx",
+    "backgroud_color": "#F1F1F0",
+    "category": [
+        "zkRollup"
+    ],
+    "description": " StarkEx, a custom standalone scaling service by StarkWare, has been powering applications since June 2020.",
+    "hyperlink1": "https://starkware.co/starkex/",
+    "hyperlink2": "",
+    "hyperlink3": "https://www.google.com/",
+    "imageLink": "url('project-logos/starkex.png')",
+    "linkText1": "Bridge ",
+    "linkText2": "Aave dApp",
+    "networks": [
+        "starkex"
+    ],
+    "search_on": [
+        "rollups"
+    ],
+    "status": "LIVE",
+    "statusColor": "#30DE88",
+    // "Text1": "",
+    "Text2": "Go to the Aave dapp ",
+    "Text3": "Click (Make a trade) and follow the instructions ",
+    "tooltip": "StarkEx",
+    "twitterLink": "https://twitter.com/StarkWareLtd",
+      "wallet_address": "",
+    "websiteLink": "https://starkware.co/starkex/"
+  },
+
+  {
       "name": "ZKSpace",
       "backgroud_color": "#2D2F4B",
       "category": [
@@ -191,41 +290,6 @@ export const projects = [
       "twitterLink": "https://twitter.com/ZKSpaceOfficial",
       "wallet_address": "",
       "websiteLink": "https://zks.org"
-  },
-  {
-      "name": "Polygon Hermez",
-      "backgroud_color": "#2D2F4B",
-      "category": [
-          "zkRollup",
-          "Mobile & Web Wallet"
-      ],
-      "description": "Polygon Hermez is an open-source ZK-Rollup optimised for secure, low-cost and usable token transfers on the wings of Ethereum.",
-      "hyperlink1": "https://hermez.io/",
-      "hyperlink2": "https://www.coingecko.com/en/coins/polygon",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/hermez.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "polygonhermez"
-      ],
-      "search_on": [
-          "rollups",
-          "wallets"
-      ],
-      "status": "LIVE",
-      "statusColor": "#30DE88",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "token_image_url": "url('project-logos/token_images/polygon.png')",
-      "tokenLink": "https://www.coingecko.com/en/coins/polygon",
-      "tokenStatus": "Has",
-      "tokenTicker": "MATIC",
-      "tooltip": "Polygon Hermez",
-      "twitterLink": "https://twitter.com/0xPolygonHermez",
-      "wallet_address": "",
-      "websiteLink": "https://hermez.io/"
   },
   {
       "name": "Polygon Miden",
@@ -292,68 +356,6 @@ export const projects = [
       "twitterLink": "https://twitter.com/zktubeofficial/",
       "wallet_address": "",
       "websiteLink": "https://zktube.io/"
-  },
-  {
-      "name": "Scroll",
-      "backgroud_color": "#F1F1F0",
-      "category": [
-          "zkRollup"
-      ],
-      "description": "A native zkEVM Layer 2 Solution for Ethereum. Scaling Ethereum with cutting-edge research and technology.",
-      "hyperlink1": "https://scroll.io/",
-      "hyperlink2": "",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/scroll.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "scroll"
-      ],
-      "search_on": [
-          "rollups"
-      ],
-      "status": "DEV",
-      "statusColor": "#000000",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "tooltip": "Scroll",
-      "twitterLink": "https://twitter.com/Scroll_ZKP",
-      "wallet_address": "",
-      "websiteLink": "https://scroll.io/"
-  },
-  {
-      "name": "Polygon Zero",
-      "backgroud_color": "#2D2F4B",
-      "category": [
-          "zkRollup"
-      ],
-      "description": "Polygon Zero uses the speed of Plonky2 to enable a more scalable and decentralized ZK L2 giving users access to higher throughput and lower fees.",
-      "hyperlink1": "https://polygon.technology/solutions/polygon-zero",
-      "hyperlink2": "https://www.coingecko.com/en/coins/polygon",
-      "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/polygonzero.png')",
-      "linkText1": "Bridge ",
-      "linkText2": "Aave dApp",
-      "networks": [
-          "polygonzero"
-      ],
-      "search_on": [
-          "rollups"
-      ],
-      "status": "DEV",
-      "statusColor": "#000000",
-      // "Text1": "",
-      "Text2": "Go to the Aave dapp ",
-      "Text3": "Click (Make a trade) and follow the instructions ",
-      "token_image_url": "url('project-logos/token_images/polygon.png')",
-      "tokenLink": "https://www.coingecko.com/en/coins/polygon",
-      "tokenStatus": "Has",
-      "tokenTicker": "MATIC",
-      "tooltip": "Polygon Zero",
-      "twitterLink": "https://twitter.com/0xPolygonZero",
-      "wallet_address": "",
-      "websiteLink": "https://polygon.technology/solutions/polygon-zero"
   },
   {
       "name": "Edgeswap",
@@ -2720,7 +2722,7 @@ export const projects = [
       "name": "OKX",
       "backgroud_color": "#F1F1F0",
       "category": [
-          "Dapp"
+          "Exchange"
       ],
       "description": "OKX is an innovative cryptocurrency exchange with advanced financial services. OKX uses blockchain technology to provide everything you need for trading and investment.",
       "hyperlink1": "https://www.okx.com/",
@@ -2733,7 +2735,7 @@ export const projects = [
           "zkSync"
       ],
       "search_on": [
-          "dApps"
+          "Exchange"
       ],
       "status": "LIVE",
       "statusColor": "#30DE88",
