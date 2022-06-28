@@ -6619,10 +6619,10 @@ export const projects = [
           "Misc"
       ],
       "description": "CurveZero is a proposal for a fixed rate loan protocol, the CurveZero litepaper introduces a framework for determining the USD funding rate term structure.",
-      "hyperlink1": "https://docs.google.com/document/d/1rrYC32w63FzzV61rJWqqYomEMgfZ3cRR1jOlJmnnxeY/edit",
+      "hyperlink1": "https://github.com/xan-crypto/CurveZero",
       "hyperlink2": "",
       "hyperlink3": "https://www.google.com/",
-      "imageLink": "url('project-logos/github.png')",
+      "imageLink": "url('project-logos/curvezero.png')",
       "linkText1": "Bridge ",
       "linkText2": "Aave dApp",
       "networks": [
@@ -6631,14 +6631,15 @@ export const projects = [
       "search_on": [
           "misc"
       ],
-      "status": "DEV",
-      "statusColor": "#000000",
+      "status": "TESTNET",
+      "statusColor": "#F4B832",
       // "Text1": "",
       "Text2": "Go to the Aave dapp ",
       "Text3": "Click (Make a trade) and follow the instructions ",
       "tooltip": "StarkNet",
+      "twitterLink": "https://mobile.twitter.com/curve_zero",
       "wallet_address": "",
-      "websiteLink": "https://docs.google.com/document/d/1rrYC32w63FzzV61rJWqqYomEMgfZ3cRR1jOlJmnnxeY/edit"
+      "websiteLink": "https://github.com/xan-crypto/CurveZero"
   },
   {
       "name": "Nile",
