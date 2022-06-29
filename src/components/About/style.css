@@ -51,7 +51,7 @@
 /* border: 1px solid red; */
 }
 .card_wrap{
-  width: 50% ;
+  width: 45% ;
   /* border: 1px solid blue; */
   display: flex!important;
     justify-content: space-between;
@@ -75,6 +75,7 @@
     padding: 8%;
     background: #6CBBD0;
     border-radius: 20px;
+    width: 70vw;
   }
 
   .goal_text{

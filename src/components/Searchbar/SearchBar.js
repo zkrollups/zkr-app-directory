@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Dropdown, Menu } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
+import { useNavigate } from "react-router-dom";
 import magnifier from '../../actets/magnifier.png'
 import "./style.css";
 import dropdown_image from "../../actets/dropdown.svg";
@@ -10,8 +11,8 @@ import {
   TextInput,
 } from 'grommet';
 
-const SearchBar = ({ setSearch, search,setSearch_category, search_category,search_in,setSearch_in }) => {
-
+const SearchBar = ({condition_clause,setcondition_clause, setSearch, search,setSearch_category, search_category,search_in,setSearch_in }) => {
+  const navigate = useNavigate();
   const [search_category_in, setSearch_category_in] = useState("all");
   const handleChange = (e, result) => {
     const { value } = result;
@@ -54,16 +55,58 @@ const SearchBar = ({ setSearch, search,setSearch_category, search_category,searc
     <TextInput onKeyUp={(e)=>{if (e.key === 'Enter' || e.keyCode === 13){
        setSearch(search_in);
        setSearch_category(search_category_in);
+       if(search_in!=""){
+       if(search_category_in!="all"){
+        setcondition_clause(
+          {...condition_clause,
+            where:{
+              "searchOn_contains_all":[search_category_in],
+              "name_contains":search_in,
+    
+            },
+            skip:0,
+          
+          }
+        )
+      }
+      else{
+        // const where_pre=condition_clause['where']
+        // if(where_pre.hasOwnProperty('searchOn_contains_all')){
+          // delete where_pre['searchOn_contains_all']
+          // where_pre['name_contains']=search_in
+        setcondition_clause(
+          {...condition_clause,
+            where:{
+              "name_contains":search_in
+            },
+            skip:0,
+          
+          }
+        )
+        // }
+        navigate("/")
+      }
+     
+    }
+    else{
+      setcondition_clause(
+        {...condition_clause,
+          where:{},
+          skip:0,
+        
+        }
+      )
+    }
     }}}  placeholder="Search projects by title" value={search_in} onChange={event => setSearch_in(event.target.value)} />
 
-    {  
+    {/* {  
     search_in.length > 0 ?
     <AiOutlineCloseCircle className='appClose' size={30} color="red"  onClick={()=>{
       setSearch_in("");
       setSearch("all")
       //  setSearch_in("all");
     }}  /> 
-    :null}
+    :null} */}
 
     </div>
 
@@ -73,7 +116,51 @@ const SearchBar = ({ setSearch, search,setSearch_category, search_category,searc
   </Menu>
 <button onClick={()=>{
   setSearch(search_in);
+  navigate("/");
+  
    setSearch_category(search_category_in);
+
+   if(search_in!=""){
+   if(search_category_in!="all"){
+    setcondition_clause(
+      {...condition_clause,
+        where:{
+          "searchOn_contains_all":[search_category_in],
+          "name_contains":search_in,
+
+        },
+        skip:0,
+      
+      }
+    )
+  }
+  else{
+    // const where_pre=condition_clause['where']
+    // if(where_pre.hasOwnProperty('searchOn_contains_all')){
+      // delete where_pre['searchOn_contains_all']
+      // where_pre['name_contains']=search_in
+    setcondition_clause(
+      {...condition_clause,
+        where:{
+          "name_contains":search_in
+        },
+        skip:0,
+      
+      }
+    )
+    // }
+
+  }
+  }
+  else{
+    setcondition_clause(
+      {...condition_clause,
+        where:{},
+        skip:0,
+      
+      }
+    )
+  }
 }} className='ser_btn'>Search</button>
 
           </div>

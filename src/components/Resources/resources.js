@@ -12,7 +12,6 @@ function Resources() {
     { text: "What are zkRollups?", link: "https://www.numio.one/what-are-zkrollups/" },
     { text: "The best comparison on zkRollups today", link: "https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" }
   ];
-
   const arry2 = [
     { text: "Awesome StarkNet", link: "https://github.com/gakonst/awesome-starknet" },
     { text: "Awesome zkEVM", link: "https://github.com/LuozhuZhang/awesome-zkevm" },
@@ -21,7 +20,6 @@ function Resources() {
     { text: "StarkNet Cairo 101", link: "https://github.com/l-henri/starknet-cairo-101" },
     { text: "Cairo Goldmine", link: "https://github.com/beautyisourbusiness/cairo-goldmine" },
     { text: "zkRollup research library", link: "https://github.com/john-light/zkrollups/blob/main/library.md" },
-
     // { text: "zkTube Docs", link: "" },
     // { text: "ZKSwap Docs ", link: "" },
   ];
@@ -39,11 +37,11 @@ function Resources() {
     <>
       <div className="container-fluied">
         <div className="main wrap_resorce">
-          <h2 className="my-5">General Guides</h2>
+          <h2 className="my-5">Guides</h2>
           <div className="resorce_card_wrap">
             {arry1.map((item) => {
               return (
-                <div className="resorce_card mb-4">
+                <div className="resorce_card mb-4">          
                   <div className="inside">
                     <div className="fist_w">
                       <a href={item.link} target="_blank" rel="noopener noreferrer">
@@ -58,7 +56,7 @@ function Resources() {
               );
             })}
           </div>
-          <h2 className="my-5">Community Resources</h2>
+          <h2 className="my-5">zkRollup Docs</h2>
           <div className="resorce_card_wrap_tow">
             {arry2.map(
               (item) => {
@@ -67,13 +65,14 @@ function Resources() {
                     className="resorce_card2 mb-4"
                     style={{
                       backgroundColor: "#A7E2F2",
+                    
                     }}
                   >
                     <div className="inside">
                       <div className="fist_w">
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                           <p className="resorce_text resorce_text2">
-                            {item.text}
+                            {item.text} 
                           </p>
                         </a>
                       </div>
@@ -86,7 +85,7 @@ function Resources() {
               }
             )}
           </div>
-          <h2 className="my-5">zkRollup Docs</h2>
+          <h2 className="my-5">Community Resources</h2>
           <div className="resorce_card_wrap margn_botm_last">
             {arry3.map((item) => {
               return (

@@ -43,7 +43,7 @@ color: #FFFFFF;
     }
     .bar_drop{
        /* border: 1px solid blue !important; */
-       width: 65% !important;
+       width: 55% !important;
    }
    
    }
@@ -67,7 +67,13 @@ color: #FFFFFF;
    
    }
 
-
+   .bar_drop2{
+    border: 1px solid blue !important;
+    width: 50% !important;
+    display: flex !important;
+    padding-left: 60px;
+    justify-content: space-between !important;
+}
 
 
 
@@ -117,6 +123,24 @@ line-height: 19px;
 /* Gray 1 */
 
 color: #333333;
+}
+.sort_btn{
+    width: 8.5vw;
+    height: 3rem;
+    border: none;
+    height: 100%;
+    background: #A7E2F2;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 19px;
+
+/* Gray 1 */
+
+color: #333333;
+
 }
 
 .search {

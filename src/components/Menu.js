@@ -14,7 +14,7 @@ import icon8 from "../actets/social.png";
 import { useNavigate  } from "react-router-dom";
 import "./style.css"
 
-const Menu = ({ setFilter, filter,results, setResults,set_search,search_in,setSearch_in  }) => {
+const Menu = ({setloading,loading,total,setcondition_clause,condition_clause, setFilter, filter,results, setResults,set_search,search_in,setSearch_in  }) => {
 
   const navigate = useNavigate();
   //console.log(results. length,"resultsresults")
@@ -174,15 +174,43 @@ allCounts.push( localfilter.includes("misc") ? miscCount.length : 0)
 
 }
 
-getAllCounts();
+// getAllCounts();
   const filter_fun=(e)=>{
-   
+    
     navigate("/")
     setFilter(e)
     setactive(e)
     set_search("")
     setSearch_in("")
+    if(e!=""){
+      setloading(true)
+      setcondition_clause(
+        {...condition_clause,
+          where:{
+            "searchOn_contains_all":[e]
+          },
+          skip:0,
+        
+        }
+      )
+    }
+    else{
+      // const where_pre=condition_clause['where']
+      // console.log("where in all===>> ",where_pre)
+      // if(where_pre.hasOwnProperty('searchOn_contains_all')){
+        // delete where_pre['searchOn_contains_all']
+        setloading(true)
+      setcondition_clause(
+        {...condition_clause,
+          where:{},
+          skip:0,
+        
+        }
+      )
+      // }
 
+    }
+ 
     //console.log("chk filter_fun",e)
   }
   return (
@@ -197,29 +225,32 @@ getAllCounts();
       <h1 className='text-cente'>Categories</h1>
       </div>
       
-        <div className={allCounts[0] > 0  ?'btn_wrap active active2 px-3':'btn_wrap px-3 '} onClick={(e) => filter_fun((''))  }  > 
+        <div className={!condition_clause['where']['searchOn_contains_all'] ?'btn_wrap active active2 px-3':'btn_wrap px-3 '} onClick={(e) => filter_fun((''))  }  > 
         <img className='menu_logo cat_image' src={icon1} width={'22px'} height={"22px"} alt=""></img>
           <span className='mx-3 categry cat_title'> All</span>
           {
-            allCounts[0] > 0 ? 
+             loading==false?
+            !condition_clause['where']['searchOn_contains_all']? 
             
-             <span className='mr-3'> {allCounts[0]}</span>
+             <span className='mr-3'> {total}</span>
              :
-             null
+             null:null
           }
           
          
         </div>
 
-        <div className={ allCounts[1] > 0 ||  localfilter.includes ("rollups")  ? 'btn_wrap active px-3': 'btn_wrap px-3 ' }  onClick={() => filter_fun(('rollups')) }  > 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("rollups")  ? 'btn_wrap active px-3': 'btn_wrap px-3 ':'btn_wrap px-3 ' }  onClick={() => filter_fun(('rollups')) }  > 
           <div><img className='cat_image' src={icon2} width={'22px'} height={"22px"} alt=""></img></div>
           <span className='mx-3 cat_title'> Rollups</span>
           {
-            allCounts[1] > 0 ? 
+            loading==false?
+            condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("rollups") ?
             
-             <span className='mr-'> {allCounts[1]}</span>
+             <span className='mr-'> {total}</span>
              :
-             null
+             null:null:null
+
         
              
           }
@@ -231,91 +262,99 @@ getAllCounts();
         
 
         {/* <button label="All" setFilter('rollups')} active={filter === 'rollups'}  /> */}
-        <div className= { allCounts[2] > 0 ||  localfilter.includes ("wallets") ? 'btn_wrap active px-3':'btn_wrap px-3 '}   onClick={() => filter_fun(('wallets')) } > 
+        <div className= { condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("wallets") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}   onClick={() => filter_fun(('wallets')) } > 
           <div><img className='cat_image' src={icon3} width={'22px'} height={"22px"} alt="rollups"></img></div>
           <span className='mx-3 cat_title'> Wallets</span>
           {
-            allCounts[2] > 0 ?
-             <span className='mr-5'> {allCounts[2]}</span>
+             loading==false?
+            condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("wallets") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[3] > 0 ||  localfilter.includes ("infra") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('infra')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("infra") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('infra')) }> 
           <div><img className='cat_image' src={icon4} width={'22px'} height={"22px"} alt="infra"></img></div>
           <span className='mx-3 cat_title'> Infra</span>
           {
-            allCounts[3] > 0 ?
-             <span className='mr-5'> {allCounts[3]}</span>
+             loading==false?
+            condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("infra") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[4] > 0 ||  localfilter.includes ("dApps") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('dApps')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("dApps") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('dApps')) }> 
           <div><img  className='cat_image' src={icon5} width={'22px'} height={"22px"} alt="dapps"></img></div>
           <span className='mx-3 cat_title'> dApps</span>
           {
-            allCounts[4] > 0 ?
-             <span className='mr-5'> {allCounts[4]}</span>
+             loading==false?
+            condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("dApps") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[5] > 0 ||  localfilter.includes ("nfts") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('nfts')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("nfts") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('nfts')) }> 
           <div><img className='cat_image' src={icon6} width={'22px'} height={"22px"} alt="nfts"></img></div>
           <span className='mx-3 cat_title'> NFTs</span>
           {
-          allCounts[5] > 0 ?
-             <span className='mr-5'> {allCounts[5]}</span>
+             loading==false?
+          condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("nfts") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[6] > 0 ||  localfilter.includes ("games") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('games')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("games") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('games')) }> 
           <div><img className='cat_image' src={icon7} width={'22px'} height={"22px"} alt="games"></img></div>
           <span className='mx-3 cat_title'> Games</span>
           {
-          allCounts[6] > 0 ?
-             <span className='mr-5'> {allCounts[6]}</span>
+             loading==false?
+          condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("games") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[7] > 0 ||  localfilter.includes ("social")  ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() =>filter_fun (('social')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("social")  ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() =>filter_fun (('social')) }> 
           <div><img className='cat_image' src={icon8} width={'22px'} height={"22px"} alt="social"></img></div>
           <span className='mx-3 cat_title'> Social</span>
           {
-           allCounts[7] > 0 ?
-             <span className='mr-5'> {allCounts[7]}</span>
+             loading==false?
+           condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("social") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[8] > 0 ||  localfilter.includes ("daos") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('daos')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("daos") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('daos')) }> 
           <div><img src={icon9} width={'22px'} height={"22px"} alt="daos"></img></div>
           <span className='mx-3 cat_title'> DAOs</span>
           {
-           allCounts[8] > 0 ?
-             <span className='mr-5'> {allCounts[8]}</span>
+             loading==false?
+           condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("daos") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>
-        <div className={ allCounts[9] > 0 ||  localfilter.includes ("misc") ? 'btn_wrap active px-3':'btn_wrap px-3 '}  onClick={() => filter_fun(('misc')) }> 
+        <div className={ condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("misc") ? 'btn_wrap active px-3':'btn_wrap px-3 ':'btn_wrap px-3 '}  onClick={() => filter_fun(('misc')) }> 
           <div><img className='cat_image' src={icon10} width={'22px'} height={"22px"} alt="misc"></img></div>
           <span className='mx-3 cat_title'> Misc</span>
           {
-            allCounts[9] > 0 ?
-             <span className='mr-5'> {allCounts[9]}</span>
+             loading==false?
+            condition_clause['where']['searchOn_contains_all']? condition_clause['where']['searchOn_contains_all'].includes ("misc") ?
+             <span className='mr-5'> {total}</span>
              :
-             null
+             null:null:null
           }
           {/* <button label="All" onClick={() => setFilter('')}  /> */}
         </div>

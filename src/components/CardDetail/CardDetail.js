@@ -21,9 +21,11 @@ import { useParams } from "react-router-dom";
 import { Button, } from "grommet";
 import { useNavigate } from "react-router-dom";
 import {main} from '../../scrapper';
+import {Carddetailshimmer} from '../carddetail_shimmer'
+// import axios from "axios";
 var AWS = require('aws-sdk');
 function CardDetail({
-  setFilter,
+  setFilter,setcondition_clause,condition_clause
 }) {
 
   const navigate = useNavigate();
@@ -38,7 +40,58 @@ function CardDetail({
 // const [nodata, setnodata] = useState(false)
  
 const [loading, setloading] = useState(true)
-
+const [loading_single, setloadingloading_single] = useState(true)
+const getdata_single=async (name)=>{
+  // console.log("condditon ===>> ",condition_clause)
+  
+    var graphql = {
+      query: `query ($limit:Int,$skip:Int,$order:[${process.env.REACT_APP_CONTENTFUL_PROJECT}Order],$where:${process.env.REACT_APP_CONTENTFUL_PROJECT}Filter){\r\n  ${process.env.REACT_APP_CONTENTFUL_PROJECT.toLowerCase()}Collection(limit: $limit, skip: $skip,order:$order,where:$where,) {\r\n    total\r\n    skip \r\n    limit\r\n    \r\n    items {\r\n      sys{id,publishedAt,}\r\n      \r\n      name\r\n      backgroundColor\r\n      category\r\n      description\r\n      websiteLink\r\n      getStartedLink1\r\n      getStartedLink2\r\n      imageLink\r\n      linkText1\r\n      linkText2\r\n      networks\r\n      searchOn\r\n      status\r\n      statusColor\r\n      getStartedText2\r\n      getStartedText3\r\n      tooltip\r\n      twitterLink\r\n      walletAddress\r\n      featured\r\n      tokenLink\r\n      tokenStatus\r\n      tokenImageUrl\r\n      tokenTicker\r\n      googlePlay\r\n      appleStore\r\n      getStartedText1\r\n    }\r\n  }\r\n}\r\n`,
+      variables: {limit:1,skip:0,where:{"name":name}}
+      
+    }
+    
+    // var data_n =[];
+    const data = await axios({
+      url: `https://graphql.contentful.com/content/v1/spaces/${process.env.REACT_APP_CONTENTFUL_SPACE}/`,
+      method: 'post',
+      headers: {
+        "Authorization":`Bearer ${process.env.REACT_APP_CONTENTFUL_API}`
+    },
+      data: graphql
+    });
+    
+    
+    // axios.post(`https://graphql.contentful.com/content/v1/spaces/daabvgh6kr39/`,graphql,{
+    //     headers:{
+    //         "Authorization":"Bearer lsyCtIMQzYCyw6c6Apn2SH52v8OAk8kJfFcVEAlQpL8"
+    //     }
+    // });
+    // console.log("data in all.jss ===>> ",data)
+    // for(var i=0;i<data.data.items.length;i++){
+    //     const d = data.data.items[i].fields
+    //     const key =Object.keys(d)
+    //     var project_single={}
+    //     for(var j =0;j<key.length;j++){
+    //         project_single[key[j]]=d[key[j]]['en-US']
+    //     }
+    //     data_n.push(project_single)
+    //     // console.log("keys===>> ",)
+    // }
+    // console.log("Proojects========>> ",data_n)
+    // setprojects(data_n)
+    // return data_n;
+    // for
+    // console.log("data ====>> ",data);
+    
+    // .then((Response)=>
+    // setpost(Response.data))
+  
+   
+    // .catch(error)
+  
+    // console.log(" callapi=================>>>>> ", response.data);
+    return data;
+  }
 useEffect(() => {
   if(card_data){
     scroll();
@@ -59,20 +112,40 @@ useEffect(() => {
     // }
 
     //console.log("projects count", projects.length)
-    if(projects.length>0 ){
-      for(var i=0; i<projects.length;i++){
-        if( projects[i].name.toLowerCase()===params.name.toLowerCase().replaceAll("-", " ") )
-        {
-          // //console.log("current data ",projects[i])
-          setResults(projects[i])
-          Get_tweets(projects[i].twitterLink)
-          
-          setresult1(projects[i].wallet_address.substring(1, 6));
-          setresult2(projects[i].wallet_address.substring(8, 12));
-          break
-        }
+    setloadingloading_single(true)
+    getdata_single(params.name.replaceAll("-", " ")).then((data)=>{
+      console.log("data in single ",data)
+      // data.data.data.zkrolupCollection.items
+      if(data.data.data.projectCollection.items.length>0){
+        setloadingloading_single(false)
+        setResults(data.data.data.projectCollection.items[0])
+      
+        Get_tweets(data.data.data.projectCollection.items[0].twitterLink)
+        
+        setresult1(data.data.data.projectCollection.items[0].walletAddress.substring(1, 6));
+        setresult2(data.data.data.projectCollection.items[0].walletAddress.substring(8, 12));
       }
-    }
+      else{
+        setResults(null)
+        setloadingloading_single(false)
+      }
+      
+   
+    })
+    // if(projects.length>0 ){
+    //   for(var i=0; i<projects.length;i++){
+    //     if( projects[i].name.toLowerCase()===params.name.toLowerCase().replaceAll("-", " ") )
+    //     {
+    //       // //console.log("current data ",projects[i])
+    //       setResults(projects[i])
+    //       Get_tweets(projects[i].twitterLink)
+          
+    //       setresult1(projects[i].wallet_address.substring(1, 6));
+    //       setresult2(projects[i].wallet_address.substring(8, 12));
+    //       break
+    //     }
+    //   }
+    // }
 
     
   }, []);
@@ -107,14 +180,14 @@ useEffect(() => {
 //   const params = useParams()
 // //console.log("nameeeeeeeeeeeeeeeeeeee===>>>>>>>>>",params.name)
   
-  return card_data ? (
+  return loading_single? <Carddetailshimmer/>:card_data ? (
     <>
       <div className="container-fluied "  id="scrol">
         <div className="row fist_wrap_  mt-4">
           <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center ">
             <div
               className="card_wrap_"
-              style={{ background: card_data.backgroud_color }}
+              style={{ background: card_data.backgroundColor }}
             >
               <div
                 className="logo_"
@@ -164,7 +237,7 @@ useEffect(() => {
               </div>
             </div>
             <div className="pt-5">
-              <p className="card_descrip display_linebreak">{card_data.description}</p>
+              <p className="card_descrip display_linebreak ">{card_data.description}</p>
               {/* 
               <p className="card_descrip">
                 zkSync is a mission-driven project. Its purpose is to break
@@ -184,16 +257,25 @@ useEffect(() => {
         <div className="second_card_wrap mt-5 pt-5">
           <div className="  ">
             <div
-              className= {card_data.hyperlink1?"type_card mx-3 d-flex justify-content-evenly align-items-center":"type_card2 mx-3 d-flex justify-content-evenly align-items-center "}
+              className= {card_data.websiteLink ?"type_card mx-3 d-flex justify-content-evenly align-items-center":"type_card2 mx-3 d-flex justify-content-evenly align-items-center "}
               onClick={() => {
-                // if(card_data.hyperlink1 )
+                // if(card_data.websiteLink  )
             //  {
-              // window.open(card_data.hyperlink1, "_blank")
-              setFilter(card_data.search_on)
+              // window.open(card_data.websiteLink , "_blank")
+              setcondition_clause(
+                {
+                  ...condition_clause,
+                  where:{
+                    "searchOn_contains_all":card_data.searchOn
+                  },
+                  skip:0
+                }
+              )
+              // setFilter(card_data.searchOn)
               navigate("/")
             //  }
               
-                navigate("/");
+                // navigate("/");
 
 
               }}
@@ -218,7 +300,7 @@ useEffect(() => {
               <div className="col-3 d-flex justify-content-end ">
                 <div className="">
                   {
-                    card_data.hyperlink1?
+                    card_data.websiteLink ?
                     <img src={Leftarow} alt=""></img>
                     :
                     null
@@ -231,11 +313,11 @@ useEffect(() => {
           </div>
           <div className="">
             <div
-              className={card_data.hyperlink2?"type_card  mx-3 d-flex justify-content-evenly align-items-center":"type_card2 mx-3 d-flex justify-content-evenly align-items-center  "}
+              className={card_data.getStartedLink1?"type_card  mx-3 d-flex justify-content-evenly align-items-center":"type_card2 mx-3 d-flex justify-content-evenly align-items-center  "}
               onClick={() => {
-                if(card_data.hyperlink2 )
+                if(card_data.getStartedLink1)
              {
-              window.open(card_data.hyperlink2, "_blank")
+              window.open(card_data.getStartedLink1, "_blank")
              }
 
               
@@ -248,7 +330,7 @@ useEffect(() => {
                     card_data.tokenStatus === "Has" ? (
                       <div
                         className="imge_back"
-                        style={{ backgroundImage: card_data.token_image_url }}
+                        style={{ backgroundImage: card_data.tokenImageUrl }}
                       >
                         
                       </div>
@@ -284,7 +366,7 @@ useEffect(() => {
               </div>
               <div className="col-3 d-flex justify-content-end ">
                 <div className="">
-                  {card_data.hyperlink2 ? <img src={Leftarow} alt=""></img> : null}
+                  {card_data.getStartedLink1? <img src={Leftarow} alt=""></img> : null}
                 </div>
               </div>
               <div className="col-1"></div> 
@@ -294,7 +376,7 @@ useEffect(() => {
             <div
               className="type_card mx-3 d-flex justify-content-evenly align-items-center"
               onClick={() => {
-                window.open(card_data.hyperlink3, "_blank");
+                window.open(card_data.getStartedLink2, "_blank");
               }}
             >
               <div className="col-3 ">
@@ -331,7 +413,7 @@ useEffect(() => {
             <h2 className="mb-5">Getting Started</h2>
             <div className="brige_wrap mt-3 ">
 
-              {card_data.Text1 ?  
+              {card_data.getStartedText1 ?  
                 (
                   <React.Fragment>
                   <div className="brige_card row card_div">
@@ -339,10 +421,10 @@ useEffect(() => {
                     <img src={LastCard1} alt=""></img>
                   </div>
                   <div className="col-6">
-                    <p className="brige_text"> {card_data.Text1}</p>
+                    <p className="brige_text"> {card_data.getStartedText1}</p>
                   </div>
                   <div className="col-4 d-flex justify-content-center">
-                    <a href={card_data.hyperlink2} className="brige_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText1}</a>
+                    <a href={card_data.getStartedLink1} className="brige_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText1}</a>
                   </div>
                   </div>
 
@@ -351,11 +433,11 @@ useEffect(() => {
                       <img src={LastCard2} alt=""></img>
                     </div>
                     <div className="col-6">
-                      <p className="brige_text"> {card_data.Text2}</p>
+                      <p className="brige_text"> {card_data.getStartedText2}</p>
                     </div>
                     <div className="col-4 d-flex justify-content-center">
-                      {card_data.linkText2 && card_data.hyperlink3 ?(
-                        <a href={card_data.hyperlink3} className="dapp_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText2}</a>
+                      {card_data.linkText2 && card_data.getStartedLink2?(
+                        <a href={card_data.getStartedLink2} className="dapp_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText2}</a>
                       ):null}
                     </div>
                   </div>
@@ -365,7 +447,7 @@ useEffect(() => {
                     <img src={LastCard3} alt=""></img>
                   </div>
                   <div className="col-10">
-                    <p className="brige_text"> {card_data.Text3} </p>
+                    <p className="brige_text"> {card_data.getStartedText3} </p>
                   </div>
                   </div>
                   </React.Fragment>
@@ -457,7 +539,7 @@ useEffect(() => {
 
   ) : (
 
-    card_data ? (<>Loading</>) :(<> No data found </>)
+    (<> No data found </>)
      
   )}
 

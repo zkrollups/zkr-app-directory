@@ -59,7 +59,8 @@ function navbar() {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
+            
+             <li className="nav-item">
               <NavLink
                 exact
                 to="/contact"
@@ -69,7 +70,7 @@ function navbar() {
               >
                 Contact 
               </NavLink>
-            </li>
+            </li> 
             <li className="nav-item spacing">
               <a
                 exact
