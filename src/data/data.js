@@ -7873,6 +7873,35 @@ import axios from "axios";
 //       "wallet_address": "",
 //       "websiteLink": "https://www.4everland.org/"
 //   },
+//     {
+//       "name": "Issac",
+//       "backgroundColor": "#2D2F4B",
+//       "category": [
+//           "Games"
+//       ],
+//       "description": "Isaac is the first onchain reality on StarkNet civilization survival in a three-body solar system by building factories, power grids, and nuclear rockets. /n /n Full logic coded in Cairo and enforced on StarkNet ",
+//       "websiteLink ": "https://isaac-book.netlify.app/#/",
+//       "getStartedLink1": "",
+//       "getStartedLink2": "https://www.google.com/",
+//       "imageLink": "url('project-logos/issac.png')",
+//       "linkText1": "Bridge ",
+//       "linkText2": "Aave dApp",
+//       "networks": [
+//           "StarkNet"
+//       ],
+//       "search_on": [
+//           "games"
+//       ],
+//       "status": "DEV",
+//       "statusColor": "#000000",
+//       // "Text1": "",
+//       "getStartedText2": "Go to the Aave dapp ",
+//       "getStartedText3": "Click (Make a trade) and follow the instructions ",
+//       "tooltip": "Starknet",
+//       "twitterLink": "https://twitter.com/topology_gg/",
+//       "wallet_address": "",
+//       "websiteLink": "https://www.4everland.org/"
+//   },
 // ]
 export const projects =[];
 export const getdata=async (limit=25,skip=0)=>{
@@ -7899,11 +7928,11 @@ export const getdata=async (limit=25,skip=0)=>{
     return data_n;
     // for
     // console.log("data ====>> ",data);
-    
+
     // .then((Response)=>
     // setpost(Response.data))
 
-   
+
     // .catch(error)
 
     // console.log(" callapi=================>>>>> ", response.data);
