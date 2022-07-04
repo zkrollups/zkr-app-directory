@@ -13,6 +13,7 @@ function Resources() {
     { text: "The best comparison on zkRollups today", link: "https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" }
   ];
   const arry2 = [
+    { text: "Awesome Zero Knowledge", link: "https://github.com/ventali/awesome-zk" },
     { text: "Awesome StarkNet", link: "https://github.com/gakonst/awesome-starknet" },
     { text: "Awesome zkEVM", link: "https://github.com/LuozhuZhang/awesome-zkevm" },
     { text: "Awesome zkSync", link: "https://github.com/juanscolari/awesome-zksync" },
@@ -41,7 +42,7 @@ function Resources() {
           <div className="resorce_card_wrap">
             {arry1.map((item) => {
               return (
-                <div className="resorce_card mb-4">          
+                <div className="resorce_card mb-4">
                   <div className="inside">
                     <div className="fist_w">
                       <a href={item.link} target="_blank" rel="noopener noreferrer">
@@ -65,14 +66,14 @@ function Resources() {
                     className="resorce_card2 mb-4"
                     style={{
                       backgroundColor: "#A7E2F2",
-                    
+
                     }}
                   >
                     <div className="inside">
                       <div className="fist_w">
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                           <p className="resorce_text resorce_text2">
-                            {item.text} 
+                            {item.text}
                           </p>
                         </a>
                       </div>
