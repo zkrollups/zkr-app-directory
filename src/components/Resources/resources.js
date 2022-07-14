@@ -42,7 +42,7 @@ function Resources() {
           <div className="resorce_card_wrap">
             {arry1.map((item) => {
               return (
-                <div className="resorce_card mb-4">
+                <div className="resorce_card mb-4">          
                   <div className="inside">
                     <div className="fist_w">
                       <a href={item.link} target="_blank" rel="noopener noreferrer">
@@ -66,14 +66,14 @@ function Resources() {
                     className="resorce_card2 mb-4"
                     style={{
                       backgroundColor: "#A7E2F2",
-
+                    
                     }}
                   >
                     <div className="inside">
                       <div className="fist_w">
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                           <p className="resorce_text resorce_text2">
-                            {item.text}
+                            {item.text} 
                           </p>
                         </a>
                       </div>

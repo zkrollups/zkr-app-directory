@@ -10,7 +10,6 @@ const SearchBar = ({ setSearch, search }) => {
     <React.Fragment>
  
       <Box margin={{horizontal: 'auto', bottom: 'medium', top: 'large'}} direction="row" justify="between" gap="small" width={"40%"} style={{minWidth:"200px"}}>
-    
           <TextInput placeholder="Search projects by title" value={search} onChange={event => setSearch(event.target.value)} />
       </Box>
     </React.Fragment>
