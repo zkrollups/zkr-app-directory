@@ -329,7 +329,7 @@
   margin: 10px;
   opacity: 1;
   /* position: absolute; */
-  margin-top: 13%;
+  margin-top: 14%;
   margin-left: 4px;
 }
 .v40_4213 {
@@ -706,7 +706,7 @@ height: 54px;
     float: right;
 }
 .card_imge{
-    width: 100%;
+    min-height: 38%;
     display: flex;
     justify-content: center;
 }
