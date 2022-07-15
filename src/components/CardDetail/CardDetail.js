@@ -125,9 +125,10 @@ function CardDetail({
         setResults(data.data.data.projectCollection.items[0])
 
         Get_tweets(data.data.data.projectCollection.items[0].twitterLink)
-
-        setresult1(data.data.data.projectCollection.items[0].walletAddress.substring(1, 6));
-        setresult2(data.data.data.projectCollection.items[0].walletAddress.substring(8, 12));
+        if (data.data.data.projectCollection.items[0].walletAddress) {
+          setresult1(data.data.data.projectCollection.items[0].walletAddress.substring(1, 6));
+          setresult2(data.data.data.projectCollection.items[0].walletAddress.substring(8, 12));
+        } 
       }
       else {
         setResults(null)
