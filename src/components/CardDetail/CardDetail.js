@@ -443,7 +443,7 @@ function CardDetail({
                 </div>
                 <div className="col-3 ">
                   <div className="">
-                    <h1 className="">GitHub</h1>
+                    <h3 className="">GitHub</h3>
                     {/* {result1 ?
                     (
                       <p className="addres_text">{result1}....{result2}</p>
@@ -481,7 +481,7 @@ function CardDetail({
                 </div>
                 <div className="col-3 ">
                   <div className="">
-                    <h1 className="">Docs</h1>
+                    <h3 className="">Docs</h3>
                     {/* {result1 ?
                     (
                       <p className="addres_text">{result1}....{result2}</p>
@@ -519,7 +519,7 @@ function CardDetail({
                 </div>
                 <div className="col-3 ">
                   <div className="">
-                    <h1 className="">Explorer</h1>
+                    <h3 className="">Explorer</h3>
                     {/* {result1 ?
                     (
                       <p className="addres_text">{result1}....{result2}</p>
