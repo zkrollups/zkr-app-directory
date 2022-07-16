@@ -13,6 +13,7 @@ function Resources() {
     { text: "The best comparison on zkRollups today", link: "https://newsletter.banklesshq.com/p/the-best-comparison-on-zkrollups" }
   ];
   const arry2 = [
+    { text: "Awesome Zero Knowledge", link: "https://github.com/ventali/awesome-zk" },
     { text: "Awesome StarkNet", link: "https://github.com/gakonst/awesome-starknet" },
     { text: "Awesome zkEVM", link: "https://github.com/LuozhuZhang/awesome-zkevm" },
     { text: "Awesome zkSync", link: "https://github.com/juanscolari/awesome-zksync" },

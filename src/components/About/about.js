@@ -30,7 +30,7 @@ function About({ setSearch, search, setSearch_category, search_category }) {
                 <h6 className="about_heading">About Us</h6>
                 <p className="about_text">
                   Jason Garland and Joel Kite are Co-Founders of Numio and have
-                  been building on zkRollup technology since 2020.
+                  been building on ZK-rollup technology since 2020.
                 </p>
               </div>
               <div className="  card_wrap ">

@@ -20,54 +20,54 @@ import { projects } from "../../data/data";
 import { useParams } from "react-router-dom";
 import { Button, } from "grommet";
 import { useNavigate } from "react-router-dom";
-import {main} from '../../scrapper';
+import { main } from '../../scrapper';
 import { Image, Shimmer } from 'react-shimmer'
 
 
 
 export const Carddetailshimmer = ({
-}) => { 
+}) => {
   return (
-      <>
-      
-<div className="col-lg-6 col-md-12 col-sm-12 d-flex ">
- <div>
-<Shimmer  width={400} height={300}></Shimmer>
- </div>
-{/* <!-- leftside --> */}
-<div>
+    <>
 
-   
- <Shimmer className="shimer1" width={350} height={130}></Shimmer>
-
-<br></br>
+      <div className="col-lg-6 col-md-12 col-sm-12 d-flex ">
+        <div>
+          <Shimmer width={400} height={300}></Shimmer>
+        </div>
+        {/* <!-- leftside --> */}
+        <div>
 
 
- 
- <Shimmer className="shimer2"  width={350} height={150}></Shimmer>
+          <Shimmer className="shimer1" width={350} height={130}></Shimmer>
 
-</div>
+          <br></br>
 
 
 
-</div>
-{/* <!-- bottom --> */}
-<br></br>
-<div row d-flex justify-content-space-between>
-<div >
-<Shimmer width={300} height={100}></Shimmer>
-</div>
+          <Shimmer className="shimer2" width={350} height={150}></Shimmer>
 
-<div className="lastshimer">
-<Shimmer width={300} height={100}></Shimmer>
-</div>
-<br></br>
-<div >
-<Shimmer width={300} height={100}></Shimmer>
-</div>
-</div>
-</>
-)
+        </div>
+
+
+
+      </div>
+      {/* <!-- bottom --> */}
+      <br></br>
+      <div row d-flex justify-content-space-between>
+        <div >
+          <Shimmer width={300} height={100}></Shimmer>
+        </div>
+
+        <div className="lastshimer">
+          <Shimmer width={300} height={100}></Shimmer>
+        </div>
+        <br></br>
+        <div >
+          <Shimmer width={300} height={100}></Shimmer>
+        </div>
+      </div>
+    </>
+  )
 }
 
 // export default Carddetailshimmer ;

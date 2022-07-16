@@ -15,6 +15,7 @@ import {
 } from "grommet";
 import Featureshimmer from './featureshimmer';
 import AllShimmer from './all_shimmer';
+
 const ProjectsList = ({
   setNetworkFilter,
   filter,
@@ -28,8 +29,8 @@ const ProjectsList = ({
   loading,
   setcondition_clause,
   condition_clause,
-  skip,limit,curentpage,setcurentpage,paginate_end, setpaginate_end,paginate_start, setpaginate_start,total_pages, settotal_pages,total_show, settotal_show,
-  total,feature_results
+  skip, limit, curentpage, setcurentpage, paginate_end, setpaginate_end, paginate_start, setpaginate_start, total_pages, settotal_pages, total_show, settotal_show,
+  total, feature_results
 }) => {
   // const defaultState = Object.keys(projects).map(key => {//console.log(projects[key]); return projects[key]}).flat();
   // //console.log("filterfilterfilterfilter===>> ", filter.length, search.length);
@@ -42,8 +43,8 @@ const ProjectsList = ({
   // const [total_show, settotal_show] = useState(25);
   // const [total_pages, settotal_pages] = useState(0);
   // const [paginate_start, setpaginate_start] = useState(skip);
- 
-  
+
+
 
   var colors = ["#36368F", "#6C6DD6", "#EB5600", "#2D2F4B", "#F1F1F0"];
 
@@ -53,7 +54,7 @@ const ProjectsList = ({
     { key: 2, text: "Expected", value: "Expected" },
     // { key: 3, text: 'Choice 3', value: 3 },
   ];
-  
+
   const options3 = [
     { key: 1, text: "25", value: 25 },
     { key: 2, text: "50", value: 50 },
@@ -87,12 +88,12 @@ const ProjectsList = ({
   //  //console.log("datadatadata",results);
   useEffect(() => {
     // getdata(projects,setprojects);
-    if(total>0){
-      console.log("totlal ====> ",total)
-      settotal_pages(Math.ceil(total/ total_show));
+    if (total > 0) {
+      console.log("totlal ====> ", total)
+      settotal_pages(Math.ceil(total / total_show));
       // item_slect("notmove",{"text":total_show,"value":total_show});
     }
- 
+
   }, [results]);
 
   // useEffect(() => {
@@ -208,32 +209,32 @@ const ProjectsList = ({
 
   const token_slect = (e, result) => {
     const { text, value } = result;
-    const where_pre=condition_clause['where']
+    const where_pre = condition_clause['where']
     if (value !== "all") {
-      where_pre['tokenStatus_contains']=value
+      where_pre['tokenStatus_contains'] = value
       setcondition_clause(
         {
           ...condition_clause,
-          where:where_pre,
-          limit:total_show,
-          skip:0
+          where: where_pre,
+          limit: total_show,
+          skip: 0
         }
       )
     } else {
-      if(where_pre.hasOwnProperty('tokenStatus_contains')){
+      if (where_pre.hasOwnProperty('tokenStatus_contains')) {
         delete where_pre['tokenStatus_contains']
         setcondition_clause(
           {
             ...condition_clause,
-            where:where_pre,
-            limit:total_show,
-            skip:0
+            where: where_pre,
+            limit: total_show,
+            skip: 0
           }
         )
       }
-     
+
     }
-    console.log("datain condition ",condition_clause['where']['tokenStatus_contains']);
+    console.log("datain condition ", condition_clause['where']['tokenStatus_contains']);
     settokenfilter(value)
 
   };
@@ -242,41 +243,41 @@ const ProjectsList = ({
     setcondition_clause(
       {
         ...condition_clause,
-        order:value,
-        limit:total_show,
-        skip:0
+        order: value,
+        limit: total_show,
+        skip: 0
       }
     )
- 
+
   };
 
   const network_slect = (e, result) => {
     const { text, value } = result;
-    const where_pre=condition_clause['where']
-  
+    const where_pre = condition_clause['where']
+
     if (value !== "all") {
-      where_pre['networks_contains_all']=[value]
+      where_pre['networks_contains_all'] = [value]
       setcondition_clause(
         {
           ...condition_clause,
-          where:where_pre,
-          limit:total_show,
-          skip:0
+          where: where_pre,
+          limit: total_show,
+          skip: 0
         }
       )
     } else {
-      if(where_pre.hasOwnProperty('networks_contains_all')){
+      if (where_pre.hasOwnProperty('networks_contains_all')) {
         delete where_pre['networks_contains_all']
         setcondition_clause(
           {
             ...condition_clause,
-            where:where_pre,
-            limit:total_show,
-            skip:0
+            where: where_pre,
+            limit: total_show,
+            skip: 0
           }
         )
       }
-     
+
     }
     setdropvalue(value);
     //console.log("setNetworkFiltersetNetworkFilter up", value, text, result);
@@ -287,7 +288,7 @@ const ProjectsList = ({
 
     //console.log(text, "item_slect up", value);
     settotal_show(value);
-    const total_ = Math.ceil(total/ value);
+    const total_ = Math.ceil(total / value);
     settotal_pages(total_);
 
     setcurentpage(1);
@@ -297,12 +298,12 @@ const ProjectsList = ({
 
       {
         ...condition_clause,
-        limit:value,
-        skip:0
+        limit: value,
+        skip: 0
       }
     )
-    if(e!="notmove"){
-    scroll();
+    if (e != "notmove") {
+      scroll();
     }
   };
 
@@ -319,8 +320,8 @@ const ProjectsList = ({
 
         {
           ...condition_clause,
-          limit:total_show,
-          skip:start
+          limit: total_show,
+          skip: start
         }
       )
     } else {
@@ -331,8 +332,8 @@ const ProjectsList = ({
 
         {
           ...condition_clause,
-          limit:total_show,
-          skip:v
+          limit: total_show,
+          skip: v
         }
       )
       //console.log("else condtion");
@@ -370,26 +371,26 @@ const ProjectsList = ({
         <div className="row  my-3 container" id="scrol">
           <div className="col ffff ">
             <h6 className=" showi">
-              Showing : {filter === "" ? "All" :Array.isArray(filter)?filter.join(",") :filter.toUpperCase()}
+              Showing : {filter === "" ? "All" : Array.isArray(filter) ? filter.join(",") : filter.toUpperCase()}
             </h6>
           </div>
 
 
           <div className="col bbbb ">
-          <Menu compact className="drop_main">
-                <Dropdown
-                  upward={false}
-                  options={options4}
-                  value={condition_clause['order']}
-                  onChange={(e, result) => sort_slect(e, result)}
-                  item
-                />
-              </Menu>
+            <Menu compact className="drop_main">
+              <Dropdown
+                upward={false}
+                options={options4}
+                value={condition_clause['order']}
+                onChange={(e, result) => sort_slect(e, result)}
+                item
+              />
+            </Menu>
             <Menu compact className="drop_main">
               <Dropdown
                 upward={false}
                 options={options2}
-                value={condition_clause['where'].hasOwnProperty('tokenStatus_contains')?condition_clause['where']['tokenStatus_contains']:'all'}
+                value={condition_clause['where'].hasOwnProperty('tokenStatus_contains') ? condition_clause['where']['tokenStatus_contains'] : 'all'}
                 onChange={(e, result) => token_slect(e, result)}
                 item
               />
@@ -398,7 +399,7 @@ const ProjectsList = ({
               <Dropdown
                 upward={false}
                 options={options}
-                value={condition_clause['where'].hasOwnProperty('networks_contains_all')?condition_clause['where']['networks_contains_all'][0]:'all'}
+                value={condition_clause['where'].hasOwnProperty('networks_contains_all') ? condition_clause['where']['networks_contains_all'][0] : 'all'}
                 onChange={(e, result) => network_slect(e, result)}
                 item
               />
@@ -413,7 +414,7 @@ const ProjectsList = ({
               <h2 className="m-2">Featured</h2>
             </div>
             <div className="col-  bbbb ">
-            <Menu compact className="drop_main">
+              <Menu compact className="drop_main">
                 <Dropdown
                   upward={false}
                   options={options4}
@@ -427,7 +428,7 @@ const ProjectsList = ({
                 <Dropdown
                   upward={false}
                   options={options2}
-                  value={condition_clause['where'].hasOwnProperty('tokenStatus_contains')?condition_clause['where']['tokenStatus_contains']:'all'}
+                  value={condition_clause['where'].hasOwnProperty('tokenStatus_contains') ? condition_clause['where']['tokenStatus_contains'] : 'all'}
                   onChange={(e, result) => token_slect(e, result)}
                   item
                 />
@@ -436,7 +437,7 @@ const ProjectsList = ({
               <Menu compact className="drop_main">
                 <Dropdown
                   upward={false}
-                  value={condition_clause['where'].hasOwnProperty('networks_contains_all')?condition_clause['where']['networks_contains_all'][0]:'all'}
+                  value={condition_clause['where'].hasOwnProperty('networks_contains_all') ? condition_clause['where']['networks_contains_all'][0] : 'all'}
                   options={options}
                   onChange={(e, result) => network_slect(e, result)}
                   item
@@ -447,68 +448,66 @@ const ProjectsList = ({
 
           <div className="row show_cards container">
             {/* comment heere */}
-             {
-              loading_feature?  <>
-              <div className="row show_cards container">
-              {[1,2,3,].map(()=>( <Featureshimmer></Featureshimmer>))}
-              </div>
-              </>:
-              feature_results.map((item,idx)=>(
-
-                <div
-                class="v40_4201_up  col-5 mt-5"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-
-               
-           
-                  navigate(`/${item.name.replaceAll(" ", "-")}`, { state:item} );
-             
-           
-               
-             
-                  
-                }}
-              >
-                <div
-                  class="v40_4202_up"
-                  style={{ background: item.backgroundColor }}
-                >
-                  <div class="v40_4211">
-                    <span
-                      class="v40_4212 "
-                      style={{ "background-color": item.statusColor }}
-                    >
-                      {item.status}{" "}
-                    </span>
-                  </div>
-                  <div
-                    className="card_imge my-2 p-2"
-                    height={"15px"}
-                    style={{ backgroundImage: item.imageLink}}
-                  ></div>
-                  <div className="d-flex main_category">
-                  { item.searchOn.length>2?
-                  item.searchOn.map((value) => (
-                    <div class="v40_4213_up">
-                      <span class="v40_4214">{value.toUpperCase()}</span>
-                    </div>
-                  )):
-                
-                  item.searchOn.slice(0,2).map((value) => (
-                  <div class="v40_4213_up">
-                    <span class="v40_4214">{value.toUpperCase()}</span>
-                  </div>
-                  ))
-                  
-                  }
-                  </div>
-                  <div class="v40_4215">
-                    <div class="v40_4216"></div>
-                    <div class="v40_4217"></div>
-                  </div>
+            {
+              loading_feature ? <>
+                <div className="row show_cards container">
+                  {[1, 2, 3,].map(() => (<Featureshimmer></Featureshimmer>))}
                 </div>
-                {/* <div className='row'>
+              </> :
+                feature_results.map((item, idx) => (
+
+                  <div
+                    class="v40_4201_up  col-5 mt-5"
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+
+
+
+                      navigate(`/${item.name.replaceAll(" ", "-")}`, { state: item });
+
+
+
+
+
+                    }}
+                  >
+                    <div class="v40_4202_up" style={{ background: item.backgroundColor }}>
+                      {
+                        item.status === "TESTNET" ? <div class="v40_123">
+                          <span class="v40_4212" style={{ "background-color": item.statusColor }}>
+                            {item.status}
+                          </span>
+                        </div> : <div class="v40_4211">
+                          <span class="v40_4212" style={{ "background-color": item.statusColor }}>
+                            {item.status}
+                          </span>
+                        </div>
+                      }
+
+                      <div className="card_imge my-2 p-2" height={"15px"} style={{ backgroundImage: item.imageLink }}>
+                      </div>
+                      <div className="d-flex main_category">
+                        {item.searchOn.length > 2 ?
+                          item.searchOn.map((value) => (
+                            <div class="v40_4213_up">
+                              <span class="v40_4214">{value.toUpperCase()}</span>
+                            </div>
+                          )) :
+
+                          item.searchOn.slice(0, 2).map((value) => (
+                            <div class="v40_4213_up">
+                              <span class="v40_4214">{value.toUpperCase()}</span>
+                            </div>
+                          ))
+
+                        }
+                      </div>
+                      <div class="v40_4215">
+                        <div class="v40_4216"></div>
+                        <div class="v40_4217"></div>
+                      </div>
+                    </div>
+                    {/* <div className='row'>
                           <span class="v40_4218">{item.name}</span>
                  
                           <div>
@@ -516,11 +515,156 @@ const ProjectsList = ({
                               <Button icon={<Language color="white"  width={"18"} height={"18"} />} hoverIndicator href={item.websiteLink} target="_blank" />
                           </div>
                       </div> */}
+                    <div className="d-flex foter_wrap">
+                      <div className="card_title">
+                        <span class="v40_4218">{item.name}</span>
+                      </div>
+                      <div className="links">
+                        <Button
+                          icon={
+                            <Twitter color="white" width={"23px"} height={"23px"} />
+                          }
+                          hoverIndicator
+                          href={item.twitterLink}
+                          target="_blank"
+                        />
+                        <Button
+                          icon={
+                            <img
+                              color="white"
+                              src={globe}
+                              width={"23px"}
+                              height={"23px"}
+                              alt=""
+                            />
+                          }
+                          hoverIndicator
+                          href={item.websiteLink}
+                          target="_blank"
+                        />
+                      </div>
+                    </div>
+                    <br></br>
+                    <span class="v40_4220">
+                      Network: {item.networks.join(", ")}
+                    </span>
+                    <br />
+                    <span class="v40_4219">
+                      Token:{" "}
+                      {item.tokenStatus
+                        ? item.tokenStatus === "Has"
+                          ? item.tokenTicker
+                          : "Token Expected"
+                        : "N/A"}
+                    </span>
+                  </div>
+                ))
+            }
+
+
+          </div>
+        </>
+      )}
+
+      {filter.length > 0 || search.length > 0 ? null : (
+        <div className="row  " id="scrol">
+          <div className="col-6 ffff">
+            <h2 className="">
+              Showing : {filter === "" ? "All" : filter.toUpperCase()}
+            </h2>
+
+          </div>
+          <div className="col-6 bbbb"></div>
+        </div>
+      )}
+
+      {/* <Box className="custom-scrollbar  " direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true"  style={{ zoom: "0.92" }}> */}
+
+      {/* <div className='v40_4293'> */}
+
+
+      {
+
+        loading ?
+          <>
+            <div className="row show_cards container">
+              {[1, 2, 3, 4, 5, 6, 7, 8].map(() => (<AllShimmer></AllShimmer>))}
+            </div>
+          </> :
+          results.length > 0 ? <div className="row show_cards container">
+            {results.map((item, idx) => (
+
+              <div class="v40_4201  mt-5" style={{ cursor: "pointer" }} onClick={() => {
+                navigate(`/${item.name.replaceAll(" ", "-")}`);
+              }}
+              >
+                <div class="v40_4202" style={{ backgroundColor: item.backgroundColor }}>
+                  {item.status === "TESTNET" ? (
+                    <div class="v40_4211_ten">
+                      <span
+                        class="v40_4212"
+                        style={{ "background-color": item.statusColor }}
+
+                      >
+                        {item.status}{" "}
+                      </span>
+                    </div>
+                  ) : (
+                    <div class="v40_4211">
+                      <span
+                        class="v40_4212"
+                        style={{ "background-color": item.statusColor }}
+                      >
+                        {item.status}{" "}
+                      </span>
+                    </div>
+                  )}
+
+                  {/* <div class="v40_4211" ><span class="v40_4212"  style={{"background-color":item.statusColor}}>{item.status} </span></div> */}
+                  <div
+                    className="card_imge my-2 p-2"
+                    height={"15px"}
+                    style={{ backgroundImage: item.imageLink }}
+                  ></div>
+                  <div className="d-flex main_category">
+
+                    {item.searchOn.length < 3 ?
+                      item.searchOn.map((value) => (
+                        <div class="v40_4213">
+                          <span class="v40_4214">{value.toUpperCase()}</span>
+                        </div>
+                      )) :
+
+                      item.searchOn.slice(0, 2).map((value) => (
+                        <div class="v40_4213">
+                          <span class="v40_4214">{value.toUpperCase()}</span>
+                        </div>
+                      ))
+
+                    }
+
+                  </div>
+
+                  <div></div>
+                  <div class="v40_4215">
+                    <div class="v40_4216"></div>
+                    <div class="v40_4217"></div>
+                  </div>
+                </div>
+                {/* <div className='row'>
+                            <span class="v40_4218">{item.name}</span>
+
+                            <div>
+                                <Button icon={<Twitter color="white" width={"18"} height={"18"} />} hoverIndicator href={item.twitterLink} target="_blank" />
+                                <Button icon={<Language color="white"  width={"18"} height={"18"} />} hoverIndicator href={item.websiteLink} target="_blank" />
+                            </div>
+                        </div> */}
                 <div className="d-flex foter_wrap">
-                  <div className="card_title">
+                  <div class="card_title">
                     <span class="v40_4218">{item.name}</span>
                   </div>
-                  <div className="links">
+
+                  <div className="links_">
                     <Button
                       icon={
                         <Twitter color="white" width={"23px"} height={"23px"} />
@@ -546,9 +690,7 @@ const ProjectsList = ({
                   </div>
                 </div>
                 <br></br>
-                <span class="v40_4220">
-                  Network: {item.networks.join(", ")}
-                </span>
+                <span class="v40_4220">Network: {item.networks.join(", ")}</span>
                 <br />
                 <span class="v40_4219">
                   Token:{" "}
@@ -559,159 +701,8 @@ const ProjectsList = ({
                     : "N/A"}
                 </span>
               </div>
-              ))
-             }
-
-
-          </div>
-        </>
-      )}
-
-      {filter.length > 0 || search.length > 0 ? null : (
-        <div className="row  " id="scrol">
-          <div className="col-6 ffff">
-            <h2 className="">
-              Showing : {filter === "" ? "All" : filter.toUpperCase()}
-            </h2>
-
-          </div>
-          <div className="col-6 bbbb"></div>
-        </div>
-      )}
-
-      {/* <Box className="custom-scrollbar  " direction='row' flex overflow={{ horizontal: 'hidden' }} align='top' justify='center' wrap="true"  style={{ zoom: "0.92" }}> */}
-
-      {/* <div className='v40_4293'> */}
-
-
-      {
-      
-      loading?
-      <>
-      <div className="row show_cards container">
-      {[1,2,3,4,5,6,7,8].map(()=>( <AllShimmer></AllShimmer>))}
-      </div>
-      </>:
-      results.length>0? <div className="row show_cards container">
-        {results.map((item, idx) => (
-          
-          <div
-            class="v40_4201  mt-5"
-            style={{ cursor: "pointer" }}
-            onClick={() => {
-
-            //   var myname= item.name;
-            //  myname=myname.replace(" ", "-");
-
-              navigate(`/${item.name.replaceAll(" ", "-")}`);
-
-
-            }}
-          >
-            <div class="v40_4202" style={{ backgroundColor: item.backgroundColor }}>
-              {item.status === "TESTNET" ? (
-                <div class="v40_4211_ten">
-                  <span
-                    class="v40_4212"
-                    style={{ "background-color": item.statusColor }}
-                  >
-                    {item.status}{" "}
-                  </span>
-                </div>
-              ) : (
-                <div class="v40_4211">
-                  <span
-                    class="v40_4212"
-                    style={{ "background-color": item.statusColor }}
-                  >
-                    {item.status}{" "}
-                  </span>
-                </div>
-              )}
-
-              {/* <div class="v40_4211" ><span class="v40_4212"  style={{"background-color":item.statusColor}}>{item.status} </span></div> */}
-              <div
-                className="card_imge my-2 p-2"
-               height={"15px"}
-                style={{ backgroundImage: item.imageLink }}
-              ></div>
-             <div className="d-flex main_category">
-
-                  { item.searchOn.length<3?
-                  item.searchOn.map((value) => (
-                    <div class="v40_4213">
-                      <span class="v40_4214">{value.toUpperCase()}</span>
-                    </div>
-                  )):
-                
-                  item.searchOn.slice(0,2).map((value) => (
-                  <div class="v40_4213">
-                    <span class="v40_4214">{value.toUpperCase()}</span>
-                  </div>
-                  ))
-                  
-                  }
-
-                  </div>
-
-              <div></div>
-              <div class="v40_4215">
-                <div class="v40_4216"></div>
-                <div class="v40_4217"></div>
-              </div>
-            </div>
-            {/* <div className='row'>
-                            <span class="v40_4218">{item.name}</span>
-
-                            <div>
-                                <Button icon={<Twitter color="white" width={"18"} height={"18"} />} hoverIndicator href={item.twitterLink} target="_blank" />
-                                <Button icon={<Language color="white"  width={"18"} height={"18"} />} hoverIndicator href={item.websiteLink} target="_blank" />
-                            </div>
-                        </div> */}
-            <div className="d-flex foter_wrap">
-              <div class="card_title">
-                <span class="v40_4218">{item.name}</span>
-              </div>
-
-              <div className="links_">
-                <Button
-                  icon={
-                    <Twitter color="white" width={"23px"} height={"23px"} />
-                  }
-                  hoverIndicator
-                  href={item.twitterLink}
-                  target="_blank"
-                />
-                <Button
-                  icon={
-                    <img
-                      color="white"
-                      src={globe}
-                      width={"23px"}
-                      height={"23px"}
-                      alt=""
-                    />
-                  }
-                  hoverIndicator
-                  href={item.websiteLink}
-                  target="_blank"
-                />
-              </div>
-            </div>
-            <br></br>
-            <span class="v40_4220">Network: {item.networks.join(", ")}</span>
-            <br />
-            <span class="v40_4219">
-              Token:{" "}
-              {item.tokenStatus
-                ? item.tokenStatus === "Has"
-                  ? item.tokenTicker
-                  : "Token Expected"
-                : "N/A"}
-            </span>
-          </div>
-        ))}
-      </div>: <h4 class="no_product">No Data found</h4>}
+            ))}
+          </div> : <h4 class="no_product">No Data found</h4>}
 
       {/* </div> */}
 
@@ -756,10 +747,10 @@ const ProjectsList = ({
 
 
       {
-        results.length > 8?
-        null
-:
-<div className="aaaaa p-5 m-5"></div>
+        results.length > 8 ?
+          null
+          :
+          <div className="aaaaa p-5 m-5"></div>
       }
     </React.Fragment>
   );
