@@ -76,7 +76,7 @@ const ProjectsList = ({
     { key: 2, text: "Old To New", value: "sys_firstPublishedAt_ASC" },
   ];
   const options5 = [
-    { key: 1, text: "All", value: "all" },
+    { key: 1, text: "Project Status", value: "all" },
     { key: 2, text: "Live", value: "Live" },
     { key: 3, text: "Testnet", value: "Testnet" },
     { key: 4, text: "Dev", value: "Dev" },
