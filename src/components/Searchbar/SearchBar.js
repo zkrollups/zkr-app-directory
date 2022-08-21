@@ -56,8 +56,8 @@ const SearchBar = ({ setFilter,condition_clause, setcondition_clause, setSearch,
             if (e.key === 'Enter' || e.keyCode === 13) {
               setSearch(search_in);
               setSearch_category(search_category_in);
-              if (search_in != "") {
-                if (search_category_in != "all") {
+              if (search_in !== "") {
+                if (search_category_in !== "all") {
                   setFilter(search_category_in)
                   setcondition_clause(
                     {
@@ -94,7 +94,7 @@ const SearchBar = ({ setFilter,condition_clause, setcondition_clause, setSearch,
 
               }
               else {
-                if (search_category_in != "all") {
+                if (search_category_in !== "all") {
                   setFilter(search_category_in)
                   setcondition_clause(
                     {
@@ -144,8 +144,8 @@ const SearchBar = ({ setFilter,condition_clause, setcondition_clause, setSearch,
 
             setSearch_category(search_category_in);
 
-            if (search_in != "") {
-              if (search_category_in != "all") {
+            if (search_in !== "") {
+              if (search_category_in !== "all") {
                 setFilter(search_category_in)
                 setcondition_clause(
                   {
@@ -181,7 +181,7 @@ const SearchBar = ({ setFilter,condition_clause, setcondition_clause, setSearch,
               }
             }
             else {
-              if (search_category_in != "all") {
+              if (search_category_in !== "all") {
                 setFilter(search_category_in)
                 setcondition_clause(
                   {
