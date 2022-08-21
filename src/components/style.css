@@ -558,7 +558,7 @@ color: white !important;
 .ffff{
   width: 50%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     /* border: 1px solid yellow; */
 }
 
@@ -577,7 +577,7 @@ color: white !important;
 }
 .bbbb{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 50%;
     /* border: 1px solid blue; */
     margin-left: -9.5%;

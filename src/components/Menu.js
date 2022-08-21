@@ -51,7 +51,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
     setactive(e)
     set_search("")
     setSearch_in("")
-    if (e != "") {
+    if (e !== "") {
       setloading(true)
       setcondition_clause(
         {
@@ -106,7 +106,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         <img className='menu_logo cat_image' src={icon1} width={'22px'} height={"22px"} alt=""></img>
         <span className='mx-3 categry cat_title'>All</span>
         {
-          loading == false ?
+          loading === false ?
             !condition_clause['where']['searchOn_contains_all'] ?
 
               <span className='mr-3'>{total}</span>
@@ -121,7 +121,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Rollups</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("rollups") ?
 
               <span className='mr-'> {total}</span>
@@ -137,7 +137,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> Wallets</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("wallets") ?
               <span className='mr-5'> {total}</span>
               :
@@ -152,7 +152,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> Infra</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("infra") ?
               <span className='mr-5'> {total}</span>
               :
@@ -167,7 +167,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> dApps</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("dApps") ?
               <span className='mr-5'> {total}</span>
               :
@@ -182,7 +182,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> NFTs</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("nfts") ?
               <span className='mr-5'> {total}</span>
               :
@@ -197,7 +197,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> Games</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("games") ?
               <span className='mr-5'> {total}</span>
               :
@@ -212,7 +212,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> Social</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("social") ?
               <span className='mr-5'> {total}</span>
               :
@@ -227,7 +227,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'> DAOs</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("daos") ?
               <span className='mr-5'> {total}</span>
               :
@@ -242,7 +242,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Metaverse</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("metaverse") ?
               <span className='mr-5'> {total}</span>
               :
@@ -257,7 +257,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Privacy</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("privacy") ?
               <span className='mr-5'> {total}</span>
               :
@@ -272,7 +272,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Explorer</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("explorer") ?
               <span className='mr-5'> {total}</span>
               :
@@ -287,7 +287,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Education</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("education") ?
               <span className='mr-5'> {total}</span>
               :
@@ -302,7 +302,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Payments</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("payments") ?
               <span className='mr-5'> {total}</span>
               :
@@ -317,7 +317,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Onramp</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("onramp") ?
               <span className='mr-5'> {total}</span>
               :
@@ -332,7 +332,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Dex</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("dex") ?
               <span className='mr-5'> {total}</span>
               :
@@ -347,7 +347,7 @@ const Menu = ({ setloading, loading, total, setcondition_clause, condition_claus
         </div>
         <span className='mx-3 cat_title'>Misc</span>
         {
-          loading == false ?
+          loading === false ?
             condition_clause['where']['searchOn_contains_all'] ? condition_clause['where']['searchOn_contains_all'].includes("misc") ?
               <span className='mr-5'> {total}</span>
               :
