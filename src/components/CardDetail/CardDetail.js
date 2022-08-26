@@ -26,6 +26,8 @@ import { Button, } from "grommet";
 import { useNavigate } from "react-router-dom";
 import { main } from '../../scrapper';
 import { Carddetailshimmer } from '../carddetail_shimmer'
+import MetaTags from "react-meta-tags";
+
 // import axios from "axios";
 var AWS = require('aws-sdk');
 function CardDetail({
@@ -102,7 +104,7 @@ function CardDetail({
     }
   }, [card_data])
   useEffect(() => {
-    //console.log("card_datacard_data=====in use effcet======>>>>>>>", card_data);
+    //console.log("card_datacard_data======in use effcet======>>>>m>>>", card_data);
 
     // //console.log(
     //   "location.statelocation.state===========>>>>>>",
@@ -176,7 +178,10 @@ function CardDetail({
       behavior: 'smooth'
     });
   }
-
+console.log(
+  "card_datacard_data=====in use effcet======>>>>>>>",
+  card_data
+);
 
   //useEffect(() => {
   //console.log("useEffectuseEffectuseEffect=>>>>>>>>>>>>") },[] )
@@ -185,8 +190,35 @@ function CardDetail({
   //   const params = useParams()
   // //console.log("nameeeeeeeeeeeeeeeeeeee===>>>>>>>>>",params.name)
 
-  return loading_single ? <Carddetailshimmer /> : card_data ? (
+  return loading_single ? (
+    <Carddetailshimmer />
+  ) : card_data ? (
     <>
+      <MetaTags>
+        <meta name="description" content={card_data.description} />
+        <meta name="description" content={card_data.name} />
+        <meta
+          name="keywords"
+          content={`${card_data.name},${card_data.description}`}
+        />
+        {card_data.imageLink
+          .replace("url('", "")
+          .replace("')", "")
+          .includes("http") ? (
+          <meta
+            property="og:image"
+            content={card_data.imageLink.replace("url('", "").replace("')", "")}
+          />
+        ) : (
+          <meta
+            property="og:image"
+            content={`https://www.zkrollups.xyz/${card_data.imageLink
+              .replace("url('", "")
+              .replace("')", "")}`}
+          />
+        )}{" "}
+      </MetaTags>
+
       <div className="container-fluied " id="scrol">
         <div className="row fist_wrap_  mt-4">
           <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center ">
@@ -217,8 +249,8 @@ function CardDetail({
               </div>
 
               <div className="links_ d-flex">
-                {
-                  card_data.discordLink ? <Button
+                {card_data.discordLink ? (
+                  <Button
                     icon={
                       <img
                         color="white"
@@ -231,8 +263,8 @@ function CardDetail({
                     hoverIndicator
                     href={card_data.discordLink}
                     target="_blank"
-                  /> : null
-                }
+                  />
+                ) : null}
                 <Button
                   icon={
                     <Twitter color="white" width={"23px"} height={"23px"} />
@@ -258,7 +290,9 @@ function CardDetail({
               </div>
             </div>
             <div className="pt-5">
-              <p className="card_descrip display_linebreak ">{card_data.description}</p>
+              <p className="card_descrip display_linebreak ">
+                {card_data.description}
+              </p>
               {/* 
               <p className="card_descrip">
                 zkSync is a mission-driven project. Its purpose is to break
@@ -278,31 +312,28 @@ function CardDetail({
         <div className="second_card_wrap mt-5 pt-5">
           <div className="">
             <div
-              className={card_data.websiteLink ? "type_card mx-3 d-flex justify-content-evenly align-items-center" : "type_card2 mx-3 d-flex justify-content-evenly align-items-center "}
+              className={
+                card_data.websiteLink
+                  ? "type_card mx-3 d-flex justify-content-evenly align-items-center"
+                  : "type_card2 mx-3 d-flex justify-content-evenly align-items-center "
+              }
               onClick={() => {
                 // if(card_data.websiteLink  )
                 //  {
                 // window.open(card_data.websiteLink , "_blank")
-                setcondition_clause(
-                  {
-                    ...condition_clause,
-                    where: {
-                      "searchOn_contains_all": card_data.searchOn
-                    },
-                    skip: 0
-                  }
-                )
+                setcondition_clause({
+                  ...condition_clause,
+                  where: {
+                    searchOn_contains_all: card_data.searchOn,
+                  },
+                  skip: 0,
+                });
                 // setFilter(card_data.searchOn)
-                navigate("/")
+                navigate("/");
                 //  }
 
                 // navigate("/");
-
-
               }}
-
-
-
             >
               <div className="col-3">
                 <div className="">
@@ -320,13 +351,9 @@ function CardDetail({
               </div>
               <div className="col-3 d-flex justify-content-end ">
                 <div className="">
-                  {
-                    card_data.websiteLink ?
-                      <img src={Leftarow} alt=""></img>
-                      :
-                      null
-                  }
-
+                  {card_data.websiteLink ? (
+                    <img src={Leftarow} alt=""></img>
+                  ) : null}
                 </div>
               </div>
               <div className="col-1"></div>
@@ -334,14 +361,15 @@ function CardDetail({
           </div>
           <div className="">
             <div
-              className={card_data.getStartedLink1 ? "type_card  mx-3 d-flex justify-content-evenly align-items-center" : "type_card2 mx-3 d-flex justify-content-evenly align-items-center  "}
+              className={
+                card_data.getStartedLink1
+                  ? "type_card  mx-3 d-flex justify-content-evenly align-items-center"
+                  : "type_card2 mx-3 d-flex justify-content-evenly align-items-center  "
+              }
               onClick={() => {
                 if (card_data.getStartedLink1) {
-                  window.open(card_data.getStartedLink1, "_blank")
+                  window.open(card_data.getStartedLink1, "_blank");
                 }
-
-
-
               }}
             >
               <div className="col-3 ">
@@ -351,16 +379,12 @@ function CardDetail({
                       <div
                         className="imge_back"
                         style={{ backgroundImage: card_data.tokenImageUrl }}
-                      >
-
-                      </div>
+                      ></div>
                     ) : (
                       <div
                         className="imge_back"
                         style={{ backgroundImage: `url(${cardpic2})` }}
-                      >
-
-                      </div>
+                      ></div>
                     )
                   ) : (
                     <div
@@ -386,7 +410,9 @@ function CardDetail({
               </div>
               <div className="col-3 d-flex justify-content-end ">
                 <div className="">
-                  {card_data.getStartedLink1 ? <img src={Leftarow} alt=""></img> : null}
+                  {card_data.getStartedLink1 ? (
+                    <img src={Leftarow} alt=""></img>
+                  ) : null}
                 </div>
               </div>
               <div className="col-1"></div>
@@ -408,14 +434,13 @@ function CardDetail({
               <div className="col-3 ">
                 <div className="">
                   <h6 className="type_text_">Address</h6>
-                  {result1 ?
-                    (
-                      <p className="addres_text">{result1}....{result2}</p>
-                    )
-                    : (
-                      <p>N/A</p>
-                    )
-                  }
+                  {result1 ? (
+                    <p className="addres_text">
+                      {result1}....{result2}
+                    </p>
+                  ) : (
+                    <p>N/A</p>
+                  )}
                 </div>
               </div>
               <div className="col-3 d-flex justify-content-end ">
@@ -428,8 +453,8 @@ function CardDetail({
           </div>
 
           <div className="">
-            {
-              card_data.githubLink ? <div
+            {card_data.githubLink ? (
+              <div
                 className="type_card mx-3 d-flex justify-content-evenly align-items-center"
                 onClick={() => {
                   window.open(card_data.githubLink, "_blank");
@@ -460,14 +485,15 @@ function CardDetail({
                   </div>
                 </div>
                 <div className="col-1"></div>
-              </div> : <div className=""></div>
-            }
-
+              </div>
+            ) : (
+              <div className=""></div>
+            )}
           </div>
 
           <div className="">
-            {
-              card_data.docsLink ? <div
+            {card_data.docsLink ? (
+              <div
                 className="type_card mx-3 d-flex justify-content-evenly align-items-center"
                 onClick={() => {
                   window.open(card_data.docsLink, "_blank");
@@ -498,14 +524,15 @@ function CardDetail({
                   </div>
                 </div>
                 <div className="col-1"></div>
-              </div> : <div className=""></div>
-            }
-
+              </div>
+            ) : (
+              <div className=""></div>
+            )}
           </div>
 
           <div className="">
-            {
-              card_data.explorerLink ? <div
+            {card_data.explorerLink ? (
+              <div
                 className="type_card mx-3 d-flex justify-content-evenly align-items-center"
                 onClick={() => {
                   window.open(card_data.explorerLink, "_blank");
@@ -536,9 +563,10 @@ function CardDetail({
                   </div>
                 </div>
                 <div className="col-1"></div>
-              </div> : <div className=""></div>
-            }
-
+              </div>
+            ) : (
+              <div className=""></div>
+            )}
           </div>
         </div>
 
@@ -546,50 +574,65 @@ function CardDetail({
           <div className=" col-sm-12 col-md-12 col-lg-12 col-xl-7 ">
             <h2 className="mb-5">Getting Started</h2>
             <div className="brige_wrap mt-3 ">
-
-              {card_data.getStartedText1 ?
-                (
-                  <React.Fragment>
-                    <div className="brige_card row card_div">
-                      <div className="col-2 circle_no">
-                        <img src={LastCard1} alt=""></img>
-                      </div>
-                      <div className="col-6">
-                        <p className="brige_text"> {card_data.getStartedText1}</p>
-                      </div>
-                      <div className="col-4 d-flex justify-content-center">
-                        <a href={card_data.getStartedLink1} className="brige_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText1}</a>
-                      </div>
+              {card_data.getStartedText1 ? (
+                <React.Fragment>
+                  <div className="brige_card row card_div">
+                    <div className="col-2 circle_no">
+                      <img src={LastCard1} alt=""></img>
                     </div>
-
-                    <div className="brige_card row card_div">
-                      <div className="col-2">
-                        <img src={LastCard2} alt=""></img>
-                      </div>
-                      <div className="col-6">
-                        <p className="brige_text"> {card_data.getStartedText2}</p>
-                      </div>
-                      <div className="col-4 d-flex justify-content-center">
-                        {card_data.linkText2 && card_data.getStartedLink2 ? (
-                          <a href={card_data.getStartedLink2} className="dapp_btn" target="_blank" rel="noopener noreferrer">  {card_data.linkText2}</a>
-                        ) : null}
-                      </div>
+                    <div className="col-6">
+                      <p className="brige_text"> {card_data.getStartedText1}</p>
                     </div>
-
-                    <div className="brige_card row">
-                      <div className="col-2">
-                        <img src={LastCard3} alt=""></img>
-                      </div>
-                      <div className="col-10">
-                        <p className="brige_text"> {card_data.getStartedText3} </p>
-                      </div>
+                    <div className="col-4 d-flex justify-content-center">
+                      <a
+                        href={card_data.getStartedLink1}
+                        className="brige_btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {" "}
+                        {card_data.linkText1}
+                      </a>
                     </div>
-                  </React.Fragment>
-                )
-                : (
-                  <h3>Coming Soon!</h3>
-                )}
+                  </div>
 
+                  <div className="brige_card row card_div">
+                    <div className="col-2">
+                      <img src={LastCard2} alt=""></img>
+                    </div>
+                    <div className="col-6">
+                      <p className="brige_text"> {card_data.getStartedText2}</p>
+                    </div>
+                    <div className="col-4 d-flex justify-content-center">
+                      {card_data.linkText2 && card_data.getStartedLink2 ? (
+                        <a
+                          href={card_data.getStartedLink2}
+                          className="dapp_btn"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {" "}
+                          {card_data.linkText2}
+                        </a>
+                      ) : null}
+                    </div>
+                  </div>
+
+                  <div className="brige_card row">
+                    <div className="col-2">
+                      <img src={LastCard3} alt=""></img>
+                    </div>
+                    <div className="col-10">
+                      <p className="brige_text">
+                        {" "}
+                        {card_data.getStartedText3}{" "}
+                      </p>
+                    </div>
+                  </div>
+                </React.Fragment>
+              ) : (
+                <h3>Coming Soon!</h3>
+              )}
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12 col-xl-5 d-flex ">
@@ -597,61 +640,66 @@ function CardDetail({
               <h2 className="mb-5"> {card_data.name} Latest</h2>
 
               <div className="update">
-
-                {!loading ? (tweets.length > 0 ?
-                  tweets.map((item, index) => {
-                    return (
-                      <>
-                        <div className={index === 0 ? "d-flex  tweet_first" : "d-flex  "}>
-                          <div className="col-3 logo_wrap">
-                            <img className="" src={item.image} alt=""></img>
-                          </div>
-
-                          <div className="col-8">
-                            <div className="d-flex">
-                              <span>{item.date}</span>
+                {!loading ? (
+                  tweets.length > 0 ? (
+                    tweets.map((item, index) => {
+                      return (
+                        <>
+                          <div
+                            className={
+                              index === 0 ? "d-flex  tweet_first" : "d-flex  "
+                            }
+                          >
+                            <div className="col-3 logo_wrap">
+                              <img className="" src={item.image} alt=""></img>
                             </div>
 
-                            <p className="update_text ">{item.description}</p>
-                            <div className="marginclass d-flex">
-                              <div className="d-flex align-items-center">
-                                <img
-                                  src={Reply}
-                                  className="mx-2 reply_logo"
-                                  alt="replies"
-                                ></img>
-                                {item.comments}
+                            <div className="col-8">
+                              <div className="d-flex">
+                                <span>{item.date}</span>
                               </div>
-                              <div className="mx-2 d-flex align-items-center">
-                                <img src={Tweet} className="mx-2" alt="retweets"></img>
-                                {item.retweet}
+
+                              <p className="update_text ">{item.description}</p>
+                              <div className="marginclass d-flex">
+                                <div className="d-flex align-items-center">
+                                  <img
+                                    src={Reply}
+                                    className="mx-2 reply_logo"
+                                    alt="replies"
+                                  ></img>
+                                  {item.comments}
+                                </div>
+                                <div className="mx-2 d-flex align-items-center">
+                                  <img
+                                    src={Tweet}
+                                    className="mx-2"
+                                    alt="retweets"
+                                  ></img>
+                                  {item.retweet}
+                                </div>
+                                <div className="d-flex align-items-center">
+                                  <img
+                                    src={Like}
+                                    className="mx-2"
+                                    alt="likes"
+                                  ></img>
+                                  {item.likes}
+                                </div>
                               </div>
-                              <div className="d-flex align-items-center">
-                                <img src={Like} className="mx-2" alt="likes"></img>
-                                {item.likes}
-                              </div>
+
+                              {/* ========= */}
                             </div>
-
-                            {/* ========= */}
                           </div>
-                        </div>
-                      </>
-                    );
-                  })
-                  :
-                  (
-
-
+                        </>
+                      );
+                    })
+                  ) : (
                     <div className="d-flex justify-content-center align-content-center">
                       <div className="loder_wrap">
                         <h3>Sorry No Data Found</h3>
                       </div>
                     </div>
-
-
-
                   )
-
                 ) : (
                   <div className="d-flex justify-content-center align-content-center">
                     <div className="loder_wrap">
@@ -659,23 +707,15 @@ function CardDetail({
                     </div>
                   </div>
                 )}
-
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </>
-
-
-
-
   ) : (
-
-    (<> No data found </>)
-
-  )
+    <> No data found </>
+  );
 }
 
 export default CardDetail;
